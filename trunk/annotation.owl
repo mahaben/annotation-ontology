@@ -70,27 +70,27 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
      
-  	<rdf:Description rdf:about="&dct;title">
+    <rdf:Description rdf:about="&dct;title">
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-  	</rdf:Description>
-  	<rdf:Description rdf:about="&dct;created">
+    </rdf:Description>
+    <rdf:Description rdf:about="&dct;created">
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
- 	</rdf:Description>
-  	<rdf:Description rdf:about="&dct;creator">
+    </rdf:Description>
+    <rdf:Description rdf:about="&dct;creator">
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-  	</rdf:Description>
-  	<rdf:Description rdf:about="&dct;format">
+    </rdf:Description>
+    <rdf:Description rdf:about="&dct;format">
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-  	</rdf:Description>
-  	<rdf:Description rdf:about="&dct;language">
+    </rdf:Description>
+    <rdf:Description rdf:about="&dct;language">
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-  	</rdf:Description>
-  	<rdf:Description rdf:about="&dct;publisher">
+    </rdf:Description>
+    <rdf:Description rdf:about="&dct;publisher">
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-  	</rdf:Description>
-  	<rdf:Description rdf:about="&dct;contributor">
+    </rdf:Description>
+    <rdf:Description rdf:about="&dct;contributor">
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-  	</rdf:Description>      
+    </rdf:Description>      
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
