@@ -159,6 +159,9 @@
     </owl:Class>
   	
     <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
+        <owl:disjointWith rdf:resource="Annotation"/>
+        <owl:disjointWith rdf:resource="Curation"/>
+    
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
         
@@ -180,6 +183,9 @@
     </owl:Class>
   	
     <owl:Class rdf:about="Curation" rdfs:label="(ao) Curation">
+        <owl:disjointWith rdf:resource="Annotation"/>
+        <owl:disjointWith rdf:resource="Selector"/>    
+    
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
   		
@@ -199,15 +205,31 @@
         <!-- created on -->
         <rdfs:subClassOf>
             <owl:Restriction>                <owl:onProperty rdf:resource="&pav;createdOn"/>                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>            </owl:Restriction>
+        </rdfs:subClassOf>
+        
+        <!-- status -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="status"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
         </rdfs:subClassOf>	
     </owl:Class>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Annotation Ontology Relationships
+    // Annotation Ontology Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+    <owl:ObjectProperty rdf:about="onDocument">
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="hasTopic">
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="status">
+    </owl:ObjectProperty>
 
 </rdf:RDF>
