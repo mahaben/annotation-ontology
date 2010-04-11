@@ -114,42 +114,42 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
-			<owl:Restriction>			  	<owl:onProperty rdf:resource="&pav;createdBy"/>			  	<owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>			</owl:Restriction>
-		</rdfs:subClassOf>	
+            <owl:Restriction>                <owl:onProperty rdf:resource="&pav;createdBy"/>                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>            </owl:Restriction>
+        </rdfs:subClassOf>	
 		
-		<!-- created on -->
-		<rdfs:subClassOf>
-			<owl:Restriction>			  	<owl:onProperty rdf:resource="&pav;createdOn"/>			  	<owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>			</owl:Restriction>
-		</rdfs:subClassOf>	
-  	</owl:Class>
+        <!-- created on -->
+        <rdfs:subClassOf>
+            <owl:Restriction>                <owl:onProperty rdf:resource="&pav;createdOn"/>                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
   	
   	<owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
-  		<rdfs:comment rdf:datatype="&xsd;string">
-  		</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
   	</owl:Class>
   	
   	<owl:Class rdf:about="Curation" rdfs:label="(ao) Curation">
-  		<rdfs:comment rdf:datatype="&xsd;string">
-  		</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
   		
-  		<!-- created by -->
-  		<rdfs:subClassOf>
-		    <owl:Restriction>
-		      	<owl:onProperty rdf:resource="&pav;createdBy"/>
-		      	<owl:allValuesFrom>
-		      		<owl:Class rdf:about="&foaf;Agent"/>
-				</owl:allValuesFrom>
-		    </owl:Restriction>
-		</rdfs:subClassOf>
-		<rdfs:subClassOf>
-			<owl:Restriction>			  	<owl:onProperty rdf:resource="&pav;createdBy"/>			  	<owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>			</owl:Restriction>
-		</rdfs:subClassOf>	
+        <!-- created by -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&pav;createdBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class rdf:about="&foaf;Agent"/>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>                <owl:onProperty rdf:resource="&pav;createdBy"/>                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>            </owl:Restriction>
+        </rdfs:subClassOf>	
 		
-		<!-- created on -->
-		<rdfs:subClassOf>
-			<owl:Restriction>			  	<owl:onProperty rdf:resource="&pav;createdOn"/>			  	<owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>			</owl:Restriction>
-		</rdfs:subClassOf>	
-  	</owl:Class>
+        <!-- created on -->
+        <rdfs:subClassOf>
+            <owl:Restriction>                <owl:onProperty rdf:resource="&pav;createdOn"/>                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
