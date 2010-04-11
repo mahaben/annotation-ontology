@@ -46,8 +46,8 @@
     xmlns:ans="&ans;">
     
     <owl:Ontology rdf:about="&file;">
-		<rdf:type rdf:resource="&owl;Ontology"/>
-		<rdfs:label rdf:datatype="&xsd;string">Annotation Ontology v. 1.0</rdfs:label>
+        <rdf:type rdf:resource="&owl;Ontology"/>
+        <rdfs:label rdf:datatype="&xsd;string">Annotation Ontology v. 1.0</rdfs:label>
 
     	<owl:imports rdf:resource="&foaf-file;"/>
     	<owl:imports rdf:resource="&pav-file;"/>
@@ -71,25 +71,25 @@
      -->
      
   	<rdf:Description rdf:about="&dct;title">
-  	  	<rdf:type rdf:resource="&owl;AnnotationProperty"/>
+        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
   	</rdf:Description>
   	<rdf:Description rdf:about="&dct;created">
-    	<rdf:type rdf:resource="&owl;AnnotationProperty"/>
+        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
  	</rdf:Description>
   	<rdf:Description rdf:about="&dct;creator">
-    	<rdf:type rdf:resource="&owl;AnnotationProperty"/>
+        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
   	</rdf:Description>
   	<rdf:Description rdf:about="&dct;format">
-    	<rdf:type rdf:resource="&owl;AnnotationProperty"/>
+        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
   	</rdf:Description>
   	<rdf:Description rdf:about="&dct;language">
-    	<rdf:type rdf:resource="&owl;AnnotationProperty"/>
+        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
   	</rdf:Description>
   	<rdf:Description rdf:about="&dct;publisher">
-    	<rdf:type rdf:resource="&owl;AnnotationProperty"/>
+        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
   	</rdf:Description>
   	<rdf:Description rdf:about="&dct;contributor">
-    	<rdf:type rdf:resource="&owl;AnnotationProperty"/>
+        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
   	</rdf:Description>      
 
     <!-- 
