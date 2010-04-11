@@ -157,6 +157,14 @@
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
+        
+        <!-- has topic -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="hasTopic"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
     </owl:Class>
   	
     <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
