@@ -255,6 +255,7 @@
     </owl:ObjectProperty>
     
     <owl:ObjectProperty rdf:about="curates">
+        <owl:inverseOf rdf:resource="isCuratedBy" />
     </owl:ObjectProperty>
 
 </rdf:RDF>
