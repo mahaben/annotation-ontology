@@ -123,12 +123,12 @@
         </rdfs:subClassOf>	
     </owl:Class>
   	
-  	<owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
+    <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
-  	</owl:Class>
+    </owl:Class>
   	
-  	<owl:Class rdf:about="Curation" rdfs:label="(ao) Curation">
+    <owl:Class rdf:about="Curation" rdfs:label="(ao) Curation">
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
   		
