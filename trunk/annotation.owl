@@ -105,6 +105,7 @@
         <owl:disjointWith rdf:resource="Selector"/>
         <owl:disjointWith rdf:resource="AnnotationSet"/>
     	
+    	<rdfs:subClassOf rdf:resource="&ans;Annotation"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
         
@@ -319,11 +320,11 @@
     <owl:ObjectProperty rdf:about="hasTopic">
     </owl:ObjectProperty>
     
-    <owl:ObjectProperty rdf:about="status">
-    </owl:ObjectProperty>
-    
     <owl:ObjectProperty rdf:about="curates">
         <owl:inverseOf rdf:resource="isCuratedBy" />
     </owl:ObjectProperty>
+    
+    <owl:DatatypeProperty rdf:about="status">
+    </owl:DatatypeProperty>
 
 </rdf:RDF>
