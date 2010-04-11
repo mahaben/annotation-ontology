@@ -35,8 +35,8 @@
 ]>
 
 <rdf:RDF
-	xml:base="&agents;"
-	xmlns:pav="&pav;"
+    xml:base="&agents;"
+    xmlns:pav="&pav;"
     xmlns:rdfs="&rdfs;"
     xmlns:owl="&owl;"
     xmlns:rdf="&rdf;"
