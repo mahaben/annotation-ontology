@@ -101,6 +101,9 @@
      -->
   	
     <owl:Class rdf:about="Annotation" rdfs:label="(ao) Annotation">
+        <owl:disjointWith rdf:resource="Curation"/>
+        <owl:disjointWith rdf:resource="Selector"/>
+    	
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
         
@@ -121,11 +124,59 @@
         <rdfs:subClassOf>
             <owl:Restriction>                <owl:onProperty rdf:resource="&pav;createdOn"/>                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>            </owl:Restriction>
         </rdfs:subClassOf>	
+        
+        <!-- annotates -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ans;annotates"/>
+                <owl:allValuesFrom>
+                    <owl:Class rdf:about="&foaf;Document"/>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&ans;annotates"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+        
+        <!-- selector -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="selector"/>
+                <owl:allValuesFrom>
+                    <owl:Class rdf:about="Selector"/>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="selector"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
   	
     <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
+        
+        <!-- source document -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="onDocument"/>
+                <owl:allValuesFrom>
+                    <owl:Class rdf:about="&foaf;Document"/>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="onDocument"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
     </owl:Class>
   	
     <owl:Class rdf:about="Curation" rdfs:label="(ao) Curation">
