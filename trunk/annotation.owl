@@ -103,6 +103,7 @@
     <owl:Class rdf:about="Annotation" rdfs:label="(ao) Annotation">
         <owl:disjointWith rdf:resource="AnnotationCuration"/>
         <owl:disjointWith rdf:resource="Selector"/>
+        <owl:disjointWith rdf:resource="AnnotationSet"/>
     	
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
@@ -161,6 +162,7 @@
     <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="AnnotationCuration"/>
+        <owl:disjointWith rdf:resource="AnnotationSet"/>
     
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
@@ -184,7 +186,8 @@
   	
     <owl:Class rdf:about="AnnotationCuration" rdfs:label="(ao) AnnotationCuration">
         <owl:disjointWith rdf:resource="Annotation"/>
-        <owl:disjointWith rdf:resource="Selector"/>    
+        <owl:disjointWith rdf:resource="Selector"/> 
+        <owl:disjointWith rdf:resource="AnnotationSet"/>   
     
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
@@ -233,6 +236,63 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="status"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
+    
+    <owl:Class rdf:about="AnnotationSet" rdfs:label="(ao) AnnotationCuration">
+        <owl:disjointWith rdf:resource="Annotation"/>
+        <owl:disjointWith rdf:resource="AnnotationCuration"/>
+        <owl:disjointWith rdf:resource="Selector"/>    
+    
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+  		
+        <!-- created by -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&pav;createdBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class rdf:about="&foaf;Agent"/>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&pav;createdBy"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+		
+        <!-- created on -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&pav;createdOn"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+
+        <!-- has topic -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="hasTopic"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+        
+        <!-- source document -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="onDocument"/>
+                <owl:allValuesFrom>
+                    <owl:Class rdf:about="&foaf;Document"/>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="onDocument"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
