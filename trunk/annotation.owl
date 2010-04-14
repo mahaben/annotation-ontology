@@ -15,7 +15,7 @@
     <!ENTITY pav "http://swan.mindinformatics.org/ontologies/1.2/pav/">
     
     <!-- Main namespace -->
-    <!ENTITY agents "http://purl.org/swan/annotation/" >
+    <!ENTITY annotation "http://purl.org/swan/annotation/" >
     
     <!-- Main files -->
     <!ENTITY local "file:///Users/paolociccarese/Websites/Mindinformatics/ontologies/1.2/agents.owl">
@@ -35,7 +35,7 @@
 ]>
 
 <rdf:RDF
-    xml:base="&agents;"
+    xml:base="&annotation;"
     xmlns:pav="&pav;"
     xmlns:rdfs="&rdfs;"
     xmlns:owl="&owl;"
@@ -49,8 +49,10 @@
         <rdf:type rdf:resource="&owl;Ontology"/>
         <rdfs:label rdf:datatype="&xsd;string">Annotation Ontology v. 1.0</rdfs:label>
 
+		<!--
     	<owl:imports rdf:resource="&foaf-file;"/>
     	<owl:imports rdf:resource="&pav-file;"/>
+    	-->
 
     	<dct:language>en</dct:language>
     	<dct:title xml:lang="en">Annotation Ontology</dct:title>
@@ -130,7 +132,7 @@
         <!-- annotates -->
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ans;annotates"/>
+                <owl:onProperty rdf:resource="annotates"/>
                 <owl:allValuesFrom>
                     <owl:Class rdf:about="&foaf;Document"/>
                 </owl:allValuesFrom>
@@ -138,7 +140,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&ans;annotates"/>
+                <owl:onProperty rdf:resource="annotates"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
@@ -192,11 +194,30 @@
             </owl:Restriction>
         </rdfs:subClassOf>	
     </owl:Class>
+    
+    <owl:Class rdf:about="TextSelector" rdfs:label="(ao) Text Selector">
+    
+    	<rdfs:subClassOf rdf:resource="Selector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+        
+        <!-- source document -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exact"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
   	
-    <owl:Class rdf:about="AnnotationCuration" rdfs:label="(ao) AnnotationCuration">
+    <owl:Class rdf:about="AnnotationCuration" rdfs:label="(ao) Annotation Curation">
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="Selector"/> 
-        <owl:disjointWith rdf:resource="AnnotationSet"/>   
+        <owl:disjointWith rdf:resource="AnnotationSet"/>  
+        
+        <owl:disjointWith rdf:resource="&ans;Annotation"/> 
+        <owl:disjointWith rdf:resource="&foaf;Document"/>  
+        <owl:disjointWith rdf:resource="&foaf;Agent"/>  
     
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
@@ -241,6 +262,13 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="isCuratedBy"/>
+                <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        
         <!-- status -->
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -250,7 +278,7 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
-    <owl:Class rdf:about="AnnotationSet" rdfs:label="(ao) AnnotationCuration">
+    <owl:Class rdf:about="AnnotationSet" rdfs:label="(ao) Annotation Set">
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="AnnotationCuration"/>
         <owl:disjointWith rdf:resource="Selector"/>    
@@ -320,11 +348,31 @@
     <owl:ObjectProperty rdf:about="hasTopic">
     </owl:ObjectProperty>
     
+    <owl:ObjectProperty rdf:about="annotates">
+    	<rdfs:subPropertyOf rdf:resource="&ans;annotates" />
+    </owl:ObjectProperty>
+    
     <owl:ObjectProperty rdf:about="curates">
         <owl:inverseOf rdf:resource="isCuratedBy" />
     </owl:ObjectProperty>
     
     <owl:DatatypeProperty rdf:about="status">
     </owl:DatatypeProperty>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Integration
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <rdf:Description rdf:about="&ans;Annotation" rdfs:label="(annotea) Annotation">
+    </rdf:Description> 
+     
+    <rdf:Description rdf:about="&foaf;Document" rdfs:label="(foaf) Document">
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="&foaf;Agent" rdfs:label="(foaf) Agent">
+    </rdf:Description>
 
 </rdf:RDF>
