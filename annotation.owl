@@ -10,6 +10,8 @@
     <!ENTITY owl  "http://www.w3.org/2002/07/owl#" >
     <!ENTITY dct  "http://dublincore.org/documents/dcmi-terms/" >
     <!ENTITY ans  "http://www.w3.org/2000/10/annotation-ns#" >
+    <!ENTITY bkm  "http://www.w3.org/2002/01/bookmark#" >
+    
  
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
     <!ENTITY pav "http://swan.mindinformatics.org/ontologies/1.2/pav/">
@@ -43,7 +45,8 @@
     xmlns:xsd="&xsd;"
     xmlns:dct="&dct;"
     xmlns:foaf="&foaf;"
-    xmlns:ans="&ans;">
+    xmlns:ans="&ans;"
+    xmlns:bkm="&bkm;">
     
     <owl:Ontology rdf:about="&file;">
         <rdf:type rdf:resource="&owl;Ontology"/>
@@ -318,6 +321,22 @@
             </owl:Restriction>
         </rdfs:subClassOf>	
         
+        <!-- items -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="item"/>
+                <owl:allValuesFrom>
+                    <owl:Class rdf:about="Annotation"/>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="item"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+        
         <!-- source document -->
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -346,6 +365,7 @@
     </owl:ObjectProperty>
     
     <owl:ObjectProperty rdf:about="hasTopic">
+    	<rdfs:subPropertyOf rdf:resource="&bkm;hasTopic" />
     </owl:ObjectProperty>
     
     <owl:ObjectProperty rdf:about="annotates">
