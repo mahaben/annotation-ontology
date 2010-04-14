@@ -379,6 +379,12 @@
     
     <owl:DatatypeProperty rdf:about="exact">
     </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="offset">
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="range">
+    </owl:DatatypeProperty>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
