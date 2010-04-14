@@ -189,6 +189,27 @@
             </owl:Restriction>
         </rdfs:subClassOf>	
     </owl:Class>
+    
+    <owl:Class rdf:about="OffsetRangeTextSelector" rdfs:label="(ao) Offest/Range Text Selector">
+    
+    	<rdfs:subClassOf rdf:resource="TextSelector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+        
+        <!-- offset and range -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="offset"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+         <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="range"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
   	
     <owl:Class rdf:about="AnnotationCuration" rdfs:label="(ao) Annotation Curation">
         <owl:disjointWith rdf:resource="Annotation"/>
@@ -354,6 +375,9 @@
     </owl:ObjectProperty>
     
     <owl:DatatypeProperty rdf:about="status">
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="exact">
     </owl:DatatypeProperty>
 
     <!-- 
