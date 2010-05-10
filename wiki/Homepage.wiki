@@ -2,4 +2,4 @@
 
 == AO: Annotation Ontology ==
 
-The Annotation Ontology is a vocabulary for defining several kind of annotations - comment, entities annotation (or semantic tags), textual annotation (classic tags), notes, erratum... - on potentially any kind of document (text, images, audio...). 
+The Annotation Ontology is a vocabulary for defining several kind of annotations - comment, entities annotation (or semantic tags), textual annotation (classic tags), notes, erratum... - on potentially any kind of document (text, images, audio...) and document part. 
