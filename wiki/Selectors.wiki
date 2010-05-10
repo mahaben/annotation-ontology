@@ -6,10 +6,10 @@ A Selector identifies a portion of a resource, and may work differently for diff
 
 == Classes Of Selectors ==
 
-*Selector* is a generic class that can be customized for the different kind of content types:
- * Text Selector
- * Image Selector
- * Audio Selector 
+*Selector* is a generic class that can be customized/sub-classed for the different kind of content types:
+ * Text Selector: Identifies a chunk of a text.
+ * Image Selector: Identifies a portion of an image.
+ * Audio Selector: Identifies a section of an audio file.
  * ...
 
 == Define New Selectors ==
