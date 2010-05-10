@@ -7,7 +7,7 @@ The Annotation Ontology is a vocabulary for defining several kind of annotations
 === The model ===
 
  * Annotation
- * Selectors
+ * [/Selectors Selectors]
  * Curation
  * Annotation Set
  * Document Annotation
