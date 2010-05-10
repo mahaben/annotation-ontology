@@ -1,5 +1,5 @@
 #summary AO: Annotation Ontology
 
-= Introduction =
+== AO: Annotation Ontology ==
 
-(TBD)
+The Annotation Ontology is a vocabulary for defining several kind of annotations - comment, entities annotation (or semantic tags), textual annotation (classic tags), notes, erratum... - on potentially any kind of document (text, images, audio...). 
