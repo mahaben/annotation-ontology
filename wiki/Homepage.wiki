@@ -1,4 +1,4 @@
-#summary Annotation Ontology Homepage
+#summary AO: Annotation Ontology
 
 = Introduction =
 
