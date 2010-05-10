@@ -6,7 +6,11 @@ The Annotation Ontology is a vocabulary for defining several kind of annotations
 
 === Background ===
 
-(TBD)
+ * Annotation
+ * Selectors
+ * Curation
+ * Annotation Set
+ * Document Annotation
 
 === Related Ontologies ===
 
