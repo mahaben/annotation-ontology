@@ -41,6 +41,7 @@
     	<dct:contributor rdf:datatype="&xsd;string">Paolo Ciccarese</dct:contributor>
     	<dct:contributor rdf:datatype="&xsd;string">Marco Ocana</dct:contributor>
         <dct:created rdf:datatype="&xsd;string">April 12, 2010</dct:created>
+        <dct:date rdf:datatype="&xsd;string">May 9, 2010</dct:date>
         <dct:format rdf:datatype="&xsd;string">rdf/xml</dct:format>    
     </owl:Ontology> 
   
@@ -56,6 +57,9 @@
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="&dct;created">
+        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="&dct;date">
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="&dct;creator">
@@ -86,6 +90,7 @@
         <owl:disjointWith rdf:resource="AnnotationCuration"/>
         <owl:disjointWith rdf:resource="Selector"/>
         <owl:disjointWith rdf:resource="AnnotationSet"/>
+        <owl:disjointWith rdf:resource="DocumentAnnotation"/>
     	
     	<rdfs:subClassOf rdf:resource="&ans;Annotation"/>
         <rdfs:comment rdf:datatype="&xsd;string">
@@ -154,6 +159,7 @@
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="AnnotationCuration"/>
         <owl:disjointWith rdf:resource="AnnotationSet"/>
+        <owl:disjointWith rdf:resource="DocumentAnnotation"/>
     
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
@@ -175,13 +181,21 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
+    <owl:Class rdf:about="ImageSelector" rdfs:label="(ao) Image Selector">
+    
+    	<rdfs:subClassOf rdf:resource="Selector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+        
+    </owl:Class>
+    
     <owl:Class rdf:about="TextSelector" rdfs:label="(ao) Text Selector">
     
     	<rdfs:subClassOf rdf:resource="Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
         
-        <!-- source document -->
+        <!-- exact match -->
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="exact"/>
@@ -214,7 +228,8 @@
     <owl:Class rdf:about="AnnotationCuration" rdfs:label="(ao) Annotation Curation">
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="Selector"/> 
-        <owl:disjointWith rdf:resource="AnnotationSet"/>  
+        <owl:disjointWith rdf:resource="AnnotationSet"/> 
+        <owl:disjointWith rdf:resource="DocumentAnnotation"/> 
         
         <owl:disjointWith rdf:resource="&ans;Annotation"/> 
         <owl:disjointWith rdf:resource="&foaf;Document"/>  
@@ -283,6 +298,7 @@
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="AnnotationCuration"/>
         <owl:disjointWith rdf:resource="Selector"/>    
+        <owl:disjointWith rdf:resource="DocumentAnnotation"/>
     
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
@@ -325,6 +341,80 @@
                 <owl:onProperty rdf:resource="item"/>
                 <owl:allValuesFrom>
                     <owl:Class rdf:about="Annotation"/>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="item"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+        
+        <!-- source document -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="onDocument"/>
+                <owl:allValuesFrom>
+                    <owl:Class rdf:about="&foaf;Document"/>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="onDocument"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
+    
+    <owl:Class rdf:about="DocumentAnnotation" rdfs:label="(ao) Document Annotation">
+        <owl:disjointWith rdf:resource="Annotation"/>
+        <owl:disjointWith rdf:resource="AnnotationCuration"/>
+        <owl:disjointWith rdf:resource="Selector"/>    
+        <owl:disjointWith rdf:resource="AnnotationSet"/>
+    
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+  		
+        <!-- created by -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&pav;createdBy"/>
+                <owl:allValuesFrom>
+                    <owl:Class rdf:about="&foaf;Agent"/>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&pav;createdBy"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+		
+        <!-- created on -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&pav;createdOn"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+
+        <!-- has topic -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="hasTopic"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+        
+        <!-- items -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="item"/>
+                <owl:allValuesFrom>
+                    <owl:Class rdf:about="AnnotationSet"/>
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
