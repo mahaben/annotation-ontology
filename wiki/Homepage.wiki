@@ -4,7 +4,7 @@
 
 The Annotation Ontology is a vocabulary for defining several kind of annotations - comment, entities annotation (or semantic tags), textual annotation (classic tags), notes, erratum... - on potentially any kind of document (text, images, audio...) and document part. 
 
-=== Content ===
+=== The model ===
 
  * Annotation
  * Selectors
@@ -16,7 +16,3 @@ The Annotation Ontology is a vocabulary for defining several kind of annotations
 
 AO has been influenced by an analysis of strengths and weaknesses of earlier work by
 Swick et al. in the [http://www.w3.org/2001/Annotea/ Annotea Project]. 
-
-=== References ===
-
-(TBD)
