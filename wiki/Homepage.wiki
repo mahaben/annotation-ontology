@@ -3,7 +3,7 @@
 
 == AO: Annotation Ontology ==
 
-The _Annotation Ontology_ is a vocabulary for defining several kind of annotations - comment, entities annotation (or semantic tags), textual annotation (classic tags), notes, erratum... - on potentially any kind of document (text, images, audio...) and document part. See the complete list of [RequirementsUseCases requirements and use cases].
+The _Annotation Ontology_ is a vocabulary for defining several kind of annotations - comment, entities annotation (or semantic tags), textual annotation (classic tags), notes, erratum... - on potentially any kind of document (text, images, audio...) and document part. <br/> See the complete list of [RequirementsUseCases requirements and use cases].
 
 === The model ===
 
