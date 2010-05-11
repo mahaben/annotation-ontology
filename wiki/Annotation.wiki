@@ -19,5 +19,6 @@ The core of AO is inspired by the Annotea model with a few remarkable difference
 
  * In AO we do not distinguish between Annotation and Bookmarks. The Annotation Core model is combining the two.
  * In AO the context is defined through instances of [Selectors Selector] classes.
+ * In AO, if the annotation context is not specified, the annotation is about the whole document.
 
 ==== Annotation Core ====
