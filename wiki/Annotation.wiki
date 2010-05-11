@@ -10,6 +10,9 @@ Figure 1 - Annotea Annotation model
 
 Annotea was developed as a Web-based shared annotation system based on a general-purpose open RDF infrastructure where annotations are modeled as a class of metadata. Annotations, identified by a URI, are viewed as statements or remarks made by an author about a Web document. In the Annotea model (see figure 1), the context defines where exactly inside the document the annotation is attached and the body is a link to the content of the annotation identified by a URI and conceived to contain textual or graphical content. Annotations are external to the documents and can be stored in one or more annotation servers that are responsible for controlling access - this allows us to implement local/private and remote/shared annotations.
 
+[http://www.w3.org/2001/Annotea/Papers/KCAP03/bookmark.png]
+Figure 2 - Annotea Bookmark model
+
 ==== Annotation Core ====
 
 The core of the AO annotation is inspired by the Annotea model with one remarkable difference. In AO the context is defined through instances of [Selectors Selector] classes.
