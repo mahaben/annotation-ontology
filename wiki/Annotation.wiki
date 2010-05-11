@@ -1,4 +1,4 @@
-#summary Annotation (updated: May 10th, 2010)
+#summary Annotation (TBD)
 #labels annotation_ontology,annotea,semantic_web
 
 == Introduction ==
