@@ -1,4 +1,4 @@
-#summary Annotation Curation
+#summary Annotation Curation (TBD)
 #labels curation,provenance,annotation_ontology,semantic_web
 
 == Curation ==
