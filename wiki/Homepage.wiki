@@ -1,5 +1,5 @@
 #summary AO: Annotation Ontology (updated: May 10th, 2010)
-#labels annotation-ontology,ontology,semantic-web
+#labels annotation-ontology,ontology,semantic-web,document-annotation,image-annotation
 
 == AO: Annotation Ontology ==
 
@@ -7,7 +7,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
 
 === The model ===
 
- * Annotation
+ * [Annotation]
  * [Selectors]
  * Curation
  * Annotation Set
