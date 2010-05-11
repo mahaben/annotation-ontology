@@ -12,4 +12,4 @@ Annotea was developed as a Web-based shared annotation system based on a general
 
 ==== Annotation Core ====
 
-The core of the AO annotation is inspired by the Annotea model with one remarkable difference. In AO the context is defined through instances of [Selector Selector] classes.
+The core of the AO annotation is inspired by the Annotea model with one remarkable difference. In AO the context is defined through instances of [Selectors Selector] classes.
