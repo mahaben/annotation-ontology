@@ -1,5 +1,5 @@
 #summary Annotation (updated: May 10th, 2010)
-#labels annotationontology,annotea,semanticweb
+#labels annotation_ontology,annotea,semantic_web
 
 == Introduction ==
 
