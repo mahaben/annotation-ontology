@@ -1,0 +1,4 @@
+#summary Annotation Curation
+#labels curation,provenance,annotation_ontology,semantic_web
+
+== Curation ==
