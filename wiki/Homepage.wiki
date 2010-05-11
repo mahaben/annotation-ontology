@@ -1,5 +1,5 @@
 #summary AO: Annotation Ontology (updated: May 10th, 2010)
-#labels annotation-ontology,ontology,semantic-web,document-annotation,image-annotation
+#labels annotation_ontology,ontology,semantic_web,document_annotation,image_annotation
 
 == AO: Annotation Ontology ==
 
