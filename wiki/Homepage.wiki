@@ -15,6 +15,6 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
  * [AnnotationSet Annotation Set]
  * Document Annotation
 
-=== Related Ontologies ===
+==== Related Ontologies ====
 
 AO has been influenced by an analysis of strengths and weaknesses of the [http://www.w3.org/2001/Annotea/ Annotea Project]. 
