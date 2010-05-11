@@ -1,4 +1,4 @@
-#summary AO: Annotation Ontology
+#summary AO: Annotation Ontology (updated: May 10th, 2010)
 
 == AO: Annotation Ontology ==
 
