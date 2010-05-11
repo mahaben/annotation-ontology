@@ -10,7 +10,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
  * [Annotation]
  * [Selectors]
  * [Curation]
- * [AnnotationSets Annotation Set]
+ * [AnnotationSet Annotation Set]
  * Document Annotation
 
 === Related Ontologies ===
