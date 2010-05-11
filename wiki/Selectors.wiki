@@ -1,5 +1,5 @@
 #summary Selectors and their usage (updated: May 10th, 2010)
-#labels annotation,ontology,selector,document,semanticweb
+#labels annotationontology,ontology,selector,document,semanticweb
 
 == AO: Selectors ==
 
