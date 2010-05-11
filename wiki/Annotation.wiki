@@ -1,4 +1,4 @@
-#summary Annotation.
+#summary Annotation (updated: May 10th, 2010)
 #labels annotation,annotea,semanticweb
 
 == Introduction ==
