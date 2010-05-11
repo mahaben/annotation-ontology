@@ -3,4 +3,4 @@
 
 == Introduction ==
 
-AO has been motivated by several requirements and use cases. It has also been influenced by an analysis of strengths and weaknesses of the [http://www.w3.org/2001/Annotea/ Annotea Project].
+AO has been motivated by several [RequirementsUseCases requirements and use cases]. It has also been influenced by an analysis of strengths and weaknesses of the [http://www.w3.org/2001/Annotea/ Annotea Project].
