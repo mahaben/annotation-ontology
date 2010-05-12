@@ -11,3 +11,6 @@ Curation is a crucial aspect for performing annotation in scientific communities
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20Curation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example of curation of an annotation on textual content performed by a text mining service. In this case, the foaf:Person named Paolo Ciccarese accepted the annotation. Other agents such as foaf:Group or foaf:Organization can perform the curation.</b>
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20Multiple%20Curation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 2 - Example of multiple curation of an annotation on textual content performed by a text mining service. In this case, the foaf:Person named Paolo Ciccarese rejected the annotation. A second foaf:Person questioned the decision and finally the first foaf:Person made the decision to accept the annotation.</b>
