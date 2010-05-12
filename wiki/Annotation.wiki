@@ -12,7 +12,7 @@ The annotation core has been strongly inspired by the model proposed by the [htt
 In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we maintain the same powerful mechanism to cover *much more than simple tagging: comments, notes, erratum, definition, Hypothesis, Claims, Research Questions...*
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1 - Example of document annotation with AO. This is equivalent in tagging a document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
+<b>Figure 1 - Example of document annotation with AO. Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 2 - Example of text annotation with AO. This example is equivalent in performing tagging of a part of the document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
+<b>Figure 2 - Example of text annotation with AO. Using Qualifier(s) is equivalent in performing tagging of a part of the document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
