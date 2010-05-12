@@ -9,8 +9,8 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
 ==== The model ====
 
  * [Background]
- * [Annotation Annotation Core]
  * [Selectors]
+ * [Annotation Annotation Core]
  * [Curation]
  * [AnnotationSet Annotation Set]
  * Document Annotation
