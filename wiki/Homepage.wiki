@@ -6,7 +6,7 @@
 ==== Introduction ====
 The _Annotation Ontology_ is a vocabulary for defining several kind of annotations - comment, entities annotation (or semantic tags), textual annotation (classic tags), notes, erratum... - on potentially any kind of document (text, images, audio...) and document part. <br/> See the complete list of [RequirementsUseCases requirements and use cases].
 
-==== The model ====
+==== Content ====
 
  * [Background]
  * [Selectors]
@@ -14,6 +14,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
  * [Curation]
  * [AnnotationSet Annotation Set]
  * Document Annotation
+ * Alignment with SIOC
 
 ==== Related Ontologies ====
 
