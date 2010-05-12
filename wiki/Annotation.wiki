@@ -16,3 +16,8 @@ In Annotea, annotations are typed. It is possible to subclass _Annotation_ into 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2 - Example of text annotation with AO. Using Qualifier(s) is equivalent in performing tagging of a part of the document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
+
+(TBD)
+<b>Figure 3 - Example of note with AO. As it was happening in Annotea, in AO we subclass the Annotation class into Note</b>
+
+<b>Figure 4 - Example of image annotation with AO. Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity has been used. </b>
