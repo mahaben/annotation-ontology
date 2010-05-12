@@ -23,5 +23,5 @@ The core of AO is inspired by the Annotea model with a few remarkable difference
 
 ==== Annotation Core ====
 
-[http://code.google.com/p/annotation-ontology/source/browse/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3 - Example of text annotation with AO</b>
