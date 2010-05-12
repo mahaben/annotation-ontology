@@ -9,5 +9,8 @@ The annotation core has been strongly inspired by the model proposed by the [htt
  * [http://www.w3.org/2000/10/annotation-ns#annotates annotates]: The relation between an annotation resource and the resource to which the annotation applies.
  * [http://www.w3.org/2000/10/annotation-ns#context context]: Context within the resource named in annotates to which the annotation most directly applies.
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 1 - Example of document annotation with AO. This is equivalent in tagging a document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1 - Example of text annotation with AO. This example is similar to perfoming tagging where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
+<b>Figure 2 - Example of text annotation with AO. This example is equivalent in performing tagging of a part of the document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
