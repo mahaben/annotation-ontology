@@ -1,4 +1,4 @@
-#summary Annotation _(updated: May 12th, 2010 - Status: In Progress)_
+#summary Annotation (updated: May 12th, 2010 - Status: In Progress)
 #labels curation,provenance,annotation_ontology,semantic_web
 
 [Homepage Back to homepage]
