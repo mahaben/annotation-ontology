@@ -15,7 +15,7 @@ A *Selector* identifies a portion of a resource, and may work differently for di
  * *Audio Selector*: Identifies a section of an audio file.
  * ...
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20and%20Text%20Selectors%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20and%20Text%20Selectors%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example of text and image selectors</b>
 
 == Define New Selectors ==
