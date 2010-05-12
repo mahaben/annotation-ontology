@@ -12,7 +12,7 @@ The annotation core has been strongly inspired by the model proposed by the [htt
  * [http://www.w3.org/2000/10/annotation-ns#context context]: Context within the resource named in annotates to which the annotation most directly applies.
  * [http://www.w3.org/2000/10/annotation-ns#body body]: The content of the annotation. Can include markup such has HTML markup.
 
-In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we maintain the same powerful mechanism to cover *much more than simple tagging: comments, notes, erratum, definition, hypothesis, claims, research questions...*
+In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we maintain the same powerful mechanism to cover *much more than simple tagging: comments, notes, examples, erratum, definition, hypothesis, claims, research questions...*
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example of document annotation with AO. Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
