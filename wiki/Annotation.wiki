@@ -1,26 +1,6 @@
 #summary Annotation (TBD)
 #labels annotation_ontology,annotea,semantic_web
 
-==== Background ====
-
-AO has been motivated by several [RequirementsUseCases requirements and use cases]. It has also been influenced by an analysis of strengths and weaknesses of the [http://www.w3.org/2001/Annotea/ Annotea Project].
-
-[http://www.w3.org/2001/Annotea/Papers/www10/annotation.png]<br/>
-Figure 1 - Annotea Annotation model
-
-Annotea was developed as a Web-based shared annotation system based on a general-purpose open RDF infrastructure where annotations are modeled as a class of metadata. Annotations, identified by a URI, are viewed as statements or remarks made by an author about a Web document. In the Annotea model (see figure 1), the context defines where exactly inside the document the annotation is attached and the body is a link to the content of the annotation identified by a URI and conceived to contain textual or graphical content. Annotations are external to the documents and can be stored in one or more annotation servers that are responsible for controlling access - this allows us to implement local/private and remote/shared annotations.
-
-[http://www.w3.org/2001/Annotea/Papers/KCAP03/bookmark.png]<br/>
-Figure 2 - Annotea Bookmark model
-
-In the Annotea project have also been defined Bookmarks. Bookmarks are metadata about Web documents or other resources and share a similar structure with annotations (see figure 2).
-
-The core of AO is inspired by the Annotea model with a few remarkable differences:
-
- * In AO we do not distinguish between Annotation and Bookmarks. The Annotation Core model is combining the two.
- * In AO the context is defined through instances of [Selectors Selector] classes.
- * In AO, if the annotation context is not specified, the annotation is about the whole document.
-
 ==== Annotation Core ====
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
