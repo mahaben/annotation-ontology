@@ -7,5 +7,7 @@
 
 Curation is a crucial aspect for performing annotation in scientific communities but not only. A typical example comes from the usage of text mining services. Text mining services produce several annotation items and not all of them are accurate. Often a human curation is required and we need to be able to record the original annotation and the curation performed on it. In the case of text mining services, the results of the curation process can be sent back to the text mining service provider as feedback on the accuracy of the service. 
 
+=== Examples of Curation ===
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20Curation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example of curation of an annotation on textual content performed by a text mining service.</b>
