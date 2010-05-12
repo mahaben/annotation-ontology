@@ -1,4 +1,4 @@
-#summary Selectors and their usage (updated: May 10th, 2010 - Status: In Progress)
+#summary Selectors and their usage (updated: May 12th, 2010 - Status: In Progress)
 #labels annotation_ontology,ontology,selector,document_annotation,semantic_web,image_annotation
 
 [Homepage Back to homepage]
