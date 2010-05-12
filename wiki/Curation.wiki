@@ -10,4 +10,4 @@ Curation is a crucial aspect for performing annotation in scientific communities
 === Examples of Curation ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20Curation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1 - Example of curation of an annotation on textual content performed by a text mining service.</b>
+<b>Figure 1 - Example of curation of an annotation on textual content performed by a text mining service. In this case, the human agent accepted the annotation.</b>
