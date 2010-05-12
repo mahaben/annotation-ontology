@@ -21,4 +21,4 @@ In Annotea, annotations are typed. It is possible to subclass _Annotation_ into 
 <b>Figure 3 - Example of image annotation with AO. Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity has been used. </b>
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20Annotation%20Note%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 4 - Example of note with AO. As it was happening in Annotea, in AO we subclass the Annotation class into Note</b>
+<b>Figure 4 - Example of note with AO. As it was happening in Annotea, in AO we subclass the Annotation class into a more specific annotation class. In this case we have a Note on a portion of an image. An _Image Selector_ has been used.</b>
