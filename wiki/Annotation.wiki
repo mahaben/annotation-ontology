@@ -3,5 +3,10 @@
 
 ==== Annotation Core ====
 
+The annotation core has been strongly inspired by the model proposed by the [http://www.w3.org/2001/Annotea/ Annotea Project]. In particular, the following entities/properties have been extended/reused:
+
+ * Annotation (class: A super class describing the common features of annotations.
+ * annotates: The relation between an annotation resource and the resource to which the annotation applies.
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example of text annotation with AO</b>
