@@ -2,7 +2,7 @@
 
 [http://sioc-project.org/ SIOC (Semantically-Interlinked Online Communities)] is an initiative that aims to enable the integration of online community information. AO integrates with SIOC as follows.
 
-The SIOC and [http://rdfs.org/sioc/types SIOC-types] classes of interest are:
+The [http://rdfs.org/sioc/ns SIOC] and [http://rdfs.org/sioc/types SIOC-types] classes of interest are:
 
  * sioc:Item - An Item is something which can be in a Container. 
  * sioc:Container - An area in which content Items are contained. 
