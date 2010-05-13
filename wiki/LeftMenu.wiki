@@ -1,5 +1,6 @@
 #summary Left Navigation Menu
 
+ * [Homepage]
  * [Background]
  * [UseCases Use Cases and Requirements]
  * [Selectors]
