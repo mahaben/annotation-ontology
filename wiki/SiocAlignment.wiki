@@ -1,4 +1,5 @@
 #summary Integration with SIOC
 
-=== Integration with SIOC ===
+<< Document Annotation [Homepage Homepage]
 
+=== Integration with SIOC ===
