@@ -19,5 +19,3 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
 === Related Ontologies ===
 
 AO has been influenced by an analysis of strengths and weaknesses of the [http://www.w3.org/2001/Annotea/ Annotea Project]. AO has been also integrated with [http://sioc-project.org/ SIOC (Semantically-Interlinked Online Communities)].
-
-[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/mind_logo.jpg]<br/>
