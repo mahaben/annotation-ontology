@@ -9,7 +9,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
 ==== Content ====
 
  * [Background]
- * Requirements and Use Cases
+ * [UseCases Use Cases and Requirements]
  * [Selectors]
  * [Annotation Annotation Core]
  * [Curation]
