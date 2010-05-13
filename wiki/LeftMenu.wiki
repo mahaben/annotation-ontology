@@ -10,3 +10,6 @@
  * [DocumentAnnotation Document Annotation]
  * [Pav Provenance, Authoring, Versioning]
  * [IntegrationWithSIOC Integration with SIOC]
+
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/mind_logo.jpg]<br/>
