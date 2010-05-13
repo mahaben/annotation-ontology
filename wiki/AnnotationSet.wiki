@@ -1,2 +1,1 @@
-#summary (TBD)
-#sidebar LeftMenu
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
