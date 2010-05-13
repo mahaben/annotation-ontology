@@ -8,4 +8,5 @@
  * [Curation]
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Document Annotation]
+ * [Pav Provenance, Authoring and Versioning]
  * [IntegrationWithSIOC Integration with SIOC]
