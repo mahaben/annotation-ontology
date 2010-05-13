@@ -1,6 +1,5 @@
 #summary Background
-
-[Homepage Homepage] [UseCases Use Cases and Requirements >>]
+#sidebar LeftMenu
 
 ==== Background ====
 
