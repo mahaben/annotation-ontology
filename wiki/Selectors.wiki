@@ -1,7 +1,7 @@
 #summary Selectors and their usage (updated: May 12th, 2010 - Status: In Progress)
 #labels annotation_ontology,ontology,selector,document_annotation,semantic_web,image_annotation
 
-[Selectors << Selectors] [Homepage Homepage] [Annotation Annotation Core >>]
+[UseCases << Use Cases and Requirements] [Homepage Homepage] [Annotation Annotation Core >>]
 
 == AO: Selectors ==
 
