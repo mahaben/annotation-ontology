@@ -8,4 +8,4 @@
  * [Curation]
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Document Annotation]
- * [SiocAlignment Alignment with SIOC]
+ * [SiocAlignment Integration with SIOC]
