@@ -2,7 +2,7 @@
 
 [http://sioc-project.org/ SIOC (Semantically-Interlinked Online Communities)] is an initiative that aims to enable the integration of online community information. AO integrates with SIOC as follows.
 
-Some of the SIOC classes of interest are:
+The SIOC classes of interest are:
 
  * sioc:Item - An Item is something which can be in a Container. 
  * sioc:Container - An area in which content Items are contained. 
