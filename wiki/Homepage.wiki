@@ -1,5 +1,4 @@
 #labels annotation_ontology,ontology,semantic_web,document_annotation,image_annotation
-
 == AO: Annotation Ontology ==
 
 === Overview ===
@@ -14,6 +13,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
  * [Curation]
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Document Annotation]
+ * [Pav Provenance, Authoring, Versioning]
  * [IntegrationWithSIOC Integration with SIOC]
 
 === Related Ontologies ===
