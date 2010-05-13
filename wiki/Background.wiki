@@ -1,4 +1,4 @@
-#summary Background
+#labels annotea,semantic_web,annotation_ontology
 #sidebar LeftMenu
 
 ==== Background ====
