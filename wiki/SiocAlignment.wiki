@@ -1,5 +1,4 @@
 #summary Integration with SIOC
-
 #sidebar LeftMenu
 
 << Document Annotation [Homepage Homepage]
