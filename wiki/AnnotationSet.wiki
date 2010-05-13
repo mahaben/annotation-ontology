@@ -1,4 +1,2 @@
-#summary Annotation Sets (TBD)
+#summary (TBD)
 #sidebar LeftMenu
-
-== Annotation Sets ==
