@@ -1,5 +1,4 @@
 #labels annotation_ontology,ontology,semantic_web,document_annotation,image_annotation
-#sidebar LeftMenu
 
 == AO: Annotation Ontology ==
 
