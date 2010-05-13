@@ -1,5 +1,6 @@
 #summary AO: Annotation Ontology (updated: May 10th, 2010)
 #labels annotation_ontology,ontology,semantic_web,document_annotation,image_annotation
+#sidebar LeftMenu
 
 == AO: Annotation Ontology ==
 
