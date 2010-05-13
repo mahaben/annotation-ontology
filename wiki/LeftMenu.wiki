@@ -6,5 +6,5 @@
  * [Annotation Annotation Core]
  * [Curation]
  * [AnnotationSet Annotation Set]
- * Document Annotation
+ * [DocumentAnnotation Document Annotation]
  * [SiocAlignment Alignment with SIOC]
