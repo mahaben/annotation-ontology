@@ -1,6 +1,6 @@
 #summary Background
 
-[Homepage Back to homepage] [UseCases Use Cases and Requirements]
+[Homepage << Back to homepage] [UseCases Use Cases and Requirements >>]
 
 ==== Background ====
 
