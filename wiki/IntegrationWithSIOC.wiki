@@ -1,6 +1,12 @@
 #sidebar LeftMenu
 
-[http://sioc-project.org/ SIOC (Semantically-Interlinked Online Communities)] is an initiative that aims to enable the integration of online community information. AO integrates with SIOC as follows:
+[http://sioc-project.org/ SIOC (Semantically-Interlinked Online Communities)] is an initiative that aims to enable the integration of online community information. AO integrates with SIOC as follows.
+
+Some of the SIOC classes of interest are:
+
+ * Item
+ * Container
+ * AnnotationSet
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/AO%20and%20SIOC%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1: AO (Annotation Ontology) classes integration with SIOC</b>
