@@ -1,7 +1,6 @@
 #summary Annotation (updated: May 12th, 2010 - Status: In Progress)
 #labels curation,provenance,annotation_ontology,semantic_web
-
-[Annotation << Annotation Core] [Homepage Homepage] [AnnotationSet Annotation Set >>]
+#sidebar LeftMenu
 
 == Curation ==
 
