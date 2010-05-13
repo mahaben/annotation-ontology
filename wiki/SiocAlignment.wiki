@@ -1,4 +1,3 @@
-#summary Integration with SIOC
 #sidebar LeftMenu
 
 === Integration with SIOC ===
