@@ -1,7 +1,6 @@
 #summary Annotation (updated: May 12th, 2010 - Status: In Progress)
 #labels annotation_ontology,annotea,semantic_web
-
-[Selectors << Selectors] [Homepage Homepage] [Curation Curation >>]
+#sidebar LeftMenu
 
 ==== Annotation Core ====
 
