@@ -2,7 +2,7 @@
 
 [http://sioc-project.org/ SIOC (Semantically-Interlinked Online Communities)] is an initiative that aims to enable the integration of online community information. AO integrates with SIOC as follows.
 
-The SIOC classes of interest are coming from two different namespaces:
+The SIOC _classes_ of interest are coming from two different namespaces:
 
  * [http://rdfs.org/sioc/spec/ SIOC core]: http://rdfs.org/sioc/ns
  * SIOC types: http://rdfs.org/sioc/types
