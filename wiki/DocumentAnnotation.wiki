@@ -1,2 +1,1 @@
-#summary (TBD)
-#sidebar LeftMenu
+While Annotation Set(s) are used mainly for access permissions and aggregation of Annotation items by topic, the Document Annotation entity has been introduced for publishing reasons.
