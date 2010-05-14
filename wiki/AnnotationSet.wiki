@@ -5,5 +5,5 @@ Annotation Set(s) are container of Annotation items. They are used to organize c
 
 In figure 1, the set has a declared topic: "Protein". It would be possible to automatically verify that all the items in the set are actually proteins; in fact, GO:Protein is equivalent to PRO:000000001 protein. As the Annotation items have topics that can be checked against the PRO ontology.
 
-(TBD)
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%202%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2: example of Annotation Set with multiple Annotation item.</b>
