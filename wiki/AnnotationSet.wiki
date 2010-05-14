@@ -1,4 +1,4 @@
 Annotation Set(s) are container of Annotation items. They are used to organize items and refer to a set of them as a whole.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1: example of Annotation Set with a single Annotation item</b>
+<b>Figure 1: example of Annotation Set with a single Annotation item. In this particular case the set has a declared topic: "Protein".</b>
