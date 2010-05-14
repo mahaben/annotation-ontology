@@ -13,7 +13,7 @@ A *Selector* identifies a portion of a resource, and may work differently for di
    * *Prefix Postfix Selector*
  * *Image Selector*: Identifies a portion of an image.
  * *Audio Selector*: Identifies a section of an audio file.
- * ...
+ * *Video Selector*: Identifies a section of an video file.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20and%20Text%20Selectors%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example of text and image selectors (details to be added)</b>
