@@ -8,6 +8,6 @@
  * [Annotation Annotation Core]
  * [Curation]
  * [AnnotationSet Annotation Set]
- * [DocumentAnnotation Document Annotation] (TBD)
+ * [DocumentAnnotation Document Annotation]
  * [Pav Provenance, Authoring, Versioning] (TBD)
  * [IntegrationWithSIOC Integration with SIOC]
