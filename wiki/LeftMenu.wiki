@@ -3,7 +3,8 @@
  * [Homepage]
  * [Background]
  * [UseCases Use Cases and Requirements] (TBD)
- * [Selectors Selectors and Source Document]
+ * [Selectors]
+ * [SourceDocument Source Documents]
  * [Annotation Annotation Core]
  * [Curation]
  * [AnnotationSet Annotation Set]
