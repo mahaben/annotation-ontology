@@ -1,11 +1,11 @@
 #labels annotation_ontology,ontology,selector,document_annotation,semantic_web,image_annotation
 #sidebar LeftMenu
 
-== What is a Selector? ==
+=== What is a Selector? ===
 
 A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also for a specific content type, multiple kind of selector can be defined to cover specific needs.
 
-== Classes Of Selectors ==
+=== Classes Of Selectors ===
 
 *Selector* is a generic class that can be customized/sub-classed for the different kind of content types:
  * *Text Selector*: Identifies a chunk of a text.
@@ -19,6 +19,6 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20and%20Text%20Selectors%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example of text and image selectors (details to be added)</b>
 
-== Define New Selectors ==
+=== Define New Selectors ===
 
 We are not assuming we are able to provide every possible way to select any part of a any kind of document. Therefore, if the selector you have in mind is not yet existing, it is sufficient to define a new one sub-classing one of the existing *Selector* classes.
