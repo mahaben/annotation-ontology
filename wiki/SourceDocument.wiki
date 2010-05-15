@@ -1,0 +1,5 @@
+In the following AO documentation we visually refer to the document depicting a simple box usually containing some text or an image. 
+
+(figure TBD)
+
+In general, the target document is identified by a URI. We also define a set of 
