@@ -1,1 +1,1 @@
-While Annotation Set(s) are used mainly for access permissions and aggregation of Annotation items by topic, the Document Annotation entity has been introduced for publishing reasons.
+While Annotation Set(s) are used mainly for access permissions and aggregation of Annotation items by topic, the Document Annotation entity has been introduced as a collection of Annotation Set(s) mainly for reasons related to publishing.
