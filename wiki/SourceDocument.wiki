@@ -6,4 +6,4 @@ In the following AO documentation we visually refer to the document depicting a 
 In general, the target document is identified by a URI. We also usually define a set of data about provenance.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Source%20Document%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 2:...</b>
+<b>Figure 2: Source Document metadata.</b>
