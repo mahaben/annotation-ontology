@@ -1,1 +1,3 @@
 #summary (TBD)
+
+The evolution of the annotation graph is monotonic.
