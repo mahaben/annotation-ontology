@@ -2,4 +2,4 @@ In the following AO documentation we visually refer to the document depicting a 
 
 (figure TBD)
 
-In general, the target document is identified by a URI. We also define a set of 
+In general, the target document is identified by a URI. We also usually define a set of data about provenance.
