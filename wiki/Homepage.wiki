@@ -1,4 +1,4 @@
-#labels annotation_ontology,ontology,semantic_web,document_annotation,image_annotation
+#labels annotation_ontology,ontology,semantic_web,document_annotation,image_annotation,annotation,ontology
 == AO: Annotation Ontology ==
 
 === Overview ===
