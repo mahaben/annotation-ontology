@@ -458,6 +458,11 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="&foaf;Agent" rdfs:label="(foaf) Agent">
+    	<owl:disjointWith rdf:resource="Annotation"/>
+    	<owl:disjointWith rdf:resource="AnnotationCuration"/>
+        <owl:disjointWith rdf:resource="Selector"/>
+        <owl:disjointWith rdf:resource="AnnotationSet"/>
+        <owl:disjointWith rdf:resource="DocumentAnnotation"/>
     </rdf:Description>
 
 </rdf:RDF>
