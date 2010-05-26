@@ -86,6 +86,11 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
+    <owl:Class rdf:about="AudioSelector" rdfs:label="(ao-type) Comment">
+    	<rdfs:subClassOf rdf:resource="&annotation-core;Annotation"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+    </owl:Class>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
