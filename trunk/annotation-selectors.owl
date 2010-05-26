@@ -93,7 +93,7 @@
         </rdfs:comment>
     </owl:Class>
     
-    <owl:Class rdf:about="ImageSelector" rdfs:label="(ao) Audio Selector">
+    <owl:Class rdf:about="AudioSelector" rdfs:label="(ao) Audio Selector">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
