@@ -36,7 +36,7 @@
 
     	<dct:language>en</dct:language>
     	<dct:title xml:lang="en">Annotation Ontology</dct:title>
-    	<dct:creator rdf:resource="http://www.paolociccarese.info/"/>
+    	<dct:creator rdf:resource="http://www.paolociccarese.info/foaf.rdf#me"/>
     	<dct:publisher rdf:resource="http://www.mindinformatics.org"/>
     	<dct:contributor rdf:datatype="&xsd;string">Paolo Ciccarese</dct:contributor>
     	<dct:contributor rdf:datatype="&xsd;string">Marco Ocana</dct:contributor>
@@ -182,15 +182,12 @@
     </owl:Class>
     
     <owl:Class rdf:about="ImageSelector" rdfs:label="(ao) Image Selector">
-    
     	<rdfs:subClassOf rdf:resource="Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
-        
     </owl:Class>
     
     <owl:Class rdf:about="TextSelector" rdfs:label="(ao) Text Selector">
-    
     	<rdfs:subClassOf rdf:resource="Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
@@ -205,7 +202,6 @@
     </owl:Class>
     
     <owl:Class rdf:about="OffsetRangeTextSelector" rdfs:label="(ao) Offest/Range Text Selector">
-    
     	<rdfs:subClassOf rdf:resource="TextSelector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
