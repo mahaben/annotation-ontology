@@ -87,19 +87,19 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <owl:Class rdf:about="ImageSelector" rdfs:label="(ao) Image Selector">
+    <owl:Class rdf:about="ImageSelector" rdfs:label="(ao-sel) Image Selector">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
     </owl:Class>
     
-    <owl:Class rdf:about="AudioSelector" rdfs:label="(ao) Audio Selector">
+    <owl:Class rdf:about="AudioSelector" rdfs:label="(ao-sel) Audio Selector">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
     </owl:Class>
     
-    <owl:Class rdf:about="TextSelector" rdfs:label="(ao) Text Selector">
+    <owl:Class rdf:about="TextSelector" rdfs:label="(ao-sel) Text Selector">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
