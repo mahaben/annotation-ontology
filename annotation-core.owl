@@ -153,6 +153,14 @@
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
+        
+        <!-- body -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="body"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
     </owl:Class>
   	
     <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
@@ -410,6 +418,10 @@
     
     <owl:ObjectProperty rdf:about="hasTopic">
     	<rdfs:subPropertyOf rdf:resource="&bkm;hasTopic" />
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="body">
+    	<rdfs:subPropertyOf rdf:resource="&ans;body" />
     </owl:ObjectProperty>
     
     <owl:ObjectProperty rdf:about="annotates">
