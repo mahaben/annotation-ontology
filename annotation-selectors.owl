@@ -88,13 +88,13 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
     <owl:Class rdf:about="ImageSelector" rdfs:label="(ao) Image Selector">
-    	<rdfs:subClassOf rdf:resource="&ann;Selector"/>
+    	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
     </owl:Class>
     
     <owl:Class rdf:about="TextSelector" rdfs:label="(ao) Text Selector">
-    	<rdfs:subClassOf rdf:resource="&ann;Selector"/>
+    	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
         
