@@ -113,7 +113,7 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
-    <owl:Class rdf:about="OffsetRangeTextSelector" rdfs:label="(ao) Offest/Range Text Selector">
+    <owl:Class rdf:about="OffsetRangeTextSelector" rdfs:label="(ao-sel) Offest/Range Text Selector">
     	<rdfs:subClassOf rdf:resource="TextSelector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
