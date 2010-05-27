@@ -88,7 +88,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
      
-    <owl:Class rdf:about="Annotation" rdfs:label="(ao) Annotation">        
+    <owl:Class rdf:about="&annotation-core;Annotation" rdfs:label="(ao) Annotation">        
         <!-- created by -->
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -110,7 +110,7 @@
         </rdfs:subClassOf>
     </owl:Class>
     
-    <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
+    <owl:Class rdf:about="&annotation-core;Selector" rdfs:label="(ao) Selector">
 
         <!-- source document -->
         <rdfs:subClassOf>
@@ -123,7 +123,7 @@
         </rdfs:subClassOf>
     </owl:Class>
     
-    <owl:Class rdf:about="AnnotationCuration" rdfs:label="(ao) Annotation Curation">
+    <owl:Class rdf:about="&annotation-core;AnnotationCuration" rdfs:label="(ao) Annotation Curation">
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="Selector"/> 
         <owl:disjointWith rdf:resource="AnnotationSet"/> 
@@ -147,7 +147,7 @@
         </rdfs:subClassOf>
     </owl:Class>
     
-    <owl:Class rdf:about="AnnotationSet" rdfs:label="(ao) Annotation Set">
+    <owl:Class rdf:about="&annotation-core;AnnotationSet" rdfs:label="(ao) Annotation Set">
         <!-- created by -->
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -169,7 +169,7 @@
         </rdfs:subClassOf>
     </owl:Class>
     
-    <owl:Class rdf:about="DocumentAnnotation" rdfs:label="(ao) Document Annotation">    
+    <owl:Class rdf:about="&annotation-core;DocumentAnnotation" rdfs:label="(ao) Document Annotation">    
         <!-- created by -->
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -189,20 +189,7 @@
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-    <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">        
-        <!-- source document -->
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="onDocument"/>
-                <owl:allValuesFrom>
-                    <owl:Class rdf:about="&foaf;Document"/>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-     
+    </owl:Class>     
      
     <rdf:Description rdf:about="&foaf;Document" rdfs:label="(foaf) Document">
     </rdf:Description>
