@@ -132,6 +132,26 @@
             </owl:Restriction>
         </rdfs:subClassOf>	
     </owl:Class>
+    
+    <owl:Class rdf:about="PrefixPostfixTextSelector" rdfs:label="(ao-sel) Prefix/Postfix Text Selector">
+    	<rdfs:subClassOf rdf:resource="TextSelector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+        
+        <!-- offset and range -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="prefix"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+         <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="postfix"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -147,6 +167,12 @@
     </owl:DatatypeProperty>
     
     <owl:DatatypeProperty rdf:about="range">
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="prefix">
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="postfix">
     </owl:DatatypeProperty>
 
 </rdf:RDF>
