@@ -4,10 +4,10 @@
 == Annotation of the whole document ==
 
 === Example 1 ===
-In this example, the creator identified by the URI [http://www.hcklab.org/foaf.rdf#me] annotates a the [http://www.paolociccarese.info document about himself].
+In this example, the creator identified by the URI [http://www.hcklab.org/foaf.rdf#me] annotates a [http://www.paolociccarese.info document about himself]. _Qualifier_ is a subclass of the most generic _Annotation_ class.
 {{{
     <rdf:Description rdf:about="http://my.example.org/annotation/1">
-    	<rdf:type rdf:resource="Annotation"/>
+    	<rdf:type rdf:resource="Qualifier"/>
     	<annotation:annotates rdf:resource="http://www.paolociccarese.info"/>
     	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
         <pav:createdOn>2010-05-26</pav:createdOn>
@@ -17,7 +17,7 @@ In this example, the creator identified by the URI [http://www.hcklab.org/foaf.r
 Therefore, accessing the [http://www.hcklab.org/foaf.rdf#me foaf file], it will be possible to understand that the URI [http://www.paolociccarese.info] identifies a foaf:Document about a foaf:Person - is a foaf:Agent - with name "Paolo Ciccarese". If [http://dublincore.org/documents/dcmi-terms/ Dublin Core Terms] is preferred, the snippet will look like:
 {{{
     <rdf:Description rdf:about="http://my.example.org/annotation/1">
-    	<rdf:type rdf:resource="Annotation"/>
+    	<rdf:type rdf:resource="Qualifier"/>
     	<annotation:annotates rdf:resource="http://www.paolociccarese.info"/>
     	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
         <pav:createdOn>2010-05-26</pav:createdOn>
@@ -31,7 +31,7 @@ Therefore, accessing the [http://www.hcklab.org/foaf.rdf#me foaf file], it will 
 In this example, the creator identified by the URI [http://www.hcklab.org/foaf.rdf#me] annotates a the [http://en.wikipedia.org/wiki/Amyloid_precursor_protein Wikipedia page for the APP (Amyloid Precursor Protein)] with the [http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=PRO:000004168  Ontology (PRO) entry for APP]: 
 {{{
     <rdf:Description rdf:about="http://my.example.org/annotation/2">
-    	<rdf:type rdf:resource="Annotation"/>
+    	<rdf:type rdf:resource="Qualifier"/>
     	<annotation:annotates rdf:resource="http://en.wikipedia.org/wiki/Amyloid_precursor_protein"/>
     	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     	<annotation:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004168"/>
