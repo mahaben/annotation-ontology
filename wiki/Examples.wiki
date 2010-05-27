@@ -14,7 +14,7 @@
 }}}
 
 === Example 2 ===
-In this example the creator identified by the URI [http://www.hcklab.org/foaf.rdf#me] annotates a the [http://en.wikipedia.org/wiki/Amyloid_precursor_protein Wikipedia page for the APP (Amyloid Precursor Protein)] with the [http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=PRO:000004168  Ontology (PRO) entry for APP]: 
+In this example, the creator identified by the URI [http://www.hcklab.org/foaf.rdf#me] annotates a the [http://en.wikipedia.org/wiki/Amyloid_precursor_protein Wikipedia page for the APP (Amyloid Precursor Protein)] with the [http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=PRO:000004168  Ontology (PRO) entry for APP]: 
 {{{
     <rdf:Description rdf:about="http://my.example.org/annotation/2">
     	<rdf:type rdf:resource="Annotation"/>
