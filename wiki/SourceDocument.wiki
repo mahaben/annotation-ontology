@@ -5,10 +5,16 @@ In the following AO documentation we visually refer to the document depicting a 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Reference%20to%20part%20of%20documents%20-%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1: this is how parts of documents will be visually identified in the rest of the documentation.</b>
 
-In general, the target document is identified by a URI. We can also define a set of properties about the document that might be helpful for assessing its provenance.
+In general, the target document is identified by a URI. As we want to specify a set of properties about the document that might be helpful for assessing its provenance, we are introducing another entity - _SourceDocument_ - as in the following picture:
+
+<b>Figure 2: Source Document metadata.</b>
+
+=== Why foaf:Document is not good enough ===
+
+Unfortunately, for content of the web it is common to have the same URI for several versions of a document. This is a problem when trying to use the foaf:Document class as the very same URI can identify different content along time. 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Source%20Document%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 2: Source Document metadata.</b>
+<b>Figure 3: ...</b>
 {{{
     <rdf:Description rdf:about="http://tinyurl.com/ykjn87p">
     	<rdf:type rdf:resource="Document"/>
