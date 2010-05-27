@@ -10,5 +10,6 @@
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Document Annotation]
  * [Pav Provenance, Authoring, Versioning] (TBD)
+ * [Examples RDF Examples]
  * [IntegrationWithSIOC Integration with SIOC]
  * [OMR Ontology for Media Resource 1.0]
