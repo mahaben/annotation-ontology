@@ -11,7 +11,7 @@ In general, the target document is identified by a URI. When performing annotati
 <b>Figure 2: A Source Document is basically defining a set of metadata for a Document in a particular moment in time. In this case we have only a date of when the document has been accessed but we can add other metadata such as: title of the page, length of the page and so on.</b>
 
 {{{
-    <rdf:Description rdf:about="http://my.example.org/2332">
+    <rdf:Description rdf:about="http://my.example.org/sd/2332">
     	<rdf:type rdf:resource="SourceDocument"/>
         <retrievedFrom rdf:resource="http://tinyurl.com/ykjn87p"/>
         <pav:sourceAccessedOn>2010-05-10</pav:sourceAccessedOn>
