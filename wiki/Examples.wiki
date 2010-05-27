@@ -43,6 +43,7 @@ In this example, the creator identified by the URI [http://www.hcklab.org/foaf.r
 }}}
 
 === Example 4 ===
+The following is a note about the referred document.
 {{{
     <rdf:Description rdf:about="http://my.example.org/annotation/3">
     	<rdf:type rdf:resource="Note"/>
