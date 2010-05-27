@@ -10,7 +10,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
  * [SourceDocument Source Documents]
  * [Selectors]
  * [Annotation Annotation Core]
- * [Curation of Annotation]
+ * [Curation Curation of Annotation]
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Document Annotation]
  * [Pav Provenance, Authoring, Versioning] (TBD)
