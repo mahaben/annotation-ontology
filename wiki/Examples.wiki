@@ -37,18 +37,19 @@ In this example, the creator identified by the URI [http://www.hcklab.org/foaf.r
     	<rdf:type rdf:resource="Qualifier"/>
     	<annotation:annotates rdf:resource="http://en.wikipedia.org/wiki/Amyloid_precursor_protein"/>
     	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+        <pav:createdOn>2010-05-26</pav:createdOn>
     	<annotation:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004168"/>
     </rdf:Description> 
 }}}
 
 === Example 4 ===
-{{
+{{{
     <rdf:Description rdf:about="http://my.example.org/annotation/3">
-    	<rdf:type rdf:resource="Comment"/>
-    	<annotation:annotates rdf:resource="http://en.wikipedia.org/wiki/Amyloid_precursor_protein"/>
+    	<rdf:type rdf:resource="Note"/>
+    	<annotation:annotates rdf:resource="http://www.paolociccarese.info"/>
     	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
-    	<annotation:body></annotation:body>
-
+        <pav:createdOn>2010-05-26</pav:createdOn>
+    	<annotation:body>I should updated the list of current projects</annotation:body>
     </rdf:Description> 
 }}}
 
