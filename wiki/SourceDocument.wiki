@@ -26,7 +26,7 @@ It is important to notice that tracking the resource access date is a good pract
 
 === Why using only the Document is not good enough ===
 
-When web pages are stable, it is possible to refer to the foaf:Document only. Unfortunately, content on the web is often changing and different content can be found along time for the same URI. 
+When web pages are stable, it is possible to refer to the foaf:Document only. Unfortunately, content on the web is often changing and different content can be found along time for the same URI. Therefore, if two different users create annotation on a particular document in two different moments in time we would end up with something like in the following picture:
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Source%20Document%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3: ...</b>
