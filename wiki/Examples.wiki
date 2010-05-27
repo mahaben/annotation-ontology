@@ -10,7 +10,7 @@ In this example, the creator identified by the URI [http://www.hcklab.org/foaf.r
     	<rdf:type rdf:resource="Annotation"/>
     	<annotation:annotates rdf:resource="http://www.paolociccarese.info"/>
     	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
-        <pav:createdOn>2005-05-01</pav:createdOn>
+        <pav:createdOn>2010-05-26</pav:createdOn>
     	<annotation:hasTopic rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description> 
 }}}
@@ -20,7 +20,7 @@ Therefore, accessing the [http://www.hcklab.org/foaf.rdf#me foaf file], it will 
     	<rdf:type rdf:resource="Annotation"/>
     	<annotation:annotates rdf:resource="http://www.paolociccarese.info"/>
     	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
-        <pav:createdOn>2005-05-01</pav:createdOn>
+        <pav:createdOn>2010-05-26</pav:createdOn>
         <dct:creator rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
         <dct:created>2005-05-01</dct:created>
     	<annotation:hasTopic rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
