@@ -123,19 +123,7 @@
         </rdfs:subClassOf>
     </owl:Class>
     
-    <owl:Class rdf:about="&annotation-core;AnnotationCuration" rdfs:label="(ao) Annotation Curation">
-        <owl:disjointWith rdf:resource="Annotation"/>
-        <owl:disjointWith rdf:resource="Selector"/> 
-        <owl:disjointWith rdf:resource="AnnotationSet"/> 
-        <owl:disjointWith rdf:resource="DocumentAnnotation"/> 
-        
-        <owl:disjointWith rdf:resource="&ans;Annotation"/> 
-        <owl:disjointWith rdf:resource="&foaf;Document"/>  
-        <owl:disjointWith rdf:resource="&foaf;Agent"/>  
-    
-        <rdfs:comment rdf:datatype="&xsd;string">
-        </rdfs:comment>
-  		
+    <owl:Class rdf:about="&annotation-core;AnnotationCuration" rdfs:label="(ao) Annotation Curation">  		
         <!-- created by -->
         <rdfs:subClassOf>
             <owl:Restriction>
