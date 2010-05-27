@@ -5,7 +5,7 @@
  * [SourceDocument Source Documents]
  * [Selectors]
  * [Annotation Annotation Core]
- * [Curation]
+ * [Curation Annotation Curation]
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Document Annotation]
  * [Pav Provenance, Authoring, Versioning] (TBD)
