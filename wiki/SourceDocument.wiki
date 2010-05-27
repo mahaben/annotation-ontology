@@ -8,7 +8,7 @@ In the following AO documentation we visually refer to the document depicting a 
 In general, the target document is identified by a URI. As we want to specify a set of properties about the document that might be helpful for assessing its provenance, we are introducing another entity - _SourceDocument_ - as in the following picture:
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Source%20Document%202%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 2: Source Document is basically defining a set of metadata for a Document in a particular moment in time.</b>
+<b>Figure 2: A Source Document is basically defining a set of metadata for a Document in a particular moment in time.</b>
 
 === Why foaf:Document is not good enough ===
 
