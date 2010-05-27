@@ -98,14 +98,6 @@
         
         <!-- created by -->
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&pav;createdBy"/>
-                <owl:allValuesFrom>
-                    <owl:Class rdf:about="&foaf;Agent"/>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Restriction>                <owl:onProperty rdf:resource="&pav;createdBy"/>                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>            </owl:Restriction>
         </rdfs:subClassOf>	
 		
@@ -115,14 +107,6 @@
         </rdfs:subClassOf>	
         
         <!-- annotates -->
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="annotates"/>
-                <owl:allValuesFrom>
-                    <owl:Class rdf:about="&foaf;Document"/>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="annotates"/>
@@ -181,12 +165,6 @@
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="onDocument"/>
-                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>	
     </owl:Class>
       	
     <owl:Class rdf:about="AnnotationCuration" rdfs:label="(ao) Annotation Curation">
@@ -203,14 +181,6 @@
         </rdfs:comment>
   		
         <!-- created by -->
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&pav;createdBy"/>
-                <owl:allValuesFrom>
-                    <owl:Class rdf:about="&foaf;Agent"/>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>                <owl:onProperty rdf:resource="&pav;createdBy"/>                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>            </owl:Restriction>
         </rdfs:subClassOf>	
@@ -271,14 +241,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&pav;createdBy"/>
-                <owl:allValuesFrom>
-                    <owl:Class rdf:about="&foaf;Agent"/>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&pav;createdBy"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
@@ -319,14 +281,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="onDocument"/>
-                <owl:allValuesFrom>
-                    <owl:Class rdf:about="&foaf;Document"/>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="onDocument"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
@@ -342,14 +296,6 @@
         </rdfs:comment>
   		
         <!-- created by -->
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&pav;createdBy"/>
-                <owl:allValuesFrom>
-                    <owl:Class rdf:about="&foaf;Agent"/>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&pav;createdBy"/>
@@ -390,14 +336,6 @@
         </rdfs:subClassOf>	
         
         <!-- source document -->
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="onDocument"/>
-                <owl:allValuesFrom>
-                    <owl:Class rdf:about="&foaf;Document"/>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="onDocument"/>
