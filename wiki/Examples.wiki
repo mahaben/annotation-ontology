@@ -13,6 +13,7 @@ In this example, the creator identified by the URI [http://www.hcklab.org/foaf.r
     	<annotation:hasTopic rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description> 
 }}}
+Therefore, accessing the [http://www.hcklab.org/foaf.rdf#me foaf file], it will be possible to understand that the URI [http://www.paolociccarese.info] identifies a foaf:Document of a foaf:Person - is a foaf:Agent - with name "Paolo Ciccarese".
 
 === Example 2 ===
 In this example, the creator identified by the URI [http://www.hcklab.org/foaf.rdf#me] annotates a the [http://en.wikipedia.org/wiki/Amyloid_precursor_protein Wikipedia page for the APP (Amyloid Precursor Protein)] with the [http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=PRO:000004168  Ontology (PRO) entry for APP]: 
