@@ -3,4 +3,13 @@
  
 === Annotation of the whole document ===
 
+{{{
+    <rdf:Description rdf:about="http://my.example.org/annotation/1">
+    	<rdf:type rdf:resource="Annotation"/>
+    	<annotation:annotates rdf:resource="http://www.paolociccarese.info"/>
+    	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+    	<annotation:hasTopic rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+    </rdf:Description> 
+}}}
+
 === Annotation of a protein in the document ===
