@@ -7,7 +7,6 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
 === Index of Content ===
 
  * [Background]
- * [UseCases Use Cases and Requirements] (TBD)
  * [SourceDocument Source Documents]
  * [Selectors]
  * [Annotation Annotation Core]
