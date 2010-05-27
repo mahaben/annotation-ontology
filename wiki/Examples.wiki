@@ -1,14 +1,25 @@
  * Annotation of the whole document
  * Annotation of a protein in the document
  
-=== Annotation of the whole document ===
+== Annotation of the whole document ==
 
+=== Example 1 ===
 {{{
     <rdf:Description rdf:about="http://my.example.org/annotation/1">
     	<rdf:type rdf:resource="Annotation"/>
     	<annotation:annotates rdf:resource="http://www.paolociccarese.info"/>
     	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     	<annotation:hasTopic rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+    </rdf:Description> 
+}}}
+
+=== Example 2 ===
+{{{
+    <rdf:Description rdf:about="http://my.example.org/annotation/2">
+    	<rdf:type rdf:resource="Annotation"/>
+    	<annotation:annotates rdf:resource="http://en.wikipedia.org/wiki/Amyloid_precursor_protein"/>
+    	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+    	<annotation:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004168"/>
     </rdf:Description> 
 }}}
 
