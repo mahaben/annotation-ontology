@@ -1,0 +1,6 @@
+ * Annotation of the whole document
+ * Annotation of a protein in the document
+ 
+=== Annotation of the whole document ===
+
+=== Annotation of a protein in the document ===
