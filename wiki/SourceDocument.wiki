@@ -13,6 +13,6 @@ In general, the target document is identified by a URI. We also usually define a
     <rdf:Description rdf:about="http://tinyurl.com/ykjn87p">
     	<rdf:type rdf:resource="Document"/>
     	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
-        <pav:sourceAccessedOn>2010-05-16</pav:sourceAccessedOn>
+        <pav:sourceAccessedOn>2010-05-10</pav:sourceAccessedOn>
     </rdf:Description> 
 }}}
