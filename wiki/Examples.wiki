@@ -14,7 +14,10 @@ In this example, the creator identified by the URI [http://www.hcklab.org/foaf.r
     	<annotation:hasTopic rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description> 
 }}}
-Therefore, accessing the [http://www.hcklab.org/foaf.rdf#me foaf file], it will be possible to understand that the URI [http://www.paolociccarese.info] identifies a foaf:Document about a foaf:Person - is a foaf:Agent - with name "Paolo Ciccarese". If [http://dublincore.org/documents/dcmi-terms/ Dublin Core Terms] is preferred, the snippet will look like:
+Therefore, accessing the [http://www.hcklab.org/foaf.rdf#me foaf file], it will be possible to understand that the URI [http://www.paolociccarese.info] identifies a foaf:Document about a foaf:Person - is a foaf:Agent - with name "Paolo Ciccarese". 
+
+=== Example 2 ===
+If [http://dublincore.org/documents/dcmi-terms/ Dublin Core Terms] is the preferred vocabulary, the snippet will look like:
 {{{
     <rdf:Description rdf:about="http://my.example.org/annotation/1">
     	<rdf:type rdf:resource="Qualifier"/>
@@ -27,7 +30,7 @@ Therefore, accessing the [http://www.hcklab.org/foaf.rdf#me foaf file], it will 
     </rdf:Description> 
 }}}
 
-=== Example 2 ===
+=== Example 3 ===
 In this example, the creator identified by the URI [http://www.hcklab.org/foaf.rdf#me] annotates a the [http://en.wikipedia.org/wiki/Amyloid_precursor_protein Wikipedia page for the APP (Amyloid Precursor Protein)] with the [http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=PRO:000004168  Ontology (PRO) entry for APP]: 
 {{{
     <rdf:Description rdf:about="http://my.example.org/annotation/2">
