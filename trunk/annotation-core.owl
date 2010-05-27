@@ -160,11 +160,9 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="onDocument"/>
-                <owl:allValuesFrom>
-                    <owl:Class rdf:about="&foaf;Document"/>
-                </owl:allValuesFrom>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
-        </rdfs:subClassOf>
+        </rdfs:subClassOf>	
     </owl:Class>
       	
     <owl:Class rdf:about="AnnotationCuration" rdfs:label="(ao) Annotation Curation">
@@ -174,8 +172,6 @@
         <owl:disjointWith rdf:resource="DocumentAnnotation"/> 
         
         <owl:disjointWith rdf:resource="&ans;Annotation"/> 
-        <owl:disjointWith rdf:resource="&foaf;Document"/>  
-        <owl:disjointWith rdf:resource="&foaf;Agent"/>  
     
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
