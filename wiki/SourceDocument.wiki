@@ -29,4 +29,13 @@ It is important to notice that tracking the resource access date is a good pract
 When web pages are stable, it is possible to refer to the foaf:Document only. Unfortunately, content on the web is often changing and different content can be found along time for the same URI. Therefore, if two different users create annotation on a particular document in two different moments in time we would end up with something like in the following picture:
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Source%20Document%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 3: ...</b>
+<b>Figure 3: Same document accessed in two different moments in time.</b>
+
+Translated in triples this would mean:
+
+{{{
+   http://tinyurl.com/ykjn87p pav:sourceAccessedOn 2010-04-21
+   http://tinyurl.com/ykjn87p pav:sourceAccessedOn 2010-05-26
+}}}
+
+As you can imagine this does not make a lot of sense as it will be impossible to understand what triple is associated with a specific annotation.
