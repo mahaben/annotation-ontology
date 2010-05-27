@@ -22,6 +22,8 @@ In general, the target document is identified by a URI. When performing annotati
     </rdf:Description> 
 }}}
 
+It is important to notice that tracking the access date on the page is a good practice but it is not mandatory. The direct link to the document can still be defined without any other additional triple when the document is stable or when we don't need to store transient metadata about the document. 
+
 === Why using only the Document is not good enough ===
 
 When web pages are stable, it is possible to refer to the foaf:Document only. Unfortunately, content on the web is often changing and different content can be found along time for the same URI. 
