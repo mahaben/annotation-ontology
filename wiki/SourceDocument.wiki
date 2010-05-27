@@ -10,18 +10,21 @@ In general, the target document is identified by a URI. As we want to specify a 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Source%20Document%202%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2: A Source Document is basically defining a set of metadata for a Document in a particular moment in time. In this case we have only a date of when the document has been accessed but we can add other metadata such as: title of the page, length of the page and so on.</b>
 
-=== Why foaf:Document is not good enough ===
+{{{
+    <rdf:Description rdf:about="http://my.example.org/2332">
+    	<rdf:type rdf:resource="SourceDocument"/>
+        <retrievedFrom rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <pav:sourceAccessedOn>2010-05-10</pav:sourceAccessedOn>
+    </rdf:Description> 
+
+    <rdf:Description rdf:about="http://tinyurl.com/ykjn87p">
+        <rdf:type rdf:resource="&foaf;Document"/>
+    </rdf:Description> 
+}}}
+
+=== Why using only the Document is not good enough ===
 
 Unfortunately, for content of the web it is common to have the same URI for several versions of a document. This is a problem when trying to use the foaf:Document class as the very same URI can identify different content along time. 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Source%20Document%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3: ...</b>
-{{{
-    <rdf:Description rdf:about="http://tinyurl.com/ykjn87p">
-    	<rdf:type rdf:resource="Document"/>
-        <pav:sourceAccessedOn>2010-05-10</pav:sourceAccessedOn>
-    </rdf:Description> 
-}}}
-
-
-Reference to part of documents - AO - by Paolo Ciccarese
