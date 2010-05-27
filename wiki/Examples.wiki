@@ -26,4 +26,4 @@ In this example, the creator identified by the URI [http://www.hcklab.org/foaf.r
     </rdf:Description> 
 }}}
 
-=== Annotation of a protein in the document ===
+=== Annotation of fragments of a document ===
