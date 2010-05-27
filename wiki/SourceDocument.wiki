@@ -5,7 +5,7 @@ In the following AO documentation we visually refer to the document depicting a 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Reference%20to%20part%20of%20documents%20-%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1: this is how parts of documents will be visually identified in the rest of the documentation.</b>
 
-In general, the target document is identified by a URI. We also usually define a set of data about provenance.
+In general, the target document is identified by a URI. We can also define a set of properties about the document that might be helpful for assessing its provenance.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Source%20Document%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2: Source Document metadata.</b>
