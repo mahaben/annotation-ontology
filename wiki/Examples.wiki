@@ -41,5 +41,16 @@ In this example, the creator identified by the URI [http://www.hcklab.org/foaf.r
     </rdf:Description> 
 }}}
 
+=== Example 4 ===
+{{
+    <rdf:Description rdf:about="http://my.example.org/annotation/3">
+    	<rdf:type rdf:resource="Comment"/>
+    	<annotation:annotates rdf:resource="http://en.wikipedia.org/wiki/Amyloid_precursor_protein"/>
+    	<pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+    	<annotation:body></annotation:body>
+
+    </rdf:Description> 
+}}}
+
 === Annotation of fragments of a document ===
 ...
