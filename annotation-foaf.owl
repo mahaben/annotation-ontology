@@ -87,7 +87,6 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-     
     <owl:Class rdf:about="&annotation-core;Annotation" rdfs:label="(ao) Annotation">        
         <!-- created by -->
         <rdfs:subClassOf>
@@ -183,6 +182,7 @@
     </rdf:Description>
     
     <rdf:Description rdf:about="&foaf;Agent" rdfs:label="(foaf) Agent">
+    	<owl:disjointWith rdf:resource="&foaf;Document"/>
     	<owl:disjointWith rdf:resource="&annotation-core;Annotation"/>
     	<owl:disjointWith rdf:resource="&annotation-core;AnnotationCuration"/>
         <owl:disjointWith rdf:resource="&annotation-core;Selector"/>
