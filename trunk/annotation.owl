@@ -36,7 +36,8 @@
         
         <owl:imports rdf:resource="http://annotation-ontology.googlecode.com/svn/trunk/annotation-core.owl"/>
         <owl:imports rdf:resource="http://annotation-ontology.googlecode.com/svn/trunk/annotation-selectors.owl"/>
-         <owl:imports rdf:resource="http://annotation-ontology.googlecode.com/svn/trunk/annotation-types.owl"/>
+        <owl:imports rdf:resource="http://annotation-ontology.googlecode.com/svn/trunk/annotation-types.owl"/>
+		<owl:imports rdf:resource="http://annotation-ontology.googlecode.com/svn/trunk/annotation-foaf.owl"/>
 
     	<dct:language>en</dct:language>
     	<dct:title xml:lang="en">Annotation Ontology</dct:title>
