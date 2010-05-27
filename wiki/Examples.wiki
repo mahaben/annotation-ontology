@@ -1,5 +1,5 @@
  * Annotation of the whole document
- * Annotation of a protein in the document
+ * Annotation of fragments of a document
  
 == Annotation of the whole document ==
 
@@ -27,3 +27,4 @@ In this example, the creator identified by the URI [http://www.hcklab.org/foaf.r
 }}}
 
 === Annotation of fragments of a document ===
+...
