@@ -22,7 +22,7 @@ In general, the target document is identified by a URI. When performing annotati
     </rdf:Description> 
 }}}
 
-It is important to notice that tracking the access date on the page is a good practice but it is not mandatory. The direct link to the document can still be defined without any other additional triple when the document is stable or when we don't need to store transient metadata about the document. 
+It is important to notice that tracking the resource access date is a good practice but it is not mandatory. The direct link to the document can still be defined without any other additional triple when the document is stable or when we don't need to store transient metadata about the document. 
 
 === Why using only the Document is not good enough ===
 
