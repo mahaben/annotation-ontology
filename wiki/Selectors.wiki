@@ -17,7 +17,7 @@ A *Selector* identifies a portion of a resource, and may work differently for di
  * ...
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20and%20Text%20Selectors%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1 - Partial example of text and image generic selectors. In this image it is possible to detect a direct relationship between the selector and the resource and also an indirect one through the SourceDocument that is providing access metadata. As previously specified in the documentation the indirect relationship could be omitted but we don't consider it to be best practice.</b>
+<b>Figure 1 - Partial example of text and image generic selectors. In this image it is possible to detect a direct relationship between the selector and the resource and also an indirect one through the SourceDocument that is providing access metadata. As previously specified - in the [SourceDocument Source Document] section - the indirect relationship could be omitted but we don't consider it to be best practice.</b>
 
 === Define New Selectors ===
 
