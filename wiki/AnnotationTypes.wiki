@@ -1,4 +1,4 @@
-In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we adopt a similar mechanism to cover *much more than simple tagging: comments, notes, examples, erratum, definition, hypothesis, claims, research questions...*
+In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we adopt a similar mechanism to cover *much more than simple tagging: comments, notes, examples, erratum, definition, hypothesis, claims, research questions...* all with respect to the existing ontologies.
 
 === Annotation Type: Qualifier ===
 
