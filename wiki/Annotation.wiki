@@ -91,6 +91,7 @@ The RDF of the example in picture 2 would look like the following:
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3 - Example of image annotation with AO. Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity has been used. </b>
 
+The RDF of the example in picture 3 would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
         <rdf:type rdf:resource="Qualifier"/>
