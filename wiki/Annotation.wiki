@@ -38,7 +38,24 @@ It is obviously possible to retrieve the info about the entities involved:
     and the PRO entry for beta-secretase 1:
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRO_000004615">
-        ...
+        <!--
+            Properties extracted from the PRO ontology OBO files:
+
+            name: beta-secretase 1
+            def: "A protein that is a translation product of the BACE1 gene or a 1:1  ortholog thereof." [PRO:DNx]
+            comment: Category=gene.
+            synonym: "beta-site amyloid precursor protein cleaving enzyme 1" EXACT []
+            synonym: "beta-site APP cleaving enzyme 1" EXACT []
+            synonym: "membrane-associated aspartic protease 2" EXACT []
+            synonym: "memapsin-2" EXACT []
+            synonym: "aspartyl protease 2" EXACT []
+            synonym: "Asp 2" EXACT [DNx]
+            synonym: "ASP2" EXACT []
+            synonym: "BACE1" RELATED []
+            synonym: "BACE" RELATED []
+            synonym: "KIAA1149" RELATED []
+            is_a: PRO:000000001 ! protein
+        -->
     </rdf:Description> 
 
 }}}
