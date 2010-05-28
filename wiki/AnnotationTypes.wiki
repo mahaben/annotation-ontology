@@ -59,7 +59,7 @@ The RDF of the example in picture 4 would look like the following:
 === Annotation Type: Comment ===
 (TBD)
 
-=== Annotation Type: Example ===
+=== Annotation Type: SWAN Research Question ===
 (TBD)
 
 === Annotation Type: ... ===
