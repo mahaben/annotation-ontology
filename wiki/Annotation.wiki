@@ -24,16 +24,20 @@ The RDF of the example in picture 1 would look like the following:
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description> 
+}}}
 
     the author:
 
+{{{
     <rdf:Description rdf:about="http://www.hcklab.org/foaf.rdf#me">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <foaf:name>Paolo Ciccarese</foaf:name>
     </rdf:Description> 
+}}}
 
     and the PRO entry for beta-secretase 1:
 
+{{{
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRO_000004615">
         <!--
             Properties extracted from the PRO ontology OBO files:
