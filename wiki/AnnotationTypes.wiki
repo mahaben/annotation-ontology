@@ -51,3 +51,11 @@ The RDF of the example in picture 4 would look like the following:
         ...
     </rdf:Description>
 }}}
+
+=== Annotation Type: Comment ===
+(TBD)
+
+=== Annotation Type: Example ===
+(TBD)
+
+=== Annotation Type: ... ===
