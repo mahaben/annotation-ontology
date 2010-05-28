@@ -22,7 +22,7 @@ The RDF of the example in picture 1 would look like the following:
     <rdf:Description rdf:about="http://my.example.org/ann/21332">
         <rdf:type rdf:resource="Qualifier"/>
         <ann:annotates rdf:resource="http://tinyurl.com/ykjn87p"/>
-        <hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+        <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description> 
@@ -75,7 +75,7 @@ The RDF of the example in picture 2 would look like the following:
         <rdf:type rdf:resource="Qualifier"/>
         <ann:annotates rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ann:context rdf:resource="http://my.example.org/sel/10300"/>
-        <hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+        <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description>
