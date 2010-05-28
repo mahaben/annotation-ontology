@@ -24,8 +24,10 @@ In RDF the example in picture 1 would look like this:
     </rdf:Description> 
 }}}
 
-It is obviously possible to retrieve the info of the entities involved and these are the author:
+It is obviously possible to retrieve the info about the entities involved: 
 {{{
+    the author:
+
     <rdf:Description rdf:about="http://www.hcklab.org/foaf.rdf#me">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <foaf:name>Paolo Ciccarese</foaf:name>
