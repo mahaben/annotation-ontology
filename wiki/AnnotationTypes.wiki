@@ -61,6 +61,8 @@ The RDF of the example in picture 4 would look like the following:
 === Annotation Type: Comment ===
 (TBD)
 
+=== Annotation Type: ... ===
+
 == Integration with other ontologies ==
 
 === Annotation Type: SWAN Research Question ===
@@ -75,5 +77,3 @@ The RDF of the example in picture 4 would look like the following:
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description>
 }}}
-
-=== Annotation Type: ... ===
