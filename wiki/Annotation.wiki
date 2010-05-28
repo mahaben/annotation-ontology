@@ -24,10 +24,7 @@ The RDF of the example in picture 1 would look like the following:
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description> 
-}}}
 
-It is obviously possible to retrieve the info about the entities involved: 
-{{{
     the author:
 
     <rdf:Description rdf:about="http://www.hcklab.org/foaf.rdf#me">
