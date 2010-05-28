@@ -1,5 +1,4 @@
 #labels annotation_ontology,annotea,semantic_web
-
 === Annotation Core ===
 
 The annotation core has been strongly inspired by the model proposed by the [http://www.w3.org/2001/Annotea/ Annotea Project]. In both cases, annotations live outside the annotated resource. In particular, the following entities/properties have been extended/reused:
@@ -13,6 +12,17 @@ In Annotea, annotations are typed. It is possible to subclass _Annotation_ into 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example of document annotation with AO. Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
+
+In RDF the example in picture 1 would look like this:
+{{{
+    <rdf:Description rdf:about="http://my.example.org/ann/21332">
+        <rdf:type rdf:resource="Qualifier"/>
+        <ann:annotates rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <hasTopic rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <pav:createdOn>2010-03-21</pav:createdOn>
+        <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+    </rdf:Description> 
+}}}
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2 - Example of text annotation with AO. Using Qualifier(s) is equivalent in performing tagging of a part of the document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
