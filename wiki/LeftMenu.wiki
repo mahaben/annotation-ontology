@@ -8,7 +8,7 @@
  * [Curation Curation of Annotation]
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Document Annotation]
- * [Pav Provenance, Authoring, Versioning] (TBD)
+ * [Pav Provenance, Authoring, Versioning]
  * [Examples More Examples]
  * [IntegrationWithSIOC Integration with SIOC]
  * [OMR Ontology for Media Resource 1.0]
