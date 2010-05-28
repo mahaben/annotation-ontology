@@ -4,15 +4,15 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 === Classes Of Selectors ===
 
 *Selector* is a generic class that can be customized/sub-classed for the different kind of content types:
- * *Text Selector*: Identifies a chunk of a text.
+ * *Text Selector*: identifies a chunk of a text. Some examples:
    * *Offset Range Selector*: identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset.
    * *Prefix Postfix Selector*: identifies a chunk of text specifying a reasonable amount of characters before it (prefix) and a reasonable amount of characters after it (postfix). 
 
- * *Image Selector*: Identifies a portion of an image.
+ * *Image Selector*: identifies a portion of an image.
 
- * *Audio Selector*: Identifies a section of an audio file.
+ * *Audio Selector*: identifies a section of an audio file.
 
- * *Video Selector*: Identifies a section of an video file.
+ * *Video Selector*: identifies a section of an video file.
 
  * ...
 
