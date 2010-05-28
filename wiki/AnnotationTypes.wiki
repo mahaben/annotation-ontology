@@ -11,7 +11,7 @@ The RDF of the example in picture 3 would look like the following:
         <rdf:type rdf:resource="Qualifier"/>
         <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
         <ann:context rdf:resource="http://my.example.org/sel/20300"/>
-        <hasTopic rdf:resource="http://my.example.org/tag/3843023"/>
+        <ao:hasTopic rdf:resource="http://my.example.org/tag/3843023"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description>
