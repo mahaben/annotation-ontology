@@ -11,6 +11,7 @@ The RDF of the example in picture 3 would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
         <rdf:type rdf:resource="Qualifier"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
         <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
         <ann:context rdf:resource="http://my.example.org/sel/20300"/>
         <ao:hasTopic rdf:resource="http://my.example.org/tag/3843023"/>
@@ -37,6 +38,7 @@ The RDF of the example in picture 4 would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
         <rdf:type rdf:resource="Note"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
         <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
         <ann:context rdf:resource="http://my.example.org/sel/20300"/>
         <ann:body>This visual cluster is probably representing the Foo Community</ann:body>
