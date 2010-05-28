@@ -11,7 +11,7 @@ In general, the target document is identified by a URI. When performing annotati
 {{{
     <rdf:Description rdf:about="http://my.example.org/sd/2332">
     	<rdf:type rdf:resource="SourceDocument"/>
-        <retrievedFrom rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:retrievedFrom rdf:resource="http://tinyurl.com/ykjn87p"/>
         <pav:sourceAccessedOn>2010-05-10</pav:sourceAccessedOn>
     </rdf:Description> 
 
