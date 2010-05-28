@@ -22,3 +22,4 @@ The core of AO is inspired by the Annotea model with a some remarkable differenc
  * In AO if the annotation context is not specified, the annotation is about the whole document.
  * In AO there are mechanisms for managing annotation curation
  * In AO there are mechanisms for managing collections of annotation items.
+ * In AO there are mechanisms for managing annotation publishing
