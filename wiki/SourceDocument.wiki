@@ -1,4 +1,4 @@
-(To be updated)
+(still in progress)
 
 In the following AO documentation we visually refer to the document depicting a simple box usually containing some text or an image. 
 
