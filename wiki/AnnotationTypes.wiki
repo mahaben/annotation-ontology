@@ -14,7 +14,7 @@ The RDF of the example in picture 3 would look like the following:
         <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
         <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
         <ann:context rdf:resource="http://my.example.org/sel/20300"/>
-        <ao:hasTopic rdf:resource="http://my.example.org/tag/3843023"/>
+        <ao:hasTopic rdf:resource="http://my.example.org/sn/000004015"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description>
@@ -23,7 +23,7 @@ The RDF of the example in picture 3 would look like the following:
     the selector:
 
 {{{
-    <rdf:Description rdf:about="http://my.example.org/sel/20300">
+    <rdf:Description rdf:about="http://my.example.org/sn/000004015">
         <rdf:type rdf:resource="ImageSelector"/>
         ...
     </rdf:Description>
