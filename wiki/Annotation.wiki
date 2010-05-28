@@ -10,7 +10,7 @@ The annotation core has been strongly inspired by the model proposed by the [htt
 
 In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we maintain the same powerful mechanism to cover *much more than simple tagging: comments, notes, examples, erratum, definition, hypothesis, claims, research questions...*
 
-=== Annotation of an entire resource ===
+=== Annotation of an entire document/resource ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example of annotation on the whole document with AO. In this picture it has been depicted the document provenance that will be omitted in the next images to keep them simple. </b>
@@ -64,7 +64,7 @@ The RDF of the example in picture 1 would look like the following:
 }}}
 
 
-=== Annotation of a resource part ===
+=== Annotation of a document part ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2 - Example of text annotation with AO. Using Qualifier(s) is equivalent in performing tagging of a part of the document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
