@@ -18,21 +18,24 @@ In RDF the example in picture 1 would look like this:
     <rdf:Description rdf:about="http://my.example.org/ann/21332">
         <rdf:type rdf:resource="Qualifier"/>
         <ann:annotates rdf:resource="http://tinyurl.com/ykjn87p"/>
-        <hasTopic rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description> 
 }}}
 
-It is obviously possible to retrieve the info of the entities involved and these are:
+It is obviously possible to retrieve the info of the entities involved and these are the author:
 {{{
     <rdf:Description rdf:about="http://www.hcklab.org/foaf.rdf#me">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <foaf:name>Paolo Ciccarese</foaf:name>
     </rdf:Description> 
 
-    and 
+    and the PRO entry for beta-secretase 1:
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRO_000004615">
+        ...
+    </rdf:Description> 
 
 }}}
 
