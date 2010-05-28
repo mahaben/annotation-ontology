@@ -24,6 +24,18 @@ In RDF the example in picture 1 would look like this:
     </rdf:Description> 
 }}}
 
+It is obviously possible to retrieve the info of the entities involved and these are:
+{{{
+    <rdf:Description rdf:about="http://www.hcklab.org/foaf.rdf#me">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <foaf:name>Paolo Ciccarese</foaf:name>
+    </rdf:Description> 
+
+    and 
+
+
+}}}
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2 - Example of text annotation with AO. Using Qualifier(s) is equivalent in performing tagging of a part of the document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
 
