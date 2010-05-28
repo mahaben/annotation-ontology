@@ -15,7 +15,7 @@ Annotea was developed as a Web-based shared annotation system based on a general
 
 In the Annotea project have also been defined Bookmarks. Bookmarks are metadata about Web documents or other resources and share a similar structure with annotations (see figure 2).
 
-The core of AO is inspired by the Annotea model with a few remarkable differences:
+The core of AO is inspired by the Annotea model with a fewsome remarkable differences:
 
  * In AO we do not distinguish between Annotation and Bookmarks. The [Annotation Annotation Core] model is combining the two.
  * In AO the context is defined through instances of [Selectors Selector] classes.
