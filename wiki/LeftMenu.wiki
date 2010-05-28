@@ -5,6 +5,7 @@
  * [SourceDocument Source Documents]
  * [Selectors Document Selectors]
  * [Annotation Annotation Core]
+ * [AnnotationTypes Annotation Types]
  * [Curation Curation of Annotation]
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Document Annotation]
