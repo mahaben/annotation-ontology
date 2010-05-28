@@ -1,3 +1,5 @@
+In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we maintain the same powerful mechanism ([AnnotationTypes AO Annotation Types]) to cover *much more than simple tagging: comments, notes, examples, erratum, definition, hypothesis, claims, research questions...*
+
 === Annotation Type: Qualifier ===
 
 Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity - identified by a URI - has been used. 
