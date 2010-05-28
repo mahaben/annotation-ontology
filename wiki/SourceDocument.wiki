@@ -31,7 +31,7 @@ When web pages are stable, it is possible to refer to the foaf:Document only. Un
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Source%20Document%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3: Same document accessed in two different moments in time probably for two different annotation instances.</b>
 
-Translated in triples this would mean:
+Translated in triples this would be:
 
 {{{
    http://tinyurl.com/ykjn87p pav:sourceAccessedOn 2010-04-21
