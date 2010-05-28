@@ -63,6 +63,27 @@ It is obviously possible to retrieve the info about the entities involved:
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2 - Example of text annotation with AO. Using Qualifier(s) is equivalent in performing tagging of a part of the document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
 
+{{{
+    <rdf:Description rdf:about="http://my.example.org/ann/21300">
+        <rdf:type rdf:resource="Qualifier"/>
+        <ann:annotates rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ann:context rdf:resource="http://my.example.org/sel/10300"/>
+        <hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+        <pav:createdOn>2010-03-21</pav:createdOn>
+        <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+    </rdf:Description>
+
+    the selector
+
+    <rdf:Description rdf:about="http://my.example.org/sel/10300">
+        <rdf:type rdf:resource="PrefixPostfixSelector"/>
+        <exact>BACE1</exact>
+        <prefix>Cognitive and behavioral deficits related to</prefix>
+        <postfix>inhibition may be magnified in humans who</postfix>
+        <onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+    </rdf:Description>
+}}}
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3 - Example of image annotation with AO. Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity has been used. </b>
 
