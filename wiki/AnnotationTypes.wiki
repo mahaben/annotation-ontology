@@ -1,5 +1,7 @@
 In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we adopt a similar mechanism to cover *much more than simple tagging: comments, notes, examples, erratum, definition, hypothesis, claims, research questions...* all with respect to the existing ontologies.
 
+== Basic Types ==
+
 === Annotation Type: Qualifier ===
 
 Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity - identified by a URI - has been used. 
@@ -58,6 +60,8 @@ The RDF of the example in picture 4 would look like the following:
 
 === Annotation Type: Comment ===
 (TBD)
+
+== Integration with other ontologies ==
 
 === Annotation Type: SWAN Research Question ===
 (TBD)
