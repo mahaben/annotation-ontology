@@ -8,7 +8,7 @@ The annotation core has been strongly inspired by the model proposed by the [htt
  * [http://www.w3.org/2000/10/annotation-ns#context context]: Context within the resource named in annotates to which the annotation most directly applies.
  * [http://www.w3.org/2000/10/annotation-ns#body body]: The content of the annotation. Can include markup such has HTML markup.
 
-In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own In AO we adopt a similar mechanism   ([AnnotationTypes AO Annotation Types]) to cover *tagging, comments, notes, examples, erratum, definition, hypothesis, claims, research questions...* 
+In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own In AO we adopt a similar mechanism to cover *tagging, comments, notes, examples, erratum, definition, hypothesis, claims, research questions...* see [AnnotationTypes AO Annotation Types]
 
 === Annotation of an entire document/resource ===
 
