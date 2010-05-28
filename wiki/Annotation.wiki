@@ -73,7 +73,7 @@ It is obviously possible to retrieve the info about the entities involved:
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description>
 
-    the selector
+    the selector:
 
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
         <rdf:type rdf:resource="PrefixPostfixSelector"/>
