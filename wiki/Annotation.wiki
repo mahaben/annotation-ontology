@@ -86,9 +86,9 @@ The RDF of the example in picture 2 would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
         <rdf:type rdf:resource="PrefixPostfixSelector"/>
-        <exact>BACE1</exact>
-        <prefix>Cognitive and behavioral deficits related to</prefix>
-        <postfix>inhibition may be magnified in humans who</postfix>
+        <aosele:exact>BACE1</aosele:exact>
+        <aosele:prefix>Cognitive and behavioral deficits related to</aosele:prefix>
+        <aosele:postfix>inhibition may be magnified in humans who</aosele:postfix>
         <onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
     </rdf:Description>
 }}}
