@@ -38,4 +38,4 @@ Translated in triples this would be:
    http://tinyurl.com/ykjn87p pav:sourceAccessedOn 2010-05-26
 }}}
 
-As you can imagine this does not make a lot of sense as it will be impossible to understand what triple is associated with a specific annotation.
+As you can imagine this does not make a lot of sense as it will be impossible to understand what triple is associated with each specific annotation.
