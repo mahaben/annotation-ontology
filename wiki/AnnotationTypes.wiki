@@ -1,4 +1,4 @@
-In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we adopt a similar mechanism - is possible to create annotation types by sub-classing or by composition - to cover *much more than simple tagging: comments, notes, examples, erratum, definition, hypothesis, claims, research questions...* all with respect to the existing ontologies.
+In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we adopt a similar mechanism - it is possible to create annotation types by sub-classing or by composition - to cover *much more than simple tagging: comments, notes, examples, erratum, definition, hypothesis, claims, research questions...* all with respect to the existing ontologies.
 
 == Basic Types ==
 
