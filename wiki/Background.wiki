@@ -20,6 +20,7 @@ The core of AO is inspired by the Annotea model with a some remarkable differenc
  * In AO we do not distinguish between Annotation and Bookmarks. The [Annotation Annotation Core] model is combining the two.
  * In AO the context is defined through instances of document [Selectors Selector] classes. Selectors can refer to text, images, audio files, video files...
  * In AO if the annotation context is not specified, the annotation is about the whole document.
+ * In AO it is possible to create annotation types not only by sub-classing but also by composition.
  * In AO there are mechanisms for managing annotation curation
  * In AO there are mechanisms for managing collections of annotation items.
  * In AO there are mechanisms for managing annotation publishing
