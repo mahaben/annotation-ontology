@@ -83,7 +83,7 @@ The RDF of the example in picture 2 would look like the following:
     </rdf:Description>
 }}}
 
-    and the selector (PrefixPostfixSelector):
+    and the text selector (PrefixPostfixSelector):
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
@@ -91,6 +91,18 @@ The RDF of the example in picture 2 would look like the following:
         <aosel:exact>BACE1</aosel:exact>
         <aosel:prefix>Cognitive and behavioral deficits related to</aosel:prefix>
         <aosel:postfix>inhibition may be magnified in humans who</aosel:postfix>
+        <onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+    </rdf:Description>
+}}}
+
+    with a different text selector (OffsetRangeSelector):
+
+{{{
+    <rdf:Description rdf:about="http://my.example.org/sel/10300">
+        <rdf:type rdf:resource="PrefixPostfixSelector"/>
+        <aosel:exact>BACE1</aosel:exact>
+        <aosel:offset>765</aosel:offset>
+        <aosel:range>5</aosel:range>
         <onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
     </rdf:Description>
 }}}
