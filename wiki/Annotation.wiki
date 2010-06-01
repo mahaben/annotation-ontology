@@ -95,7 +95,7 @@ The RDF of the example in picture 2 would look like the following:
     </rdf:Description>
 }}}
 
-    with a different text selector (OffsetRangeSelector) it would have been:
+with a different text selector (OffsetRangeSelector) it would have been:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
