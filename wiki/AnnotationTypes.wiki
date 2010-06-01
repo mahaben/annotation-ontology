@@ -49,7 +49,7 @@ The RDF of the example in picture 4 would look like the following:
     </rdf:Description>
 }}}
 
-    the selector:
+the image selector:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/20300">
