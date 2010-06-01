@@ -83,7 +83,7 @@ The RDF of the example in picture 2 would look like the following:
     </rdf:Description>
 }}}
 
-    the selector:
+    and the selector (PrefixPostfixSelector):
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
