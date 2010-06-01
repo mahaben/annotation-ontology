@@ -95,11 +95,11 @@ The RDF of the example in picture 2 would look like the following:
     </rdf:Description>
 }}}
 
-    with a different text selector (OffsetRangeSelector):
+    with a different text selector (OffsetRangeSelector) it would have been:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
-        <rdf:type rdf:resource="PrefixPostfixSelector"/>
+        <rdf:type rdf:resource="OffsetRangeSelector"/>
         <aosel:exact>BACE1</aosel:exact>
         <aosel:offset>765</aosel:offset>
         <aosel:range>5</aosel:range>
