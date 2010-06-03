@@ -69,10 +69,6 @@ the image selector:
     </rdf:Description>
 }}}
 
-=== Annotation Type: Note ===
-
-
-
 === Annotation Type: Comment ===
 (TBD)
 
