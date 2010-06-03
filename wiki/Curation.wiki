@@ -35,7 +35,7 @@ the curation:
         <rdf:type rdf:resource="Curation"/>
         <ann:annotates rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
-        <pac:curates rdf:resource="http://my.example.org/ann/21332"/>
+        <pav:curates rdf:resource="http://my.example.org/ann/21332"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description> 
