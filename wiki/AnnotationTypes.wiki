@@ -23,7 +23,7 @@ The RDF of the example in picture 1 would look like the following:
     </rdf:Description>
 }}}
 
-the image selector:
+and the image selector:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/20300">
@@ -31,6 +31,8 @@ the image selector:
         ...
     </rdf:Description>
 }}}
+
+As you might notice, the annotation instance is declared of both type _Note_ and _Annotation_, this is common in RDF to allow querying without the need of inference.
 
 === Annotation Type: Erratum ===
 (TBD)
