@@ -5,10 +5,10 @@ Like it was happening in Annotea it is possible to create new types simply sub-c
 
 === Annotation Type: Note ===
 
-A note is a body of text/html attached to a document or part of it.
+A _Note_ is a body of text/html attached to a document or part of it. The class _Note_ is a subclass of the class _Annotation_.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20Annotation%20Note%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1 - Example of note in AO. As it was happening in Annotea, in AO we subclass the Annotation class into a more specific annotation class. In this case we have a Note regarding a portion of an image. An _Image Selector_ has been used.</b>
+<b>Figure 1 - Example of note in AO. As it was happening in Annotea, in AO we can subclass the Annotation class into a more specific annotation class. In this case we have a Note regarding a portion of an image. An _Image Selector_ has been used.</b>
 
 The RDF of the example in picture 4 would look like the following:
 {{{
