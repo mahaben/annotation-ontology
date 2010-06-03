@@ -9,8 +9,6 @@ Like it was happening in Annotea it is possible to create new types simply sub-c
 == Type by composition ==
 (TBD)
 
-== Basic Types ==
-
 === Annotation Type: Qualifier ===
 
 Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity - identified by a URI - has been used. 
