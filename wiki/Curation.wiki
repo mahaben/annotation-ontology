@@ -55,7 +55,7 @@ the curator:
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Multiple%20Curation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3 - Example of multiple curation.</b>
 
-the first curation:
+The first curation:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/cur/3472">
