@@ -3,7 +3,7 @@ In Annotea, annotations are typed. It is possible to subclass _Annotation_ into 
 == Type by sub-classing ==
 Like it was happening in Annotea it is possible to create new types simply sub-classing the Annotation class.
 
-=== Annotation Type: Post It ===
+=== Annotation Type: Note ===
 (TBD)
 
 === Annotation Type: Erratum ===
