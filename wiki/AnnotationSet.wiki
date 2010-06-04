@@ -28,7 +28,7 @@ the software:
 
 the annotation set:
 
-In figure 1, the set has a declared topic: "Protein". It could be possible to automatically verify that all the items in the set are actually proteins but this is left to the application level.
+In figure 1, the set has a declared topic: "Protein". It could be possible to automatically verify that all the items in the set are actually proteins but this is left to the application. Also, it is possible to associate multiple topics to the _AnnotationSet_ if it is necessay.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%202%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2: example of Annotation Set with multiple (3) Annotation items. For keeping the picture simple, many details about the annotation have been omitted.</b>
