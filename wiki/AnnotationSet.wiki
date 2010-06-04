@@ -26,6 +26,8 @@ the software:
     </rdf:Description> 
 }}}
 
+the annotation set:
+
 In figure 1, the set has a declared topic: "Protein". It would be possible to automatically verify that all the items in the set are actually proteins.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%202%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
