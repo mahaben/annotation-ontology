@@ -4,6 +4,28 @@ Annotation Set(s) are container of Annotation items. They are used to organize c
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1: example of Annotation Set with a single Annotation item.</b>
 
+The annotation:
+
+{{{
+    <rdf:Description rdf:about="http://my.example.org/ann/21332">
+        <rdf:type rdf:resource="Qualifier"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
+        <ann:annotates rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+        <pav:createdOn>2010-03-21</pav:createdOn>
+        <pav:createdBy rdf:resource="http://www.textmining.org/v1"/>
+    </rdf:Description> 
+}}}
+
+the software:
+
+{{{
+    <rdf:Description rdf:about="http://www.textmining.org/v1">
+        <rdf:type rdf:resource="http://purl.org/swan/1.2/agents/Software"/>
+        <foaf:name>My text mining v1</foaf:name>
+    </rdf:Description> 
+}}}
+
 In figure 1, the set has a declared topic: "Protein". It would be possible to automatically verify that all the items in the set are actually proteins.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%202%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
