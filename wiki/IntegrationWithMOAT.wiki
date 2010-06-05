@@ -16,13 +16,13 @@ The example inf figure 1:
     </rdf:Description> 
 }}}
 
-can be transposed in MOAT as:
+can be transposed in MOAT and the [http://www.holygoat.co.uk/projects/tags/ tag ontology] as:
 
 {{{
-<tag:RestrictedTagging>
-  <tag:taggedResource rdf:resource="http://my.example.org/ann/21332"/>
-  <foaf:maker rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
-  <tag:tagName>BACE1</tag:tagName>
-  <moat:tagMeaning rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
-</tag:RestrictedTagging>
+    <tag:RestrictedTagging>
+       <tag:taggedResource rdf:resource="http://my.example.org/ann/21332"/>
+       <foaf:maker rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+       <tag:tagName>BACE1</tag:tagName>
+       <moat:tagMeaning rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+    </tag:RestrictedTagging>
 }}}
