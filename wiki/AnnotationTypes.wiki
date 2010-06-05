@@ -76,7 +76,7 @@ the image selector:
 
 === Annotation Type: ... ===
 
-== Integration with other ontologies ==
+== Integration with the SWAN Discourse Elements ==
 
 === Annotation Type: SWAN Research Question ===
 
