@@ -35,7 +35,8 @@ and the image selector:
 As you might notice, the annotation instance is declared of both type _Note_ and _Annotation_, this is common in RDF to allow querying without the need of inference.
 
 === Annotation Type: Erratum ===
-(TBD)
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20Erratum%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 
 == Type by composition ==
 (TBD)
