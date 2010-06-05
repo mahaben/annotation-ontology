@@ -17,6 +17,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
  * [Pav Provenance, Authoring, Versioning] (TBD)
  * [Examples More Examples]
  * [IntegrationWithSIOC Integration with SIOC]
+ * [IntegrationWithMOAT Integration with MOAT]
  * [OMR Ontology for Media Resource 1.0] (TBD)
 
 === Related Ontologies ===
