@@ -37,6 +37,7 @@ As you might notice, the annotation instance is declared of both type _Note_ and
 === Annotation Type: Erratum ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20Erratum%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 2 - Example of erratum in AO. The text 'BACE' should be replaced by 'BACE1'. The content of the 'ann:body' can be also HTML.</b>
 
 == Type by composition ==
 (TBD)
