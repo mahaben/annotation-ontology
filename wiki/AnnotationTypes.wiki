@@ -55,7 +55,7 @@ The RDF of the erratum example:
 It would be possible also to develop different types of errata to cover all the possible cases.
 
 == Type by composition ==
-(TBD)
+Instead of subclassing the _Annotation_ class as it was happening in Annotea, it is also possible to define an instance of the annotation inheriting from multiple classes.
 
 === Annotation Type: Qualifier ===
 
