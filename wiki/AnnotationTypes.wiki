@@ -78,6 +78,8 @@ the image selector:
 
 == Integration with the SWAN Discourse Elements ==
 
+=== Annotation Type: SWAN Claim ===
+=== Annotation Type: SWAN Hypothesis ===
 === Annotation Type: SWAN Research Question ===
 
 {{{
