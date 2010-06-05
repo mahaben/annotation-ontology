@@ -6,6 +6,7 @@
  * [Selectors Document Selectors]
  * [Annotation Annotation Core]
  * [AnnotationTypes Annotation Types]
+   * [SWANDiscourse SWAN Integration]
  * [Curation Curation of Annotation]
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Document Annotation]
