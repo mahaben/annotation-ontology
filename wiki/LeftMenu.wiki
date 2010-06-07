@@ -13,5 +13,5 @@
  * [Pav Provenance, Authoring, Versioning]
  * [Examples More Examples]
  * [IntegrationWithSIOC Integration with SIOC]
- * [IntegrationWithMOAT Integration with MOAT]
+ * [IntegrationWithMOAT Integration with Tag Ontology and MOAT]
  * [OMR Ontology for Media Resource 1.0]
