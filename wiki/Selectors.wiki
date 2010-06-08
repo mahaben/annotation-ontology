@@ -9,7 +9,7 @@ A *Selector* identifies a portion of a resource, and may work differently for di
    * *Prefix Postfix Selector*: identifies a chunk of text specifying a reasonable amount of characters before it (prefix) and a reasonable amount of characters after it  (postfix) - [PrefixPostfixSelector read more about this selector]
 
  * *Image Selector*: identifies a portion of an image.
-   * *Init End Corner Selector*: identifies a rectangular region of an image through the definition of the top left and bottom right corners.
+   * *Init End Corner Selector*: identifies a rectangular region of an image through the definition of the top left and bottom right corners - [InitEndCornerSelector read more about this selector]
 
  * *Audio Selector*: identifies a section of an audio file.
 
