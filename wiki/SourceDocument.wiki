@@ -16,7 +16,7 @@ In general, the target document is identified by a URI. When performing annotati
     </rdf:Description> 
 
     <rdf:Description rdf:about="http://tinyurl.com/ykjn87p">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdf:type rdf:resource="&foaf;Document"/>
     </rdf:Description> 
 }}}
 
