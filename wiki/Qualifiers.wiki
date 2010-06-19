@@ -20,9 +20,11 @@ An <b>Exact Qualifier</b> is used when the object of the relationship ao:hasTopi
 
 === Qualifiers and SKOS ===
 
+Qualifier is one of the key annotation types in AO as it allows defining a parallelism between AO and the Simple Knowledge Organization System (SKOS) model. A Qualifier is defining a generic connection between the annotated entity and a semantic entity. This is mimicking the relationship skos:relatedMatch. Qualifier SKOS-compatible subclasses that are respectively: ExactQualifier, CloseQualifier, NarrowerQualifier and BroaderQualifier 
+
 || *Annotation Type* || *SKOS Property* || *Definition* ||
 || Qualifier || skos:relatedMatch || It expresses a relationship between the object of the annotation and a well-defined semantic entity. It allows also a free text body. If only the latter is present this is equivalent to a tag. ||
-|| Exact Qualifier || skos:exactMatch || Used when the object of the relationship ao:hasTopic is representing exactly the portion of the annotated document. ||
-|| Close Qualifier || skos:closeMatch || Used when the object of the relationship ao:hasTopic is representing closely but not exactly the portion of the annotated document. ||
-|| Broader Qualifier || skos:broaderMatch || Used when the object of the relationship ao:hasTopic is representing broadly the portion of the annotated document. ||
-|| Narrower Qualifier || skos:narrowerMatch || Used when the object of the relationship ao:hasTopic is representing a more specific entity than the portion of the annotated document. || 
+|| ExactQualifier || skos:exactMatch || Used when the object of the relationship ao:hasTopic is representing exactly the portion of the annotated document. ||
+|| CloseQualifier || skos:closeMatch || Used when the object of the relationship ao:hasTopic is representing closely but not exactly the portion of the annotated document. ||
+|| BroaderQualifier || skos:broaderMatch || Used when the object of the relationship ao:hasTopic is representing broadly the portion of the annotated document. ||
+|| NarrowerQualifier || skos:narrowerMatch || Used when the object of the relationship ao:hasTopic is representing a more specific entity than the portion of the annotated document. || 
