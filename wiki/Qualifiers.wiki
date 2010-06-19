@@ -17,3 +17,6 @@ An <b>Exact Qualifier</b> is used when the object of the relationship ao:hasTopi
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Exact%20Qualifier%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2 - Example of annotation of type Exact Qualifier. The portion of the document represent exactly the protein Beta-Secretase-1 from the PRotein Ontology (PRO).</b>
+
+|| *Annotation Type* || *SKOS Property* || Definition ||
+|| Qualifier || skos:relatedMatch || It expresses a relationship between the object of the annotation and a well-defined semantic entity. It allows also a free text body. If only the latter is present this is equivalent to a tag. ||
