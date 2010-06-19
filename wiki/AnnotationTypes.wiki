@@ -59,7 +59,7 @@ It would be possible also to develop different types of errata to cover all the 
 Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity - identified by a URI - has been used. 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1 - Example of annotation of type Qualifier. The annotation is performed on a section of an image.</b>
+<b>Figure 3 - Example of annotation of type Qualifier. The entire document is linked to the entity Beta-Secretase-1 from the PRotein Ontology (PRO). Defining a Qualifier means relating the annotated document - or part of it - and the semantic entity.</b>
 
 The RDF of the example in picture 3 would look like the following:
 {{{
