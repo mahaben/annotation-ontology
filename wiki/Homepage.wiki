@@ -11,6 +11,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
  * [Selectors Document Selectors]
  * [Annotation Annotation Core]
  * [AnnotationTypes Annotation Types]
+   * [Qualifiers Qualifiers and Integration with SKOS]
    * [SWANDiscourse Integration with SWAN Classes]
  * [Curation Curation of Annotation]
  * [AnnotationSet Annotation Set]
