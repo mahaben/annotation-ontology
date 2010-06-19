@@ -22,7 +22,7 @@ An <b>Exact Qualifier</b> is used when the object of the relationship ao:hasTopi
 
 || *Annotation Type* || *SKOS Property* || *Definition* ||
 || Qualifier || skos:relatedMatch || It expresses a relationship between the object of the annotation and a well-defined semantic entity. It allows also a free text body. If only the latter is present this is equivalent to a tag. ||
-|| ExactQualifier || skos:exactMatch || Used when the object of the relationship ao:hasTopic is representing exactly the portion of the annotated document. ||
-|| CloseQualifier || skos:closeMatch || Used when the object of the relationship ao:hasTopic is representing closely but not exactly the portion of the annotated document. ||
-|| BroaderQualifier || skos:broaderMatch || Used when the object of the relationship ao:hasTopic is representing broadly the portion of the annotated document. ||
-|| NarrowerQualifier || skos:narrowerMatch || Used when the object of the relationship ao:hasTopic is representing a more specific entity than the portion of the annotated document. || 
+|| Exact Qualifier || skos:exactMatch || Used when the object of the relationship ao:hasTopic is representing exactly the portion of the annotated document. ||
+|| Close Qualifier || skos:closeMatch || Used when the object of the relationship ao:hasTopic is representing closely but not exactly the portion of the annotated document. ||
+|| Broader Qualifier || skos:broaderMatch || Used when the object of the relationship ao:hasTopic is representing broadly the portion of the annotated document. ||
+|| Narrower Qualifier || skos:narrowerMatch || Used when the object of the relationship ao:hasTopic is representing a more specific entity than the portion of the annotated document. || 
