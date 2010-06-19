@@ -16,7 +16,16 @@ An <b>Exact Qualifier</b> is used when the object of the relationship ao:hasTopi
 </blockquote>
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Exact%20Qualifier%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 2 - Example of annotation of type Exact Qualifier. The portion of the document represent exactly the protein Beta-Secretase-1 from the PRotein Ontology (PRO).</b>
+<b>Figure 2 - Example of annotation of type Exact Qualifier. The protein Beta-Secretase-1 from the PRotein Ontology (PRO) represent exactly the annotated portion of the document </b>
+
+=== Annotation Type: Broader Qualifier ===
+
+<blockquote>
+A <b>Broader Qualifier</b> is used when the object of the relationship ao:hasTopic is representing broadly the portion of the annotated document.
+</blockquote>
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Broader%20Qualifier%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 3 - Example of annotation of type BroaderQualifier. The entity .</b>
 
 === Qualifiers and SKOS ===
 
