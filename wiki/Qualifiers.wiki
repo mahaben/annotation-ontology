@@ -27,6 +27,10 @@ A <b>Broader Qualifier</b> is used when the object of the relationship ao:hasTop
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Broader%20Qualifier%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3 - Example of annotation of type BroaderQualifier. The entity 'Skull Fracture' is a more generic concept representing the portion of the image which is a 'Linear Skull Fracture' as can be read in the ann:body.</b>
 
+=== Annotation Type: Narrower Qualifier ===
+
+=== Annotation Type: Close Qualifier ===
+
 === Qualifiers and SKOS ===
 
 Qualifier is one of the key annotation types in AO as it allows defining a parallelism between AO and the Simple Knowledge Organization System (SKOS) model. A Qualifier is defining a generic connection between the annotated entity and a semantic entity. This is mimicking the relationship skos:relatedMatch. Qualifier SKOS-compatible subclasses that are: ExactQualifier, CloseQualifier, NarrowerQualifier and BroaderQualifier; these correspond respectively to the SKOS properties: skos:exactMatch, skos:closeMatch, skos:broaderMatch and skos:narrowerMatch. See the following table for more details:
