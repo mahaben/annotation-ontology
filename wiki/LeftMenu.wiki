@@ -7,7 +7,7 @@
  * [Annotation Annotation Core]
  * [AnnotationTypes Annotation Types]
    * [Qualifiers Qualifiers and Integration with SKOS]
-   * [SWANDiscourse Integration with SWAN Classes]
+   * [SWANDiscourse Integration with SWAN]
  * [Curation Curation of Annotation]
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Document Annotation]
