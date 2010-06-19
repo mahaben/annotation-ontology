@@ -12,5 +12,5 @@ A <b>Qualifier</b> expresses a relationship between the object of the annotation
 === Annotation Type: Exact Qualifier ===
 
 <blockquote>
-An <b>ExactQualifier</b> is used when the object of the relationship ao:hasTopic is representing exactly the portion of the annotated document.
+An <b>Exact Qualifier</b> is used when the object of the relationship ao:hasTopic is representing exactly the portion of the annotated document.
 </blockquote>
