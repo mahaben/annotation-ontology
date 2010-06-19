@@ -29,7 +29,15 @@ A <b>Broader Qualifier</b> is used when the object of the relationship ao:hasTop
 
 === Annotation Type: Narrower Qualifier ===
 
+<blockquote>
+A <b>Narrower Qualifier</b> is used when the object of the relationship ao:hasTopic is representing a more specific entity than the portion of the annotated document.
+</blockquote>
+
 === Annotation Type: Close Qualifier ===
+
+<blockquote>
+A <b>Close Qualifier</b> is used when the object of the relationship ao:hasTopic is representing closely but not exactly the portion of the annotated document.
+</blockquote>
 
 === Qualifiers and SKOS ===
 
