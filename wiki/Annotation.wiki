@@ -10,6 +10,13 @@ The annotation core has been strongly inspired by the model proposed by the [htt
 
 In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own In AO we adopt a similar mechanism to cover *tagging, comments, notes, examples, erratum, definition, hypothesis, claims, research questions...* see [AnnotationTypes AO Annotation Types]
 
+Namespaces used below:
+
+|| ann || Annotea || ||
+|| ao || Annotation Core ||  http://purl.org/swan/annotation/||
+|| aos || Annotation Selectors || http://purl.org/swan/annotation-selectors/ ||
+|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
+
 === Annotation of an entire document/resource ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
