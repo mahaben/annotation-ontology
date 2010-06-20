@@ -90,12 +90,15 @@
     <owl:Class rdf:about="ImageSelector" rdfs:label="(ao-sel) Image Selector">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
+            An Image Selector identifies a portion of an image.
         </rdfs:comment>
     </owl:Class>
     
     <owl:Class rdf:about="InitEndCornerSelector" rdfs:label="(ao-sel) Image Init End Corner Selector">
     	<rdfs:subClassOf rdf:resource="ImageSelector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
+            An Image Selector where the portion of an image is identified by a rectangle that is specified
+            through the left upper corner and the bottom right corner.
         </rdfs:comment>
         
         <!-- init and end -->
