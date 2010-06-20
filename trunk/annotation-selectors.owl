@@ -144,7 +144,7 @@
     <owl:Class rdf:about="TextSelector" rdfs:label="(ao-sel) Text Selector">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
-        	A Text Selector identifies a string in a document. 
+            A Text Selector identifies a string in a document. 
         </rdfs:comment>
         
         <!-- exact match -->
@@ -158,17 +158,17 @@
     
     <owl:DatatypeProperty rdf:about="exact">
      	<rdfs:comment rdf:datatype="&xsd;string">
-     		The exact string - a linear sequence of characters - subject of the annotation.
+            The exact string - a linear sequence of characters - subject of the annotation.
         </rdfs:comment>
     </owl:DatatypeProperty>
     
     <owl:Class rdf:about="OffsetRangeTextSelector" rdfs:label="(ao-sel) Offest/Range Text Selector">
     	<rdfs:subClassOf rdf:resource="TextSelector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
-        	A Offset Range Text Selector identifies a string in a document through an offset 
-        	-  an integer indicating the distance (displacement) from the beginning of the document up until a 
-		    given element or point, within the same document - and a range - an integer indicating the number 
-		    of characters, starting from the offset, identified by the selector.
+            A Offset Range Text Selector identifies a string in a document through an offset 
+            -  an integer indicating the distance (displacement) from the beginning of the document up until a 
+            given element or point, within the same document - and a range - an integer indicating the number 
+            of characters, starting from the offset, identified by the selector.
         </rdfs:comment>
         
         <!-- offset and range -->
