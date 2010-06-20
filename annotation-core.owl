@@ -364,15 +364,4 @@
     <owl:DatatypeProperty rdf:about="status">
     </owl:DatatypeProperty>
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Integration
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-    <rdf:Description rdf:about="&ans;Annotation" rdfs:label="(annotea) Annotation">
-    </rdf:Description> 
-     
-
 </rdf:RDF>
