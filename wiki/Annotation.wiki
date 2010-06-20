@@ -105,6 +105,7 @@ and the text selector (PrefixPostfixSelector):
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
+        <rdf:type rdf:resource="&aos;TextSelector"/>
         <rdf:type rdf:resource="&aos;PrefixPostfixSelector"/>
         <aos:exact>BACE1</aos:exact>
         <aos:prefix>Cognitive and behavioral deficits related to</aos:prefix>
@@ -117,6 +118,7 @@ with a different text selector (OffsetRangeSelector) it would have been:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
+        <rdf:type rdf:resource="&aos;TextSelector"/>
         <rdf:type rdf:resource="&aos;OffsetRangeSelector"/>
         <aos:exact>BACE1</aos:exact>
         <aos:offset>765</aos:offset>
