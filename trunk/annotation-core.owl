@@ -166,6 +166,7 @@
     </owl:Class>
       	
     <owl:Class rdf:about="AnnotationCuration" rdfs:label="(ao) Annotation Curation">
+    	<rdfs:subClassOf rdf:resource="&pav-authoring;Curation"/>
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="Selector"/> 
         <owl:disjointWith rdf:resource="AnnotationSet"/> 
@@ -367,15 +368,6 @@
     </owl:ObjectProperty>
     
     <owl:DatatypeProperty rdf:about="status">
-    </owl:DatatypeProperty>
-    
-    <owl:DatatypeProperty rdf:about="exact">
-    </owl:DatatypeProperty>
-    
-    <owl:DatatypeProperty rdf:about="offset">
-    </owl:DatatypeProperty>
-    
-    <owl:DatatypeProperty rdf:about="range">
     </owl:DatatypeProperty>
 
     <!-- 
