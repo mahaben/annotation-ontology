@@ -5,6 +5,7 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 || Namespace || http://purl.org/swan/annotation-selectors/ ||
 || Prefix || aos ||
 
+
 === Classes Of Selectors ===
 
 *Selector* is a generic class that can be customized/sub-classed for the different kind of content types:
