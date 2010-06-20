@@ -41,7 +41,6 @@
     	<dct:creator rdf:resource="http://www.paolociccarese.info/foaf.rdf#me"/>
     	<dct:publisher rdf:resource="http://www.mindinformatics.org"/>
     	<dct:contributor rdf:datatype="&xsd;string">Paolo Ciccarese</dct:contributor>
-    	<dct:contributor rdf:datatype="&xsd;string">Marco Ocana</dct:contributor>
     	<dct:contributor rdf:datatype="&xsd;string">Leyla Jael García Castro</dct:contributor>
         <dct:created rdf:datatype="&xsd;string">April 12, 2010</dct:created>
         <dct:date rdf:datatype="&xsd;string">June 19, 2010</dct:date>
