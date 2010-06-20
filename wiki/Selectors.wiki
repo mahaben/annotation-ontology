@@ -5,7 +5,7 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 || Namespace || http://purl.org/swan/annotation-selectors/ ||
 || Prefix || aos ||
 
-Other namespaces:
+Other namespaces used below:
 
 || pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ || 
 
