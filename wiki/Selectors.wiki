@@ -1,6 +1,8 @@
 #labels annotation_ontology,ontology,selector,document_annotation,semantic_web,image_annotation
 A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also for a specific content type, multiple kind of selector can be defined to cover specific needs.
 
+[http://annotation-ontology.googlecode.com/svn/trunk/annotation-selectors.owl OWL Annotation Selectors File]
+
 === Classes Of Selectors ===
 
 *Selector* is a generic class that can be customized/sub-classed for the different kind of content types:
