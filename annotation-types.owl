@@ -82,7 +82,7 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Annotation Ontology Classes
+    // Annotation Type Qualifiers
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
@@ -91,7 +91,38 @@
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
     </owl:Class> 
+    
+    <owl:Class rdf:about="ExactQualifier" rdfs:label="(ao-type) Exact Qualifier">
+    	<rdfs:subClassOf rdf:resource="Qualifier"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+    </owl:Class> 
+   
+    <owl:Class rdf:about="CloseQualifier" rdfs:label="(ao-type) Close Qualifier">
+    	<rdfs:subClassOf rdf:resource="Qualifier"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+    </owl:Class> 
+    
+    <owl:Class rdf:about="NarrowerQualifier" rdfs:label="(ao-type) Narrower Qualifier">
+    	<rdfs:subClassOf rdf:resource="Qualifier"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+    </owl:Class> 
+    
+    <owl:Class rdf:about="BroaderQualifier" rdfs:label="(ao-type) Broader Qualifier">
+    	<rdfs:subClassOf rdf:resource="Qualifier"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+    </owl:Class> 
      
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation Type Comment
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
     <owl:Class rdf:about="Comment" rdfs:label="(ao-type) Comment">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Annotation"/>
         <rdfs:comment rdf:datatype="&xsd;string">
@@ -106,6 +137,13 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation Type Note
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
     <owl:Class rdf:about="Note" rdfs:label="(ao-type) Note">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Annotation"/>
         <rdfs:comment rdf:datatype="&xsd;string">
@@ -120,6 +158,13 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation Type Definition
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
     <owl:Class rdf:about="Definition" rdfs:label="(ao-type) Definition">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Annotation"/>
         <rdfs:comment rdf:datatype="&xsd;string">
@@ -134,6 +179,13 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation Type Example
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
     <owl:Class rdf:about="Example" rdfs:label="(ao-type) Example">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Annotation"/>
         <rdfs:comment rdf:datatype="&xsd;string">
@@ -147,22 +199,5 @@
             </owl:Restriction>
         </rdfs:subClassOf>	
     </owl:Class>
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation Ontology Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Integration
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-    
 
 </rdf:RDF>
