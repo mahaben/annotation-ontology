@@ -36,7 +36,7 @@ The RDF of the example in picture 1 would look like the following:
     <rdf:Description rdf:about="http://my.example.org/ann/21332">
         <rdf:type rdf:resource="Qualifier"/>
         <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
-        <ann:annotates rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
@@ -89,8 +89,8 @@ The RDF of the example in picture 2 would look like the following:
     <rdf:Description rdf:about="http://my.example.org/ann/21300">
         <rdf:type rdf:resource="Qualifier"/>
         <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
-        <ann:annotates rdf:resource="http://tinyurl.com/ykjn87p"/>
-        <ann:context rdf:resource="http://my.example.org/sel/10300"/>
+        <anf:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:context rdf:resource="http://my.example.org/sel/10300"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
