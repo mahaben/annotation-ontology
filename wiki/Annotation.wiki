@@ -17,6 +17,7 @@ Namespaces used below:
 || ao || Annotation Core ||  http://purl.org/swan/annotation/||
 || aos || Annotation Selectors || http://purl.org/swan/annotation-selectors/ ||
 || pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
+|| PRO || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
 
 <br/>
 
