@@ -2,11 +2,10 @@
 A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also for a specific content type, multiple kind of selector can be defined to cover specific needs.
 
 || OWL File || http://annotation-ontology.googlecode.com/svn/trunk/annotation-selectors.owl  ||
-|| Namespace || http://purl.org/swan/annotation-selectors/ ||
-|| Prefix || aos ||
 
-Other namespaces used below:
+Namespaces used below:
 
+|| aos || Annotation Selectors || http://purl.org/swan/annotation-selectors/ ||
 || pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ || 
 
 
