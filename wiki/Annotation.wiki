@@ -12,8 +12,8 @@ In Annotea, annotations are typed. It is possible to subclass _Annotation_ into 
 
 Namespaces used below:
 
-|| ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
 || foaf || FOAF || http://xmlns.com/foaf/0.1/ || 
+|| ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
 || ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
 || aos || *Annotation Selectors* || http://purl.org/swan/annotation-selectors/ ||
 || aot || *Annotation Selectors* || http://purl.org/swan/annotation-types/ ||
