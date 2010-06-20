@@ -22,7 +22,7 @@ Namespaces used below:
 || pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
 || PRO || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
 
-<br/>
+
 
 === Annotation of an entire document/resource ===
 
