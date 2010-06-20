@@ -84,7 +84,7 @@ The RDF of the example in picture 1 would look like the following:
 === Annotation of a document part ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 2 - Example of text annotation with AO. Using Qualifier(s) is equivalent in performing tagging of a part of the document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
+<b>Figure 2 - Example of text annotation with AO. Using Qualifier(s) is equivalent in performing tagging of a part of the document where, instead of a free text tag, a specific entity in this case from the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used. </b>
 
 The RDF of the example in picture 2 would look like the following:
 {{{
