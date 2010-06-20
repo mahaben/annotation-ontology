@@ -162,7 +162,7 @@
     </owl:Class>
       	
     <owl:Class rdf:about="AnnotationCuration" rdfs:label="(ao) Annotation Curation">
-    	<rdfs:subClassOf rdf:resource="&pav-authoring;Curation"/>
+    	<rdfs:subClassOf rdf:resource="&pav;Curation"/>
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="Selector"/> 
         <owl:disjointWith rdf:resource="AnnotationSet"/> 
