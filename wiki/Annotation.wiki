@@ -24,7 +24,7 @@ Namespaces used below:
 
 
 
-=== Annotation of an entire document/resource ===
+=== Annotation of an entire document ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example of annotation on the whole document with AO. In this picture it has been depicted the document provenance that will be omitted in the next images to keep them simple. </b>
