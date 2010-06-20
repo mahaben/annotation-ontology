@@ -363,5 +363,15 @@
     
     <owl:DatatypeProperty rdf:about="status">
     </owl:DatatypeProperty>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Integration
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <rdf:Description rdf:about="&pav;Curation" rdfs:label="(pav) Curation">
+    </rdf:Description> 
 
 </rdf:RDF>
