@@ -223,13 +223,13 @@
     
     <owl:DatatypeProperty rdf:about="prefix">
     	<rdfs:comment rdf:datatype="&xsd;string">
-		    A number of contiguos characters - string - before the exact match.
+			A number of contiguos characters - string - before the exact match.
 		</rdfs:comment>
     </owl:DatatypeProperty>
     
     <owl:DatatypeProperty rdf:about="postfix">
-    	rdfs:comment rdf:datatype="&xsd;string">
-		    A number of contiguos characters - string - after the exact match.
+    	<rdfs:comment rdf:datatype="&xsd;string">
+			A number of contiguos characters - string - after the exact match.
 		</rdfs:comment>
     </owl:DatatypeProperty>    
 
