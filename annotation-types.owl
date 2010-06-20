@@ -124,12 +124,28 @@
     	<rdfs:subClassOf rdf:resource="&annotation-core;Annotation"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>	
+        
+         <!-- body -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&annotation-core;body"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
     </owl:Class>
     
     <owl:Class rdf:about="Example" rdfs:label="(ao-type) Example">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Annotation"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
+        
+         <!-- body -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&annotation-core;body"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
     </owl:Class>
 
     <!-- 
