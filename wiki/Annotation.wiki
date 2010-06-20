@@ -89,6 +89,7 @@ The RDF of the example in picture 1 would look like the following:
 The RDF of the example in picture 2 would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/21300">
+        <rdf:type rdf:resource="&aot;ExactQualifier"/>
         <rdf:type rdf:resource="&aot;Qualifier"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
