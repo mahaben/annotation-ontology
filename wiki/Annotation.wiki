@@ -27,7 +27,8 @@ Namespaces used below:
 === Annotation of an entire document ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1 - Example of annotation on the whole document with AO. In this picture it has been depicted the document provenance that will be omitted in the next images to keep them simple. </b>
+<b>Figure 1 - Example of annotation on a whole document with AO. This kind of anntoation is really similar to a Tag with the difference that a semantically defined entity has been used instead of free text. The document provenance section will be omitted in the following examples to keep the pictures simple.
+</b>
 
 Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity in the [http://pir.georgetown.edu/pro/pro.shtml PRO ontology] has been used.
 
