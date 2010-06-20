@@ -3,6 +3,7 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 
 || OWL File || http://annotation-ontology.googlecode.com/svn/trunk/annotation-selectors.owl  ||
 || Namespace || http://purl.org/swan/annotation-selectors/ ||
+|| Prefix || aos ||
 
 === Classes Of Selectors ===
 
