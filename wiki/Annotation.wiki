@@ -36,6 +36,7 @@ The RDF of the example in picture 1 would look like the following:
     <rdf:Description rdf:about="http://my.example.org/ann/21332">
         <rdf:type rdf:resource="&aot;Qualifier"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
@@ -89,6 +90,7 @@ The RDF of the example in picture 2 would look like the following:
     <rdf:Description rdf:about="http://my.example.org/ann/21300">
         <rdf:type rdf:resource="&aot;Qualifier"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:context rdf:resource="http://my.example.org/sel/10300"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
