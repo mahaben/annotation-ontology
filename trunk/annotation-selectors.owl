@@ -42,8 +42,9 @@
     	<dct:publisher rdf:resource="http://www.mindinformatics.org"/>
     	<dct:contributor rdf:datatype="&xsd;string">Paolo Ciccarese</dct:contributor>
     	<dct:contributor rdf:datatype="&xsd;string">Marco Ocana</dct:contributor>
+    	<dct:contributor rdf:datatype="&xsd;string">Leyla Jael García Castro</dct:contributor>
         <dct:created rdf:datatype="&xsd;string">April 12, 2010</dct:created>
-        <dct:date rdf:datatype="&xsd;string">May 26, 2010</dct:date>
+        <dct:date rdf:datatype="&xsd;string">June 19, 2010</dct:date>
         <dct:format rdf:datatype="&xsd;string">rdf/xml</dct:format>    
     </owl:Ontology> 
   
@@ -83,7 +84,7 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Annotation Ontology Classes
+    // Image Selectors
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
@@ -93,15 +94,57 @@
         </rdfs:comment>
     </owl:Class>
     
+    <owl:Class rdf:about="InitEndCornerSelector" rdfs:label="(ao-sel) Image Init End Corner Selector">
+    	<rdfs:subClassOf rdf:resource="ImageSelector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+        
+        <!-- init and end -->
+	    <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="init"/>
+	            <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>	
+	     <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="end"/>
+	            <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>
+    </owl:Class>
+    
+	<owl:DatatypeProperty rdf:about="init">
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="end">
+    </owl:DatatypeProperty> 
+        
+        
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Audio Selectors
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->        
     <owl:Class rdf:about="AudioSelector" rdfs:label="(ao-sel) Audio Selector">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
     </owl:Class>
-    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Text Selectors
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
     <owl:Class rdf:about="TextSelector" rdfs:label="(ao-sel) Text Selector">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
+        	A Text Selector identifies a string in a document. 
         </rdfs:comment>
         
         <!-- exact match -->
@@ -113,9 +156,19 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
+    <owl:DatatypeProperty rdf:about="exact">
+     	<rdfs:comment rdf:datatype="&xsd;string">
+     		The exact string - a linear sequence of characters - subject of the annotation.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
     <owl:Class rdf:about="OffsetRangeTextSelector" rdfs:label="(ao-sel) Offest/Range Text Selector">
     	<rdfs:subClassOf rdf:resource="TextSelector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
+        	A Offset Range Text Selector identifies a string in a document through an offset 
+        	-  an integer indicating the distance (displacement) from the beginning of the document up until a 
+		    given element or point, within the same document - and a range - an integer indicating the number 
+		    of characters, starting from the offset, identified by the selector.
         </rdfs:comment>
         
         <!-- offset and range -->
@@ -133,9 +186,24 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
+    <owl:DatatypeProperty rdf:about="offset">
+    	<rdfs:comment rdf:datatype="&xsd;string">
+		    An integer indicating the distance (displacement) from the beginning of the document up until a 
+		    given element or point, within the same document.
+		</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="range">
+      	<rdfs:comment rdf:datatype="&xsd;string">
+		    An integer indicating the number of characters - starting from the offset - identified by the selector.
+		</rdfs:comment>  	
+    </owl:DatatypeProperty>
+    
     <owl:Class rdf:about="PrefixPostfixTextSelector" rdfs:label="(ao-sel) Prefix/Postfix Text Selector">
     	<rdfs:subClassOf rdf:resource="TextSelector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
+        	A Prefix Postfix Text Selector identifies a string in a document through the prefix - a number of contiguos characters 
+        	before the exact match - and a postfix - a number of contiguos characters after the exact match.
         </rdfs:comment>
         
         <!-- offset and range -->
@@ -145,34 +213,24 @@
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
-         <rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="postfix"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
     </owl:Class>
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation Ontology Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-    <owl:DatatypeProperty rdf:about="exact">
-    </owl:DatatypeProperty>
-    
-    <owl:DatatypeProperty rdf:about="offset">
-    </owl:DatatypeProperty>
-    
-    <owl:DatatypeProperty rdf:about="range">
-    </owl:DatatypeProperty>
     
     <owl:DatatypeProperty rdf:about="prefix">
+    	<rdfs:comment rdf:datatype="&xsd;string">
+		    A number of contiguos characters - string - before the exact match.
+		</rdfs:comment>
     </owl:DatatypeProperty>
     
     <owl:DatatypeProperty rdf:about="postfix">
-    </owl:DatatypeProperty>
+    	rdfs:comment rdf:datatype="&xsd;string">
+		    A number of contiguos characters - string - after the exact match.
+		</rdfs:comment>
+    </owl:DatatypeProperty>    
 
 </rdf:RDF>
