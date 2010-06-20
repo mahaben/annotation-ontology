@@ -10,20 +10,6 @@ The annotation core has been strongly inspired by the model proposed by the [htt
 
 In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own In AO we adopt a similar mechanism to cover *tagging, comments, notes, examples, erratum, definition, hypothesis, claims, research questions...* see [AnnotationTypes AO Annotation Types]
 
-Namespaces used below:
-
-|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
-|| ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
-|| ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
-|| aos || *Annotation Selectors* || http://purl.org/swan/annotation-selectors/ ||
-|| aot || *Annotation Selectors* || http://purl.org/swan/annotation-types/ ||
-|| aof || *Annotation Integration with FOAF* || http://purl.org/swan/annotation-foaf/ ||
-|| aoa || *Annotation Integration with Annotea* || http://purl.org/swan/annotation-annotea/ ||
-|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
-|| PRO || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
-
-
-
 === Annotation of an entire document ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
@@ -126,3 +112,17 @@ with a different text selector (OffsetRangeSelector) it would have been:
         <ao:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
     </rdf:Description>
 }}}
+
+=== Namespaces ===
+
+Namespaces used above:
+
+|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
+|| ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
+|| ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
+|| aos || *Annotation Selectors* || http://purl.org/swan/annotation-selectors/ ||
+|| aot || *Annotation Selectors* || http://purl.org/swan/annotation-types/ ||
+|| aof || *Annotation Integration with FOAF* || http://purl.org/swan/annotation-foaf/ ||
+|| aoa || *Annotation Integration with Annotea* || http://purl.org/swan/annotation-annotea/ ||
+|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
+|| PRO || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
