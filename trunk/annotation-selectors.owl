@@ -105,10 +105,22 @@
 	            <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
 	        </owl:Restriction>
 	    </rdfs:subClassOf>	
-	     <rdfs:subClassOf>
+	    <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="init"/>
+	            <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>
+	    <rdfs:subClassOf>
 	        <owl:Restriction>
 	            <owl:onProperty rdf:resource="end"/>
 	            <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>
+	    <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="end"/>
+	            <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
 	        </owl:Restriction>
 	    </rdfs:subClassOf>
     </owl:Class>
@@ -151,6 +163,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="exact"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exact"/>
+                <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
     </owl:Class>
