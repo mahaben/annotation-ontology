@@ -7,7 +7,7 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 
 Other namespaces:
 
-|| pav || http://purl.org/swan/pav/provenance/ || 
+|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ || 
 
 
 === Classes Of Selectors ===
