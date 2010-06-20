@@ -34,7 +34,7 @@ Using Qualifier(s) is equivalent in tagging a document where, instead of a free 
 The RDF of the example in picture 1 would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/21332">
-        <rdf:type rdf:resource="Qualifier"/>
+        <rdf:type rdf:resource="&aot;Qualifier"/>
         <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
@@ -87,8 +87,8 @@ The RDF of the example in picture 1 would look like the following:
 The RDF of the example in picture 2 would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/21300">
-        <rdf:type rdf:resource="Qualifier"/>
-        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
+        <rdf:type rdf:resource="&aot;Qualifier"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
         <anf:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:context rdf:resource="http://my.example.org/sel/10300"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
@@ -101,10 +101,10 @@ and the text selector (PrefixPostfixSelector):
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
-        <rdf:type rdf:resource="PrefixPostfixSelector"/>
-        <aosel:exact>BACE1</aosel:exact>
-        <aosel:prefix>Cognitive and behavioral deficits related to</aosel:prefix>
-        <aosel:postfix>inhibition may be magnified in humans who</aosel:postfix>
+        <rdf:type rdf:resource="&aos;PrefixPostfixSelector"/>
+        <aos:exact>BACE1</aos:exact>
+        <aos:prefix>Cognitive and behavioral deficits related to</aos:prefix>
+        <aos:postfix>inhibition may be magnified in humans who</aos:postfix>
         <onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
     </rdf:Description>
 }}}
@@ -113,10 +113,10 @@ with a different text selector (OffsetRangeSelector) it would have been:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
-        <rdf:type rdf:resource="OffsetRangeSelector"/>
-        <aosel:exact>BACE1</aosel:exact>
-        <aosel:offset>765</aosel:offset>
-        <aosel:range>5</aosel:range>
+        <rdf:type rdf:resource="&aos;OffsetRangeSelector"/>
+        <aos:exact>BACE1</aos:exact>
+        <aos:offset>765</aos:offset>
+        <aos:range>5</aos:range>
         <onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
     </rdf:Description>
 }}}
