@@ -15,7 +15,7 @@
     <!ENTITY pav "http://swan.mindinformatics.org/ontologies/1.2/pav/">
     
     <!-- Main namespace -->
-    <!ENTITY annotation-core "http://purl.org/swan/annotation-core/" >
+    <!ENTITY annotation-core "http://purl.org/swan/annotation/" >
     <!ENTITY annotation-annotea "http://purl.org/swan/annotation-annotea/" >
 ]>
 
