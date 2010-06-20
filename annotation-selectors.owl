@@ -145,6 +145,7 @@
     <owl:Class rdf:about="AudioSelector" rdfs:label="(ao-sel) Audio Selector">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
+            An Audio Selector identifies a portion of an audio file.
         </rdfs:comment>
     </owl:Class>
 
