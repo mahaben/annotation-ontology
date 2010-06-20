@@ -193,6 +193,10 @@
     </owl:Class>     
      
     <rdf:Description rdf:about="&foaf;Document" rdfs:label="(foaf) Document">
+        <owl:disjointWith rdf:resource="&annotation-core;AnnotationCuration"/>
+        <owl:disjointWith rdf:resource="&annotation-core;Selector"/>
+        <owl:disjointWith rdf:resource="&annotation-core;AnnotationSet"/>
+        <owl:disjointWith rdf:resource="&annotation-core;DocumentAnnotation"/>
     </rdf:Description>
     
     <rdf:Description rdf:about="&foaf;Agent" rdfs:label="(foaf) Agent">
