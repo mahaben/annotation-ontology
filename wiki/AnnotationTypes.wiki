@@ -70,9 +70,10 @@ A <b>Qualifier</b> expresses a relationship between the object of the annotation
 The RDF of the example in picture 3 would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
-        <rdf:type rdf:resource="Qualifier"/>
-        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
-        <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
+        <rdf:type rdf:resource="&aot;Qualifier"/>
+        <rdf:type rdf:resource="&ao;Annotation"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
+        <ao:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
