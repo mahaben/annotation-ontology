@@ -34,7 +34,8 @@ The text selector:
         <aos:exact>BACE1</aos:exact>
         <aos:prefix>Cognitive and behavioral deficits related to</aos:prefix>
         <aos:postfix>inhibition may be magnified in humans who</aos:postfix>
-        <ao:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:onSourceDocument rdf:resource="http://my.example.org/sd/1339"/>
     </rdf:Description>
 }}}
 
