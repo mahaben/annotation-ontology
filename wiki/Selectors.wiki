@@ -21,8 +21,8 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 
  * *Video Selector*: identifies a section of an video file.
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20and%20Text%20Selectors%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1 - Partial example of text and image generic selectors. In this image it is possible to detect a direct relationship between the selector and the resource and also an indirect one through the SourceDocument that is providing document access metadata. As previously specified - in the [SourceDocument Source Document] section - the indirect relationship could be omitted but it is not recommanded.</b>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20InitEndCorner%20Selector%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 3 - Example of image selector where a rectangular area within the document image is specified.</b>
 
 === Define New Selectors ===
 
