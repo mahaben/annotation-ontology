@@ -37,3 +37,12 @@ Translated in triples this would be:
 }}}
 
 As you can imagine this does not make a lot of sense as it will be impossible to understand what triple is associated with each specific annotation.
+
+=== Namespaces ===
+
+Namespaces used above:
+
+|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
+|| ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
+|| aof || *Annotation Integration with FOAF* || http://purl.org/swan/annotation-foaf/ ||
+|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
