@@ -73,7 +73,8 @@ The RDF of the example in picture 3 would look like the following:
         <rdf:type rdf:resource="&aot;Qualifier"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
-        <ao:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/35a6fnq"/>      
+        <ao:onSourceDocument rdf:resource="http://my.example.org/sd/2339"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
