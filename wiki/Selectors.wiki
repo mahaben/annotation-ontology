@@ -25,6 +25,8 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20PrefixPostfix%20Selector%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2 - Example of text selector where a chunk of text is identified through a prefix and a postfix.</b>
 
+The text selector:
+
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
         <rdf:type rdf:resource="&aos;TextSelector"/>
