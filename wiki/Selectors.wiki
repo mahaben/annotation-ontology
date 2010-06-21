@@ -24,6 +24,16 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20InitEndCorner%20Selector%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3 - Example of image selector where a rectangular area within the document image is specified.</b>
 
+{{{
+    <rdf:Description rdf:about="http://my.example.org/sel/22300">
+        <rdf:type rdf:resource="&aos;Selector"/>
+        <rdf:type rdf:resource="&aos;ImageSelector"/>
+        <rdf:type rdf:resource="&aos;InitEndCornerSelector"/>
+        <aos:init>(280,30)</aos:init>
+        <aos:end>(380,120)</aos:end>
+    </rdf:Description>
+}}}
+
 === Define New Selectors ===
 
 We are not assuming we are able to provide every possible way to select any part of a any kind of document. Therefore, if the selector you have in mind is not yet existing, it is sufficient to define a new one sub-classing one of the existing *Selector* classes.
