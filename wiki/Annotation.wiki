@@ -10,6 +10,8 @@ The annotation core has been strongly inspired by the model proposed by the [htt
 
 In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own In AO we adopt a similar mechanism to cover *tagging, comments, notes, examples, erratum, definition, hypothesis, claims, research questions...* see [AnnotationTypes AO Annotation Types]
 
+|| OWL File || http://annotation-ontology.googlecode.com/svn/trunk/annotation-core.owl  ||
+
 === Annotation of an entire document ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
