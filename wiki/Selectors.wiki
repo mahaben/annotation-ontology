@@ -3,12 +3,6 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 
 || OWL File || http://annotation-ontology.googlecode.com/svn/trunk/annotation-selectors.owl  ||
 
-Namespaces used below:
-
-|| aos || Annotation Selectors || http://purl.org/swan/annotation-selectors/ ||
-|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ || 
-
-
 === Classes Of Selectors ===
 
 *Selector* is a generic class that can be customized/sub-classed for the different kind of content types:
