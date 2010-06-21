@@ -1,6 +1,6 @@
 In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we adopt a similar mechanism - it is possible to create annotation types by sub-classing or by composition - to cover *much more than simple tagging: comments, notes, examples, erratum, definition, hypothesis, claims, research questions...* all with respect to the existing ontologies.
 
-== Type by sub-classing ==
+== Types by sub-classing ==
 Like it was happening in Annotea it is possible to create new types simply sub-classing the Annotation class.
 
 === Annotation Type: Note ===
@@ -83,5 +83,5 @@ the image selector:
     </rdf:Description>
 }}}
 
-== Type by composition ==
+== Types by composition ==
 Instead of subclassing the _Annotation_ class as it was happening in Annotea, it is also possible to define an instance of the annotation inheriting from multiple classes. This approach allows for instance to easily integrate the existing _Discourse Elements_ classes of the [http://swan.mindinformatics.org/ontology.html SWAN ontology] in the Annotation Ontology (see [SWANDiscourse Integration with SWAN])
