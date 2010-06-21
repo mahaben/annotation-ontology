@@ -49,3 +49,13 @@ The source document:
 === Define New Selectors ===
 
 We are not assuming we are able to provide every possible way to select any part of a any kind of document. Therefore, if the selector you have in mind is not yet existing, it is sufficient to define a new one sub-classing one of the existing *Selector* classes.
+
+=== Namespaces ===
+
+Namespaces used above:
+
+|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
+|| ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
+|| aos || *Annotation Selectors* || http://purl.org/swan/annotation-selectors/ ||
+|| aof || *Annotation Integration with FOAF* || http://purl.org/swan/annotation-foaf/ ||
+|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
