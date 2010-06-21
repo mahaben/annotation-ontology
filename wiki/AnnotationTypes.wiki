@@ -86,7 +86,7 @@ the source document:
     <rdf:Description rdf:about="http://my.example.org/sd/2339">
         <rdf:type rdf:resource="&pav;SourceDocument"/>
         <pav:retrievedFrom rdf:resource="http://tinyurl.com/35a6fnq"/>
-        <pav:sourceAccessedOn>2010-03-21</pav:sourceAccessedOn>
+        <pav:sourceAccessedOn>2010-03-26</pav:sourceAccessedOn>
     </rdf:Description> 
 }}}
 
