@@ -62,7 +62,7 @@ It would be possible also to develop different types of errata to cover all the 
 
 === Annotation Type: Qualifier ===
 
-A <b>Qualifier</b> expresses a relationship between the object of the annotation and a well-defined semantic entity. It allows also a free text body. If only the latter is present this is equivalent to a classic tag.
+A <b>Qualifier</b> expresses a relationship between the object of the annotation and a well-defined semantic entity. It allows also a free text body. If only the latter is present this is equivalent to a classic tag. For more info on qualifiers see [Qualifiers Qualifiers and Integration with SKOS].
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3 - Example of annotation of type Qualifier. The entire document is linked to the entity Beta-Secretase-1 from the PRotein Ontology (PRO). Defining a Qualifier means relating the annotated document - or part of it - and the semantic entity.</b>
