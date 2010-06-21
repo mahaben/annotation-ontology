@@ -16,6 +16,7 @@ The RDF of the example in picture 1 would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
         <rdf:type rdf:resource="&aot;Note"/>
+        <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <aof:annotatesDocuemnt rdf:resource="http://tinyurl.com/35a6fnq"/>
         <ao:context rdf:resource="http://my.example.org/sel/20300"/>
