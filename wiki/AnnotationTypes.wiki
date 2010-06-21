@@ -29,6 +29,7 @@ and the image selector:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/20300">
+        <rdf:type rdf:resource="&aos;Selector"/>
         <rdf:type rdf:resource="&aos;ImageSelector"/>
         <rdf:type rdf:resource="&aos;InitEndCornerSelector"/>
         ...
