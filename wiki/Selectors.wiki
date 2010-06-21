@@ -24,6 +24,8 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20InitEndCorner%20Selector%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3 - Example of image selector where a rectangular area within the document image is specified.</b>
 
+The image selector:
+
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/22300">
         <rdf:type rdf:resource="&aos;Selector"/>
@@ -33,6 +35,8 @@ A *Selector* identifies a portion of a resource, and may work differently for di
         <aos:end>(380,120)</aos:end>
     </rdf:Description>
 }}}
+
+The source document:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sd/2339">
