@@ -31,6 +31,7 @@ The image selector:
         <rdf:type rdf:resource="&aos;Selector"/>
         <rdf:type rdf:resource="&aos;ImageSelector"/>
         <rdf:type rdf:resource="&aos;InitEndCornerSelector"/>
+        <aof:onDocument rdf:resource="http://my.example.org/sd/2339"/>
         <aos:init>(280,30)</aos:init>
         <aos:end>(380,120)</aos:end>
     </rdf:Description>
