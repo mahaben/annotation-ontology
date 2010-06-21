@@ -39,6 +39,8 @@ The text selector:
     </rdf:Description>
 }}}
 
+The source document: 
+
 {{{
     <rdf:Description rdf:about="http://my.example.org/sd/2332">
         <rdf:type rdf:resource="&pav;SourceDocument"/>
