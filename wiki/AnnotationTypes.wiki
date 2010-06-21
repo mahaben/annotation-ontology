@@ -48,10 +48,11 @@ As you might notice, the annotation instance is declared of both type _Note_ and
 The RDF of the erratum example:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
-        <rdf:type rdf:resource="Erratum"/>
-        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
-        <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
-        <ann:context rdf:resource="http://my.example.org/sel/20300"/>
+        <rdf:type rdf:resource="&aot;Erratum"/>
+        <rdf:type rdf:resource="&ao;Annotation"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/35a6fnq"/>
+        <ao:context rdf:resource="http://my.example.org/sel/20300"/>
         <ann:body>BACE1</ann:body>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
