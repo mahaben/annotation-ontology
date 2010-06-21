@@ -35,8 +35,16 @@ The text selector:
         <aos:prefix>Cognitive and behavioral deficits related to</aos:prefix>
         <aos:postfix>inhibition may be magnified in humans who</aos:postfix>
         <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
-        <ao:onSourceDocument rdf:resource="http://my.example.org/sd/1339"/>
+        <ao:onSourceDocument rdf:resource="http://my.example.org/sd/2332"/>
     </rdf:Description>
+}}}
+
+{{{
+    <rdf:Description rdf:about="http://my.example.org/sd/2332">
+        <rdf:type rdf:resource="&pav;SourceDocument"/>
+        <pav:retrievedFrom rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <pav:sourceAccessedOn>2010-05-10</pav:sourceAccessedOn>
+    </rdf:Description> 
 }}}
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20InitEndCorner%20Selector%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
