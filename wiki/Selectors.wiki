@@ -21,6 +21,10 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 
  * *Video Selector*: identifies a section of an video file.
 
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Text%20PrefixPostfix%20Selector%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 2 - Example of text selector where a chunk of text is identified through a prefix and a postfix.</b>
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Image%20InitEndCorner%20Selector%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3 - Example of image selector where a rectangular area within the document image is specified.</b>
 
