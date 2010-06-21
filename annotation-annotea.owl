@@ -99,8 +99,12 @@
     	<rdfs:subPropertyOf rdf:resource="&ans;body" />
     </owl:ObjectProperty>
     
-    <owl:ObjectProperty rdf:about="&annotation-core;annotates">
+    <owl:ObjectProperty rdf:about="&annotation-core;annotatesResource">
     	<rdfs:subPropertyOf rdf:resource="&ans;annotates" />
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="&annotation-core;context">
+    	<rdfs:subPropertyOf rdf:resource="&ans;context" />
     </owl:ObjectProperty>
     
     <rdf:Description rdf:about="&ans;Annotation" rdfs:label="(annotea) Annotation">

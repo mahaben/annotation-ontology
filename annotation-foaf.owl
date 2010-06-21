@@ -88,10 +88,15 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
     
-    <owl:ObjectProperty rdf:about="&annotation-core;annotatesDocument">
-    	<rdfs:subPropertyOf rdf:resource="&annotation-core;annotates" />
+    <owl:ObjectProperty rdf:about="&aof;annotatesDocument">
+    	<rdfs:subPropertyOf rdf:resource="&annotation-core;annotatesResource" />
     	<rdfs:domain rdf:resource="&annotation-core;Annotation" />
     	<rdfs:range rdf:resource="&foaf;Document" />
+    </owl:ObjectProperty>
+
+	<owl:ObjectProperty rdf:about="&aof;onDocument">
+		<rdfs:subPropertyOf rdf:resource="&ao;onResource" />
+		<rdfs:range rdf:resource="&foaf;Document" />
     </owl:ObjectProperty>
 
     <!-- 

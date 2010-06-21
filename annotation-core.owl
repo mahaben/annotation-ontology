@@ -105,7 +105,7 @@
         <!-- annotates -->
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="annotates"/>
+                <owl:onProperty rdf:resource="annotatesResource"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
@@ -113,7 +113,7 @@
         <!-- selector -->
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="selector"/>
+                <owl:onProperty rdf:resource="context"/>
                 <owl:allValuesFrom>
                     <owl:Class rdf:about="Selector"/>
                 </owl:allValuesFrom>
@@ -121,7 +121,7 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="selector"/>
+                <owl:onProperty rdf:resource="context"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -342,8 +342,8 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <owl:ObjectProperty rdf:about="onDocument">
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="onResource">
+    </owl:ObjectProperty> 
     
     <owl:ObjectProperty rdf:about="onSourceDocument">
     </owl:ObjectProperty>
@@ -354,15 +354,17 @@
     <owl:ObjectProperty rdf:about="body">
     </owl:ObjectProperty>
     
-    <owl:ObjectProperty rdf:about="annotates">
-    </owl:ObjectProperty>
-    
     <owl:ObjectProperty rdf:about="curates">
         <owl:inverseOf rdf:resource="curatedBy" />
     </owl:ObjectProperty>
     
     <owl:DatatypeProperty rdf:about="status">
     </owl:DatatypeProperty>
+    
+    <owl:ObjectProperty rdf:about="context">
+    	<rdfs:domain rdf:resource="Annotation" />
+    	<rdfs:range rdf:resource="Selector" />
+    </owl:ObjectProperty>
     
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
