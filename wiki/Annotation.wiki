@@ -98,7 +98,8 @@ and the text selector (PrefixPostfixSelector):
         <aos:exact>BACE1</aos:exact>
         <aos:prefix>Cognitive and behavioral deficits related to</aos:prefix>
         <aos:postfix>inhibition may be magnified in humans who</aos:postfix>
-        <ao:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:onSourceDocument rdf:resource="http://my.example.org/sd/1339"/>
+        <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
     </rdf:Description>
 }}}
 
@@ -111,7 +112,8 @@ with a different text selector (OffsetRangeSelector) it would have been:
         <aos:exact>BACE1</aos:exact>
         <aos:offset>765</aos:offset>
         <aos:range>5</aos:range>
-        <ao:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:onSourceDocument rdf:resource="http://my.example.org/sd/1339"/>
+        <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
     </rdf:Description>
 }}}
 
