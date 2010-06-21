@@ -1,5 +1,7 @@
 In Annotea, annotations are typed. It is possible to subclass _Annotation_ into more specific annotation classes with their own properties. In AO we adopt a similar mechanism - it is possible to create annotation types by sub-classing or by composition - to cover *much more than simple tagging: comments, notes, examples, erratum, definition, hypothesis, claims, research questions...* all with respect to the existing ontologies.
 
+|| OWL File || http://annotation-ontology.googlecode.com/svn/trunk/annotation-types.owl  ||
+
 == Types by sub-classing ==
 Like it was happening in Annotea it is possible to create new types simply sub-classing the Annotation class.
 
