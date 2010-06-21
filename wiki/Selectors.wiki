@@ -5,10 +5,14 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 
 === Classes Of Selectors ===
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Reference%20to%20part%20of%20documents%20-%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 1: This is how documents parts will be visually depicted in the rest of the documentation.</b>
+
 *Selector* is a generic class that can be customized/sub-classed for the different kind of content types:
+
  * *Text Selector*: identifies a chunk of a text. Some sub-types:
-   * *Offset Range Selector*: identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset - [OffsetRangeSelector read more about this selector]
-   * *Prefix Postfix Selector*: identifies a chunk of text specifying a reasonable amount of characters before it (prefix) and a reasonable amount of characters after it  (postfix) - [PrefixPostfixSelector read more about this selector]
+     * *Offset Range Selector*: identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset - [OffsetRangeSelector read more about this selector]
+     * *Prefix Postfix Selector*: identifies a chunk of text specifying a reasonable amount of characters before it (prefix) and a reasonable amount of characters after it  (postfix) - [PrefixPostfixSelector read more about this selector]
 
  * *Image Selector*: identifies a portion of an image.
    * *Init End Corner Selector*: identifies a rectangular region of an image through the definition of the top left and bottom right corners - [InitEndCornerSelector read more about this selector]
