@@ -15,10 +15,10 @@ A *Note* is a body of text/html attached to a document or part of it. The class 
 The RDF of the example in picture 1 would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
-        <rdf:type rdf:resource="Note"/>
-        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
-        <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
-        <ann:context rdf:resource="http://my.example.org/sel/20300"/>
+        <rdf:type rdf:resource="&aot;Note"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
+        <aof:annotatesDocuemnt rdf:resource="http://tinyurl.com/35a6fnq"/>
+        <ao:context rdf:resource="http://my.example.org/sel/20300"/>
         <ann:body>This visual cluster is probably representing the Foo Community</ann:body>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
@@ -29,7 +29,8 @@ and the image selector:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/20300">
-        <rdf:type rdf:resource="ImageSelector"/>
+        <rdf:type rdf:resource="&aos;ImageSelector"/>
+        <rdf:type rdf:resource="&aos;InitEndCornerSelector"/>
         ...
     </rdf:Description>
 }}}
