@@ -25,7 +25,7 @@ A <b>Broader Qualifier</b> is used when the object of the relationship ao:hasTop
 </blockquote>
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Broader%20Qualifier%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 3 - Example of annotation of type BroaderQualifier. The entity 'Skull Fracture' is a more generic concept representing the portion of the image which is a 'Linear Skull Fracture' as can be read in the ann:body.</b>
+<b>Figure 3 - Example of annotation of type BroaderQualifier. The entity 'Skull Fracture' is a more generic concept representing the portion of the image which is tagged as a 'Linear Skull Fracture' as can be read in the ann:body.</b>
 
 === Annotation Type: Narrower Qualifier ===
 
