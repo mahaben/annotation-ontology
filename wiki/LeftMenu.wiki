@@ -2,7 +2,7 @@
 
  * [Homepage]
  * [Background]
- * [Use Cases]
+ * [UseCases Use Cases]
  * [SourceDocument Source Documents]
  * [Selectors Document Selectors]
  * [Annotation Annotation Core]
