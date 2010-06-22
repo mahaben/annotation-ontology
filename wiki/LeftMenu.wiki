@@ -6,7 +6,7 @@
  * [Selectors Document Selectors]
  * [Annotation Annotation Core]
  * [AnnotationTypes Annotation Types]
-   * [Qualifiers Qualifiers and Integration with SKOS]
+   * [Qualifiers Qualifiers]
    * [SKOS Integration with SKOS]
    * [SWANDiscourse Integration with SWAN]
  * [Curation Curation of Annotation]
