@@ -5,3 +5,6 @@ With AO (Annotation Ontology) we would like to:
  * Persist the annotation separately from the document
  * Allow creation of manual annotation and integration of text mining results
  * Allow multiple annotation perspectives on the document at the same time
+ * Allow curation of manual annotation - by curators or by an online community
+ * Allow curation of automatic annotation and provide feedback to the service provider
+ * Allow organizing the annotation in sets
