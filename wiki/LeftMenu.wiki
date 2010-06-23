@@ -1,9 +1,9 @@
 #summary Left Navigation Menu
 
  * [Homepage]
- * [Background]
  * [Requirements Requirements]
  * [UseCases Use Cases]
+ * [Background Starting from Annotea]
  * [SourceDocument Source Documents]
  * [Selectors Document Selectors]
  * [Annotation Annotation Core]
