@@ -1,6 +1,6 @@
 With AO (Annotation Ontology) we would like to:
 
- * Annotate any document on the web (text, images, audio, video) and it’s parts. Unfortunately, if documents are easily identified by a URI, document parts or fragment are harder to identify. We would like to create a uniform mechanism to refer to all kinds of document parts.
+ * *Annotate any document on the web (text, images, audio, video) and it’s parts*. Unfortunately, if documents are easily identified by a URI, document parts or fragment are harder to identify. We would like to create a uniform mechanism to refer to all kinds of document parts.
  * Perform different kind of annotations: notes, semantic tags, errata, examples, hypothesis…
  * Persist the annotation separately from the document
  * Allow creation of manual annotation and integration of text mining results
