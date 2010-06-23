@@ -1,3 +1,0 @@
-#summary Requirements and Use Cases (TBD)
-
-== Requirements and Use Cases ==
