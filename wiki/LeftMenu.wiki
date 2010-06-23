@@ -11,6 +11,7 @@
    * [Qualifiers Qualifiers]
    * [SKOS Integration with SKOS]
    * [SWANDiscourse Integration with SWAN]
+   * [CiTO Integration with CiTO]
  * [Curation Curation of Annotation]
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Document Annotation]
