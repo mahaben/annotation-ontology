@@ -1,3 +1,7 @@
 With AO (Annotation Ontology) we would like to:
 
- * ....
+ * Annotate any document on the web (text, images, audio, video) and it’s parts
+ * Perform different kind of annotations: notes, semantic tags, errata, examples, hypothesis…
+ * Persist the annotation separately from the document
+ * Allow creation of manual annotation and integration of text mining results
+ * Allow multiple annotation perspectives on the document at the same time
