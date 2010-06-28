@@ -54,6 +54,7 @@ An <b>Exact Qualifier</b> is used when the object of the relationship ao:hasTopi
 The RDF of the example would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/21332">
+        <rdf:type rdf:resource="&aot;ExactQualifier"/>
         <rdf:type rdf:resource="&aot;Qualifier"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
