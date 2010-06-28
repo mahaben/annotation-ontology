@@ -78,7 +78,7 @@ The first curation:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/cur/3472">
-        <rdf:type rdf:resource="Curation"/>
+        <rdf:type rdf:resource="&pav;Curation"/>
         <pav:curates rdf:resource="http://my.example.org/ann/21332"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
@@ -89,7 +89,7 @@ the second curation:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/cur/3473">
-        <rdf:type rdf:resource="Curation"/>
+        <rdf:type rdf:resource="&pav;Curation"/>
         <pav:curates rdf:resource="http://my.example.org/ann/21332"/>
         <pav:previousCuration rdf:resource="http://my.example.org/cur/3472" />
         <pav:createdOn>2010-03-22</pav:createdOn>
@@ -101,7 +101,7 @@ the third curation:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/cur/3474">
-        <rdf:type rdf:resource="Curation"/>
+        <rdf:type rdf:resource="&pav;Curation"/>
         <pav:curates rdf:resource="http://my.example.org/ann/21332"/>
         <pav:previousCuration rdf:resource="http://my.example.org/cur/3473" />
         <pav:createdOn>2010-03-23</pav:createdOn>
