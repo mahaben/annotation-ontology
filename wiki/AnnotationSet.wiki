@@ -8,9 +8,10 @@ The annotation:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/21332">
-        <rdf:type rdf:resource="Qualifier"/>
-        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
-        <ann:annotates rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
+        <rdf:type rdf:resource="&ao;Annotation"/>
+        <rdf:type rdf:resource="&aot;Qualifier"/>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.textmining.org/v1"/>
@@ -23,6 +24,21 @@ the software:
     <rdf:Description rdf:about="http://www.textmining.org/v1">
         <rdf:type rdf:resource="http://purl.org/swan/1.2/agents/Software"/>
         <foaf:name>My text mining v1</foaf:name>
+    </rdf:Description> 
+}}}
+
+{{{
+    <rdf:Description rdf:about="http://my.example.org/set/21332">
+        <rdf:type rdf:resource="&ao;AnnotationSet"/>
+        <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:item rdf:resource="http://my.example.org/ann/21332"/>
+        <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000000001"/>
+        <pav:createdOn>2010-03-21</pav:createdOn>
+        <pav:createdBy rdf:resource="http://www.textmining.org/v1"/>
+        <pav:lastUpdatedOn>2010-03-21</pav:createdOn>
+        <pav:lastUpdatedBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+        <pav:versionNumber>10</pav:versionNumber>
+        <pav:previousVersion rdf:resource="http://my.example.org/set/20332"/>
     </rdf:Description> 
 }}}
 
