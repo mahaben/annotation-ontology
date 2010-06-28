@@ -51,7 +51,7 @@ The RDF of the erratum example:
         <rdf:type rdf:resource="&aot;Erratum"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
-        <aof:annotatesDocument rdf:resource="http://tinyurl.com/35a6fnq"/>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:context rdf:resource="http://my.example.org/sel/20300"/>
         <ann:body>BACE1</ann:body>
         <pav:createdOn>2010-03-21</pav:createdOn>
