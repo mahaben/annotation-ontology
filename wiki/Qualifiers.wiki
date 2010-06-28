@@ -70,6 +70,7 @@ the text selector:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
+        <rdf:type rdf:resource="&aos;Selector"/>
         <rdf:type rdf:resource="&aos;TextSelector"/>
         <rdf:type rdf:resource="&aos;PrefixPostfixSelector"/>
         <aos:exact>BACE1</aos:exact>
