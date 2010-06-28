@@ -27,6 +27,8 @@ the software:
     </rdf:Description> 
 }}}
 
+the annotation set:
+
 {{{
     <rdf:Description rdf:about="http://my.example.org/set/21332">
         <rdf:type rdf:resource="&ao;AnnotationSet"/>
@@ -41,8 +43,6 @@ the software:
         <pav:previousVersion rdf:resource="http://my.example.org/set/20332"/>
     </rdf:Description> 
 }}}
-
-the annotation set:
 
 In figure 1, the set has a declared topic: "Protein". It could be possible to automatically verify that all the items in the set are actually proteins but this is left to the application. Also, it is possible to associate multiple topics to the _AnnotationSet_ if it is necessary.
 
