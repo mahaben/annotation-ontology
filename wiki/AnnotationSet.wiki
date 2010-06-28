@@ -73,8 +73,6 @@ The annotation:
     </rdf:Description>
 }}}
 
-the software:
-
 the annotation set:
 
 {{{
