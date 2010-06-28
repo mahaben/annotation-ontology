@@ -47,7 +47,7 @@ the annotation set:
 In figure 1, the set has a declared topic: "Protein". It could be possible to automatically verify that all the items in the set are actually proteins but this is left to the application. Also, it is possible to associate multiple topics to the _AnnotationSet_ if it is necessary.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%201%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 2: example of Annotation Set with two Annotation items.</b>
+<b>Figure 2: example of Annotation Set with two Annotation items. Even if a pav:createdBy connection has been omitted both annotations have been produced by the text mining service.</b>
 
 The annotation:
 
