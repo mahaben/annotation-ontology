@@ -19,7 +19,7 @@ The RDF of the example in picture 1 would look like the following:
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/37jn32r"/>
-        <ao:context rdf:resource="http://my.example.org/sel/20300"/>
+        <aos:context rdf:resource="http://my.example.org/sel/20300"/>
         <ann:body>This visual cluster is probably representing the Foo Community</ann:body>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
@@ -53,7 +53,7 @@ The RDF of the erratum example:
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
-        <ao:context rdf:resource="http://my.example.org/sel/20300"/>
+        <aos:context rdf:resource="http://my.example.org/sel/20300"/>
         <ann:body>BACE1</ann:body>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
