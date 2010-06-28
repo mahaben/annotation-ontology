@@ -19,6 +19,7 @@ The annotation:
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.textmining.org/v1"/>
+        <pav:curatedBy rdf:resource="http://my.example.org/cur/3472"/>
     </rdf:Description> 
 }}}
 
