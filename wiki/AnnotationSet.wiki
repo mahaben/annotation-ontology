@@ -108,4 +108,5 @@ Namespaces used above:
 || aoa || *Annotation Integration with Annotea* || http://purl.org/swan/annotation-annotea/ ||
 || pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
 || PRO || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
-|| SIOC || SIOC Ontology || http://rdfs.org/sioc/ns# ||
+|| sioc || SIOC Ontology || http://rdfs.org/sioc/ns# ||
+||sioct|| SIOC Ontology Types || http://rdfs.org/sioc/types# ||
