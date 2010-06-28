@@ -58,11 +58,26 @@ The RDF of the example would look like the following:
         <rdf:type rdf:resource="&aot;Qualifier"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
+        <aos:context rdf:resource="http://my.example.org/sel/10300"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
     </rdf:Description> 
+}}}
+
+the text selector:
+
+{{{
+    <rdf:Description rdf:about="http://my.example.org/sel/10300">
+        <rdf:type rdf:resource="&aos;TextSelector"/>
+        <rdf:type rdf:resource="&aos;PrefixPostfixSelector"/>
+        <aos:exact>BACE1</aos:exact>
+        <aos:prefix>Cognitive and behavioral deficits related to</aos:prefix>
+        <aos:postfix>inhibition may be magnified in humans who</aos:postfix>
+        <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:onSourceDocument rdf:resource="http://my.example.org/sd/2332"/>
+    </rdf:Description>
 }}}
 
 the author:
