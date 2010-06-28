@@ -94,3 +94,18 @@ the annotation set:
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%20Derived%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3: example of Annotation Set derived from an existing annotation set - connected by the relationship _derivedFrom_ - and another Annotation Set as new version of an existing one.</b>
+
+=== Namespaces ===
+
+Namespaces used above:
+
+|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
+|| ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
+|| ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
+|| aos || *Annotation Selectors* || http://purl.org/swan/annotation-selectors/ ||
+|| aot || *Annotation Selectors* || http://purl.org/swan/annotation-types/ ||
+|| aof || *Annotation Integration with FOAF* || http://purl.org/swan/annotation-foaf/ ||
+|| aoa || *Annotation Integration with Annotea* || http://purl.org/swan/annotation-annotea/ ||
+|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
+|| PRO || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
+|| SIOC || SIOC Ontology || http://rdfs.org/sioc/ns# ||
