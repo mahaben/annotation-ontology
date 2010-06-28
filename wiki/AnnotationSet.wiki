@@ -91,8 +91,6 @@ the annotation set:
     </rdf:Description> 
 }}}
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%202%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 3: example of Annotation Set with multiple (3) Annotation items. For keeping the picture simple, many details about the annotation have been omitted.</b>
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%20Variant%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 4: example of Annotation Set derived from an existing annotation set - connected by the relationship _variantOf_ - and another Annotation Set as new version of an existing one.</b>
+<b>Figure 3: example of Annotation Set derived from an existing annotation set - connected by the relationship _variantOf_ - and another Annotation Set as new version of an existing one.</b>
