@@ -6,3 +6,14 @@ While Annotation Set(s) are used mainly for access permissions and aggregation o
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%202%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2: Example of usage of multiple Document Annotation(s). Document Annotation 1 is composed by the sets 1 and 2 while Document Annotation 2 is composed by the sets 2 and 3.</b>
+
+=== Namespaces ===
+
+Namespaces used above:
+
+|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
+|| ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
+|| aof || *Annotation Integration with FOAF* || http://purl.org/swan/annotation-foaf/ ||
+|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
+|| sioc || SIOC Ontology || http://rdfs.org/sioc/ns# ||
+||sioct|| SIOC Ontology Types || http://rdfs.org/sioc/types# ||
