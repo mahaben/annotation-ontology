@@ -1,3 +1,5 @@
+|| OWL File || http://annotation-ontology.googlecode.com/svn/trunk/annotation-types.owl  ||
+
 === Annotation Type: Qualifier ===
 
 Using Qualifier(s) is equivalent in tagging a document where, instead of a free text tag, a specific entity - identified by a URI - has been used. 
