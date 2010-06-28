@@ -49,6 +49,50 @@ In figure 1, the set has a declared topic: "Protein". It could be possible to au
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%201%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2: example of Annotation Set with two Annotation items.</b>
 
+The annotation:
+
+{{{
+    <rdf:Description rdf:about="http://my.example.org/ann/21332">
+        <rdf:type rdf:resource="&ann;Annotation"/>
+        <rdf:type rdf:resource="&ao;Annotation"/>
+        <rdf:type rdf:resource="&aot;Qualifier"/>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+        <pav:createdOn>2010-03-21</pav:createdOn>
+        <pav:createdBy rdf:resource="http://www.textmining.org/v1"/>
+    </rdf:Description> 
+
+    <rdf:Description rdf:about="http://my.example.org/ann/21333">
+        <rdf:type rdf:resource="&ann;Annotation"/>
+        <rdf:type rdf:resource="&ao;Annotation"/>
+        <rdf:type rdf:resource="&aot;Qualifier"/>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004168"/>
+        <pav:createdOn>2010-03-21</pav:createdOn>
+        <pav:createdBy rdf:resource="http://www.textmining.org/v1"/>
+    </rdf:Description>
+}}}
+
+the software:
+
+the annotation set:
+
+{{{
+    <rdf:Description rdf:about="http://my.example.org/set/21332">
+        <rdf:type rdf:resource="&ao;AnnotationSet"/>
+        <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:item rdf:resource="http://my.example.org/ann/21332"/>
+        <ao:item rdf:resource="http://my.example.org/ann/21333"/>
+        <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000000001"/>
+        <pav:createdOn>2010-03-21</pav:createdOn>
+        <pav:createdBy rdf:resource="http://www.textmining.org/v1"/>
+        <pav:lastUpdatedOn>2010-03-21</pav:createdOn>
+        <pav:lastUpdatedBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+        <pav:versionNumber>10</pav:versionNumber>
+        <pav:previousVersion rdf:resource="http://my.example.org/set/20332"/>
+    </rdf:Description> 
+}}}
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Set%202%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3: example of Annotation Set with multiple (3) Annotation items. For keeping the picture simple, many details about the annotation have been omitted.</b>
 
