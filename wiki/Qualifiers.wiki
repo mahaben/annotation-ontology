@@ -9,6 +9,31 @@ A <b>Qualifier</b> expresses a relationship between the object of the annotation
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Document%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example of annotation of type Qualifier. The entire document is linked to the entity Beta-Secretase-1 from the PRotein Ontology (PRO). Defining a Qualifier means relating the annotated document - or part of it - and the semantic entity.</b>
 
+
+The RDF of the example would look like the following:
+{{{
+    <rdf:Description rdf:about="http://my.example.org/ann/82400">
+        <rdf:type rdf:resource="&aot;Qualifier"/>
+        <rdf:type rdf:resource="&ao;Annotation"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/35a6fnq"/>      
+        <ao:onSourceDocument rdf:resource="http://my.example.org/sd/2339"/>
+        <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+        <pav:createdOn>2010-03-21</pav:createdOn>
+        <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+    </rdf:Description>
+}}}
+
+the source document:
+
+{{{
+    <rdf:Description rdf:about="http://my.example.org/sd/2339">
+        <rdf:type rdf:resource="&pav;SourceDocument"/>
+        <pav:retrievedFrom rdf:resource="http://tinyurl.com/35a6fnq"/>
+        <pav:sourceAccessedOn>2010-03-26</pav:sourceAccessedOn>
+    </rdf:Description> 
+}}}
+
 === Annotation Type: Exact Qualifier ===
 
 <blockquote>
