@@ -40,6 +40,7 @@ AO can be integrated with any version of the SWAN Ontology. However, the followi
         <rdf:type rdf:resource="&ann;Annotation"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/35a6fnq"/>
+        <swande:description>Can overexpressed DR6 in neurons trigger ligand-independent degeneration, as reported for p75NTR?</swande:description>
         ...
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
