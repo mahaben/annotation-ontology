@@ -10,7 +10,7 @@ The SIOC _classes_ of interest are coming from two different namespaces:
 
 and are:
 
-|| sioc:Item || An Item is something which can be in a Container ||
+|| [http://rdfs.org/sioc/ns#Item sioc:Item] || An Item is something which can be in a Container ||
 || [http://rdfs.org/sioc/ns#Container sioc:Container] || An area in which content Items are contained || 
 || [http://rdfs.org/sioc/types#AnnotationSet sioc-types:AnnotationSet] || Describes a set of annotations, for example, those created by a particular user or related to a particular topic ||
 
