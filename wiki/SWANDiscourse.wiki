@@ -1,4 +1,4 @@
-== Integration with the SWAN Discourse Elements ==
+== Integration with the SWAN 2.0 Discourse Elements ==
 
 === Annotation Type: SWAN Claim ===
 
