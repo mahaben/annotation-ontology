@@ -9,7 +9,7 @@ AO can be integrated with any version of the SWAN Ontology. However, the followi
         <rdf:type rdf:resource="http://purl.org/swan/2.0/discourse-elements/Claim"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
-        <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/35a6fnq"/>
         ...
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
@@ -23,7 +23,7 @@ AO can be integrated with any version of the SWAN Ontology. However, the followi
         <rdf:type rdf:resource="http://purl.org/swan/2.0/discourse-elements/Hypothesis"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
-        <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/35a6fnq"/>
         ...
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
@@ -37,7 +37,7 @@ AO can be integrated with any version of the SWAN Ontology. However, the followi
         <rdf:type rdf:resource="http://purl.org/swan/2.0/discourse-elements/ResearchQuestion"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
-        <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/35a6fnq"/>
         ...
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
