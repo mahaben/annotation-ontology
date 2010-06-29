@@ -1,5 +1,7 @@
 == Integration with the SWAN 2.0 Discourse Elements ==
 
+AO can be integrated with any version of the SWAN Ontology. However, the following examples are related to SWAN Ontology 2.0
+
 === Annotation Type: SWAN Claim ===
 
 {{{
