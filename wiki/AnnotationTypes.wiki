@@ -100,7 +100,6 @@ Instead of subclassing the _Annotation_ class as it was happening in Annotea, it
 
 Namespaces used above:
 
-|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
 || ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
 || ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
 || aos || *Annotation Selectors* || http://purl.org/swan/annotation-selectors/ ||
@@ -109,3 +108,4 @@ Namespaces used above:
 || aoa || *Annotation Integration with Annotea* || http://purl.org/swan/annotation-annotea/ ||
 || pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
 || PRO || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
+|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
