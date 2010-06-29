@@ -5,7 +5,8 @@
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
         <rdf:type rdf:resource="http://swan.mindinformatics.org/ontologies/1.2/discourse-elements/ResearchStatement"/>
-        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
+        <rdf:type rdf:resource="&ao;Annotation"/>
         <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
         ...
         <pav:createdOn>2010-03-21</pav:createdOn>
@@ -18,7 +19,8 @@
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
         <rdf:type rdf:resource="http://swan.mindinformatics.org/ontologies/1.2/discourse-elements/ResearchStatement"/>
-        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
+        <rdf:type rdf:resource="&ao;Annotation"/>
         <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
         ...
         <pav:createdOn>2010-03-21</pav:createdOn>
@@ -31,7 +33,8 @@
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
         <rdf:type rdf:resource="http://swan.mindinformatics.org/ontologies/1.2/discourse-elements/ResearchQuestion"/>
-        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
+        <rdf:type rdf:resource="&ao;Annotation"/>
         <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
         ...
         <pav:createdOn>2010-03-21</pav:createdOn>
