@@ -4,7 +4,7 @@
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
-        <rdf:type rdf:resource="http://swan.mindinformatics.org/ontologies/1.2/discourse-elements/ResearchStatement"/>
+        <rdf:type rdf:resource="http://purl.org/swan/2.0/discourse-elements/Claim"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
@@ -18,7 +18,7 @@
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
-        <rdf:type rdf:resource="http://swan.mindinformatics.org/ontologies/1.2/discourse-elements/ResearchStatement"/>
+        <rdf:type rdf:resource="http://purl.org/swan/2.0/discourse-elements/Hypothesis"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
@@ -32,7 +32,7 @@
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
-        <rdf:type rdf:resource="http://swan.mindinformatics.org/ontologies/1.2/discourse-elements/ResearchQuestion"/>
+        <rdf:type rdf:resource="http://purl.org/swan/2.0/discourse-elements/ResearchQuestion"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <ann:annotates rdf:resource="http://tinyurl.com/35a6fnq"/>
