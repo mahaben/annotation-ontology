@@ -6,7 +6,7 @@
 The SIOC _classes_ of interest are coming from two different namespaces:
 
 || SIOC core || sioc || [http://rdfs.org/sioc/spec/ Specs] || Namespace [http://rdfs.org/sioc/ns#] ||
-|| SIOC types || sioct || Namespace [http://rdfs.org/sioc/types#] ||
+|| SIOC types || sioct || || Namespace [http://rdfs.org/sioc/types#] ||
 
 and are:
 
