@@ -44,10 +44,13 @@ Using the pure XPointer approach is not always a good choice - when a document i
 
  * *Image Selector*: identifies a portion of an image.
    * *Init End Corner Selector*: identifies a rectangular region of an image through the definition of the top left and bottom right corners - [InitEndCornerSelector read more about this selector]
+   * *...*
 
  * *Audio Selector*: identifies a section of an audio file.
+   * *...*
 
  * *Video Selector*: identifies a section of an video file.
+   * *...*
 
 === Examples ===
 
