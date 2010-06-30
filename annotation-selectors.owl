@@ -79,6 +79,35 @@
     <rdf:Description rdf:about="&dct;contributor">
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
     </rdf:Description>      
+    
+    <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
+    
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+    </owl:Class>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // XPointer Selectors
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+	<owl:Class rdf:about="XPointerSelector" rdfs:label="(ao-sel) XPointer Selector">
+    	<rdfs:subClassOf rdf:resource="Selector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            The XPointer Selector allows to identify any part of an XML document by using the XPointer technology 
+        </rdfs:comment>
+        <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="xpointer"/>
+	            <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>	
+    </owl:Class>
+    
+    <owl:DatatypeProperty rdf:about="xpointer">
+    </owl:DatatypeProperty>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -183,7 +212,7 @@
         </rdfs:comment>
     </owl:DatatypeProperty>
     
-    <owl:Class rdf:about="OffsetRangeTextSelector" rdfs:label="(ao-sel) Offest/Range Text Selector">
+    <owl:Class rdf:about="OffsetRangeTextSelector" rdfs:label="(ao-sel) Offset/Range Text Selector">
     	<rdfs:subClassOf rdf:resource="TextSelector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
             A Offset Range Text Selector identifies a string in a document through an offset 
