@@ -9,6 +9,20 @@ The Selector instance for a specific Annotation instance is identified through t
   </ann:context>
 }}}
 
+the RDF of the annotation will look something like:
+
+{{{
+    <rdf:Description rdf:about="http://my.example.org/ann/29332">
+        <rdf:type rdf:resource="&aot;Qualifier"/>
+        <rdf:type rdf:resource="&ao;Annotation"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
+        <ann:context>...xpointer notation...</ann:context>
+        <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+        <pav:createdOn>2010-03-21</pav:createdOn>
+        <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+    </rdf:Description> 
+}}}
 
 || OWL File || http://annotation-ontology.googlecode.com/svn/trunk/annotation-selectors.owl  ||
 
