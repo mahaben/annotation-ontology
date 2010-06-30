@@ -1,7 +1,7 @@
 #labels annotation_ontology,ontology,selector,document_annotation,semantic_web,image_annotation
 A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also for a specific content type, multiple kind of selector can be defined to cover specific needs.
 
-The Selector instance for a specific Annotation instance is identified through the property aos:context. This property is sub-property of the Annotea property ann:context. Therefore, for those of you that want to use [http://www.w3.org/TR/xptr/ XPointer]  context definition it is still possible to do it directly - without using the Selectors - the way that Annotea was doing it:
+The Selector instance for a specific Annotation instance is identified through the property _aos:context_. This property is sub-property of the Annotea property _ann:context_. Therefore, for those of you that want to use [http://www.w3.org/TR/xptr/ XPointer]  context definition it is still possible to do it directly - without using the Selectors - the way that Annotea was doing it:
 
 {{{
   <ann:context>
