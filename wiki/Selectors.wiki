@@ -36,9 +36,9 @@ Using the pure XPointer approach is not always a good choice - when a document i
 <b>Figure 1: This is how documents parts will be visually depicted in the rest of the documentation.</b>
 
 *Selector* is a generic class that can be customized/sub-classed for the different kind of content types:
+ * *XPointer Selector*: identifies any part of an XML document by using the [http://www.w3.org/TR/xptr/ XPointer]  technology. Even if XPointer can be used directly with the property ann:context, it is also possible to use an instance of a selector. This approach is more laborious but allows to integrate Document Provenance - [XPointerSelector read more about this selector]
 
  * *Text Selector*: identifies a chunk of a text. Some sub-types:
-     * *XPointer Selector*: identifies any part of an XML document by using the [http://www.w3.org/TR/xptr/ XPointer]  technology. Even if XPointer can be used directly with the property ann:context, it is also possible to use an instance of a selector. This approach is more laborious but allows to integrate Document Provenance - [XPointerSelector read more about this selector]
      * *Offset Range Selector*: identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset - [OffsetRangeSelector read more about this selector]
      * *Prefix Postfix Selector*: identifies a chunk of text specifying a reasonable amount of characters before it (prefix) and a reasonable amount of characters after it  (postfix) - [PrefixPostfixSelector read more about this selector]
 
