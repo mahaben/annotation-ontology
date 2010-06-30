@@ -109,6 +109,7 @@ We are not assuming we are able to provide every possible way to select any part
 
 Namespaces used above:
 
+|| ann || Annotea || http://www.w3.org/2000/10/annotation-ns# |
 || foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
 || ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
 || aos || *Annotation Selectors* || http://purl.org/swan/annotation-selectors/ ||
