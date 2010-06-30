@@ -24,6 +24,8 @@ the RDF of the annotation will look something like:
     </rdf:Description> 
 }}}
 
+Using the pure XPointer approach is not always a good choice - when a document is changing, for instance going through revision, we may end up with orphan annotations or annotations pointing to wrong places. Also, as we want to keep track of the [SourceDocument Source Document or Document Provenance] and we need to point to portion of documents that are not XML documents, we introduced the Selectors.
+
 || OWL File || http://annotation-ontology.googlecode.com/svn/trunk/annotation-selectors.owl  ||
 
 === Classes Of Selectors ===
