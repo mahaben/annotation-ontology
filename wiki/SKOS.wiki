@@ -8,3 +8,7 @@ Qualifier is one of the key annotation types in AO as it allows defining a paral
 || CloseQualifier || skos:closeMatch || Used when the object of the relationship ao:hasTopic is representing closely but not exactly the portion of the annotated document. ||
 || BroaderQualifier || skos:broaderMatch || Used when the object of the relationship ao:hasTopic is representing broadly the portion of the annotated document. ||
 || NarrowerQualifier || skos:narrowerMatch || Used when the object of the relationship ao:hasTopic is representing a more specific entity than the portion of the annotated document. || 
+
+=== How this can be used ===
+
+(TBD)
