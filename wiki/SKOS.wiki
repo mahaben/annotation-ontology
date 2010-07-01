@@ -11,4 +11,8 @@ Qualifier is one of the key annotation types in AO as it allows defining a paral
 
 === How this can be used for ontology building ===
 
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20and%20SKOS%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 1 - .</b>
+
 (TBD)
