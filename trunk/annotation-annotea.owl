@@ -17,6 +17,7 @@
     <!-- Main namespace -->
     <!ENTITY annotation-core "http://purl.org/swan/annotation/" >
     <!ENTITY annotation-annotea "http://purl.org/swan/annotation-annotea/" >
+    <!ENTITY annotation-selectors "http://purl.org/swan/annotation-selectors/" >
 ]>
 
 <rdf:RDF
@@ -103,7 +104,7 @@
     	<rdfs:subPropertyOf rdf:resource="&ans;annotates" />
     </owl:ObjectProperty>
     
-    <owl:ObjectProperty rdf:about="&annotation-core;context">
+    <owl:ObjectProperty rdf:about="&annotation-selectors;context">
     	<rdfs:subPropertyOf rdf:resource="&ans;context" />
     </owl:ObjectProperty>
     
