@@ -7,4 +7,4 @@ With Annotation Ontology (AO) we would like to:
  * *Persist the annotation separately from the document*. This approach always allow to integrate the annotation back into the document if needed. [http://www.w3.org/TR/xhtml-rdfa-primer/ RDFa] is one possibility for performing the last task.
  * *Allow creation of manual annotation and integration of text mining results*. Annotation can be produced manually - some annotation like the one representing the scientific discourse is usually produced only manually - or automatically through text mining services. The latter method is particularly useful for analyzing big quantity of content or for optimizing curators' job.
  * *Allow curation of annotation* by users, curators or online communities. Allow to produce and persist curation of automatic annotation is particularly useful to provide feedback to the text mining services providers and for optimizing the annotation process when the same text mining services have to be run multiple times. 
- * Allow organizing the annotation in sets
+ * *Allow organizing the annotation* in different forms.
