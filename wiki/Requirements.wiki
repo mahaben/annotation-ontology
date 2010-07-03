@@ -6,7 +6,6 @@ With Annotation Ontology (AO) we would like to:
  * *Allow multiple annotation perspectives on the same document at the same time*.
  * *Persist the annotation separately from the document*. This approach always allow to integrate the annotation back into the document if needed. [http://www.w3.org/TR/xhtml-rdfa-primer/ RDFa] is one possibility for performing the last task.
  * Allow creation of manual annotation and integration of text mining results
- * Allow multiple annotation perspectives on the document at the same time
  * Allow curation of manual annotation - by curators or by an online community
  * Allow curation of automatic annotation and provide feedback to the service provider
  * Allow organizing the annotation in sets
