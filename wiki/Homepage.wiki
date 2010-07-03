@@ -6,7 +6,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
 
 === Index of Content ===
 
- * [Requirements Requirements] (in progress)
+ * [Requirements Requirements]
  * [UseCases Use Cases] (to be done)
  * [Background Starting from Annotea]
  * [SourceDocument Source Documents]
