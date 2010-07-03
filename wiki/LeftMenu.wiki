@@ -19,5 +19,6 @@
  * [Examples More Examples]
  * Integrations/Alignments
    * [IntegrationWithSIOC Integration with SIOC]
-   * [IntegrationWithMOAT Integration with Tag Ontology and MOAT]
+   * [IntegrationWithTagOntology Integration with Tag Ontology]
+   * [IntegrationWithMOAT Integration with MOAT]
    * [OMR Ontology for Media Resource 1.0] 
