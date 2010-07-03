@@ -14,7 +14,7 @@
    * [CiTO Integration with CiTO]
  * [Curation Curation of Annotation]
  * [AnnotationSet Annotation Set]
- * [DocumentAnnotation Document Annotation]
+ * [DocumentAnnotation Annotation Perspective]
  * [Pav Provenance, Authoring, Versioning]
  * [Examples More Examples]
  * Integrations/Alignments
