@@ -16,8 +16,8 @@ The example inf figure 1:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/21332">
-        <rdf:type rdf:resource="Qualifier"/>
-        <rdf:type rdf:resource="http://www.w3.org/2000/10/annotation-ns#Annotation"/>
+        <rdf:type rdf:resource="&aot;Qualifier"/>
+        <rdf:type rdf:resource="&ann;Annotation"/>
         <ann:annotates rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
@@ -35,3 +35,17 @@ can be transposed in MOAT and the [http://www.holygoat.co.uk/projects/tags/ tag 
        <moat:tagMeaning rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
     </tag:RestrictedTagging>
 }}}
+
+=== Namespaces ===
+
+Namespaces used above:
+
+|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
+|| ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
+|| ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
+|| aot || *Annotation Selectors* || http://purl.org/swan/annotation-types/ ||
+|| aof || *Annotation Integration with FOAF* || http://purl.org/swan/annotation-foaf/ ||
+|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
+|| PRO || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
+|| tag || Tag Ontology || http://www.holygoat.co.uk/owl/redwood/0.1/tags/ ||
+|| moat || MOAT Ontology || http://moat-project.org/ns# ||
