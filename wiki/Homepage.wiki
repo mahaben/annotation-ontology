@@ -24,7 +24,8 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
  * [Examples More Examples]
  * Integrations/Alignments
    * [IntegrationWithSIOC Integration with SIOC]
-   * [IntegrationWithMOAT Integration with Tag Ontology and MOAT] (to be revised)
+   * [IntegrationWithTagOntology Integration with Tag Ontology]
+   * [IntegrationWithMOAT Integration with MOAT] (to be revised)
    * [OMR Ontology for Media Resource 1.0] (to be done)
 
 === Related Ontologies ===
