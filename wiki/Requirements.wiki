@@ -8,3 +8,4 @@ With Annotation Ontology (AO) we would like to:
  * *Allow creation of manual annotation and integration of text mining results*. Annotation can be produced manually - some annotation like the one representing the scientific discourse is usually produced only manually - or automatically through text mining services. The latter method is particularly useful for analyzing big quantity of content or for optimizing curators' job.
  * *Allow curation of annotation* by users, curators or online communities. Allow to produce and persist curation of automatic annotation is particularly useful to provide feedback to the text mining services providers and for optimizing the annotation process when the same text mining services have to be run multiple times. 
  * *Allow organizing the annotation* in different forms.
+ * *Support publication process*.
