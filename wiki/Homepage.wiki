@@ -21,7 +21,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Annotation Perspective (or Document Annotation)]
  * [Pav Provenance, Authoring, Versioning] (coming soon)
- * [Examples More Examples]
+ * [Examples More Examples] (coming soon)
  * Integrations/Alignments
    * [IntegrationWithSIOC Integration with SIOC]
    * [IntegrationWithTagOntology Integration with Tag Ontology]
