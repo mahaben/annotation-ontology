@@ -7,7 +7,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
 === Index of Content ===
 
  * [Requirements Requirements]
- * [UseCases Use Cases] (to be done)
+ * [UseCases Use Cases] (coming soon)
  * [Background Starting from Annotea]
  * [SourceDocument Source Documents]
  * [Selectors Document Selectors]
@@ -16,11 +16,11 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
    * [Qualifiers Qualifiers]
    * [SKOS Integration with SKOS]
    * [SWANDiscourse Integration with SWAN]
-   * [CiTO Integration with CiTO] (to be done)
+   * [CiTO Integration with CiTO] (coming soon)
  * [Curation Curation of Annotation]
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Annotation Perspective (or Document Annotation)]
- * [Pav Provenance, Authoring, Versioning] (to be done)
+ * [Pav Provenance, Authoring, Versioning] (coming soon)
  * [Examples More Examples]
  * Integrations/Alignments
    * [IntegrationWithSIOC Integration with SIOC]
