@@ -2,8 +2,7 @@
 
 MOAT defines a Tag class, that extends the Tag class from [http://www.holygoat.co.uk/projects/tags/ Richard Newman's tag ontology]. This is to constraint to a unique label for each tag (while Newman's ontology does not introduce such a restriction). In AO it is possible to reuse MOAT content and...
 
-(TBD)
-<b>Figure 1 - Use of the moat:Tag class in AO.</b>
+(coming soon)
 
 === Restricted Tagging ===
 
