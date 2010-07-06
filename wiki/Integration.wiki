@@ -1,3 +1,9 @@
 === Related Ontologies ===
 
-AO has been influenced by an analysis of strengths and weaknesses of the [http://www.w3.org/2001/Annotea/ Annotea Project]. AO has been also integrated with [http://sioc-project.org/ SIOC (Semantically-Interlinked Online Communities)].
+AO has been influenced by an analysis of strengths and weaknesses of the [http://www.w3.org/2001/Annotea/ Annotea Project]. 
+
+AO has been also integrated with 
+[http://sioc-project.org/ SIOC (Semantically-Interlinked Online Communities)]
+[http://www.w3.org/2004/02/skos/ SKOS (Simple Knowledge Organization System)]
+[http://swan.mindinformatics.org/ontology.html SWAN (Semantic Web Applications in Neuromedicine)]
+[http://moat-project.org/ MOAT (Meaning Of A Tag)]
