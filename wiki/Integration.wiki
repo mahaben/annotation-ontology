@@ -7,5 +7,5 @@ AO makes use of the PAV ontology for Provenance, Authoring and Versioning. It is
 AO has been also integrated with 
 ||SIOC (Semantically-Interlinked Online Communities)|| [IntegrationWithSIOC AO and SIOC]||[http://sioc-project.org/ SIOC homepage]||
 ||SKOS (Simple Knowledge Organization System)||[SKOS AO and SKOS]||[http://www.w3.org/2004/02/skos/ SKOS homepage]||
- * [http://swan.mindinformatics.org/ontology.html SWAN (Semantic Web Applications in Neuromedicine)]
+||SWAN (Semantic Web Applications in Neuromedicine)||[SWANDiscourse AO and SWAN]||[http://swan.mindinformatics.org/ontology.html SWAN homepage]||
  * [http://moat-project.org/ MOAT (Meaning Of A Tag)]
