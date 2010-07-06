@@ -20,6 +20,9 @@ AO can be integrated with any version of the SWAN Ontology. However, the followi
 
 === Annotation Type: SWAN Hypothesis ===
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20swan%20hypothesis%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 1 - Example of SWAN hypothesis.</b>
+
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
         <rdf:type rdf:resource="http://purl.org/swan/2.0/discourse-elements/Hypothesis"/>
