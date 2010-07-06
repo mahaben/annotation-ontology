@@ -88,7 +88,7 @@ The RDF of the example in picture 3 would look like the following:
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <!--
-        The following 2 lines have been added for querying with SPARQL
+        The previous 2 lines have been added for querying with SPARQL
         -->
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>      
         <ao:onSourceDocument rdf:resource="http://my.example.org/sd/2339"/>
