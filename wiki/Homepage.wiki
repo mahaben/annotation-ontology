@@ -22,7 +22,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
  * [DocumentAnnotation Annotation Perspective (or Document Annotation)]
  * [Pav Provenance, Authoring, Versioning] (coming soon)
  * [Examples More Examples] (coming soon)
- * Integrations/Alignments
+ * [Integration Integrations/Alignments]
    * [IntegrationWithSIOC Integration with SIOC]
    * [IntegrationWithTagOntology Integration with Tag Ontology]
    * [IntegrationWithMOAT Integration with MOAT] (in progress)
