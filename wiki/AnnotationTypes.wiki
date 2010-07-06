@@ -16,8 +16,11 @@ The RDF of the example in picture 1 would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
         <rdf:type rdf:resource="&aot;Note"/>
+        <!--
+        The following can be added for querying with SPARQL
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
+        -->
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/37jn32r"/>
         <aos:context rdf:resource="http://my.example.org/sel/20300"/>
         <ann:body>This visual cluster is probably representing the Foo Community</ann:body>
