@@ -31,6 +31,7 @@ AO can be integrated with any version of the SWAN Ontology. However, the followi
         <swande:description> Genetic depletion of aromatase in male APP transgenic mice
                 down-regulates beta-secretase (BACE1) and prevents Alzheimer-like 
                 pathology and cognitive impairment</swande:description>
+        <swanrel:cites rdf:resource="http://purl.org/obo/owl/HP#HP_0002511" />
         ...
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
