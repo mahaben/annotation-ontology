@@ -17,4 +17,4 @@ Qualifier is one of the key annotation types in AO as it allows defining a paral
 
 In figure 1, we depict two annotations for the same text fragment. The first one is of type ExactQualifier and qualify the text fragment as exactly "Beta Secretase 1" of the PRO ontology. The second one is of type BroadQualifier and states that BIRNLex Protein is a broader concept than the one represented by the text fragment. 
 
-Given the two annotations we could infer that PRO:000004615 is a narrower match (skos:narrowMatch) than BIRNLex:birnlex_23.
+Given the two annotations we could infer that PRO:000004615 is a narrower match (skos:narrowMatch) than BIRNLex:birnlex_23. Therefore, annotations provided by the same of different users could help, for instance, in mapping concepts belonging to different ontologies. 
