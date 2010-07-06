@@ -10,7 +10,8 @@ AO can be integrated with any version of the SWAN Ontology. However, the followi
         <rdf:type rdf:resource="&ann;Annotation"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/35a6fnq"/>
-        <swande:description>Testosterone may play an important role in the prevention of Alzheimer’s disease (AD) in men</swande:description>
+        <swande:description>Testosterone may play an important role in the prevention of
+                Alzheimer’s disease (AD) in men</swande:description>
         ...
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
@@ -25,7 +26,9 @@ AO can be integrated with any version of the SWAN Ontology. However, the followi
         <rdf:type rdf:resource="&ann;Annotation"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/35a6fnq"/>
-        <swande:description> Genetic depletion of aromatase in male APP transgenic mice down-regulates beta-secretase (BACE1) and prevents Alzheimer-like pathology and cognitive impairment</swande:description>
+        <swande:description> Genetic depletion of aromatase in male APP transgenic mice
+                down-regulates beta-secretase (BACE1) and prevents Alzheimer-like 
+                pathology and cognitive impairment</swande:description>
         ...
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
@@ -40,7 +43,8 @@ AO can be integrated with any version of the SWAN Ontology. However, the followi
         <rdf:type rdf:resource="&ann;Annotation"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/35a6fnq"/>
-        <swande:description>Can overexpressed DR6 in neurons trigger ligand-independent degeneration, as reported for p75NTR?</swande:description>
+        <swande:description>Can overexpressed DR6 in neurons trigger ligand-independent
+                degeneration, as reported for p75NTR?</swande:description>
         ...
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
