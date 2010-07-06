@@ -4,4 +4,6 @@ AO makes use of the PAV (Provenance, Authoring and Versioning) ontology. The PAV
 
 It is also possible to use [DC Dublin Core or Dublin Core Terms] for covering provenance. We usually suggest to use both PAV and DC as only PAV is covering all the curational aspects that are crucial for AO. In some specific cases it is also useful to use FOAF (Friend of A Friend) properties. 
 
-The evolution of the annotation graph is monotonic.
+=== Versioning ===
+
+The evolution of the annotation graph is monotonic...
