@@ -2,6 +2,8 @@
 
 In AO, it is also possible to use *Dublin Core* or *Dublin Core Terms* for covering provenance. We usually suggest to use both PAV and DC as only PAV is covering all the curational aspects that are crucial for AO. 
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20and%20DC%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 1 - .</b>
 
 Namespaces used above:
 
