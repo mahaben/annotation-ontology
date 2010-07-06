@@ -5,7 +5,7 @@ AO has been influenced by an analysis of strengths and weaknesses of the [http:/
 AO makes use of the PAV ontology for Provenance, Authoring and Versioning. It is also possible to use Dublin Core or Dublin Core Terms for covering provenance, we usually suggest to use both as PAV is covering all the curational aspects that are crucial for AO. The standard AO is also integrating with FOAF (Friend of A Friend).
 
 AO has been also integrated with 
- * [http://sioc-project.org/ SIOC (Semantically-Interlinked Online Communities)]
- * SKOS (Simple Knowledge Organization System) - [SKOS AO and SKOS] - [http://www.w3.org/2004/02/skos/ SKOS homepage]
+||SIOC (Semantically-Interlinked Online Communities)|| [IntegrationWithSIOC AO and SIOC]||[http://sioc-project.org/ SIOC homepage]||
+||SKOS (Simple Knowledge Organization System)||[SKOS AO and SKOS]||[http://www.w3.org/2004/02/skos/ SKOS homepage]||
  * [http://swan.mindinformatics.org/ontology.html SWAN (Semantic Web Applications in Neuromedicine)]
  * [http://moat-project.org/ MOAT (Meaning Of A Tag)]
