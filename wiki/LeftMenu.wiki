@@ -16,7 +16,7 @@
  * [AnnotationSet Annotation Set]
  * [DocumentAnnotation Annotation Perspective]
  * [Pav Provenance, Authoring, Versioning]
-   * [DC Dublin Core]
+   * [DC Using Dublin Core]
  * [Examples More Examples]
  * [Integration Related Ontologies]
    * [IntegrationWithSIOC Integration with SIOC]
