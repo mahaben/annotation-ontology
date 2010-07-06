@@ -9,7 +9,7 @@ Qualifier is one of the key annotation types in AO as it allows defining a paral
 || BroaderQualifier || skos:broadMatch || Used when the object of the relationship ao:hasTopic is representing broadly the portion of the annotated document. ||
 || NarrowerQualifier || skos:narrowMatch || Used when the object of the relationship ao:hasTopic is representing a more specific entity than the portion of the annotated document. || 
 
-=== How this can be used for ontology building ===
+=== How this can be used for ontology building/linking ===
 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20and%20SKOS%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
