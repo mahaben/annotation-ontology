@@ -5,7 +5,7 @@ In AO, it is also possible to use *Dublin Core* or *Dublin Core Terms* for cover
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20and%20DC%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - Example depicting the use of both PAV and Dublin Core Terms for defining provenance.</b>
 
-Namespaces used above:
+=== Namespaces ===
 
 || dc || Dublin Core || ||
 || dct || Dublin Core Terms || http://purl.org/dc/terms/ ||
