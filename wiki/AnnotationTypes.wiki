@@ -53,6 +53,9 @@ The RDF of the erratum example:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/82400">
         <rdf:type rdf:resource="&aot;Erratum"/>
+        <!--
+        The following 2 lines have been added for querying with SPARQL
+        -->
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
