@@ -17,7 +17,7 @@
  * [DocumentAnnotation Annotation Perspective]
  * [Pav Provenance, Authoring, Versioning]
  * [Examples More Examples]
- * Integrations/Alignments
+ * [Integration Integrations/Alignments]
    * [IntegrationWithSIOC Integration with SIOC]
    * [IntegrationWithTagOntology Integration with Tag Ontology]
    * [IntegrationWithMOAT Integration with MOAT]
