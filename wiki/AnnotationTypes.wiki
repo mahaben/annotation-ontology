@@ -58,6 +58,9 @@ The RDF of the erratum example:
         -->
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
+        <!--
+        The previous 2 lines have been added for querying with SPARQL
+        -->
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
         <aos:context rdf:resource="http://my.example.org/sel/20300"/>
         <ann:body>BACE1</ann:body>
