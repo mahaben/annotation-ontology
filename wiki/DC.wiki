@@ -8,7 +8,7 @@ In AO, it is also possible to use *Dublin Core* or *Dublin Core Terms* for cover
 Namespaces used above:
 
 || dc || Dublin Core || ||
-|| dct || Dublin Core Terms || ||
+|| dct || Dublin Core Terms || http://purl.org/dc/terms/ ||
 || ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
 || ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
 || aos || *Annotation Selectors* || http://purl.org/swan/annotation-selectors/ ||
