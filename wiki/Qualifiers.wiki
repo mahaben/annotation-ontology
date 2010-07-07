@@ -102,19 +102,19 @@ the source document:
     </rdf:Description> 
 }}}
 
-=== Annotation Type: Broader Qualifier ===
+=== Annotation Type: Broad Qualifier ===
 
 <blockquote>
-A <b>Broader Qualifier</b> is used when the object of the relationship ao:hasTopic is representing broadly the portion of the annotated document.
+A <b>Broad Qualifier</b> is used when the object of the relationship ao:hasTopic is representing broadly the portion of the annotated document.
 </blockquote>
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Broader%20Qualifier%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 3 - Example of annotation of type BroaderQualifier. The entity 'Skull Fracture' is a more generic concept representing the portion of the image which is tagged as a 'Linear Skull Fracture' as can be read in the ann:body.</b>
+<b>Figure 3 - Example of annotation of type BroadQualifier. The entity 'Skull Fracture' is a more generic concept representing the portion of the image which is tagged as a 'Linear Skull Fracture' as can be read in the ann:body.</b>
 
 The RDF of the example would look like the following:
 {{{
     <rdf:Description rdf:about="http://my.example.org/ann/21332">
-        <rdf:type rdf:resource="&aot;BroaderQualifier"/>
+        <rdf:type rdf:resource="&aot;BroadQualifier"/>
         <rdf:type rdf:resource="&aot;Qualifier"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
@@ -140,7 +140,7 @@ The image selector:
     </rdf:Description>
 }}}
 
-=== Annotation Type: Narrower Qualifier ===
+=== Annotation Type: Narrow Qualifier ===
 
 <blockquote>
 A <b>Narrower Qualifier</b> is used when the object of the relationship ao:hasTopic is representing a more specific entity than the portion of the annotated document.
