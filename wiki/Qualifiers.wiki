@@ -143,7 +143,7 @@ The image selector:
 === Annotation Type: Narrow Qualifier ===
 
 <blockquote>
-A <b>Narrower Qualifier</b> is used when the object of the relationship ao:hasTopic is representing a more specific entity than the portion of the annotated document.
+A <b>Narrow Qualifier</b> is used when the object of the relationship ao:hasTopic is representing a more specific entity than the portion of the annotated document.
 </blockquote>
 
 === Annotation Type: Close Qualifier ===
