@@ -104,13 +104,13 @@
         </rdfs:comment>
     </owl:Class> 
     
-    <owl:Class rdf:about="NarrowerQualifier" rdfs:label="(ao-type) Narrower Qualifier">
+    <owl:Class rdf:about="NarrowQualifier" rdfs:label="(ao-type) Narrow Qualifier">
     	<rdfs:subClassOf rdf:resource="Qualifier"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
     </owl:Class> 
     
-    <owl:Class rdf:about="BroaderQualifier" rdfs:label="(ao-type) Broader Qualifier">
+    <owl:Class rdf:about="BroadQualifier" rdfs:label="(ao-type) Broad Qualifier">
     	<rdfs:subClassOf rdf:resource="Qualifier"/>
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
