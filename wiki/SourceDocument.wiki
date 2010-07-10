@@ -40,4 +40,4 @@ As you can imagine this does not make a lot of sense as it will be impossible to
 
 ---
 
-[Namespaces Namespaces used above]
+[Namespaces ::Namespaces used above::]
