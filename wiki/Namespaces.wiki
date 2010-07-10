@@ -1,7 +1,7 @@
 === Annotation Ontology Architecture and Namespaces ===
 
 Annotation Ontology (AO) is composed by the following modules (files):
- * *ao*: is importing the followign modules as the default distribution of the Annotation Ontology. http://annotation-ontology.googlecode.com/svn/trunk/annotation.owl
+ * *ao*: is importing the followign modules as the default distribution of the Annotation Ontology. 
  * *core*: is defining the core functionalities of AO including the tools for organizing annotation items in sets and sets in perspectives. 
  * *selectors*: is listing all the currently available [Selectors selectors]. 
  * *types*: is defining all the [AnnotationTypes annotation types] other than the generic  _Annotation_
