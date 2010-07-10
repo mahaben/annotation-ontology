@@ -143,7 +143,7 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
-    <owl:Class rdf:about="Annotation" rdfs:label="(ao) Selector">
+    <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="AnnotationCuration"/>
         <owl:disjointWith rdf:resource="AnnotationSet"/>
