@@ -1,7 +1,7 @@
 === Annotation Ontology Architecture and Namespaces ===
 
 Annotation Ontology (AO) is composed by the following modules:
- * *Core*: is defining the core functionalities of AO. Even if AO is built on top of Annotea, such integration is happening in a separate module.
+ * *Core*: is defining the core functionalities of AO including the tools for organizing annotation items in set and perspectives. 
  * *Selectors*: is listing all the currently available selectors. 
  * *Types*: is defining all the anntoation types other than the generic  _Annotation_
  * *Annotea Integration*: is defining the mapping of AO with the Annotea project ontology.
