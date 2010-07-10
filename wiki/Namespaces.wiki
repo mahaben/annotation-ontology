@@ -1,4 +1,4 @@
-=== Annotation Ontology Namespaces ===
+=== Annotation Ontology Architecture and Namespaces ===
 
 || ao || *Annotation Core* ||  http://purl.org/ao/core/||
 || aot || *Annotation Types* || http://purl.org/ao/types/ ||
