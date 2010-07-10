@@ -83,6 +83,7 @@
      -->
   	
     <owl:Class rdf:about="Annotation" rdfs:label="(ao) Annotation">
+    	<rdfs:subClassOf rdf:resource="&owl;Thing"/>
         <owl:disjointWith rdf:resource="AnnotationCuration"/>
         <owl:disjointWith rdf:resource="Selector"/>
         <owl:disjointWith rdf:resource="AnnotationSet"/>
@@ -144,6 +145,7 @@
     </owl:Class>
     
     <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="AnnotationCuration"/>
         <owl:disjointWith rdf:resource="AnnotationSet"/>
@@ -213,9 +215,10 @@
     </owl:Class>
     
     <owl:Class rdf:about="AnnotationSet" rdfs:label="(ao) Annotation Set">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
         <owl:disjointWith rdf:resource="Annotation"/>
+        <owl:disjointWith rdf:resource="Selector"/>   
         <owl:disjointWith rdf:resource="AnnotationCuration"/>
-        <owl:disjointWith rdf:resource="Selector"/>    
         <owl:disjointWith rdf:resource="DocumentAnnotation"/>
     
         <rdfs:comment rdf:datatype="&xsd;string">
@@ -271,6 +274,7 @@
     </owl:Class>
     
     <owl:Class rdf:about="DocumentAnnotation" rdfs:label="(ao) Document Annotation">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="AnnotationCuration"/>
         <owl:disjointWith rdf:resource="Selector"/>    
@@ -367,6 +371,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
     <rdf:Description rdf:about="&pav;Curation" rdfs:label="(pav) Curation">
+    	<rdfs:subClassOf rdf:resource="&owl;Thing"/>
     </rdf:Description> 
 
 </rdf:RDF>
