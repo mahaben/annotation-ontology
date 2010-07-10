@@ -1,0 +1,7 @@
+=== AO Namespaces===
+
+|| ao || *Annotation Core* ||  http://purl.org/ao/core/||
+|| aos || *Annotation Selectors* || http://purl.org/ao/selectors/ ||
+|| aot || *Annotation Types* || http://purl.org/ao/types/ ||
+|| aof || *Annotation Integration with FOAF* || http://purl.org/ao/foaf/ ||
+|| aoa || *Annotation Integration with Annotea* || http://purl.org/ao/annotea/ ||
