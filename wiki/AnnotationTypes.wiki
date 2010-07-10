@@ -62,7 +62,7 @@ The RDF of the erratum example:
         The previous 2 lines have been added for querying with SPARQL
         -->
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
-        <aos:context rdf:resource="http://my.example.org/sel/20300"/>
+        <ao:context rdf:resource="http://my.example.org/sel/20300"/>
         <ann:body>BACE1</ann:body>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
