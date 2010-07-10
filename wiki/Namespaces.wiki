@@ -7,8 +7,9 @@ Annotation Ontology (AO) is composed by the following modules:
  * *Annotea Integration*: is defining the mapping of AO with the Annotea project ontology.
  * *Foaf Integration*: is defining the mapping and the constraints to integrate AO with the FOAF vocabulary.
 
-Here are the correspondent namespaces:
+Here are the correspondent namespaces with the prefixes they will used in the rest of the documentation
 
+|| *Prefix* || *Name*|| *Namespace*||
 || ao || *Annotation Core* ||  http://purl.org/ao/core/||
 || aot || *Annotation Types* || http://purl.org/ao/types/ ||
 || aos || *Annotation Selectors* || http://purl.org/ao/selectors/ ||
