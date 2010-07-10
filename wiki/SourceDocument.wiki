@@ -38,4 +38,6 @@ Translated in triples this would be:
 
 As you can imagine this does not make a lot of sense as it will be impossible to understand what triple is associated with each specific annotation.
 
+---
+
 [Namespaces Namespaces used above]
