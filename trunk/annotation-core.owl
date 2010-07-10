@@ -267,7 +267,7 @@
         <!-- source document -->
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="onDocument"/>
+                <owl:onProperty rdf:resource="onResource"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
