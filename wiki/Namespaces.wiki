@@ -3,5 +3,5 @@
 || ao || *Annotation Core* ||  http://purl.org/ao/core/||
 || aot || *Annotation Types* || http://purl.org/ao/types/ ||
 || aos || *Annotation Selectors* || http://purl.org/ao/selectors/ ||
-|| aof || *Annotation Integration with FOAF* || http://purl.org/ao/foaf/ ||
-|| aoa || *Annotation Integration with Annotea* || http://purl.org/ao/annotea/ ||
+|| aof || *Annotation Ontology Integration with FOAF* || http://purl.org/ao/foaf/ ||
+|| aoa || *Annotation Ontology Integration with Annotea* || http://purl.org/ao/annotea/ ||
