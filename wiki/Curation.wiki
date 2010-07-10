@@ -14,7 +14,7 @@ The annotation:
         <rdf:type rdf:resource="&ao;Anntoation"/>
         <rdf:type rdf:resource="&aot;Qualifier"/>
         <rdf:type rdf:resource="&aot;ExactQualifier"/>
-        <aos:context rdf:resource="http://my.example.org/sel/20300"/>
+        <ao:context rdf:resource="http://my.example.org/sel/20300"/>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
@@ -27,7 +27,7 @@ the text selector
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
-        <rdf:type rdf:resource="&aos;Selector"/>
+        <rdf:type rdf:resource="&ao;Selector"/>
         <rdf:type rdf:resource="&aos;TextSelector"/>
         <rdf:type rdf:resource="&aos;PrefixPostfixSelector"/>
         <aos:exact>BACE1</aos:exact>
