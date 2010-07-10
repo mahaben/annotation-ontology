@@ -62,6 +62,7 @@ The text selector:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10300">
+        <rdf:type rdf:resource="&ao;Selector"/>
         <rdf:type rdf:resource="&aos;TextSelector"/>
         <rdf:type rdf:resource="&aos;PrefixPostfixSelector"/>
         <aos:exact>BACE1</aos:exact>
@@ -89,7 +90,7 @@ The image selector:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/22300">
-        <rdf:type rdf:resource="&aos;Selector"/>
+        <rdf:type rdf:resource="&ao;Selector"/>
         <rdf:type rdf:resource="&aos;ImageSelector"/>
         <rdf:type rdf:resource="&aos;InitEndCornerSelector"/>
         <aof:onDocument rdf:resource="http://tinyurl.com/35a6fnq"/>
