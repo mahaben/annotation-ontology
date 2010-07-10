@@ -343,6 +343,7 @@
     </owl:ObjectProperty> 
     
     <owl:ObjectProperty rdf:about="onSourceDocument">
+    	<rdfs:range rdf:resource="&pav;SourceDocument" />
     </owl:ObjectProperty>
     
     <owl:ObjectProperty rdf:about="hasTopic">
