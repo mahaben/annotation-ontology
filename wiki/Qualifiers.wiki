@@ -119,7 +119,7 @@ The RDF of the example would look like the following:
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
         <ann:body>This is the Linear Skull Fracture</ann:body>
-        <aos:context rdf:resource="http://my.example.org/sel/10301"/>
+        <ao:context rdf:resource="http://my.example.org/sel/10301"/>
         <aof:annotatesDocument rdf:resource="http://my.ex.org/img102"/>
         <ao:hasTopic rdf:resource="&ontoexample;46560"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
@@ -131,7 +131,7 @@ The image selector:
 
 {{{
     <rdf:Description rdf:about="http://my.example.org/sel/10301">
-        <rdf:type rdf:resource="&aos;Selector"/>
+        <rdf:type rdf:resource="&ao;Selector"/>
         <rdf:type rdf:resource="&aos;ImageSelector"/>
         <rdf:type rdf:resource="&aos;InitEndCornerSelector"/>
         <aof:onDocument rdf:resource="http://my.ex.org/img102"/>
