@@ -1,6 +1,8 @@
 #labels annotation_ontology,ontology,selector,document_annotation,semantic_web,image_annotation
 A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also for a specific content type, multiple kind of selector can be defined to cover specific needs. The Selector instance for a specific Annotation instance is identified through the property _aos:context_.
 
+|| OWL File || http://annotation-ontology.googlecode.com/svn/trunk/annotation-selectors.owl  ||
+
 === Using XPointer ===
 
 The _aos:context_ property is sub-property of the Annotea property _ann:context_. Therefore, for those of you that want to use [http://www.w3.org/TR/xptr/ XPointer]  context definition it is still possible to do it directly - without using the Selectors - the way that Annotea was doing it:
@@ -28,7 +30,6 @@ the RDF of the annotation will look something like:
 
 Using the pure XPointer approach is not always a good choice - when a document is changing, for instance going through revision, we may end up with orphan annotations or annotations pointing to wrong places. Also, we want to keep track of the [SourceDocument Source Document or Document Provenance] and we need to point to portion of documents that are not XML documents. For these reasons we introduced the Selector mechanism.
 
-|| OWL File || http://annotation-ontology.googlecode.com/svn/trunk/annotation-selectors.owl  ||
 
 === Classes Of Selectors ===
 
