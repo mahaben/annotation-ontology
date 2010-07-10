@@ -21,6 +21,7 @@
 
 <rdf:RDF
     xml:base="&annotation-foaf;"
+    xmlns:aof="&annotation-foaf;"
     xmlns:ann="&annotation-core;"
     xmlns:pav="&pav;"
     xmlns:rdfs="&rdfs;"
