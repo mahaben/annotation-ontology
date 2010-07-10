@@ -111,16 +111,6 @@ the source document:
 == Types by composition ==
 Instead of subclassing the _Annotation_ class as it was happening in Annotea, it is also possible to define an instance of the annotation inheriting from multiple classes. This approach allows for instance to easily integrate the existing _Discourse Elements_ classes of the [http://swan.mindinformatics.org/ontology.html SWAN ontology] in the Annotation Ontology (see [SWANDiscourse Integration with SWAN])
 
-=== Namespaces ===
+---
 
-Namespaces used above:
-
-|| ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
-|| ao || *Annotation Core* ||  http://purl.org/ao/core/||
-|| aos || *Annotation Selectors* || http://purl.org/ao/selectors/ ||
-|| aot || *Annotation Types* || http://purl.org/ao/types/ ||
-|| aof || *Annotation Integration with FOAF* || http://purl.org/ao/foaf/ ||
-|| aoa || *Annotation Integration with Annotea* || http://purl.org/ao/annotea/ ||
-|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
-|| PRO || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
-|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
+[Namespaces Namespaces used above]
