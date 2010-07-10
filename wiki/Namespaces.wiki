@@ -21,5 +21,6 @@ Here are the correspondent namespaces with the prefixes as they will used in the
 || ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
 || pro || PRotein Ontology (PRO) || http://purl.obolibrary.org/obo/ ||
 || foaf || Friend Of A Friend (FOAF) || http://xmlns.com/foaf/0.1/ || 
+|| dct || Dublin Core Terms || http://purl.org/dc/terms/ ||
 || sioc || SIOC Ontology || http://rdfs.org/sioc/ns# ||
 ||sioct|| SIOC Ontology Types || http://rdfs.org/sioc/types# ||
