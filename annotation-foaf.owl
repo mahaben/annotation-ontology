@@ -117,16 +117,6 @@
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        
-        <!-- annotates -->
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="annotates"/>
-                <owl:allValuesFrom>
-                    <owl:Class rdf:about="&foaf;Document"/>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
     <owl:Class rdf:about="&annotation-core;Selector" rdfs:label="(ao) Selector">
