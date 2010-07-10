@@ -1,5 +1,12 @@
 === Annotation Ontology Architecture and Namespaces ===
 
+Annotation Ontology (AO) is composed by the following modules:
+ * Core
+ * Selectors
+ * Types
+ * Annotea Integration
+ * Foaf Integration
+
 || ao || *Annotation Core* ||  http://purl.org/ao/core/||
 || aot || *Annotation Types* || http://purl.org/ao/types/ ||
 || aos || *Annotation Selectors* || http://purl.org/ao/selectors/ ||
