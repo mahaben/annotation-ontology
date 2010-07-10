@@ -142,6 +142,17 @@
             </owl:Restriction>
         </rdfs:subClassOf>	
     </owl:Class>
+    
+    <owl:Class rdf:about="Annotation" rdfs:label="(ao) Selector">
+        <owl:disjointWith rdf:resource="Annotation"/>
+        <owl:disjointWith rdf:resource="AnnotationCuration"/>
+        <owl:disjointWith rdf:resource="AnnotationSet"/>
+        <owl:disjointWith rdf:resource="DocumentAnnotation"/>
+    	
+        <rdfs:comment rdf:datatype="&xsd;string">
+            Selectors identify document fragments.
+        </rdfs:comment>
+    </owl:Class>
       	
     <owl:Class rdf:about="AnnotationCuration" rdfs:label="(ao) Annotation Curation">
     	<rdfs:subClassOf rdf:resource="&pav;Curation"/>
