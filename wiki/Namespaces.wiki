@@ -16,8 +16,6 @@ Here are the correspondent namespaces with the prefixes as they will used in the
 || aoa || *Annotation Ontology Integration with Annotea* || http://purl.org/ao/annotea/ ||
 || aof || *Annotation Ontology Integration with FOAF* || http://purl.org/ao/foaf/ ||
 
-
-<br/>
 === Related Ontologies Namespaces ===
 || pav || Provenance, Authoring and Versioning (PAV) v.2|| http://purl.org/swan/pav/provenance/ ||
 || ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
