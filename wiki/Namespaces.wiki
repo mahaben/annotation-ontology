@@ -9,7 +9,7 @@
 
 <br/>
 === Related Ontologies Namespaces ===
-|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
+|| pav || Provenance, Authoring and Versioning (PAV)|| http://purl.org/swan/pav/provenance/ ||
 || ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
-|| pro || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
-|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
+|| pro || PRotein Ontology (PRO) || http://purl.obolibrary.org/obo/ ||
+|| foaf || Friend Of A Friend (FOAF) || http://xmlns.com/foaf/0.1/ || 
