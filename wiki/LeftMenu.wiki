@@ -3,7 +3,7 @@
  * [Homepage]
  * [Requirements Requirements]
  * [Background Starting from Annotea]
- * [Namespaces AO Architecture and Namespaces]
+ * [Namespaces Architecture and Namespaces]
  * [SourceDocument Source Documents]
  * [Selectors Document Selectors]
  * [Annotation Annotation Core]
