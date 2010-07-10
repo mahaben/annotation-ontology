@@ -374,5 +374,9 @@
     <rdf:Description rdf:about="&pav;Curation" rdfs:label="(pav) Curation">
     	<rdfs:subClassOf rdf:resource="&owl;Thing"/>
     </rdf:Description> 
+    
+    <rdf:Description rdf:about="&pav;SourceDocument" rdfs:label="(pav) Source Document">
+    	<rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </rdf:Description> 
 
 </rdf:RDF>
