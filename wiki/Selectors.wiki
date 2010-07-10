@@ -18,7 +18,7 @@ the RDF of the annotation will look something like:
         <rdf:type rdf:resource="&aot;Qualifier"/>
         <rdf:type rdf:resource="&ao;Annotation"/>
         <rdf:type rdf:resource="&ann;Annotation"/>
-        <ann:context>...xpointer notation...</ann:context>
+        <ann:context>http://serv1.example.com/some/page.html#xpointer(id("Main")/p[2])</ann:context>
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
