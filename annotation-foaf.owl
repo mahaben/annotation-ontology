@@ -96,7 +96,7 @@
     </owl:ObjectProperty>
 
 	<owl:ObjectProperty rdf:about="&annotation-foaf;onDocument">
-		<rdfs:subPropertyOf rdf:resource="&ao;onResource" />
+		<rdfs:subPropertyOf rdf:resource="&annotation-core;onResource" />
 		<rdfs:range rdf:resource="&foaf;Document" />
     </owl:ObjectProperty>
 
