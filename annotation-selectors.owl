@@ -15,8 +15,8 @@
     <!ENTITY pav "http://swan.mindinformatics.org/ontologies/1.2/pav/">
     
     <!-- Main namespace -->
-    <!ENTITY annotation-core "http://purl.org/swan/annotation/" >
-    <!ENTITY annotation-selectors "http://purl.org/swan/annotation-selectors/" >
+    <!ENTITY annotation-core "http://purl.org/ao/core/" >
+    <!ENTITY annotation-selectors "http://purl.org/ao/selectors/" >
 ]>
 
 <rdf:RDF
