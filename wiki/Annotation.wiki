@@ -128,11 +128,11 @@ with a different text selector (OffsetRangeSelector) it would have been:
 Namespaces used above:
 
 || ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
-|| ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
-|| aos || *Annotation Selectors* || http://purl.org/swan/annotation-selectors/ ||
-|| aot || *Annotation Selectors* || http://purl.org/swan/annotation-types/ ||
-|| aof || *Annotation Integration with FOAF* || http://purl.org/swan/annotation-foaf/ ||
-|| aoa || *Annotation Integration with Annotea* || http://purl.org/swan/annotation-annotea/ ||
+|| ao || *Annotation Core* ||  http://purl.org/ao/core/||
+|| aos || *Annotation Selectors* || http://purl.org/ao/selectors/ ||
+|| aof || *Annotation Integration with FOAF* || http://purl.org/ao/foaf/ ||
+|| aot || *Annotation Selectors* || http://purl.org/ao/types/ ||
+|| aoa || *Annotation Integration with Annotea* || http://purl.org/ao/annotea/ ||
 || pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
 || PRO || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
 || foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
