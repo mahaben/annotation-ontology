@@ -377,6 +377,11 @@
     
     <rdf:Description rdf:about="&pav;SourceDocument" rdfs:label="(pav) Source Document">
     	<rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    	
+    	<owl:disjointWith rdf:resource="Annotation"/>
+        <owl:disjointWith rdf:resource="AnnotationCuration"/>
+        <owl:disjointWith rdf:resource="Selector"/>    
+        <owl:disjointWith rdf:resource="AnnotationSet"/>
     </rdf:Description> 
 
 </rdf:RDF>
