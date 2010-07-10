@@ -88,7 +88,7 @@ The RDF of the example in picture 2 would look like the following:
         <rdf:type rdf:resource="&ann;Annotation"/>
         -->
         <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
-        <aos:context rdf:resource="http://my.example.org/sel/10300"/>
+        <ao:context rdf:resource="http://my.example.org/sel/10300"/>
         <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
