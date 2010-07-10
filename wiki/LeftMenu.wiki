@@ -16,7 +16,6 @@
  * [DocumentAnnotation Annotation Perspective]
  * [Pav Provenance, Authoring, Versioning]
    * [DC Using Dublin Core]
- * [Examples More Examples]
  * [Integration Related Ontologies]
    * [IntegrationWithSIOC Integration with SIOC]
    * [IntegrationWithTagOntology Integration with Tag Ontology]
