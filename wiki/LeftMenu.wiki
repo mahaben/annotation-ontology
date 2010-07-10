@@ -2,7 +2,6 @@
 
  * [Homepage]
  * [Requirements Requirements]
- * [UseCases Use Cases]
  * [Background Starting from Annotea]
  * [Namespaces AO Architecture and Namespaces]
  * [SourceDocument Source Documents]
