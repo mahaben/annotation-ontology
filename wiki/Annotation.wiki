@@ -123,16 +123,6 @@ with a different text selector (OffsetRangeSelector) it would have been:
     </rdf:Description>
 }}}
 
-=== Namespaces ===
+---
 
-Namespaces used above:
-
-|| ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
-|| ao || *Annotation Core* ||  http://purl.org/ao/core/||
-|| aos || *Annotation Selectors* || http://purl.org/ao/selectors/ ||
-|| aot || *Annotation Types* || http://purl.org/ao/types/ ||
-|| aof || *Annotation Integration with FOAF* || http://purl.org/ao/foaf/ ||
-|| aoa || *Annotation Integration with Annotea* || http://purl.org/ao/annotea/ ||
-|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
-|| PRO || PRotein Ontology || http://purl.obolibrary.org/obo/ ||
-|| foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
+[Namespaces Namespaces used above]
