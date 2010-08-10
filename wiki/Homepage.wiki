@@ -29,6 +29,7 @@ The _Annotation Ontology_ is a vocabulary for defining several kind of annotatio
    * [IntegrationWithTagOntology Integration with Tag Ontology]
    * [IntegrationWithMOAT Integration with MOAT] (in progress)
    * [OMR Ontology for Media Resource 1.0] (coming soon)
+   * [http://www.openarchives.org/ore/ OAI-ORE] (coming soon)
 
 <br/>
 
