@@ -125,7 +125,7 @@ with a different text selector (OffsetRangeSelector) it would have been:
 }}}
 
 === Annotation of a multiple targets ===
-AO allows to annotate multiple targets belonging to the same or multiple documents. In fact, it is possible to define multiple contexts for the same Annotation entity. These can point to the same or different SourceDocuments. 
+AO allows to annotate multiple targets belonging to the same or multiple documents. In fact, it is possible to define multiple contexts for the same Annotation entity. These can point to the same or different [SourceDocument Source Documents]. 
 
 ---
 
