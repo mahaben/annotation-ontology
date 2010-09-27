@@ -115,15 +115,15 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="context"/>
-                <owl:allValuesFrom>
+                <owl:someValuesFrom>
                     <owl:Class rdf:about="Selector"/>
-                </owl:allValuesFrom>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="context"/>
-                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         
