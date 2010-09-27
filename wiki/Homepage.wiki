@@ -3,7 +3,9 @@
 
 === Overview ===
 
-The scalability of the Semantic Web hinges upon factoring information components into orthogonal ontologies. In addition to limiting the combinatorial explosion implicit in multifunction ontologies, it allows people to share code and understanding of core ontologies. _Annotation Ontology (AO)_ is a vocabulary designed to extensively reuse existing domain ontologies (entities annotations or semantic tags) and to provide several other kind of annotations - comments, textual annotation (classic tags), notes, examples, erratum... - on potentially any kind of document (text, images, audio...) and document part. 
+The scalability of the Semantic Web hinges upon factoring information components into orthogonal ontologies. In addition to limiting the combinatorial explosion implicit in multifunction ontologies, it allows people to share code and understanding of core ontologies. 
+
+_Annotation Ontology (AO)_ is a vocabulary designed to extensively reuse existing domain ontologies (entities annotations or semantic tags) and to provide several other kind of annotations - comments, textual annotation (classic tags), notes, examples, erratum... - on potentially any kind of document (text, images, audio...) and document part. 
 
 === Index of Content ===
 
