@@ -6,4 +6,4 @@ AO allows to annotate multiple targets belonging to the same or multiple documen
 <b>Figure 1 - Example of annotation of multiple target - in this case represented by different documents. Both with topic Beta-Secretase 1
 </b>
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/Multiple%20Targets%20same%20document-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Multiple%20Targets%20same%20document%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
