@@ -33,7 +33,6 @@ _Annotation Ontology (AO)_ is a vocabulary designed to extensively reuse existin
    * [IntegrationWithTagOntology Integration with Tag Ontology]
    * [IntegrationWithMOAT Integration with MOAT] (in progress)
    * [OMR Ontology for Media Resource 1.0] (coming soon)
-   * [http://www.openarchives.org/ore/ OAI-ORE] (coming soon)
 
 <br/>
 
