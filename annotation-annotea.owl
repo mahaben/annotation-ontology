@@ -149,5 +149,15 @@
  subclassed by more specific relationships.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/10/annotation-ns#"/>
     </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about='http://www.w3.org/2002/01/bookmark#hasTopic'>
+        <rdfs:label>hasTopic</rdfs:label>
+        <rdfs:comment>relates a bookmark to a topic.
+           A bookmark must have at least one hasTopic property.
+           The typical user operation of following a bookmark link
+           will use the value of the b:recalls property. This property
+           corresponds to XBEL:href property.</rdfs:comment>
+    </owl:ObjectProperty>
+    
      
 </rdf:RDF>
