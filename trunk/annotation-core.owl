@@ -179,7 +179,7 @@
         <!-- curates (exactly one annotation) -->
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="curates"/>
+                <owl:onProperty rdf:resource="&pav;curates"/>
                 <owl:allValuesFrom>
                     <owl:Class rdf:about="Annotation"/>
                 </owl:allValuesFrom>
@@ -187,20 +187,20 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="curates"/>
+                <owl:onProperty rdf:resource="&pav;curates"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="curates"/>
+                <owl:onProperty rdf:resource="&pav;curates"/>
                 <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="curatedBy"/>
+                <owl:onProperty rdf:resource="&pav;curatedBy"/>
                 <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -355,8 +355,8 @@
     <owl:ObjectProperty rdf:about="item">
     </owl:ObjectProperty>
     
-    <owl:ObjectProperty rdf:about="curates">
-        <owl:inverseOf rdf:resource="curatedBy" />
+    <owl:ObjectProperty rdf:about="&pav;curates">
+        <owl:inverseOf rdf:resource="&pav;curatedBy" />
     </owl:ObjectProperty>
     
     <owl:DatatypeProperty rdf:about="status">
