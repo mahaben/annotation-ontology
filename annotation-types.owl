@@ -80,7 +80,7 @@
     </rdf:Description>      
 
 
-	<owl:Class rdf:about="&annotation-core;Annotation" rdfs:label="(ao) Selector">
+    <owl:Class rdf:about="&annotation-core;Annotation" rdfs:label="(ao) Selector">
     </owl:Class>
  
     <owl:ObjectProperty rdf:about="body">
