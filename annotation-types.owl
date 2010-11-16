@@ -79,6 +79,10 @@
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
     </rdf:Description>      
 
+
+	<owl:Class rdf:about="&annotation-core;Annotation" rdfs:label="(ao) Selector">
+    </owl:Class>
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

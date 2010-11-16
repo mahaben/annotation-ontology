@@ -90,7 +90,7 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-	<owl:Class rdf:about="XPointerSelector" rdfs:label="(ao-sel) XPointer Selector">
+    <owl:Class rdf:about="XPointerSelector" rdfs:label="(ao-sel) XPointer Selector">
     	<rdfs:subClassOf rdf:resource="&annotation-core;Selector"/>
         <rdfs:comment rdf:datatype="&xsd;string">
             The XPointer Selector allows to identify any part of an XML document by using the XPointer technology 
