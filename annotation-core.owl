@@ -352,6 +352,9 @@
     <owl:ObjectProperty rdf:about="body">
     </owl:ObjectProperty>
     
+    <owl:ObjectProperty rdf:about="item">
+    </owl:ObjectProperty>
+    
     <owl:ObjectProperty rdf:about="curates">
         <owl:inverseOf rdf:resource="curatedBy" />
     </owl:ObjectProperty>
