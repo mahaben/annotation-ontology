@@ -15,7 +15,7 @@
     <!ENTITY pav  "http://purl.org/pav/">
     
     <!-- Main namespace -->
-    <!ENTITY annotation-core "http://purl.org/ao/core/" >
+    <!ENTITY annotation-core "http://purl.org/ao/" >
     <!ENTITY annotation-foaf "http://purl.org/ao/foaf/" >
 ]>
 
