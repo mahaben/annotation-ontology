@@ -202,6 +202,12 @@
         </rdfs:subClassOf>	
     </owl:Class>     
      
+    <owl:ObjectProperty rdf:about="&annotation-core;annotatesResource">
+    </owl:ObjectProperty> 
+    
+    <owl:ObjectProperty rdf:about="&annotation-core;onResource">
+    </owl:ObjectProperty> 
+     
     <rdf:Description rdf:about="&foaf;Document" rdfs:label="(foaf) Document">
     	<owl:disjointWith rdf:resource="&annotation-core;Annotation"/>
         <owl:disjointWith rdf:resource="&annotation-core;AnnotationCuration"/>
@@ -218,11 +224,5 @@
         <owl:disjointWith rdf:resource="&annotation-core;AnnotationSet"/>
         <owl:disjointWith rdf:resource="&annotation-core;DocumentAnnotation"/>
     </rdf:Description>
-    
-    <owl:ObjectProperty rdf:about="&annotation-core;annotatesResource">
-    </owl:ObjectProperty> 
-    
-    <owl:ObjectProperty rdf:about="&annotation-core;onResource">
-    </owl:ObjectProperty>
 
 </rdf:RDF>
