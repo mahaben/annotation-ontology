@@ -12,7 +12,7 @@
     <!ENTITY ans  "http://www.w3.org/2000/10/annotation-ns#" >
     <!ENTITY bkm  "http://www.w3.org/2002/01/bookmark#" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
-    <!ENTITY pav "http://swan.mindinformatics.org/ontologies/1.2/pav/">
+    <!ENTITY pav  "http://purl.org/pav/">
     
     <!-- Main namespace -->
     <!ENTITY annotation "http://purl.org/ao/" >
