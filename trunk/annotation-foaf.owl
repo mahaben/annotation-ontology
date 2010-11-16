@@ -90,8 +90,7 @@
     // Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-    
+     -->    
     <owl:ObjectProperty rdf:about="&annotation-foaf;annotatesDocument">
     	<rdfs:subPropertyOf rdf:resource="&annotation-core;annotatesResource" />
     	<rdfs:domain rdf:resource="&annotation-core;Annotation" />
@@ -219,5 +218,11 @@
         <owl:disjointWith rdf:resource="&annotation-core;AnnotationSet"/>
         <owl:disjointWith rdf:resource="&annotation-core;DocumentAnnotation"/>
     </rdf:Description>
+    
+    <owl:ObjectProperty rdf:about="&annotation-core;annotatesResource">
+    </owl:ObjectProperty> 
+    
+    <owl:ObjectProperty rdf:about="&annotation-core;onResource">
+    </owl:ObjectProperty>
 
 </rdf:RDF>
