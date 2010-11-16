@@ -106,8 +106,8 @@
         <!-- annotates -->
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="annotatesResource"/>
-                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
+                <owl:onProperty rdf:resource="onResource"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
         
