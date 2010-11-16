@@ -79,6 +79,9 @@
     <rdf:Description rdf:about="&dct;contributor">
         <rdf:type rdf:resource="&owl;AnnotationProperty"/>
     </rdf:Description>      
+    
+    <owl:Class rdf:about="ann:Selector" rdfs:label="(ao) Selector">
+    </owl:Class>
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
