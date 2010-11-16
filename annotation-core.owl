@@ -200,7 +200,7 @@
         
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="isCuratedBy"/>
+                <owl:onProperty rdf:resource="curatedBy"/>
                 <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
