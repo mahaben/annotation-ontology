@@ -157,6 +157,7 @@
            The typical user operation of following a bookmark link
            will use the value of the b:recalls property. This property
            corresponds to XBEL:href property.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/01/bookmark#"/>
     </owl:ObjectProperty>
     
      
