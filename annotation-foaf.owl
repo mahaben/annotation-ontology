@@ -37,6 +37,7 @@
         <rdf:type rdf:resource="&owl;Ontology"/>
         <rdfs:label rdf:datatype="&xsd;string">Annotation Ontology FOAF v. 1.0</rdfs:label>
         
+        <owl:imports rdf:resource="http://purl.org/pav/2.0/"/>
         <owl:imports rdf:resource="http://purl.org/swan/2.0/foaf-essential/"/>
 
     	<dct:language>en</dct:language>
