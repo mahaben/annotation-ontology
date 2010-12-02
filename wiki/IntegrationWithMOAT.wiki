@@ -37,8 +37,8 @@ Namespaces used above:
 
 || foaf || Friend Of A Friend || http://xmlns.com/foaf/0.1/ || 
 || ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
-|| ao || *Annotation Core* ||  http://purl.org/swan/annotation/||
-|| aot || *Annotation Selectors* || http://purl.org/swan/annotation-types/ ||
+|| ao || *Annotation Core* ||  http://purl.org/ao/core/ ||
+|| aot || *Annotation Selectors* || http://purl.org/ao/types/ ||
 || pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
 || tag || Tag Ontology || http://www.holygoat.co.uk/owl/redwood/0.1/tags/ ||
 || moat || MOAT Ontology || http://moat-project.org/ns# ||
