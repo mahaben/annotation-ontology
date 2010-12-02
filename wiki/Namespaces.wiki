@@ -24,7 +24,7 @@ Here are the correspondent namespaces with the prefixes as they will used in the
 
 <br/>
 === Related Ontologies Namespaces ===
-|| pav || Provenance, Authoring and Versioning (PAV) v.2|| http://purl.org/pav/provenance/ ||
+|| pav || Provenance, Authoring and Versioning (v. 2.0) || http://purl.org/pav/ ||
 || ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
 || pro || PRotein Ontology (PRO) || http://purl.obolibrary.org/obo/ ||
 || foaf || Friend Of A Friend (FOAF) || http://xmlns.com/foaf/0.1/ || 
