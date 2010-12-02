@@ -39,6 +39,6 @@ Namespaces used above:
 || ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
 || ao || *Annotation Core* ||  http://purl.org/ao/core/ ||
 || aot || *Annotation Selectors* || http://purl.org/ao/types/ ||
-|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
+|| pav || Provenance, Authoring and Versioning || http://purl.org/pav/provenance/ ||
 || tag || Tag Ontology || http://www.holygoat.co.uk/owl/redwood/0.1/tags/ ||
 || moat || MOAT Ontology || http://moat-project.org/ns# ||
