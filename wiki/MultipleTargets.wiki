@@ -7,3 +7,7 @@ AO allows to annotate multiple targets belonging to the same or multiple documen
 </b>
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/Multiple%20Targets%20same%20document%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+
+---
+
+[Namespaces Namespaces used above]
