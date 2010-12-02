@@ -19,6 +19,6 @@ Namespaces used above:
 || aot || *Annotation Types* || http://purl.org/ao/types/ ||
 || aof || *Annotation Integration with FOAF* || http://purl.org/ao/foaf/ ||
 || aoa || *Annotation Integration with Annotea* || http://purl.org/ao/annotea/ ||
-|| pav || Provenance, Authoring and Versioning || http://purl.org/swan/pav/provenance/ ||
+|| pav || Provenance, Authoring and Versioning (v. 2.0) || http://purl.org/pav/ ||
 || sioc || SIOC Ontology || http://rdfs.org/sioc/ns# ||
 ||sioct|| SIOC Ontology Types || http://rdfs.org/sioc/types# ||
