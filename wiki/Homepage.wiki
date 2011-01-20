@@ -10,7 +10,6 @@ _Annotation Ontology (AO)_ is a vocabulary designed to extensively reuse existin
 === Index of Content ===
 
  * [Requirements Requirements]
- * [UseCases Use Cases] (coming soon)
  * [Background Starting from Annotea]
  * [Namespaces Architecture and Namespaces]
  * [SourceDocument Source Documents]
