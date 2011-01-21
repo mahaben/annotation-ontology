@@ -10,4 +10,4 @@
 
 == Neuroscience Information Framework ==
 
-<img src="http://www.neuinfo.org/images/nif-logo.png" width="180px"/>
+<img src="http://www.neuinfo.org/images/nif-logo.png" width="190px"/>
