@@ -1,4 +1,4 @@
-[UnderstandingAO Understanding Annotation Ontology v. 1.0]
+===Understanding Annotation Ontology v. 1.0===
  * [Background Starting from Annotea]
  * [Namespaces Architecture and Namespaces]
  * [SourceDocument Source Documents]
