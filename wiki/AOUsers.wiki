@@ -4,7 +4,7 @@
 
 <table>
 <tr>
-<td width="200px">
+<td width="200px" valign="top">
 [http://getutopia.com/images/utopia.png]
 </td>
 <td>
@@ -13,6 +13,8 @@
 <b>Screencasts</b><br/>
 [http://www.scivee.tv/node/26720 Utopia screencast, January 2010] Showing how [http://getutopia.com/documents/ Utopia] can consume Annotation Ontology content.<br/>
 [http://vimeo.com/18510599 SWAN Annotation Framework Screencast, December 2010] Producing Annotation Ontology content for Utopia via the SWAN Annotation Framework<br/>
+<b>Publications</b><br/>
+Tim Clark, Paolo Ciccarese, Terri Attwood, Anita de Waard and Steve Pettifer. [https://sites.google.com/site/beyondthepdf/workshop-papers/clarkciccaresedewaardpettifer A Round-Trip to the Annotation Store: Open, Transferable Semantic Annotation of Biomedical Publications]. [https://sites.google.com/site/beyondthepdf/ Beyond the PDF Workshop], January 19-21, 2011 University of California San Diego  
 </td>
 </tr>
 </table>
