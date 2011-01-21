@@ -18,7 +18,7 @@
 <td>
 <img src="http://www.neuinfo.org/images/nif-logo.png" width="190px"/>
 </td>
-<td>
+<td cellpadding="4">
 [http://www.neuinfo.org/ The Neuroscience Information Framework] is a dynamic inventory of Web-based neuroscience resources: data, materials, and tools accessible via any computer connected to the Internet. An initiative of the NIH Blueprint for Neuroscience Research, NIF advances neuroscience research by enabling discovery and access to public research data and tools worldwide through an open source, networked environment.
 </td>
 </tr>
