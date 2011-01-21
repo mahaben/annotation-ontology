@@ -1,6 +1,7 @@
 With Annotation Ontology (AO) we would like to:
 
  * *Annotate any document on the web (text, images, audio, video) and it’s parts*. Unfortunately, if documents are easily identified by a URI, document parts or fragments are harder to identify. We would like to create a uniform mechanism to refer to all possible kinds of document parts.
+ * *Annotate datasets or records in the datasets*
  * *Annotate simultaneously multiple parts of the document*.
  * *Allow performing different kinds of annotation*. Tags are only an example of annotation, others are: notes, semantic tags, errata, examples, hypothesis, citations...
  * *Foster reuse of existing domain ontologies* and not creating new ones. We want to be able to reuse entities such as claim and hypothesis from the SWAN Ontology, citations from CiTO, OBO Foundry ontologies for biomedicine and so on. 
