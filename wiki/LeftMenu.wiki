@@ -1,6 +1,7 @@
 #summary Left Navigation Menu
 
  * [Homepage]
+ * [News]
  * [Requirements Requirements]
  * [UnderstandingAO Understanding AO v. 1.0]
    * [Background Starting from Annotea]
