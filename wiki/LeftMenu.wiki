@@ -2,7 +2,7 @@
 
  * [Homepage]
  * [Requirements Requirements]
- * [UnderstandingAO Unserstanding Annotation Ontology]
+ * [UnderstandingAO Understanding Annotation Ontology]
    * [Background Starting from Annotea]
    * [Namespaces Architecture and Namespaces]
    * [SourceDocument Source Documents]
