@@ -4,4 +4,6 @@
 
 == Utopia ==
 
+[http://getutopia.com/images/utopia.png]
+
 [http://getutopia.com/documents/ Utopia Documents] allows new ways of thinking about your PDFs documents: it brings your papers to life by linking to live resources on the web and turning static data into live interactive content.
