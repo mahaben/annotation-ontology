@@ -4,8 +4,8 @@
 
 <table>
 <tr>
-<td width="200px" valign="top">
-[http://getutopia.com/images/utopia.png]
+<td width="200px" valign="top" align="center">
+<img src="http://getutopia.com/images/utopia.png" width="160px"/>
 </td>
 <td>
 [http://getutopia.com/documents/ Utopia Documents] allows new ways of thinking about your PDFs documents: it brings your papers to life by linking to live resources on the web and turning static data into live interactive content.
@@ -21,8 +21,8 @@ Tim Clark, Paolo Ciccarese, Terri Attwood, Anita de Waard and Steve Pettifer. [h
 
 <table>
 <tr>
-<td width="200px">
-<img src="http://www.neuinfo.org/images/nif-logo.png" width="190px"/>
+<td width="200px" align="center">
+<img src="http://www.neuinfo.org/images/nif-logo.png" width="140px"/>
 </td>
 <td cellpadding="6px">
 [http://www.neuinfo.org/ The Neuroscience Information Framework] is a dynamic inventory of Web-based neuroscience resources: data, materials, and tools accessible via any computer connected to the Internet. An initiative of the NIH Blueprint for Neuroscience Research, NIF advances neuroscience research by enabling discovery and access to public research data and tools worldwide through an open source, networked environment.
@@ -33,7 +33,7 @@ Tim Clark, Paolo Ciccarese, Terri Attwood, Anita de Waard and Steve Pettifer. [h
 <table>
 <tr>
 <td width="200px" align="center">
-<img src="http://annotation-ontology.googlecode.com/svn/trunk/docs/logos/elsevier.jpg" height="140px"/>
+<img src="http://annotation-ontology.googlecode.com/svn/trunk/docs/logos/elsevier.jpg" height="160px"/>
 </td>
 <td cellpadding="6px">
 The world’s leading publisher of science and health information, Elsevier serves more than 30 million scientists, students and health and information professionals worldwide.
