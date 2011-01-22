@@ -1,7 +1,5 @@
 = Who is using Annotation Ontology =
 
-== SWAN Annotation Framework ==
-
 <table>
 <tr>
 <td width="200px" valign="top" align="center">
