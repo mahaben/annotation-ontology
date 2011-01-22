@@ -29,3 +29,14 @@ Tim Clark, Paolo Ciccarese, Terri Attwood, Anita de Waard and Steve Pettifer. [h
 </td>
 </tr>
 </table>
+
+<table>
+<tr>
+<td width="200px" align="center">
+<img src="http://annotation-ontology.googlecode.com/svn/trunk/docs/logos/elsevier.jpg" height="140px"/>
+</td>
+<td cellpadding="6px">
+The world’s leading publisher of science and health information, Elsevier serves more than 30 million scientists, students and health and information professionals worldwide.
+</td>
+</tr>
+</table>
