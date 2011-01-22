@@ -1,1 +1,5 @@
 #summary News related to Annotation Ontology
+
+*January 20, 2011* - The SWAN Annotation Tool, able to produce annotation in Annotation Ontology format has been extensively demonstrated to the participants of the workshop [https://sites.google.com/site/beyondthepdf/ Beyond the PDF] held at the University of California San Diego 
+
+*January 20, 2011* - [http://aig.cs.man.ac.uk/people/srp/ Dr. Steve Pettifer] presented the [http://getutopia.com/documents/ Utopia Documents] tool demonstrating live the ability to import and consume Annotation Ontology annotation produced with the SWAN Annotation Tool [http://www.scivee.tv/node/26720 Screencast]
