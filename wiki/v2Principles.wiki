@@ -18,4 +18,4 @@ Annotation Ontology has been designed to be easy to integrate with other tools p
 
 1. [http://code.google.com/p/pav-ontology/ Provenance, Authoring and Versioning Ontology (PAV) v.2]<br/>
 2. [http://www.w3.org/TR/owl2-overview/ Ontology Web Language (OWL) v. 2]<br/>
-3. RDF     <br/>
+3. [http://www.w3.org/RDF/ Resource Description Framework (RDF)]<br/>
