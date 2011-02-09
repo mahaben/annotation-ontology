@@ -1,3 +1,5 @@
-#summary Main page of Annotation ontology v. 2.0
+#summary Main page of Annotation ontology v. 2
+
+The development of Annotation Ontology v. 2 has been planned to overcome the limitation emerged while implementing the previous version in semantic web applications.
 
   * [v2Principles Principles]
