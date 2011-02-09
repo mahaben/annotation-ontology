@@ -14,7 +14,7 @@ Annotation Ontology has been designed to be orthogonal with any domain ontology.
 As direct consequence of the previously listed principle of Orthogonality, Annotation Ontology is a generic framework for content improvement. Biomedicine is only one possible area of application.
 
 == Interoperability ==
-Annotation Ontology has been designed to be easy to integrate with other tools proper of the Semantic Web. For this reason the model has been defined in OWL (2) and is serialized in RDF (3) format. Also, we constantly investigate ways of integrating Annotation Ontology with other relevant non-domain ontologies.
+Annotation Ontology has been designed to be easy to integrate with other tools proper of the Semantic Web. For this reason the model has been defined in OWL (2) and is serialized in RDF (3) format. 
 
 == Extensibility ==
 We know Annotation Ontology can be used in several different ways. Therefore, in its design we are making sure to allow users to build on the top of the basic ontological framework to cover additional requirements.  
