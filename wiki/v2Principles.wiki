@@ -2,8 +2,6 @@
 
 = Principles =
 
-Below some of the principles that have been driving the design and implementation of the Annotation Ontology.
-
 == Traceability ==
 Annotation Ontology has been designed to assure completeness of the information about every step in the annotation process chain. In fact, a rich set of provenance data based on the PAV ontology (1) can be defined for each piece of the annotation model. 
 
