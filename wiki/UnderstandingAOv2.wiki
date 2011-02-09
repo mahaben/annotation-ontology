@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary The main page of Annotation Ontology v. 2.0
 
 = Introduction =
 
