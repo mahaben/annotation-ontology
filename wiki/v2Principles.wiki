@@ -17,6 +17,7 @@ As direct consequence of the previously listed principle of Orthogonality, Annot
 Annotation Ontology has been designed to be easy to integrate with other tools proper of the Semantic Web. For such reason the model has been defined in OWL (2) and is serialized in RDF (3) format. 
 
 == Content Improvement ==
+Don't be mistaken, Annotation Ontology has not been designed only to deal with already published resources but to support the modern publication process where the annotation of today can become part of the enriched content tomorrow.
 
 1. [http://code.google.com/p/pav-ontology/ PAV - Provenance, Authoring and Versioning Ontology v.2]<br/>
 2. [http://www.w3.org/TR/owl2-overview/ OWL - Ontology Web Language v. 2]<br/>
