@@ -16,6 +16,8 @@ As direct consequence of the previously listed principle of Orthogonality, Annot
 == Interoperability ==
 Annotation Ontology has been designed to be easy to integrate with other tools proper of the Semantic Web. For such reason the model has been defined in OWL (2) and is serialized in RDF (3) format. 
 
+== Content Improvement ==
+
 1. [http://code.google.com/p/pav-ontology/ PAV - Provenance, Authoring and Versioning Ontology v.2]<br/>
 2. [http://www.w3.org/TR/owl2-overview/ OWL - Ontology Web Language v. 2]<br/>
 3. [http://www.w3.org/RDF/ RDF - Resource Description Framework]<br/>
