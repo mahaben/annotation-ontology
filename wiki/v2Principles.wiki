@@ -5,7 +5,7 @@
 Below some of the principles that have been driving the design and implementation of the Annotation Ontology.
 
 == Traceability ==
-Annotation Ontology has been designed to assure completeness of the information about every step in the annotation process chain. In fact, a rich set of provenance data based on the PAV ontology (1.) can be defined for each piece of the annotation model. 
+Annotation Ontology has been designed to assure completeness of the information about every step in the annotation process chain. In fact, a rich set of provenance data based on the PAV ontology (1) can be defined for each piece of the annotation model. 
 
 == Orthogonality ==
 Annotation Ontology has been designed to be orthogonal with any domain ontology. This approach guarantees both to keep the Annotation Ontology simple and to allow Annotation Ontology adopters to use domain ontologies related to their specific field. 
