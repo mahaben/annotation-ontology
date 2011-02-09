@@ -13,5 +13,9 @@ Annotation Ontology has been designed to be orthogonal with any domain ontology.
 == Generality ==
 As direct consequence of the previously listed principle of Orthogonality, Annotation Ontology is a generic framework for content improvement. Biomedicine is only one possible area of application.
 
+== Shereability ==
+Annotation Ontology has been designed to be easy to share. For such reason the model has been defined in OWL (2) and is serialized in RDF (3) format. 
 
 1. PAV v.2 
+2. OWL
+3. RDF
