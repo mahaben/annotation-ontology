@@ -11,7 +11,6 @@ Annotation Ontology has been designed to assure completeness of the information 
 Annotation Ontology has been designed to be orthogonal with any domain ontology. This approach guarantees both to keep the Annotation Ontology simple and to allow Annotation Ontology adopters to use domain ontologies related to their specific field. 
 
 == Generality ==
-
 As direct consequence of the previously listed principle of Orthogonality, Annotation Ontology is a generic framework for content improvement. Biomedicine is only one possible area of application.
 
 
