@@ -1,4 +1,4 @@
-#summary Principles behind Annotation Ontology v. 2.0
+#summary Design Principles
 
 = Principles =
 
