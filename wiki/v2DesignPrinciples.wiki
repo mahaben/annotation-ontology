@@ -12,7 +12,7 @@ Annotation Ontology has been designed to be orthogonal with any domain ontology.
 As direct consequence of the previously listed principle of Orthogonality, Annotation Ontology is a generic framework for content improvement. Biomedicine and Astronomy are only two possible areas of application.
 
 == Interoperability ==
-Annotation Ontology has been designed to be easy to integrate with other tools proper of the Semantic Web. For this reason the model has been defined in OWL (2) and is serialized in RDF (3) format. 
+Annotation Ontology has been designed to be easy to integrate with other tools proper of the Semantic Web. For this reason the model has been defined in OWL (2) and is serialized in RDF (3) format. Also, we want AO to be integrated and interoperable with valuable already available ontologies.
 
 == Modularity ==
 Annotation Ontology has been designed as a collection of modules. This will allow users to use the pieces of AO they need to without necessarily become familiar with the entire set of ontologies.
