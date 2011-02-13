@@ -6,7 +6,7 @@
 Annotation Ontology has been designed to assure completeness of the information about every step in the annotation process chain. In fact, a rich set of provenance data based on the PAV ontology (1) can be defined for each piece of the annotation model. 
 
 == Orthogonality ==
-Annotation Ontology has been designed to be orthogonal with any domain ontology. This approach guarantees both to keep the Annotation Ontology simple and to allow Annotation Ontology adopters to use domain ontologies related to their specific field. 
+Annotation Ontology has been designed to be orthogonal with any domain ontology. This approach guarantees both to keep the Annotation Ontology simple and to allow Annotation Ontology adopters to use domain ontologies related to their specific field. The scalability of the Semantic Web hinges upon factoring information components into orthogonal ontologies. In addition to limiting the combinatorial explosion implicit in multifunction ontologies, it allows people to share code and understanding of core ontologies
 
 == Generality ==
 As direct consequence of the previously listed principle of Orthogonality, Annotation Ontology is a generic framework for content improvement. Biomedicine is only one possible area of application.
