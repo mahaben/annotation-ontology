@@ -20,9 +20,6 @@ Annotation Ontology has been designed as a collection of modules. This will allo
 == Extensibility ==
 We know Annotation Ontology can be used in several different ways. Therefore, in its design we are making sure to allow users to build on the top of the basic ontological framework to cover additional requirements.  
 
-== Support for Content Improvement ==
-Don't be mistaken, Annotation Ontology has not been designed only to deal with already published resources but to support the modern publication process where the annotation of today can become part of the enriched content tomorrow.
-
 == Adequate Documentation ==
 When proposing Annotation Ontology, we want to make sure users will find an adequate number of documents and examples about its usage. Adequate documentation is much more than good definitions.
 
