@@ -23,6 +23,9 @@ We know Annotation Ontology can be used in several different ways. Therefore, in
 == Support for Content Improvement ==
 Don't be mistaken, Annotation Ontology has not been designed only to deal with already published resources but to support the modern publication process where the annotation of today can become part of the enriched content tomorrow.
 
+== Documentation ==
+When proposing Annotation Ontology, we want to make sure users will find an adequate number of documents and examples about its usage. 
+
 1. [http://code.google.com/p/pav-ontology/ PAV - Provenance, Authoring and Versioning Ontology v.2]<br/>
 2. [http://www.w3.org/TR/owl2-overview/ OWL - Ontology Web Language v. 2]<br/>
 3. [http://www.w3.org/RDF/ RDF - Resource Description Framework]<br/>
