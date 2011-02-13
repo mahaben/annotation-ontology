@@ -14,6 +14,8 @@ As direct consequence of the previously listed principle of Orthogonality, Annot
 == Interoperability ==
 Annotation Ontology has been designed to be easy to integrate with other tools proper of the Semantic Web. For this reason the model has been defined in OWL (2) and is serialized in RDF (3) format. 
 
+== Modularity ==
+
 == Extensibility ==
 We know Annotation Ontology can be used in several different ways. Therefore, in its design we are making sure to allow users to build on the top of the basic ontological framework to cover additional requirements.  
 
