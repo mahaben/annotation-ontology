@@ -18,6 +18,7 @@ _Annotation Ontology (AO)_ is a vocabulary designed to extensively reuse existin
    * [Selectors Document Selectors]
    * [Annotation Annotation Core]
    * [MultipleTargets Annotating Multiple Targets]
+   * [GraphsAnnotations Annotating With Statements or Graphs]
    * [AnnotationTypes Annotation Types]
      * [Qualifiers Qualifiers]
      * [SKOS Integration with SKOS]
