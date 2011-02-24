@@ -10,6 +10,7 @@
    * [Selectors Document Selectors]
    * [Annotation Annotation Core]
    * [MultipleTargets Annotating Multiple Targets]
+   * [GraphsAnnotations Annotating With Statements/Graphs]
    * [AnnotationTypes Annotation Types]
      * [Qualifiers Qualifiers]
      * [SKOS Integration with SKOS]
