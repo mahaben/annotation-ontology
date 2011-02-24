@@ -3,3 +3,5 @@
 Several users have been asking how it is possible to have as object of a _hasTopic_ property something more complex than a URI: a statement or collection of statements.
 
 In order to explain what can be done with AO I am going to use an example: let's say in a document we have a line saying: *GeneG encodes ProeinP*. What we can do with AO is annotating the single item of the sentence and also encode the sentence itself as a triple (or set of triples).
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%Ontology%20-%20AO%20Annotation%20with%20Graphs%20by%20Paolo%20Ciccarese.png]<br/>
