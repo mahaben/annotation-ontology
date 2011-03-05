@@ -38,3 +38,14 @@ The world’s leading publisher of science and health information, Elsevier serv
 </td>
 </tr>
 </table>
+
+<table>
+<tr>
+<td width="200px" align="center">
+<img src="http://etaxonomy.org/wiki/Fp_small_7.png" width="140px"/>
+</td>
+<td cellpadding="6px" valign="top">
+[http://etaxonomy.org/FilteredPush Filtered Push]: to connect remote sites where annotations can be generated with the authoritative databases of the collections holding the vouchers to which those annotations apply. The name reflects function; Push, as annotations can be pushed from remote corners of the network back to authoritative data sets, Filtered, as the curators of these data sets can filter and reject annotations of their data. 
+</td>
+</tr>
+</table>
