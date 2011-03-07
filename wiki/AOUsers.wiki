@@ -6,7 +6,7 @@
 <img src="http://getutopia.com/images/utopia.png" width="160px"/>
 </td>
 <td valign="top">
-[http://getutopia.com/documents/ Utopia Documents] allows new ways of thinking about your PDFs documents: it brings your papers to life by linking to live resources on the web and turning static data into live interactive content.
+*[http://getutopia.com/documents/ Utopia Documents]* allows new ways of thinking about your PDFs documents: it brings your papers to life by linking to live resources on the web and turning static data into live interactive content.
 
 <b>Screencasts</b><br/>
 [http://www.scivee.tv/node/26720 Utopia screencast, January 2010] Showing how [http://getutopia.com/documents/ Utopia] can consume Annotation Ontology content.<br/>
@@ -23,7 +23,7 @@ Tim Clark, Paolo Ciccarese, Terri Attwood, Anita de Waard and Steve Pettifer. [h
 <img src="http://www.neuinfo.org/images/nif-logo.png" width="140px"/>
 </td>
 <td cellpadding="6px" valign="top">
-[http://www.neuinfo.org/ The Neuroscience Information Framework] is a dynamic inventory of Web-based neuroscience resources: data, materials, and tools accessible via any computer connected to the Internet. An initiative of the NIH Blueprint for Neuroscience Research, NIF advances neuroscience research by enabling discovery and access to public research data and tools worldwide through an open source, networked environment.
+*[http://www.neuinfo.org/ The Neuroscience Information Framework]* is a dynamic inventory of Web-based neuroscience resources: data, materials, and tools accessible via any computer connected to the Internet. An initiative of the NIH Blueprint for Neuroscience Research, NIF advances neuroscience research by enabling discovery and access to public research data and tools worldwide through an open source, networked environment.
 </td>
 </tr>
 </table>
@@ -45,7 +45,28 @@ The world’s leading publisher of science and health information, Elsevier serv
 <img src="http://etaxonomy.org/wiki/Fp_small_7.png" width="140px"/>
 </td>
 <td cellpadding="6px" valign="top">
-[http://etaxonomy.org/FilteredPush Filtered Push]: to connect remote sites where annotations can be generated with the authoritative databases of the collections holding the vouchers to which those annotations apply. The name reflects function; Push, as annotations can be pushed from remote corners of the network back to authoritative data sets, Filtered, as the curators of these data sets can filter and reject annotations of their data. 
+*[http://etaxonomy.org/FilteredPush Filtered Push]*: to connect remote sites where annotations can be generated with the authoritative databases of the collections holding the vouchers to which those annotations apply. The name reflects function; Push, as annotations can be pushed from remote corners of the network back to authoritative data sets, Filtered, as the curators of these data sets can filter and reject annotations of their data. 
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="200px" align="center">
+</td>
+<td cellpadding="6px" valign="top">
+*[http://www.scientifik.info/elsevier/doku.php The Living Document project]* - The Living Document is not that one that is constantly being written, as in the wiki approach, but one that acts as an interconnection for networking documents, by means of structured organized social tagging and existing ontologies. It is an environment where users can manage papers and related information, share their knowledge with their peers and discover hidden associations among the shared knowledge. This project was one of the 10 semi-finalists in the Elsevier Grand Challenge 2008. 
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="200px" align="center">
+</td>
+<td cellpadding="6px" valign="top">
+*[http://tags4lab.sourceforge.net/ Tags4Lab project]* - Electronic Laboratory Notebook based on Folksonomies and Semantic Web principles.
 </td>
 </tr>
 </table>
