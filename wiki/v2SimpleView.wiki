@@ -2,7 +2,7 @@
 
 == Introduction ==
 
-The idea of AO is very simple, AO allows you to:
+The idea of AO is very simple, Annotation Ontology allows you to:
  * Annotate: 
    * *Resources*: documents (HTML, PDF, Word, Excel), Images, Databases, Web Services... (*and their fragments*)
  * With (or without) a: 
