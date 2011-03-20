@@ -2,4 +2,4 @@
 
 == Introduction ==
 
-Add your content here.
+The idea of AO is very simple and can be summarized in the following figure.
