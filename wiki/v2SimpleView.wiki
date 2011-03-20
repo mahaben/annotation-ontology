@@ -2,4 +2,11 @@
 
 == Introduction ==
 
-The idea of AO is very simple and can be summarized in the following figure.
+The idea of AO is very simple:
+ * AO annotates: 
+   * *Resources*: documents (HTML, PDF, Word, Excel), Images, Databases, Web Services... (and their fragments)
+ * With (or without) a: 
+   * *Topic*: free text, structured text, URIs, RDF entities, RDF graphs, domain ontologies…
+ * While Tracing:
+   * *Provenance*: who created what, when, with which software, with what expectations… 
+
