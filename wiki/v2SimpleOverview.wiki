@@ -1,3 +1,0 @@
-#summary Simple View of Annotation Ontology
-
-== A Simple View ==
