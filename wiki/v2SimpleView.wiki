@@ -2,8 +2,8 @@
 
 == Introduction ==
 
-The idea of AO is very simple:
- * AO annotates: 
+The idea of AO is very simple, AO allows you to:
+ * Annotate: 
    * *Resources*: documents (HTML, PDF, Word, Excel), Images, Databases, Web Services... (*and their fragments*)
  * With (or without) a: 
    * *Topic*: free text, structured text, URIs, RDF entities, RDF graphs, domain ontologies…
