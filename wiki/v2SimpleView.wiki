@@ -4,10 +4,12 @@
 
 The idea of Annotation Ontology (AO) is very simple yet powerful, AO allows you to:
  * Annotate: 
-   * *Resources* such as HTML, PDF, Word, Excel documents, images, videos, databases, web services, experiments data and metadata... *and their fragments*
+   * *Resources* such as HTML, PDF, Word, Excel, XML documents, images, videos, databases, web services, experiments data and metadata... *and their fragments*
  * With (or without) a: 
    * *Topic* expressed by free text, structured text, URIs, RDF entities, RDF graphs, terms from domain ontologies…
  * While Tracing:
    * *Provenance*: who created what, when, with which software, with what expectations...
 
 === Some Examples ===
+
+1) Annotation of a document with a 
