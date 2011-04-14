@@ -55,7 +55,7 @@ The world’s leading publisher of science and health information, Elsevier serv
 <td width="200px" align="center">
 </td>
 <td cellpadding="6px" valign="top">
-*[http://www.scientifik.info/elsevier/doku.php The Living Document project]* - The Living Document is not that one that is constantly being written, as in the wiki approach, but one that acts as an interconnection for networking documents, by means of structured organized social tagging and existing ontologies. It is an environment where users can manage papers and related information, share their knowledge with their peers and discover hidden associations among the shared knowledge. This project was one of the 10 semi-finalists in the Elsevier Grand Challenge 2008. 
+*[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B758F-4YRXD5B-2&_user=10&_coverDate=07%2F31%2F2010&_rdoc=1&_fmt=high&_orig=gateway&_origin=gateway&_sort=d&_docanchor=&view=c&_searchStrId=1718536354&_rerunOrigin=google&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=0d560e64bc2e538f7f84e04880a2cb85&searchtype=a The Living Document project]* - The Living Document is not that one that is constantly being written, as in the wiki approach, but one that acts as an interconnection for networking documents, by means of structured organized social tagging and existing ontologies. It is an environment where users can manage papers and related information, share their knowledge with their peers and discover hidden associations among the shared knowledge. This project was one of the 10 semi-finalists in the Elsevier Grand Challenge 2008. 
 
 </td>
 </tr>
