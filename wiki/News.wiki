@@ -1,6 +1,6 @@
 #summary News related to Annotation Ontology
 
-*May 16, 2011* - DOMEO build 9 has been deployed. The new features introduced in build 9 are explained in this video http://vimeo.com/23813219
+*May 16, 2011* - DOMEO build 9 has been deployed. The new features introduced in build 9 are explained in this [http://vimeo.com/23813219 video]
 
 *May 1, 2011* - The SWAN Annotation Tool has been renamed to DOMEO 
 
