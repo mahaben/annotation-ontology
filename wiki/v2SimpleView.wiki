@@ -1,4 +1,4 @@
-#summary A Simple View of the Annotation Ontology
+#summary A Simple Overview of the Annotation Ontology
 
 == Introduction ==
 
