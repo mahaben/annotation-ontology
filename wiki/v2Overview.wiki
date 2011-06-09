@@ -8,11 +8,11 @@ The idea of Annotation Ontology (AO) is very simple yet powerful, AO allows you 
  * Specifying (or not) an: 
    * *ANNOTATION TYPE* expressed through one of the available standard types (errata, highlight, qualifiers...) or the ones you define
  * With (or without) a: 
-   * *Topic* expressed by free text, structured text, URIs, RDF entities, RDF graphs, terms from domain ontologies…
+   * *TOPIC* expressed by free text, structured text, URIs, RDF entities, RDF graphs, terms from domain ontologies…
  * With (or without) an: 
-   * *Expectation* expressed by free text or better by terms from a controlled vocabulary or an ontology
+   * *EXPECTATION* expressed by free text or better by terms from a controlled vocabulary or an ontology
  * While tracking:
-   * *Provenance*: who created what, when, with which software, with what expectations...
+   * *PROVENANCE*: who created what, when, with which software, with what expectations...
 
 === Some Examples ===
 
