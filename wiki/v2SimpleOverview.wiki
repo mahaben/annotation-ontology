@@ -1,5 +1,7 @@
 #summary A Simple Overview of the Annotation Ontology
 
+[v2Main << Back to Main]
+
 == Introduction ==
 
 The idea of Annotation Ontology (AO) is very simple yet powerful, AO allows you to:
