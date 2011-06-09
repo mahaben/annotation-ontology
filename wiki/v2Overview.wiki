@@ -4,7 +4,7 @@
 
 The idea of Annotation Ontology (AO) is very simple yet powerful, AO allows you to:
  * Annotate: 
-   * *RESOURCES* such as HTML, PDF, Word, Excel, XML documents, images, videos, databases, web services, experiments data and metadata... *and their fragments*
+   * *RESOURCES* such as HTML, PDF, Word, Excel, XML documents, images, videos, databases, web services, experiments data and metadata... *AND THEIR FRAGMENTS*
  * Specifying (or not) an: 
    * *ANNOTATION TYPE* expressed through one of the available standard types (errata, highlight, qualifiers...) or the ones you define
  * With (or without) a: 
