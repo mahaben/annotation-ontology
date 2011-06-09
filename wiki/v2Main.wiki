@@ -1,6 +1,6 @@
 #summary Annotation ontology v. 2
 
-The development of *Annotation Ontology v. 2* has been planned to overcome the limitation emerged while implementing the previous version of AO in semantic web applications. Most importantly, the process has been open up to collect contributions by several groups and organizations.  
+The development of *Annotation Ontology v. 2* has been planned to overcome the limitation emerged while implementing the previous version of AO in semantic web applications. Most importantly, the process has been opened up to collect contributions by several groups and organizations.  
 
   * [v2Participants Participants]
   * [v2Introduction Introduction]
