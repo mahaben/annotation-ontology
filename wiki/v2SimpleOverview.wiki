@@ -16,6 +16,6 @@ The idea of Annotation Ontology (AO) is very simple yet powerful, AO allows you 
 
 === Some Non-Semantic Basic Examples ===
 
-1) Recording the reading position.
-2) Highlighting of a document section.
-3) Annotating a document section with a free text note.
+1) Recording the reading position.<br/>
+2) Highlighting of a document section.<br/>
+3) Annotating a document section with a free text note.<br/>
