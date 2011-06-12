@@ -4,7 +4,7 @@ While the v.1 of Annotation Ontology (AO) was composed by several modules (files
 
 || *Prefix* || *Name*|| *Namespace*||
 || ao || *Annotation Ontology Core*. It defines the core functionalities of AO including the tools for <br/> organizing annotation items in sets and sets in perspectives. It includes all the officially <br/> available Selectors and Annotation Types. ||  http://purl.org/ao/core/||
-|| aof || *Annotation Ontology Integration with FOAF* || http://purl.org/ao/foaf/ ||
+|| aof || *Annotation Ontology Integration with FOAF*. This module is recommended unless documents and agents are addressed by another ontology. || http://purl.org/ao/foaf/ ||
 || aoa || *Annotation Ontology Integration with Annotea*. This module is optional. || http://purl.org/ao/annotea/ ||
 
 These can be imported in one shot as follow:
