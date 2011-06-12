@@ -4,8 +4,7 @@ Annotation Ontology (AO) is composed by the following modules (files):
  * *core*: is defining the core functionalities of AO including the tools for organizing annotation items in sets and sets in perspectives. 
  * *selectors*: is listing all the currently available [Selectors selectors]. 
  * *types*: is defining all the [AnnotationTypes annotation types] other than the generic  _Annotation_
- * *Annotea Integration*: is defining the mapping of AO with the Annotea project ontology.
- * *FOAF Integration*: is defining the mapping and the constraints to integrate AO with the FOAF vocabulary.
+
 
 These can be imported in one shot as follow:
 
@@ -20,6 +19,9 @@ Here are the correspondent namespaces with the prefixes as they will used in the
 || aox || *Annotation Extensions* || http://purl.org/ao/aox/ ||
 
 These are integration modules:
+ * *Annotea Integration*: is defining the mapping of AO with the Annotea project ontology.
+ * *FOAF Integration*: is defining the mapping and the constraints to integrate AO with the FOAF vocabulary.
+
 || *Prefix* || *Name*|| *Namespace*||
 || aoa || *Annotation Ontology Integration with Annotea* || http://purl.org/ao/annotea/ ||
 || aof || *Annotation Ontology Integration with FOAF* || http://purl.org/ao/foaf/ ||
