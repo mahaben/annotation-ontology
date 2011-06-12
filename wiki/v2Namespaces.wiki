@@ -1,23 +1,20 @@
 === Annotation Ontology v.2 Architecture and Namespaces ===
 
-Annotation Ontology (AO) is composed by the following modules (files):
- * *core*: is defining the core functionalities of AO including the tools for organizing annotation items in sets and sets in perspectives. 
+While the v.1 of Annotation Ontology (AO) was composed by several modules (files), in v.2 the number of namespaces has been reduced to three:
+ * *ao*: is defining the core functionalities of AO including the tools for organizing annotation items in sets and sets in perspectives. 
  * *selectors*: is listing all the currently available [Selectors selectors]. 
  * *types*: is defining all the [AnnotationTypes annotation types] other than the generic  _Annotation_
 
+|| *Prefix* || *Name*|| *Namespace*||
+|| ao || *Annotation Ontology* ||  http://purl.org/ao/core/||
+|| aoa || *Annotation Ontology Integration with Annotea* || http://purl.org/ao/annotea/ ||
+|| aof || *Annotation Ontology Integration with FOAF* || http://purl.org/ao/foaf/ ||
 
 These can be imported in one shot as follow:
 
 {{{
    <owl:imports rdf:resource="http://purl.org/ao/"/>
 }}} 
-
-Here are the correspondent namespaces with the prefixes as they will used in the rest of the documentation:
-
-|| *Prefix* || *Name*|| *Namespace*||
-|| ao || *Annotation Ontology* ||  http://purl.org/ao/core/||
-|| aoa || *Annotation Ontology Integration with Annotea* || http://purl.org/ao/annotea/ ||
-|| aof || *Annotation Ontology Integration with FOAF* || http://purl.org/ao/foaf/ ||
 
 <br/>
 === Related Ontologies Namespaces ===
