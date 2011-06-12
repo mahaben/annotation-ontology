@@ -17,8 +17,7 @@ Here are the correspondent namespaces with the prefixes as they will used in the
 
 || *Prefix* || *Name*|| *Namespace*||
 || ao || *Annotation Core* ||  http://purl.org/ao/core/||
-|| aot || *Annotation Types* || http://purl.org/ao/types/ ||
-|| aos || *Annotation Selectors* || http://purl.org/ao/selectors/ ||
+|| aox || *Annotation Extensions* || http://purl.org/ao/aox/ ||
 
 These are integration modules:
 || *Prefix* || *Name*|| *Namespace*||
