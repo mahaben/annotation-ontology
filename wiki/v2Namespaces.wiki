@@ -3,7 +3,7 @@
 While the v.1 of Annotation Ontology (AO) was composed by several modules (files), in v.2 the number of namespaces has been reduced to three:
 
 || *Prefix* || *Name*|| *Namespace*||
-|| ao || *Annotation Ontology Core* defines the core functionalities of AO including the tools for <br/> organizing annotation items in sets and sets in perspectives. It includes all the official <br/> available Selectors and Annotation Types ||  http://purl.org/ao/core/||
+|| ao || *Annotation Ontology Core* defines the core functionalities of AO including the tools for <br/> organizing annotation items in sets and sets in perspectives. It includes all the official <br/> available Selectors and Annotation Types. ||  http://purl.org/ao/core/||
 || aoa || *Annotation Ontology Integration with Annotea* || http://purl.org/ao/annotea/ ||
 || aof || *Annotation Ontology Integration with FOAF* || http://purl.org/ao/foaf/ ||
 
