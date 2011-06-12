@@ -28,6 +28,7 @@ These are integration modules:
 
 <br/>
 === Related Ontologies Namespaces ===
+The following namespaces will be used in explanations and examples.
 || pav || Provenance, Authoring and Versioning (v. 2.0) || http://purl.org/pav/ ||
 || ann || Annotea || http://www.w3.org/2000/10/annotation-ns# ||
 || pro || PRotein Ontology (PRO) || http://purl.obolibrary.org/obo/ ||
