@@ -8,7 +8,7 @@ The idea of Annotation Ontology (AO) is very simple yet powerful, AO allows you 
  * Annotate: 
    * *RESOURCES* such as HTML, PDF, Word, Excel, XML documents, images, videos, databases, web services, experiments data and metadata... *AND THEIR FRAGMENTS*
  * Specifying (or not) an: 
-   * *ANNOTATION TYPE* expressed through one of the already available  types (errata, highlight, qualifiers...) or the ones you will define *N1*
+   * *ANNOTATION TYPE* expressed through one of the already available  types (errata, highlight, qualifiers...) or the ones you will define (*N1*)
  * With (or without) a: 
    * *TOPIC* expressed by free text, structured text, URIs, RDF entities, RDF graphs, terms from domain ontologies…
  * With (or without) an: 
@@ -16,4 +16,4 @@ The idea of Annotation Ontology (AO) is very simple yet powerful, AO allows you 
  * While tracking:
    * *PROVENANCE*: who created what, when, with which software, during which process...
 
-*N1* When defining new types. It would be ideal for you to contribute them back to the AO community to avoid redundancies and assure interoperability between the different applications making use of AO.
+(*N1*) When defining new types. It would be ideal for you to contribute them back to the AO community to avoid redundancies and assure interoperability between the different applications making use of AO.
