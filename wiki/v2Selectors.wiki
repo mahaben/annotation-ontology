@@ -1,5 +1,7 @@
 #summary Identifying resource fragments through Selectors
 
+[v2Main << Back to Main]
+
 === What is a Selector ===
 A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also, for a specific content type, multiple kind of selector can be defined to cover specific needs. The Selector instance for a specific Annotation instance is specified through the property _ao:context_. 
 
