@@ -3,5 +3,7 @@
 [v2Main << Back to Main]
 
 === NS1. Recording the reading progress location ===
+When reading a document we might want to be able to record the last position of our 'reading cursor' so we can resume the reading from the right location. 
+
 === NS2. Highlighting of a document section ===
 === NS3. Annotating a document section with a free text note ===
