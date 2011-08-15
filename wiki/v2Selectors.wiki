@@ -1,13 +1,3 @@
 #summary Identifying resource fragments through Selectors
 
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also for a specific content type, multiple kind of selector can be defined to cover specific needs. The Selector instance for a specific Annotation instance is specified through the property _ao:context_. 
