@@ -6,7 +6,7 @@
 A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also, for a specific content type, multiple kind of selector can be defined to cover specific needs. The _Selector_ instance for a specific _Annotation_ instance is specified through the property _ao:context_. 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Selector%20Overview%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1 - 
+<b>Figure 1 - An _Annotation_ can refer to a fragment of any resource through an appropriate _Selector_. The link between the _Annotation_ and the _Selector_ is performed through the relationship _ao:context_. Resources can be textual documents, hypertexts, images, databases...  
 </b>
 
 *Every Selector is identified by a URI* and we recommend the use of the same URI for identifying the same document fragment multiple times. As there is not current standard mechanism for defining every possible document fragment through URIs this has to be currently enforced at the application level. That is what we do, for instance, in the application [http://code.google.com/p/domeo/ DOMEO (Document Metadata Organizer)].
