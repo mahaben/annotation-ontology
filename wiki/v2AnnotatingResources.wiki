@@ -2,9 +2,9 @@
 
 [v2Main << Back to Main]
 
-=== Attach a tag ===
+=== Tags ===
 Tagging means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels.
 
-=== Attach a note ===
+=== Notes ===
 
-=== Attach a comment ===
+=== Comments ===
