@@ -3,7 +3,7 @@
 [v2Main << Back to Main]
 
 === What is a Selector ===
-A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also, for a specific content type, multiple kind of selector can be defined to cover specific needs. The Selector instance for a specific Annotation instance is specified through the property _ao:context_. 
+A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also, for a specific content type, multiple kind of selector can be defined to cover specific needs. The _Selector_ instance for a specific _Annotation_ instance is specified through the property _ao:context_. 
 
 *Every Selector is identified by a URI* and we recommend the use of the same URI for identifying the same document fragment multiple times. As there is not current standard mechanism for defining every possible document fragment through URIs this has to be currently enforced at the application level. That is what we do, for instance, in the application [http://code.google.com/p/domeo/ DOMEO (Document Metadata Organizer)].
 
