@@ -17,8 +17,8 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 *Selector currently in use* in applications:
 
 :: _Text Selectors_:
- * Prefix and Suffix Selector
- * Offset and Range Selector: identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset.
+ * _Prefix and Suffix Selector_: identifies a chunk of text specifying a reasonable amount of characters before it (prefix) and a reasonable amount of characters after it (postfix)
+ * _Offset and Range Selector_: identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset.
 :: _Image Selectors_:
  * Image Area Selector
 
