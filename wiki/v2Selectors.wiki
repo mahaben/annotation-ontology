@@ -14,12 +14,12 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 === Classes Of Selectors ===
 *Specific _Selectors_ can be defined simply subclassing the _Selector_ class*. Specific selectors can be defined simply subclassing the Selector class. With AO core, we provide a set of _Selectors_ we currently use in our applications. These cover mainly text and image resources. We are collaborating with other groups to define additional _Selectors_ for addressing more use cases. These will be listed on this wiki when they will be verified and implemented in real applications.
 
-Selector currently in use in applications:
+*Selector currently in use* in applications:
 
 :: _Text Selectors_:
  * Prefix and Suffix Selector
  * Offset and Range Selector
-:: *Image Selectors*:
+:: _Image Selectors_:
  * Image Area Selector
 
 === Create new Selectors === 
