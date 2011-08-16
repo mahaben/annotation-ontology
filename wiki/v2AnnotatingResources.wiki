@@ -3,7 +3,7 @@
 [v2Main << Back to Main]
 
 === Tags ===
-Tagging means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels.
+Tagging means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels. We will introduce later on the term 'Qualifier' that refers to label represented by terms in controlled vocabularies.
 
 === Notes ===
 
