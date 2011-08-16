@@ -3,6 +3,7 @@
 [v2Main << Back to Main]
 
 === Attach a tag ===
+Tagging means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels.
 
 === Attach a note ===
 
