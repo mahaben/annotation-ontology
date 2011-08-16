@@ -19,8 +19,8 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 :: _Text Selectors_:
  * _Prefix and Suffix Selector_: identifies a chunk of text specifying a reasonable amount of characters before it (prefix) and a reasonable amount of characters after it (suffix)
  * _Offset and Range Selector_: identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset.
-:: _Image Selectors_: identifies a rectangular region of an image through the definition of the top left and bottom right corners
- * Image Area Selector
+:: _Image Selectors_: 
+ * _Image Area Selector_: identifies a rectangular region of an image through the definition of the top left and bottom right corners
 
 === Create new Selectors === 
 *New Selectors can be created according to your needs*. However, before doing this, we suggest you to check the list of the already available _Selectors_. There might be already a _Selector_ that can cover your use case as it is, or after a small modification that you can discuss with the current _Selector_ contact person. If what you need is not covered, you can proceed in creating your new _Selector_. It would be great if you could contribute the new _Selector_ back to the community so that we can avoid redundancies and foster integration between applications. *You will get credited for it and, if you wish, you can become the contact person for it*.
