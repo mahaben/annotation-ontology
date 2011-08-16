@@ -16,10 +16,10 @@ A *Selector* identifies a portion of a resource, and may work differently for di
 
 Selector currently in use in applications:
 
-*Text Selectors*:
+:: *Text Selectors*:
  * Prefix and Suffix Selector
  * Offset and Range Selector
-*Image Selectors*:
+:: *Image Selectors*:
  * Image Area Selector
 
 === Create new Selectors === 
