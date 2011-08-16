@@ -5,7 +5,7 @@
 === What is a Selector ===
 A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also, for a specific content type, multiple kind of selector can be defined to cover specific needs. The _Selector_ instance for a specific _Annotation_ instance is specified through the property _ao:context_. 
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Selector%overview%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Selector%Overview%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1 - 
 </b>
 
