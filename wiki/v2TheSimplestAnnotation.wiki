@@ -10,4 +10,11 @@ When reading a document we might want to be able to record the last position of 
 <b>Figure 1: </b>
 
 === NS2. Highlighting of a document section ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 1: </b>
+
 === NS3. Annotating a document section with a free text note ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 1: </b>
