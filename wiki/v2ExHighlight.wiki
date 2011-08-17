@@ -38,3 +38,5 @@ and the text selector (PrefixSuffixTextSelector):
    <ao:onResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
 </rdf:Description> 
 }}} 
+
+The same annotation could be expressed using any another type of text selector, for instance the OffsetRangeTextSelector:
