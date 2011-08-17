@@ -58,6 +58,6 @@ And the alternative text selector (PrefixSuffixTextSelector):
    -->   
    <ao:offset>420</ao:offset> 
    <ao:range>0</ao:range>     
-   <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> 
+   <ao:onResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
 </rdf:Description> 
 }}}
