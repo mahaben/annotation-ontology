@@ -20,7 +20,7 @@ The RDF of the example in picture 1 would look like the following:
    --> 
    <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>     
    <ao:context rdf:resource="http://my.example.org/sel/10400"/> 
-   <pav:createdOn>2010-03-21</pav:createdOn> 
+   <pav:createdOn>2011-08-17</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}} 
@@ -35,8 +35,8 @@ and the text selector (PrefixSuffixTextSelector):
    <rdf:type rdf:resource="&ao;Selector"/> 
    -->   
    <ao:exact></ao:exact> 
-   <ao:suffix>Cognitive and behavioral deficits related to</ao:suffix>   
-   <ao:postfix>inhibition may be magnified in humans who</ao:postfix>   
+   <ao:suffix>The process of tagging allows association of free text to web resources, thus improving</ao:suffix>   
+   <ao:postfix>have become increasingly popular with the advent of Web 2.0 [26].</ao:postfix>   
    <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> 
 </rdf:Description> 
 }}} 
