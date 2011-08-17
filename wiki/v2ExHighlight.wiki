@@ -43,3 +43,19 @@ The same annotation could be expressed using any another type of text selector, 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20with%20offset%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: _
+
+And the text selector (OffsetRangeTextSelector): 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/sel/10403"> 
+   <rdf:type rdf:resource="&aos;OffsetRangeTextSelector"/> 
+   <!-- 
+   <rdf:type rdf:resource="&ao;TextSelector"/> 
+   <rdf:type rdf:resource="&ao;Selector"/> 
+   --> 
+   <ao:offset>420</ao:offset> 
+   <ao:range>81</ao:range> 
+   <ao:exact>The process of tagging allows association of free text to web resources,</ao:exact> 
+   <ao:onResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
+</rdf:Description> 
+}}}
