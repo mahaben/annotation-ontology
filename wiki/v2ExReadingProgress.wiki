@@ -36,7 +36,8 @@ and the text selector (PrefixPostfixSelector):
    <aos:prefix>Cognitive and behavioral deficits related to</aos:prefix>   
    <aos:postfix>inhibition may be magnified in humans who</aos:postfix>   
    <ao:onSourceDocument rdf:resource="http://my.example.org/sd/1339"/> 
-   <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> </rdf:Description> 
+   <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> 
+</rdf:Description> 
 }}} 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20with%20Offset%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
