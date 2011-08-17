@@ -9,14 +9,18 @@ When reading a document we might want to be able to record the last position of 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1: </b>
 
+*[v2ExReadingProgress How to record the reading progress with AO]*
+
 === Highlighting of a document section ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 2: </b>
+
+*[v2ExHighlight How to encode a text highlight with AO]*
 
 === Annotating a document section with a free text note ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 3: </b>
 
-*[v2ExTextNoteOnFragment How to encode a text note on a text fragment with AO]*
+*[v2ExTextNoteOnFragment How to encode a free text note on a text fragment with AO]*
