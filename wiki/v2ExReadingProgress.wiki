@@ -11,14 +11,32 @@ _Figure 1: _
 The RDF of the example in picture 2 would look like the following: 
 
 {{{ 
-<rdf:Description rdf:about="http://my.example.org/ann/21300"> <rdf:type rdf:resource="&aot;ExactQualifier"/> <!-- The following can be added for querying with SPARQL <rdf:type rdf:resource="&aot;Qualifier"/> <rdf:type rdf:resource="&ao;Annotation"/> <rdf:type rdf:resource="&ann;Annotation"/> --> <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/> <ao:context rdf:resource="http://my.example.org/sel/10300"/> <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/> <pav:createdOn>2010-03-21</pav:createdOn> <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/> 
+<rdf:Description rdf:about="http://my.example.org/ann/21300"> 
+   <rdf:type rdf:resource="&aot;Cursor"/> 
+   <!-- 
+   The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <aof:annotatesDocument rdf:resource="http://tinyurl.com/ykjn87p"/>     
+   <ao:context rdf:resource="http://my.example.org/sel/10400"/> 
+   <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/> 
+   <pav:createdOn>2010-03-21</pav:createdOn> 
+   <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/> 
 </rdf:Description> 
 }}} 
 
 and the text selector (PrefixPostfixSelector): 
 
 {{{ 
-<rdf:Description rdf:about="http://my.example.org/sel/10300"> <rdf:type rdf:resource="&aos;TextSelector"/> <rdf:type rdf:resource="&aos;PrefixPostfixSelector"/> <aos:exact>BACE1</aos:exact> <aos:prefix>Cognitive and behavioral deficits related to</aos:prefix> <aos:postfix>inhibition may be magnified in humans who</aos:postfix> <ao:onSourceDocument rdf:resource="http://my.example.org/sd/1339"/> <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> </rdf:Description> }}} with a different text selector (OffsetRangeSelector) it would have been: {{{ <rdf:Description rdf:about="http://my.example.org/sel/10300"> <rdf:type rdf:resource="&aos;TextSelector"/> <rdf:type rdf:resource="&aos;OffsetRangeSelector"/> <aos:exact>BACE1</aos:exact> <aos:offset>765</aos:offset> <aos:range>5</aos:range> <ao:onSourceDocument rdf:resource="http://my.example.org/sd/1339"/> <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> </rdf:Description> 
+<rdf:Description rdf:about="http://my.example.org/sel/10400"> 
+   <rdf:type rdf:resource="&aos;TextSelector"/> 
+   <rdf:type rdf:resource="&aos;PrefixPostfixSelector"/>   
+   <aos:exact>BACE1</aos:exact> 
+   <aos:prefix>Cognitive and behavioral deficits related to</aos:prefix>   
+   <aos:postfix>inhibition may be magnified in humans who</aos:postfix>   
+   <ao:onSourceDocument rdf:resource="http://my.example.org/sd/1339"/> 
+   <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> </rdf:Description> 
 }}} 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20with%20Offset%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
