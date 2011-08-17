@@ -40,3 +40,6 @@ and the text selector (PrefixSuffixTextSelector):
 }}} 
 
 The same annotation could be expressed using any another type of text selector, for instance the OffsetRangeTextSelector:
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20with%20offset%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: _
