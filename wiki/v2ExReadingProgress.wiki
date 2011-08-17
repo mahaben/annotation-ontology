@@ -8,7 +8,7 @@ When reading a document we might want to be able to record the last position of 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: _
 
-The RDF of the example in picture 2 would look like the following: 
+The RDF of the example in picture 1 would look like the following: 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/21300"> 
