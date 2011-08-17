@@ -51,7 +51,7 @@ And the alternative text selector (PrefixSuffixTextSelector):
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/sel/10401"> 
-   <rdf:type rdf:resource="&aos;OffsetRangeTextSelector"/>
+   <rdf:type rdf:resource="&ao;OffsetRangeTextSelector"/>
    <!--
    <rdf:type rdf:resource="&ao;TextSelector"/> 
    <rdf:type rdf:resource="&ao;Selector"/> 
