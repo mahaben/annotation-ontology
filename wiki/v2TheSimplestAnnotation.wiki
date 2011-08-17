@@ -14,7 +14,7 @@ _Figure 1: recording the reading process location is a common operation while re
 === Highlighting of a document section ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 2: </b>
+_Figure 2: highlighting a text span is another common operation readers perform on digital and traditional documents_
 
 *[v2ExHighlight How to encode a text highlight with AO]*
 
