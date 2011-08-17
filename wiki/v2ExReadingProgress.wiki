@@ -40,7 +40,24 @@ and the text selector (PrefixSuffixTextSelector):
    thus improving</ao:suffix>     
    <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> 
 </rdf:Description> 
-}}} 
+}}}
+
+The same annotation could be expressed using any another type of text selector, for instance the OffsetRangeTextSelector:
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20with%20Offset%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: _
+
+And the alternative text selector (PrefixSuffixTextSelector): 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/sel/10401"> 
+   <rdf:type rdf:resource="&aos;OffsetRangeTextSelector"/>
+   <!--
+   <rdf:type rdf:resource="&ao;TextSelector"/> 
+   <rdf:type rdf:resource="&ao;Selector"/> 
+   -->   > 
+   <ao:offset>420</ao:offset> 
+   <ao:range>0</ao:range>     
+   <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> 
+</rdf:Description> 
+}}}
