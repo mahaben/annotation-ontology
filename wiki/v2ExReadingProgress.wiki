@@ -55,7 +55,7 @@ And the alternative text selector (PrefixSuffixTextSelector):
    <!--
    <rdf:type rdf:resource="&ao;TextSelector"/> 
    <rdf:type rdf:resource="&ao;Selector"/> 
-   -->   > 
+   -->   
    <ao:offset>420</ao:offset> 
    <ao:range>0</ao:range>     
    <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> 
