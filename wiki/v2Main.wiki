@@ -14,5 +14,5 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
     * [v2AnnotatingResources Attaching tags, notes and comments to a document]
        * Reading Progress
        * Highlight
-       * Text Notes
+       * Text Note
     * [v2TheSimplestAnnotation The simplest annotation of document fragments]
