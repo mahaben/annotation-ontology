@@ -2,19 +2,19 @@
 
 [v2Main << Back to Main]
 
-=== NS1. Recording the reading progress location ===
+=== Recording the reading progress location ===
 When reading a document we might want to be able to record the last position of our 'reading cursor' so we can resume the reading from the right location. This is pretty simple to obtain with AO and it consists in creating a very simple Annotation with a [v2Selectors Selector].
 
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1: </b>
 
-=== NS2. Highlighting of a document section ===
+=== Highlighting of a document section ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1: </b>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 2: </b>
 
-=== NS3. Annotating a document section with a free text note ===
+=== Annotating a document section with a free text note ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1: </b>
+<b>Figure 3: </b>
