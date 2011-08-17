@@ -4,5 +4,8 @@
 
 === Text Note on a document fragment ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1: </b>
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 2: </b>
