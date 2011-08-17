@@ -1,0 +1,6 @@
+#summary Highlight of a text fragment.
+
+[v2Main << Back to Main]
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+<b>Figure 1: </b>
