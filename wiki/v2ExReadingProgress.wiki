@@ -31,11 +31,12 @@ and the text selector (PrefixSuffixSelector):
 <rdf:Description rdf:about="http://my.example.org/sel/10400"> 
    <rdf:type rdf:resource="&aos;PrefixSuffixSelector"/>
    <!--
-   <rdf:type rdf:resource="&aos;TextSelector"/> 
+   <rdf:type rdf:resource="&ao;TextSelector"/> 
+   <rdf:type rdf:resource="&ao;Selector"/> 
    -->   
-   <aos:exact></aos:exact> 
-   <aos:suffix>Cognitive and behavioral deficits related to</aos:suffix>   
-   <aos:postfix>inhibition may be magnified in humans who</aos:postfix>   
+   <ao:exact></ao:exact> 
+   <ao:suffix>Cognitive and behavioral deficits related to</ao:suffix>   
+   <ao:postfix>inhibition may be magnified in humans who</ao:postfix>   
    <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> 
 </rdf:Description> 
 }}} 
