@@ -17,5 +17,5 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2ExComment Text Comment]
     * [v2TheSimplestAnnotation The simplest annotation of document fragments]
        * [v2ExReadingProgress Reading Progress]
-       * [v2ExHighlight Highlight]
+       * [v2ExHighlight Highlight (on text or image)]
        * [v2ExTextNoteOnFragment Text Note (on text or image)]
