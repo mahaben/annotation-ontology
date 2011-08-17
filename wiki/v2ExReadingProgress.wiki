@@ -36,7 +36,8 @@ and the text selector (PrefixSuffixTextSelector):
    -->   
    <ao:exact></ao:exact> 
    <ao:prefix>have become increasingly popular with the advent of Web 2.0 [26].</ao:prefix> 
-   <ao:suffix>The process of tagging allows association of free text to web resources, thus improving</ao:suffix>     
+   <ao:suffix>The process of tagging allows association of free text to web resources, 
+   thus improving</ao:suffix>     
    <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/> 
 </rdf:Description> 
 }}} 
