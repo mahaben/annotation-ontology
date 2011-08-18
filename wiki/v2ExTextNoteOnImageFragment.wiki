@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Text Note on an image fragment
 
 === Text Note on an image fragment ===
 
