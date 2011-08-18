@@ -1,10 +1,10 @@
-#summary Tagging of an image fragment
+#summary Tagging of an image
 
 [v2Main << Back to Main]
 
-=== Tagging of an image fragment ===
+=== Tagging of an image ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20image%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20image%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: _
 
 The RDF of the example in picture 1 would look like the following: 
