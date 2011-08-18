@@ -4,6 +4,8 @@
 
 === Highlight of an image fragment ===
 
+Highlighting an image fragment is equivalent to identify a particular region in an image. The fragment selection can be performed with an appropriate _Selector_. In the following example we are using the InitEndImageSelector which is simply identifying a rectangular region of the referenced image. More elaborate _Selectors_ can be defined for more specific use cases.
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20image%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: _
 
