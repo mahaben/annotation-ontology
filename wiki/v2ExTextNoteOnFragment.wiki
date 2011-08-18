@@ -10,32 +10,32 @@
 The RDF of the example in picture 1 would look like the following: 
 
 {{{ 
-<rdf:Description rdf:about="http://my.example.org/ann/21300"> 
+<rdf:Description rdf:about="http://my.example.org/ann/21304"> 
    <rdf:type rdf:resource="&ao;Note"/> 
    <!-- The following can be added for querying with SPARQL 
    <rdf:type rdf:resource="&ao;Annotation"/> 
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
-   <ao:context rdf:resource="http://my.example.org/sel/10405"/>
-   <ao:body>My friend's boat</ao:body> 
+   <ao:context rdf:resource="http://my.example.org/sel/10402"/>
+   <ao:body>Tagging is only performed through free text.</ao:body> 
    <pav:createdOn>2011-08-17</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}} 
 
-and the text selector (InitEndImageSelector): 
+And the text selector (PrefixSuffixTextSelector): 
 
 {{{ 
-<rdf:Description rdf:about="http://my.example.org/sel/10405"> 
-   <rdf:type rdf:resource="&ao;InitEndImageSelector"/> 
+<rdf:Description rdf:about="http://my.example.org/sel/10402"> 
+   <rdf:type rdf:resource="&aos;PrefixSuffixTextSelector"/> 
    <!-- 
-   <rdf:type rdf:resource="&ao;ImageSelector"/> 
+   <rdf:type rdf:resource="&ao;TextSelector"/> 
    <rdf:type rdf:resource="&ao;Selector"/> 
    --> 
-   <ao:init>(10, 42)</ao:init> 
-   <ao:end>(30, 68)</ao:end> 
-   <ao:unit>%</ao:unit> 
-   <ao:onResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:exact>The process of tagging allows association of free text to web resources,</ao:exact> 
+   <ao:prefix>have become increasingly popular with the advent of Web 2.0 [26].</ao:prefix> 
+   <ao:suffix>thus improving their classification and organization</ao:suffix> 
+   <ao:onResource rdf:resource="http://my.example.org/sel/10405"/> 
 </rdf:Description> 
 }}} 
