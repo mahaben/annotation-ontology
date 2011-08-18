@@ -2,5 +2,7 @@
 
 === Text Note on an image fragment ===
 
+Attaching a note to an image fragment requires to identify a particular region of the image. The fragment selection can be performed with an appropriate Selector. In the following example we are using the InitEndImageSelector? which is simply identifying a rectangular region of the referenced image. More elaborate Selectors can be defined for more specific use cases. 
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20image%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1: </b>
