@@ -2,16 +2,16 @@
 
 The development of *Annotation Ontology v. 2* has been planned to overcome the limitations emerged while implementing the previous version of AO in semantic web applications. Most importantly, the process has been opened up to collect contributions by several groups and organizations.  
 
-  * [v2Introduction Introduction]
+  * *[v2Introduction Introduction]*
     * [v2DesignPrinciples Design Principles]
     * [v2ContentImprovement Support for Content Improvement]
-  * [v2UnderstandingAO Understanding Annotation Ontology v.2]
+  * *[v2UnderstandingAO Understanding Annotation Ontology v.2]*
     * [v2SimpleOverview A Simple Overview]
     * [v2Namespaces Architecture and Namespaces]
     * [v2Selectors Resource Selectors]
     * [v2AnnotationCore Annotation Core]
     * [v2AnnotationTypes Annotation Types]
-  * [v2ByExamples Learn Annotation Ontology v.2 by examples]
+  * *[v2ByExamples Learn Annotation Ontology v.2 by examples]*
     * [v2AnnotatingResources Attaching tags, notes and comments to an entire document]
        * [v2ExTag Tag (Free text or folksonomy)]
        * [v2ExNote Text Note]
