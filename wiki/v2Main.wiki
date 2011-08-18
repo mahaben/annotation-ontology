@@ -23,3 +23,4 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2ExTagOnImageFragment Tag on image]
        * [v2ExTextNoteOnFragment Text Note on text]
        * [v2ExTextNoteOnImageFragment Text Note on image]
+       * [v2ExCommentOnImageFragment Comment on image]
