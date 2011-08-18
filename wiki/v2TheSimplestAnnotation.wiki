@@ -25,6 +25,13 @@ _Figure 3: highlighting an image fragment is another common operation readers pe
 
 *[v2ExHighlightImage  How to encode an image highlight with AO]*
 
+=== Tagging of an image section ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: tagging an image fragment is another common operation readers perform on digital images_
+
+*[v2ExTagImage  How to tag an image section with AO]*
+
 === Annotating a document section with a free text note ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
