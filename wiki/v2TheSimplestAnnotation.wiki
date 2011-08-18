@@ -29,7 +29,9 @@ _Figure 3: highlighting an image fragment is another common operation readers pe
 === Tagging a text fragment ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 4: _
+_Figure 4: Tagging a text fragment_
+
+*[v2ExTagOnFragment  How to tag a section of text with AO]*
 
 === Tagging of an image section ===
 
