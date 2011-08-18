@@ -28,20 +28,20 @@ _Figure 3: highlighting an image fragment is another common operation readers pe
 === Tagging of an image section ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 3: tagging an image fragment is another common operation readers perform on digital images_
+_Figure 5: tagging an image fragment is another common operation readers perform on digital images_
 
 *[v2ExTagImage  How to tag an image section with AO]*
 
 === Annotating a document section with a free text note ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 4: The simple process of attaching a free text note to a section of a document_
+_Figure 6: The simple process of attaching a free text note to a section of a document_
 
 *[v2ExTextNoteOnFragment How to encode a free text note on a text fragment with AO]*
 
 === Annotating an image section with a free text note ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 5: The simple process of attaching a free text note to a section of an image_
+_Figure 7: The simple process of attaching a free text note to a section of an image_
 
 *[v2ExTextNoteOnImageFragment How to encode a free text note on an image fragment with AO]*
