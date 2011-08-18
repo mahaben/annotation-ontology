@@ -21,13 +21,13 @@ _Figure 2: highlighting a text span is another common operation readers perform 
 === Highlighting of an image section ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: highlighting an image fragment is another common operation readers perform on digital and traditional images_
+_Figure 3: highlighting an image fragment is another common operation readers perform on digital and traditional images_
 
 *[v2ExHighlightImage  How to encode an image highlight with AO]*
 
 === Annotating a document section with a free text note ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 3: The simple process of attaching a free text note to a section of a document_
+_Figure 4: The simple process of attaching a free text note to a section of a document_
 
 *[v2ExTextNoteOnFragment How to encode a free text note on a text fragment with AO]*
