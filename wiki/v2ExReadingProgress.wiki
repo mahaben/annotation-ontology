@@ -6,7 +6,7 @@
 When reading a document we might want to be able to record the last position of our 'reading cursor' so we can resume the reading from the right location. This is pretty simple to obtain with AO and it consists in creating a very simple Annotation with a [v2Selectors Selector].
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: a visual representation of the AO way of defining the 'reading cursor' through a PrefixSuffixTextSelector_
+_Figure 1: a visual representation of the AO way of defining the 'reading cursor' through a [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]_
 
 The RDF of the example in picture 1 would look like the following: 
 
@@ -25,7 +25,7 @@ The RDF of the example in picture 1 would look like the following:
 </rdf:Description> 
 }}} 
 
-and the text selector (PrefixSuffixTextSelector): 
+and the text selector ([v2PrefixSuffixTextSelector PrefixSuffixTextSelector]): 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/sel/10400"> 
@@ -42,12 +42,12 @@ and the text selector (PrefixSuffixTextSelector):
 </rdf:Description> 
 }}}
 
-The same annotation could be expressed using any another type of text selector, for instance the OffsetRangeTextSelector:
+The same annotation could be expressed using any another type of text selector, for instance the [v2OffsetRangeTextSelector OffsetRangeTextSelector]:
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20with%20Offset%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: a visual representation of the AO way of defining the 'reading cursor' through a OffsetRangeTextSelector_
+_Figure 2: a visual representation of the AO way of defining the 'reading cursor' through a [v2OffsetRangeTextSelector OffsetRangeTextSelector]_
 
-And the alternative text selector (PrefixSuffixTextSelector): 
+And the alternative text selector ([v2OffsetRangeTextSelector OffsetRangeTextSelector]): 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/sel/10401"> 
