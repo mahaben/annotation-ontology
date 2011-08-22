@@ -1,6 +1,15 @@
 #summary Text Note on an image fragment
 
-[v2Main << Back to Main]
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
+</td>
+</tr>
+</table>
 
 === Text Note on an image fragment ===
 
