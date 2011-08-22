@@ -3,3 +3,6 @@
 [v2Main << Back to Main]
 
 === Text note on an image ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20image%20-%20Annotation%20Ontology20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: a free text note attached to an image_
