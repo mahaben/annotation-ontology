@@ -1,11 +1,20 @@
 #summary Text Note on a document fragment
 
-[v2Main << Back to Main]
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
+</td>
+</tr>
+</table>
 
 === Text Note on a document fragment ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-<b>Figure 1: </b>
+_Figure 1: note attached to a text fragment identified through a [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]. The annotation type ao:Note defines the nature of the annotation_
 
 The RDF of the example in picture 1 would look like the following: 
 
