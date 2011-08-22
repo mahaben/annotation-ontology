@@ -2,7 +2,7 @@
 
 [v2Main << Back to Main]
 
-In the implementation of the following examples you will notice that the nature of the free text expressed in the bubble is determined by the Annotation Type. This is the simplest way to create annotations in AO.
+In the implementation of the following examples you will notice that the nature of the free text expressed in the bubble is determined by the [v2AnnotationTypes Annotation Type]. This is the simplest way to create annotations in AO.
 However, with AO it is also possible to adopt an alternative approach that can make better use of already existing ontologies.
 
 === Tags ===
