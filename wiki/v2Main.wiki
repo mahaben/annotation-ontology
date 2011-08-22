@@ -22,7 +22,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2ExHighlightImage Highlight on image fragment] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExTagOnFragment Simple Tag on text fragment] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExTagOnImageFragment Tag on image fragment] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
-       * [v2ExTextNoteOnFragment Simple Text Note on text]
+       * [v2ExTextNoteOnFragment Simple Text Note on text] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExTextNoteOnImageFragment Simple Text Note on image]
        * [v2ExCommentOnImageFragment Simple Comment on image]
 
