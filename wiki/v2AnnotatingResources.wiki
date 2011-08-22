@@ -21,3 +21,8 @@ _Figure 3: a free text note attached to an image_
 *[v2ExNote How to create notes for digital resources with AO]*
 
 === Comments ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 5: a free text comment attached to an image_
+
+*[v2ExComment How to create comments for digital resources with AO]*
