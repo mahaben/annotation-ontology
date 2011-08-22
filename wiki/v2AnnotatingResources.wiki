@@ -36,3 +36,15 @@ A comment is A remark expressing an opinion or reaction.
 _Figure 5: a free text comment attached to an image_
 
 *[v2ExComment How to create comments for digital resources with AO]*
+
+=== Notes on multiple resources ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20multiple%20images%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 6: a free text note targeting two images._
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20multiple%20resources%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 7: a free text note targeting an image and a web page._
+
+*[v2ExComment How to create notes targeting multiple resources with AO]*
+
+Credits: pictures taken from http://tinyurl.com/3tu9r8j
