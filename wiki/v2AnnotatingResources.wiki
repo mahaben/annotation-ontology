@@ -30,6 +30,8 @@ _Figure 4: a free text note attached to a document_
 
 === Comments ===
 
+A comment is A remark expressing an opinion or reaction.
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 5: a free text comment attached to an image_
 
