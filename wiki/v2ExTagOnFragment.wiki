@@ -1,5 +1,16 @@
 #summary One-sentence summary of this page.
 
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
+</td>
+</tr>
+</table>
+
 === Tagging a text fragment ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
