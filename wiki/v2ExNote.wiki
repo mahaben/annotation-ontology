@@ -1,0 +1,3 @@
+#summary Simple text note on an entire resource
+
+=== Text note on an image ===
