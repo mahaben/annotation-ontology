@@ -3,7 +3,7 @@
 === Tagging a text fragment ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: annotation of a text fragment with a free text label or tag. The text fragment is identified through the [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]_
+_Figure 1: annotation of a text fragment with a free text label or tag. The nature of the annotation - Tag - is specified through the annotation type ao:Tag. The text fragment is identified through the [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]_
 
 The RDF of the example in picture 1 would look like the following: 
 
