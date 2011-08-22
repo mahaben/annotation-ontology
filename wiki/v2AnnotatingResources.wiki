@@ -3,7 +3,7 @@
 [v2Main << Back to Main]
 
 In the implementation of the following examples you will notice that the nature of the free text expressed in the bubble is determined by the [v2AnnotationTypes Annotation Type]. This is the simplest way to create annotations in AO.
-However, with AO it is also possible to adopt an alternative approach that can make better use of already existing ontologies.
+However, with AO it is also possible to adopt an alternative approach that can make better use of already existing ontologies without overloading the annotation types.
 
 === Tags ===
 Tagging means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels. 
