@@ -43,3 +43,5 @@ The RDF of the example in picture 1 would look like the following:
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}} 
+
+=== Simple Tag on a document ===
