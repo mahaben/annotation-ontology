@@ -1,5 +1,7 @@
 #summary Prefix Suffix Text Selector
 
+[v2Selector << Back to Selectors]
+
 === Prefix Suffix Text Selector ===
 
 The [v2PrefixSuffixTextSelector PrefixSuffixTextSelector] allows to identify a region of text in a document by specifying the its prefix, the exact match and its suffix.
