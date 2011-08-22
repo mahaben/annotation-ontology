@@ -21,6 +21,9 @@ _Figure 2: an example in which a tag has been attached to an entire document_
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: a free text note attached to an image_
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20text%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 4: a free text note attached to a document_
+
 *[v2ExNote How to create notes for digital resources with AO]*
 
 === Comments ===
