@@ -18,6 +18,8 @@ _Figure 2: an example in which a tag has been attached to an entire document_
 
 === Notes ===
 
+A note is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. In these two examples we are considering the commonly used free text notes.
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: a free text note attached to an image_
 
