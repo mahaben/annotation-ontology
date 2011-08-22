@@ -1,5 +1,7 @@
 #summary Offset Range Text Selector
 
+[v2Main << Back to Main] [v2Selectors << Back to Selectors]
+
 === Offset Range Text Selector ===
 
 Identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset. 
