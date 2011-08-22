@@ -26,4 +26,4 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2ExTextNoteOnImageFragment Simple Text Note on image]
        * [v2ExCommentOnImageFragment Simple Comment on image]
 
-*Symbols*: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] Up to date
+*Legend*:<br/> [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] Up to date
