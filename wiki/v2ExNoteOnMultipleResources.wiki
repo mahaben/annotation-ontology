@@ -1,0 +1,5 @@
+#summary Note On Multiple Resources
+
+=== Note On Multiple Resources ===
+
+Sometimes it might be necessary to write a note about more than one resource. AO allows to target multiple resources at the same time simly specifying multiple _ao:annotatesResource_ relationships.
