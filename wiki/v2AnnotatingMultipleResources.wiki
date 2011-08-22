@@ -13,4 +13,4 @@ _Figure 2: a free text note targeting an image and a web page._
 
 *[v2ExComment How to create notes targeting multiple resources with AO]*
 
-* pictures taken from http://tinyurl.com/3tu9r8j
+Credits: _pictures taken from http://tinyurl.com/3tu9r8j_
