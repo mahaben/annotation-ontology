@@ -4,7 +4,7 @@
 
 === Text Note on an image fragment ===
 
-Attaching a note to an image fragment requires to identify a particular region of the image. The fragment selection can be performed with an appropriate Selector. In the following example we are using the InitEndImageSelector which is simply identifying a rectangular region of the referenced image. More elaborate Selectors can be defined for more specific use cases. 
+Attaching a note to an image fragment requires to identify a particular region of the image. The fragment selection can be performed with an appropriate Selector. In the following example we are using the [v2RectangularImageSelector RectangularImageSelector] which is simply identifying a rectangular region of the referenced image. More elaborate Selectors can be defined for more specific use cases. 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20image%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: A free text note attached to a fragment of an image through an Image selector able to identify a rectangular fragment of the resource. The interpretation of the free text as a note is determined by the annotation type Note_
@@ -30,7 +30,7 @@ and the text selector (InitEndImageSelector):
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/sel/10405"> 
-   <rdf:type rdf:resource="&ao;InitEndImageSelector"/> 
+   <rdf:type rdf:resource="&ao;RectangularImageSelector"/> 
    <!-- 
    <rdf:type rdf:resource="&ao;ImageSelector"/> 
    <rdf:type rdf:resource="&ao;Selector"/> 
