@@ -5,4 +5,4 @@
 === Simple Tag on an image ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: two free text tags attached to a digital image identified by a URI_
+_Figure 1: two free text tags attached to a digital image identified by a URI. The nature of the annotation is specified through the Annotation Type ao:Tag_
