@@ -1,3 +1,5 @@
 #summary Simple text note on an entire resource
 
+[v2Main << Back to Main]
+
 === Text note on an image ===
