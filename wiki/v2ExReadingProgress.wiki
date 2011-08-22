@@ -1,8 +1,19 @@
 #summary How to define a reading progress cursor.
 
-[v2Main << Back to Main]
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
+</td>
+</tr>
+</table>
 
 === Recording the reading progress location ===
+
+
 When reading a document we might want to be able to record the last position of our 'reading cursor' so we can resume the reading from the right location. This is pretty simple to obtain with AO and it consists in creating a very simple Annotation with a [v2Selectors Selector].
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
