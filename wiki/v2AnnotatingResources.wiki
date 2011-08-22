@@ -11,6 +11,9 @@ Tagging means 'attaching a label'. When using the word 'Tag' we here refer only 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: an example in which a couple of tags have been attached to an image_
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20text%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: an example in which a tag has been attached to an entire document_
+
 *[v2ExTag How to create tags for digital resources with AO]*
 
 === Notes ===
