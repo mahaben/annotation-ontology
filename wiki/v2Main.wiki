@@ -28,5 +28,6 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2ExTextNoteOnFragment Simple Text Note on text] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExTextNoteOnImageFragment Simple Text Note on image] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExCommentOnImageFragment Simple Comment on image]
+    * [v2AnnotationsWithTopic Annotations with topics or URIs]
 
 *Legend*:<br/> [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] Up to date
