@@ -1,0 +1,3 @@
+#summary Semantic tags or qualifiers
+
+=== Qualifiers on an entire resource===
