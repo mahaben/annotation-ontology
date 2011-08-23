@@ -13,7 +13,7 @@
 
 === Qualifiers on an entire resource===
 
-While creating notes with free text is common practice, creating annotation pointing to terms or entities coming from controlled vocabularies, ontologies and knowledge bases can be more powerful and easier to understand by machines. In Annotation Ontology (AO) we can create annotation pointing to an entity - identified by a URI - through the relationship _ao:hasTopic_.
+While creating notes with free text is common practice, creating annotation pointing to terms or entities coming from controlled vocabularies, ontologies and knowledge bases can be more powerful and easier to understand by machines. In Annotation Ontology (AO) we can create annotation pointing to a 'semantic' entity - identified by a URI - through the relationship _ao:hasTopic_ and through appropriate Annotation Types.
 
 === Qualifier on entire document ===
 
@@ -24,6 +24,25 @@ _Figure 1: a semantic tag or Qualifier. A term from PRO 'beta-secretase 1' ident
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20document%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: representation of a Qualifier in AO_
+
+
+The RDF of the example in picture 2 would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/21315"> 
+   <rdf:type rdf:resource="&ao;Qualifier"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
+   <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+</rdf:Description> 
+}}}
+
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20document%20Provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: representation of a Qualifier in AO including provenance data_
 
 
 The RDF of the example in picture 2 would look like the following: 
