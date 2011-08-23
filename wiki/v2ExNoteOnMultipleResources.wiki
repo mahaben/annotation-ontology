@@ -10,4 +10,4 @@ Sometimes it might be necessary to write a note about more than one resource at 
 _Figure 1: an example free text note targeting two images._
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20multiple%20images%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: a free text note targeting two images._
+_Figure 2: a free text note targeting two images._
