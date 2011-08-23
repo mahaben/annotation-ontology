@@ -34,3 +34,22 @@ The RDF of the example in figure 2 would look like the following:
    <ao:hasTopic rdf:resource="http://en.wikipedia.org/wiki/Ogunquit"/>
 </rdf:Description> 
 }}}
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20annotation%20on%20multiple%20documents%20Provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3:  ._
+
+The RDF of the example in figure 3 would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/21315"> 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3uu5z25"/>
+   <ao:hasTopic rdf:resource="http://en.wikipedia.org/wiki/Ogunquit"/>
+   <pav:createdOn>2011-08-22</pav:createdOn> 
+   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
+</rdf:Description> 
+}}}
