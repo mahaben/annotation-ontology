@@ -2,4 +2,4 @@
 
 === Qualifiers on an entire resource===
 
-While creating notes with free text is common practice, creating annotation pointing to terms or entities coming from controlled vocabularies, ontologies and knowledge bases can be more powerful and easier to understand by machines. In Annotation Ontology (AO) we can create annotation pointing to an entity - identified by a URI - through the relationship _ao:topic_.
+While creating notes with free text is common practice, creating annotation pointing to terms or entities coming from controlled vocabularies, ontologies and knowledge bases can be more powerful and easier to understand by machines. In Annotation Ontology (AO) we can create annotation pointing to an entity - identified by a URI - through the relationship _ao:hasTopic_.
