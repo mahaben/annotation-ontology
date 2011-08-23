@@ -68,8 +68,8 @@ The RDF of the example in picture 4 - which include provenance data - would look
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
-   <ao:hasTopic rdf:resource=""/>
+   <ao:hasTopic rdf:resource="http://en.wikipedia.org/wiki/Ogunquit"/>
    <pav:createdOn>2011-08-17</pav:createdOn> 
-   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
+   <pav:createdBy rdf:resource="http://my.example.org/service/wikipedia"/> 
 </rdf:Description> 
 }}}
