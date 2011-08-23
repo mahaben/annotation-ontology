@@ -1,5 +1,17 @@
 #summary Linked Note (free text Note and URI
 
+
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
+</td>
+</tr>
+</table>
+
 === Linked Note ===
 
 In AO it is possible to provide one or mote topics for each basic Annotation Type. Therefore, if we create an annotation of type Note, we can provide one or more URIs as topic(s).
