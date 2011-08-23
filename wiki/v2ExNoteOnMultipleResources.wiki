@@ -1,4 +1,4 @@
-#summary Note On Multiple Resources
+#summary Note On Multiple Resources of the Same Kind
 
 [v2Main << Back to Main]
 
