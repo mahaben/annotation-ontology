@@ -18,6 +18,9 @@ In AO it is possible to provide one or mote topics for each basic Annotation Typ
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20annotation%20on%20multiple%20documents%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1:  ._
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20annotation%20on%20multiple%20documents%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2:  ._
+
 The RDF of the example in figure 2 would look like the following: 
 
 {{{ 
@@ -26,7 +29,7 @@ The RDF of the example in figure 2 would look like the following:
    <!-- The following can be added for querying with SPARQL 
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
-   <ao:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3uu5z25"/>
    <ao:hasTopic rdf:resource="http://en.wikipedia.org/wiki/Ogunquit"/>
 </rdf:Description> 
