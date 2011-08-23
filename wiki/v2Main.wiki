@@ -33,7 +33,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
    * Annotation with topics (or linked annotation)
     * [v2AnnotatingResourcesWithTopics Simple linked annotations targeting entire single documents]
        * [v2LinkedAnnotations Linked Annotations] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
-       * [v2LinkedAnnotationNote Linked Note]
+       * [v2LinkedAnnotationNote Linked Note] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2Qualifier Defining semantic tags or qualifiers] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
 
 *Legend*:<br/> [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] Up to date
