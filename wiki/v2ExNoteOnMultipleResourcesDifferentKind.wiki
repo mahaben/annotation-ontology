@@ -1,0 +1,10 @@
+#summary Note On Multiple Resources of Different Kind
+
+[v2Main << Back to Main]
+
+=== Note On Multiple Resources of Different Kind ===
+
+Sometimes it might be necessary to write a note about more than one resource at the same time. AO allows to target multiple resources at the same time simly specifying multiple _ao:annotatesResource_ relationships.
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20multiple%20resources%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: a free text note targeting an image and a web page._
