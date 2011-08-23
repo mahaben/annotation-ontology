@@ -1,12 +1,53 @@
 #summary Simple text Comment targeting an entire resource
 
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
+</td>
+</tr>
+</table>
+
 === Simple Text Comment ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20resource%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: ._
+_Figure 1: example of comment targeting an image._
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20resource%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: ._
+_Figure 2: AO representation of a comment targeting an image._
+
+The RDF of the example in picture 2 would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/21315"> 
+   <rdf:type rdf:resource="&ao;Comment"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:body>The intensity of the sky color is a little weak</ao:body>
+</rdf:Description> 
+}}}
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20resource%20Provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 3: ._
+_Figure 3: AO representation - including provenance - of a comment targeting an image._
+
+The RDF of the example in picture 3 - with provenance - would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/21315"> 
+   <rdf:type rdf:resource="&ao;Comment"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:body>The intensity of the sky color is a little weak</ao:body>
+   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
+</rdf:Description> 
+}}}
