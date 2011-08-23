@@ -1,0 +1,12 @@
+#summary Simple text Comment targeting an entire resource
+
+=== Simple Text Comment ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20resource%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: ._
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20resource%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: ._
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20resource%20Provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: ._
