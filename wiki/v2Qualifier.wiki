@@ -6,14 +6,14 @@
 [v2Main << Back to Main] 
 </td>
 <td align="right">
-
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
 </td>
 </tr>
 </table>
 
 === Qualifiers on an entire resource===
 
-While creating notes with free text is common practice, creating annotation pointing to terms or entities coming from controlled vocabularies, ontologies and knowledge bases can be more powerful and easier to understand by machines. In Annotation Ontology (AO) we can create annotation pointing to a 'semantic' entity - identified by a URI - through the relationship _ao:hasTopic_ and through appropriate Annotation Types.
+While creating notes with free text is common practice, creating annotation pointing to terms or entities coming from controlled vocabularies, ontologies and knowledge bases can be more powerful and easier to understand by machines. In Annotation Ontology (AO) we can create annotation pointing to a 'semantic' entity - identified by a URI - through the relationship _ao:hasTopic_ and through appropriate Annotation Types.  
 
 === Qualifier on entire document ===
 
