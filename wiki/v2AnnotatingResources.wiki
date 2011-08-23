@@ -1,6 +1,15 @@
 #summary Attaching tags, notes and comments to a document
 
-[v2Main << Back to Main]
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
+</td>
+</tr>
+</table>
 
 In the implementation of the following examples you will notice that the nature of the free text expressed in the bubble is determined by the [v2AnnotationTypes Annotation Type]. This is the simplest way to create annotations in AO.
 However, with AO it is also possible to adopt an alternative approach that can make better use of already existing ontologies without overloading the annotation types.
@@ -32,8 +41,8 @@ _Figure 4: a free text note attached to a document_
 
 A comment is A remark expressing an opinion or reaction.
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 5: a free text comment attached to an image_
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20resource%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 5: example of comment targeting an image._
 
 *[v2ExComment How to create comments for digital resources with AO]*
 
