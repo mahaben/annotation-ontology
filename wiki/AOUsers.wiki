@@ -62,11 +62,13 @@ The world’s leading publisher of science and health information, Elsevier serv
 </table>
 
 <table>
+
 <tr>
 <td width="200px" align="center">
+[http://www.biotea.ws/sites/default/files/aurora_logo.jpg]
 </td>
 <td cellpadding="6px" valign="top">
-*[http://tags4lab.sourceforge.net/ Tags4Lab project]* - Electronic Laboratory Notebook based on Folksonomies and Semantic Web principles.
+*[http://www.biotea.ws/ Biotea]* - Biotea is an umbrella under which we are organizing a number of small projects that we started about a year ago. The driving motivation behind Biotea is simple: combining social tagging and ontology-based marking improves information retrieval and facilitates enriching metadata. Social tagging is a valuable source of metadata in bioinformatics. Biotea promotes methods that shift the creation of metadata from the individual to a collective by specializing tagging models for biological data types. Biotea includes:<br/>*[http://tags4lab.sourceforge.net/ Tags4Lab project]* - Electronic Laboratory Notebook based on Folksonomies and Semantic Web principles.
 </td>
 </tr>
 </table>
