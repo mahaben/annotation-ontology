@@ -13,7 +13,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
     * [v2AnnotationTypes Annotation Types]
   * *[v2ByExamples Learn Annotation Ontology v.2 by examples]*
    * Plain annotation (or textual annotation)
-    * [v2AnnotatingResources Simple annotations on single documents]
+    * [v2AnnotatingResources Simple annotations on single documents] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExTag Simple Tag (Free text or folksonomy)] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExNote Simple Text Note] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExComment Simple Text Comment] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
