@@ -1,4 +1,4 @@
-#summary Linked annotation on entire resources
+#summary Linked annotation targeting an entire resources
 
 <table width="100%">
 <tr>
@@ -6,7 +6,7 @@
 [v2Main << Back to Main] 
 </td>
 <td align="right">
-
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
 </td>
 </tr>
 </table>
@@ -31,10 +31,23 @@ The RDF of the example in picture 2 would look like the following:
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
    <ao:hasTopic rdf:resource="http://en.wikipedia.org/wiki/Ogunquit"/>
-   <pav:createdOn>2011-08-17</pav:createdOn> 
-   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}}
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20annotation%20on%20document%20Provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: the same example displaying also provenance data._
+
+The RDF of the example in picture 3 - which include provenance data - would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/21315"> 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
+   <ao:hasTopic rdf:resource="http://en.wikipedia.org/wiki/Ogunquit"/>
+   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
+</rdf:Description> 
+}}}
