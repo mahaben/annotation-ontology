@@ -32,8 +32,8 @@ The RDF of the example in picture 2 would look like the following:
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
-   <ao:annotatesResource rdf:resource="http://www.ogunquitmaine.com/Perkins-Cove.html"/>
-   <ao:body>Multiple resources about Perkin's Cove in Ogunquit, Maine</ao:body> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3uu5z25"/>
+   <ao:body>Pictures taken the same day in Ogunquit, Maine</ao:body> 
    <pav:createdOn>2011-08-17</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
