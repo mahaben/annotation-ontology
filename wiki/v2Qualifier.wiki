@@ -42,10 +42,10 @@ The RDF of the example in picture 2 would look like the following:
 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20document%20Provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: representation of a Qualifier in AO including provenance data_
+_Figure 3: representation of a Qualifier in AO including provenance data_
 
 
-The RDF of the example in picture 2 would look like the following: 
+The RDF of the example in picture 3 - which includes provenance data - would look like the following: 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/21315"> 
