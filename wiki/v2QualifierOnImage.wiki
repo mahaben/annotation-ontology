@@ -1,0 +1,9 @@
+#summary Defining semantic tags or qualifiers on image
+
+=== Defining semantic tags or qualifiers on image ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: a semantic tag or Qualifier. A term from PRO 'amyloid beta a4 protein' identified by a URI 'PRO:000004615' is attached, as annotation, to an entire document._
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20image%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: representation of a Qualifier in AO_
