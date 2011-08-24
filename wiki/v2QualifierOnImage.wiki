@@ -17,7 +17,7 @@ The RDF of the example in picture 2 would look like the following:
    <rdf:type rdf:resource="&ao;Annotation"/> 
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
-   <ao:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
-   <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+   <ao:annotatesResource rdf:resource="http://www.neuronlab.org/images/1228067928.jpg"/> 
+   <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004168"/>
 </rdf:Description> 
 }}}
