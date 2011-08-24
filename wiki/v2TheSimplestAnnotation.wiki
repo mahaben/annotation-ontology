@@ -53,3 +53,10 @@ _Figure 6: The simple process of attaching a free text note to a section of a do
 _Figure 7: The simple process of attaching a free text note to a section of an image_
 
 *[v2ExTextNoteOnImageFragment How to encode a free text note on an image fragment with AO]*
+
+=== Simple Comment on image fragment ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 8: example of comment attached to an image fragment_
+
+*[v2ExCommentOnImageFragment How to encode a free text comment on an image fragment with AO]*
