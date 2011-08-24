@@ -5,3 +5,5 @@
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20annotation%20on%20multiple%20documents%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: example of annotating two images with a URI ._
+
+*[v2LinkedAnnotationsOnMultipleImages How to create linked annotation targeting multiple resources in AO]*
