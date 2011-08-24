@@ -35,7 +35,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2LinkedAnnotations Linked Annotations] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2LinkedAnnotationNote Linked Note] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2Qualifier Defining semantic tags or qualifiers on document] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
-       * [v2Qualifier Defining semantic tags or qualifiers on image]
+       * [v2QualifierOnImage Defining semantic tags or qualifiers on image]
     * [v2AnnotatingMultipleResourcesWithTopics Simple linked annotations targeting multiple documents]
        * [v2LinkedAnnotationsOnMultipleImages Linked Annotations on multiple resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
     * [v2SimpleLinkedAnnotationOnFrgments Simple linked annotations on document fragments]
