@@ -1,0 +1,6 @@
+#summary Simple linked annotations targeting entire single documents
+
+=== Simple linked annotations targeting entire single documents ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20annotation%20on%20document%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: in this example the Wikipedia link to the town of Ogunquit, Maine is attached to an image as annotation._
