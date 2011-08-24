@@ -14,12 +14,12 @@
 === Text Note on an image fragment ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: _
+_Figure 1: example of comment attached to an image fragment_
 
 Attaching a comment to an image fragment requires to identify a particular region of the image. The fragment selection can be performed with an appropriate Selector. In the following example we are using the [v2RectangularImageSelector RectangularImageSelector] which is simply identifying a rectangular region of the referenced image. More elaborate Selectors can be defined for more specific use cases. 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20image%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: A free text note attached to a fragment of an image through a [v2RectangularImageSelector RectangularImageSelector] able to identify a rectangular fragment of the resource. The interpretation of the free text as a note is determined by the annotation type Note._
+_Figure 2: A free text Comment attached to a fragment of an image through a [v2RectangularImageSelector RectangularImageSelector] able to identify a rectangular fragment of the resource. The interpretation of the free text as a comment is determined by the annotation type Comment._
 
 The RDF of the example in picture 2 would look like the following: 
 
@@ -55,7 +55,10 @@ and the text selector ([v2RectangularImageSelector RectangularImageSelector]):
 }}} 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20image%20fragment%20provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: _
+_Figure 3: the same example with provenance_
+
+
+The RDF of the example in figure 3 would look like the following: 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/21300"> 
