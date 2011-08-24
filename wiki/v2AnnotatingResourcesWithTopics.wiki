@@ -5,8 +5,14 @@
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20annotation%20on%20document%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: in this example the Wikipedia link to the town of Ogunquit, Maine is attached to an image as annotation._
 
+*[v2LinkedAnnotations How to represent a linked Annotation with AO]*
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20Note%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: example where the user annotates an image with a textual description and a topic defined through a URI ._
 
+*[v2LinkedAnnotationNote How to represent a linked Note with AO]*
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20document%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: a semantic tag or Qualifier. A term from PRO 'beta-secretase 1' identified by a URI 'PRO:000004615' is attached, as annotation, to an entire document._
+
+*[v2Qualifier How to represent a Qualifier (or semantic tag) with AO]*
