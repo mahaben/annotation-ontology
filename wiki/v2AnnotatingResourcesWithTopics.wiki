@@ -16,3 +16,8 @@ _Figure 2: example where the user annotates an image with a textual description 
 _Figure 3: a semantic tag or Qualifier. A term from PRO 'beta-secretase 1' identified by a URI 'PRO:000004615' is attached, as annotation, to an entire document._
 
 *[v2Qualifier How to represent a Qualifier (or semantic tag) on a document with AO]*
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 4: a semantic tag or Qualifier. A term from PRO [http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=PR:000004168 'amyloid beta a4 protein' identified by a URI 'PRO:000004168'] is attached, as annotation, to an entire document._
+
+*[v2QualifierImage How to represent a Qualifier (or semantic tag) on an image with AO]*
