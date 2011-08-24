@@ -1,5 +1,17 @@
 #summary Simple linked annotations targeting entire single documents
 
+
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
+</td>
+</tr>
+</table>
+
 === Simple linked annotations targeting entire single documents ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20annotation%20on%20document%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
@@ -20,4 +32,4 @@ _Figure 3: a semantic tag or Qualifier. A term from PRO 'beta-secretase 1' ident
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 4: a semantic tag or Qualifier. A term from PRO [http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=PR:000004168 'amyloid beta a4 protein' identified by a URI 'PRO:000004168'] is attached, as annotation, to an entire document._
 
-*[v2QualifierImage How to represent a Qualifier (or semantic tag) on an image with AO]*
+*[v2QualifierOnImage How to represent a Qualifier (or semantic tag) on an image with AO]*
