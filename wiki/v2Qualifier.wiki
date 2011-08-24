@@ -11,11 +11,9 @@
 </tr>
 </table>
 
-=== Qualifiers on an entire resource===
+=== Qualifiers on an entire document ===
 
 While creating notes with free text is common practice, creating annotation pointing to terms or entities coming from controlled vocabularies, ontologies and knowledge bases can be more powerful and easier to understand by machines. In Annotation Ontology (AO) we can create annotation pointing to a 'semantic' entity - identified by a URI - through the relationship _ao:hasTopic_ and through appropriate Annotation Types.  
-
-=== Qualifier on an entire document ===
 
 With AO we can attach topics expressed through URIs, for instance, to documents as in the following example where a term from the [http://pir.georgetown.edu/pro/ PRotein Ontology (PRO)] is linked to a document.
 
