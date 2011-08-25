@@ -1,0 +1,64 @@
+#summary Note on image and webpage
+
+
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+ex0007: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
+== Note on image and webpage ==
+
+Annotation Ontology (AO) allows you to annotate multiple resources at the same time. This is possible defining multiple relationships ao:annotatesResources.
+
+=== Example ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0007%20Note%20on%20image%20and%20webpage%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: an example (free text) Note targeting an image and a webpage._
+
+=== Representation with AO ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0007%20Note%20on%20image%20and%20webpage%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: a (free text) Note targeting an image and a webpage._
+
+The RDF of the example in figure 2 would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/21314"> 
+   <rdf:type rdf:resource="&ao;Note"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:annotatesResource rdf:resource="http://www.ogunquitmaine.com/Perkins-Cove.html"/>
+   <ao:body>Multiple resources about Perkin's Cove in Ogunquit, Maine</ao:body>  
+</rdf:Description> 
+}}}
+
+=== Adding provenance ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0007%20Note%20on%20image%20and%20webpage%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: a (free text) Note targeting an image and a webpage._
+
+The RDF of the example in figure 3 would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/21314"> 
+   <rdf:type rdf:resource="&ao;Note"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:annotatesResource rdf:resource="http://www.ogunquitmaine.com/Perkins-Cove.html"/>
+   <ao:body>Multiple resources about Perkin's Cove in Ogunquit, Maine</ao:body> 
+   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
+</rdf:Description> 
+}}}
