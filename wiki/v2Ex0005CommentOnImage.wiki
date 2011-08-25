@@ -14,7 +14,7 @@ ex0005: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Comment targeting an image as a whole ==
 
-_A *note* is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. When using the term 'Note' we here refer only to free text notes._
+_A *Comment* is a remark expressing an opinion or reaction. When using the term 'Comment' we here refer only to free text comments._
 
 === Example ===
 
