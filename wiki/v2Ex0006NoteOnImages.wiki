@@ -21,6 +21,8 @@ Annotation Ontology (AO) allows you to annotate multiple resources at the same t
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0006%20Note%20on%20images%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: an example (free text) Note targeting two images._
 
+=== Representation with AO ===
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0006%20Note%20on%20images%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: a (free text) Note targeting two images._
 
@@ -40,6 +42,8 @@ The RDF of the example in figure 2 would look like the following:
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}}
+
+=== Adding provenance ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0006%20Note%20on%20images%20with%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: a (free text) Note targeting two images._
