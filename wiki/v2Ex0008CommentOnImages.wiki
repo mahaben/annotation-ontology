@@ -1,6 +1,20 @@
 #summary Comment on multiple images
 
+
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+ex0007: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
 == Comment on multiple images ==
+
+Annotation Ontology (AO) allows you to annotate multiple resources at the same time. This is possible defining multiple relationships ao:annotatesResources.
 
 === Example ===
 
