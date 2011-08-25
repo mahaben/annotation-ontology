@@ -13,10 +13,13 @@
 
 === Simple Tag on an image ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: two free text tags attached to a digital image identified by a URI. The nature of the annotation is specified through the Annotation Type ao:Tag._
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: an example in which a couple of tags have been attached to an image_
 
-The RDF of the example in picture 1 would look like the following: 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: two free text tags attached to a digital image identified by a URI. The nature of the annotation is specified through the Annotation Type ao:Tag._
+
+The RDF of the example in picture 2 would look like the following: 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/21304"> 
@@ -46,10 +49,13 @@ The RDF of the example in picture 1 would look like the following:
 
 === Simple Tag on a document ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20text%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: a text tag attached to a digital document identified by a URI. The nature of the annotation is specified through the Annotation Type ao:Tag._
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20text%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: an example in which a tag has been attached to an entire document_
 
-The RDF of the example in picture 2 would look like the following: 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20text%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 4: a text tag attached to a digital document identified by a URI. The nature of the annotation is specified through the Annotation Type ao:Tag._
+
+The RDF of the example in picture 4 would look like the following: 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/21305"> 
