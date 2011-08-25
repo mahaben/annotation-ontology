@@ -15,7 +15,7 @@ ex0001: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 _*Note*: Tagging means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._
 
-In this example an image has been tagged with two (free text) labels (o r tags). 
+In this example an image has been tagged with two (free text) labels (or tags). 
 
 === The example ===
 
