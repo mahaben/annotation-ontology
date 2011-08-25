@@ -1,5 +1,7 @@
 #summary Annotation ontology v.2
 
+Author: Paolo Ciccarese, PhD
+
 The development of *Annotation Ontology v. 2* has been planned to overcome the limitations emerged while implementing the previous version of AO in semantic web applications. Most importantly, the process has been opened up to collect contributions by several groups and organizations.  
 
   * *[v2Introduction Introduction]*
