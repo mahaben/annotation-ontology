@@ -1,4 +1,4 @@
-#summary Tagging an entire image
+#summary Tagging an image as a whole
 
 <table width="100%">
 <tr>
@@ -11,7 +11,7 @@ ex0001 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progr
 </tr>
 </table>
 
-== Tagging an entire image ==
+== Tagging an image as a whole ==
 
 _*Note*: Tagging means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._
 
