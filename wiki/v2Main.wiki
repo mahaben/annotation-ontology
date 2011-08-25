@@ -1,4 +1,4 @@
-#summary Annotation ontology v.2
+#summary Annotation ontology v.2 (Draft)
 
 == Documentation of Annotation Ontology (AO) v. 2.0 ==
 *Author: Paolo Ciccarese, PhD*<br/>
