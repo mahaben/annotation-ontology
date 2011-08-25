@@ -1,4 +1,4 @@
-#summary Attaching tags, notes and comments to a document
+#summary Free text tags, notes and comments
 
 <table width="100%">
 <tr>
@@ -10,6 +10,9 @@
 </td>
 </tr>
 </table>
+
+
+== Free text tags, notes and comments ==
 
 In the implementation of the following examples you will notice that the nature of the free text expressed in the bubble is determined in Annotation Ontology by the [v2AnnotationTypes Annotation Type]. This is the simplest way to create annotations in AO.
 However, with AO it is also possible to adopt an alternative approach that can make better use of already existing ontological frameworks without overloading the annotation types.
@@ -31,22 +34,26 @@ _Figure 2: a (free text) tag attached to a document identified by a URL_
 
 A note is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. In these two examples we are considering the commonly used free text notes.
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 3: a free text note attached to an image_
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0003%20Note%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: a (free text) note attached to an image identified by a URL_
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20text%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 4: a free text note attached to a document_
+*[v2Ex0003NoteOnImage How to create notes on images with AO]*
 
-*[v2ExNote How to create notes for digital resources with AO]*
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0004%20Note%20on%20document%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 4: a (free text) note attached to a document identified by a URL_
+
+*[v2Ex0004NoteOnDocument How to create notes on documents with AO]*
 
 === Comments ===
 
 A comment is A remark expressing an opinion or reaction.
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20resource%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 5: example of comment targeting an image._
 
-*[v2ExComment How to create comments for digital resources with AO]*
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0005%20Comment%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 5: a (free text) Comment attached to an image identified by a URL_
+
+*[v2Ex0005CommentOnImage How to create comments for digital resources with AO]*
 
 
 Credits: pictures taken from http://tinyurl.com/3tu9r8j
