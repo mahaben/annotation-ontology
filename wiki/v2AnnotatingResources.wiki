@@ -18,7 +18,7 @@ In the implementation of the following examples you will notice that the nature 
 However, with AO it is also possible to adopt an alternative approach that can make better use of already existing ontological frameworks without overloading the annotation types.
 
 === Tags ===
-Tagging means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels. 
+_*Tagging* means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0001%20Tag%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: a couple of (free text) tags have been attached to an image identified by a URL_
@@ -32,7 +32,7 @@ _Figure 2: a (free text) tag attached to a document identified by a URL_
 
 === Notes ===
 
-A note is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. In these two examples we are considering the commonly used free text notes.
+_A *note* is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. When using the term 'Note' we here refer only to free text notes._
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0003%20Note%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: a (free text) note attached to an image identified by a URL_
@@ -47,7 +47,8 @@ _Figure 4: a (free text) note attached to a document identified by a URL_
 
 === Comments ===
 
-A comment is A remark expressing an opinion or reaction.
+
+_A *Comment* is a remark expressing an opinion or reaction. When using the term 'Comment' we here refer only to free text comments._
 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0005%20Comment%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
