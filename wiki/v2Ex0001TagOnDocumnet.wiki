@@ -37,7 +37,7 @@ The RDF of the example in figure 2 would look like the following:
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
-   <ao:body>Maine</ao:body> 
+   <ao:body>Web 3.0</ao:body> 
 </rdf:Description> 
 }}} 
 
@@ -56,7 +56,7 @@ The RDF of the example in figure 3 would look like the following:
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
-   <ao:body>Maine</ao:body> 
+   <ao:body>Web 3.0</ao:body> 
    <pav:createdOn>2011-08-17</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
