@@ -19,12 +19,12 @@ In this example a document has been tagged with a (free text) label (or tag).
 
 === The example ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0002Tag%20on%20document%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0002%20Tag%20on%20document%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: a (free text) tag attached to a document identified by a URL_
 
 === Representation with AO ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0002Tag%20on%20document%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0002%20Tag%20on%20document%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: a (free text) tag attached to a digital document identified by a URI. The nature of the annotation is specified through the Annotation Type ao:Tag._
 
 The RDF of the example in figure 2 would look like the following: 
@@ -43,7 +43,7 @@ The RDF of the example in figure 2 would look like the following:
 
 === Adding provenance ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0002Tag%20on%20document%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0002%20Tag%20on%20document%20with%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: a (free text) tag attached to a digital document identified by a URI. The nature of the annotation is specified through the Annotation Type ao:Tag._
 
 The RDF of the example in figure 3 would look like the following: 
