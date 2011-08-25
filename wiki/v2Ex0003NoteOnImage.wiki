@@ -35,6 +35,8 @@ The RDF of the example in picture 2 would look like the following:
 </rdf:Description> 
 }}}
 
+=== Simple Text note on a document ===
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20image%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: a free text note attached to a digital image identified by a URI. The nature of the annotation is defined through the type ao:Note._
 
