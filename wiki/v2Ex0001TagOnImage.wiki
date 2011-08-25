@@ -6,7 +6,6 @@
 [v2Main << Back to Main] 
 </td>
 <td align="right">
-[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] Up to date and complete.
 </td>
 </tr>
 </table>
