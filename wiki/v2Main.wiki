@@ -13,13 +13,13 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
     * [v2AnnotationTypes Annotation Types]
   * *[v2ByExamples Learn Annotation Ontology (v.2) basics by examples]*
    * Simple annotation (or textual annotation)
-    * [v2AnnotatingResources Simple annotations on single resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
+    * [v2AnnotatingResources Simple annotations on single terget resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2Ex0001TagOnImage Tag on image] (ex0001 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0002TagOnDocument Tag on document] (ex0002 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]) 
        * [v2Ex0003NoteOnImage Note on image] (ex0003 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0004NoteOnDocument Note on document] (ex0004 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0005CommentOnImage Comment on image] (ex0005 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
-    * [v2AnnotatingMultipleResources Simple annotations on multiple resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
+    * [v2AnnotatingMultipleResources Simple annotations on multiple target resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2Ex0006NoteOnImages Note on multiple images] (ex0006 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0007NoteOnImageAndWebpage Note on an image and a webpage] (ex0007 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])     
  
