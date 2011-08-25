@@ -19,8 +19,9 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2Ex0003NoteOnImage Note on image] (ex0003 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0004NoteOnDocument Note on document] (ex0004 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0005CommentOnImage Comment on image] (ex0005 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
-
-      
+    * [v2AnnotatingMultipleResources Simple annotations on multiple resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
+       * [v2Ex0003NoteOnImages Note on multiple images] (ex0006 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])     
+ 
     * [v2AnnotatingMultipleResources Simple annotations on multiple documents] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExNoteOnMultipleResources Simple Note on multiple resources of the same kind] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExNoteOnMultipleResourcesDifferentKind Simple Note on multiple resources of different kind] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
