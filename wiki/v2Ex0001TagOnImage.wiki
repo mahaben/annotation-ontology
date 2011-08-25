@@ -1,0 +1,72 @@
+#summary Tagging an entire image
+
+== Tagging an entire image ==
+
+_*Note*: Tagging means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._
+
+=== The example ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: an example in which a couple of (free text) tags have been attached to an image_
+
+=== Representation with AO ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: two (free text) tags attached to a digital image identified by a URI. The nature of the annotation is specified through the Annotation Type ao:Tag._
+
+The RDF of the example in figure 2 would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/21304"> 
+   <rdf:type rdf:resource="&ao;Tag"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:body>Maine</ao:body> 
+</rdf:Description> 
+
+<rdf:Description rdf:about="http://my.example.org/ann/21305"> 
+   <rdf:type rdf:resource="&ao;Tag"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:body>Harbour</ao:body>  
+</rdf:Description> 
+}}} 
+
+=== Adding provenance ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: two (free text) tags attached to a digital image identified by a URI. The nature of the annotation is specified through the Annotation Type ao:Tag._
+
+The RDF of the example in figure 3 would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/21304"> 
+   <rdf:type rdf:resource="&ao;Tag"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:body>Maine</ao:body> 
+   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
+</rdf:Description> 
+
+<rdf:Description rdf:about="http://my.example.org/ann/21305"> 
+   <rdf:type rdf:resource="&ao;Tag"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:body>Harbour</ao:body> 
+   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
+</rdf:Description> 
+}}} 
