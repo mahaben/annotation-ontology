@@ -6,24 +6,26 @@
 [v2Main << Back to Main] 
 </td>
 <td align="right">
-[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
 </td>
 </tr>
 </table>
 
-In the implementation of the following examples you will notice that the nature of the free text expressed in the bubble is determined by the [v2AnnotationTypes Annotation Type]. This is the simplest way to create annotations in AO.
-However, with AO it is also possible to adopt an alternative approach that can make better use of already existing ontologies without overloading the annotation types.
+In the implementation of the following examples you will notice that the nature of the free text expressed in the bubble is determined in Annotation Ontology by the [v2AnnotationTypes Annotation Type]. This is the simplest way to create annotations in AO.
+However, with AO it is also possible to adopt an alternative approach that can make better use of already existing ontological frameworks without overloading the annotation types.
 
 === Tags ===
 Tagging means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels. 
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: an example in which a couple of tags have been attached to an image_
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0001%20Tag%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: a couple of (free text) tags have been attached to an image identified by a URL_
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20text%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: an example in which a tag has been attached to an entire document_
+*[v2Ex0001TagOnImage  How to create tags on images with AO]*
 
-*[v2ExTag How to create tags for digital resources with AO]*
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0002%20Tag%20on%20document%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: a (free text) tag attached to a document identified by a URL_
+
+*[v2Ex0002TagOnDocument How to create tags on documents with AO]*
 
 === Notes ===
 
