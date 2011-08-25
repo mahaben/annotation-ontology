@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Note targeting an image as a whole
 
 
 <table width="100%">
