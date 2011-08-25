@@ -1,4 +1,4 @@
-#summary Note targeting an image as a whole
+#summary Comment targeting an image as a whole
 
 
 <table width="100%">
