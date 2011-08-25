@@ -1,5 +1,16 @@
 #summary Tagging an entire image
 
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] Up to date and complete.
+</td>
+</tr>
+</table>
+
 == Tagging an entire image ==
 
 _*Note*: Tagging means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._
