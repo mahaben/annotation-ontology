@@ -1,0 +1,66 @@
+#summary Highlight on text fragment
+
+== Highlight on text fragment ==
+
+=== The Example ===
+
+
+=== Representation with AO ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: example of highlight on a text fragment identified through the [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]_
+
+The RDF of the example in picture 1 would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/21300"> 
+   <rdf:type rdf:resource="&aot;Highlight"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
+   <ao:context rdf:resource="http://my.example.org/sel/10402"/> 
+   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
+</rdf:Description> 
+}}} 
+
+and the text selector ([v2PrefixSuffixTextSelector OffsetRangeTextSelector]): 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/sel/10402"> 
+   <rdf:type rdf:resource="&aos;PrefixSuffixTextSelector"/> 
+   <!-- 
+   <rdf:type rdf:resource="&ao;TextSelector"/> 
+   <rdf:type rdf:resource="&ao;Selector"/> 
+   --> 
+   <ao:exact>The process of tagging allows association of free text to web resources,</ao:exact> 
+   <ao:prefix>have become increasingly popular with the advent of Web 2.0 [26].</ao:prefix> 
+   <ao:suffix>thus improving their classification and organization</ao:suffix> 
+   <ao:onResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
+</rdf:Description> 
+}}} 
+
+The same annotation could be expressed using any another type of text selector, for instance the [v2OffsetRangeTextSelector OffsetRangeTextSelector]:
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20with%20offset%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: example of highlight on a text fragment identified through the [v2OffsetRangeTextSelector OffsetRangeTextSelector]_
+
+And the text selector ([v2OffsetRangeTextSelector OffsetRangeTextSelector]): 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/sel/10403"> 
+   <rdf:type rdf:resource="&aos;OffsetRangeTextSelector"/> 
+   <!-- 
+   <rdf:type rdf:resource="&ao;TextSelector"/> 
+   <rdf:type rdf:resource="&ao;Selector"/> 
+   --> 
+   <ao:offset>420</ao:offset> 
+   <ao:range>81</ao:range> 
+   <ao:exact>The process of tagging allows association of free text to web resources,</ao:exact> 
+   <ao:onResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
+</rdf:Description> 
+}}}
+
+=== Adding Provenance ===
