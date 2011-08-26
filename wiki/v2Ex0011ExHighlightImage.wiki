@@ -32,7 +32,7 @@ _Figure 2: highlight of Amyloid beta peptides identified, in a larger image, thr
 The RDF of the example in picture 2 would look like the following: 
 
 {{{ 
-<rdf:Description rdf:about="http://my.example.org/ann/21300"> 
+<rdf:Description rdf:about="http://my.example.org/ann/0011"> 
    <rdf:type rdf:resource="&ao;Highlight"/> 
    <!-- The following can be added for querying with SPARQL 
    <rdf:type rdf:resource="&ao;Annotation"/> 
@@ -48,7 +48,7 @@ The RDF of the example in picture 2 would look like the following:
 and the text selector ([v2RectangularImageSelector RectangularImageSelector]): 
 
 {{{ 
-<rdf:Description rdf:about="http://my.example.org/sel/10404"> 
+<rdf:Description rdf:about="http://my.example.org/sel/0011"> 
    <rdf:type rdf:resource="&ao;RectangularImageSelector"/> 
    <!-- 
    <rdf:type rdf:resource="&ao;ImageSelector"/> 
@@ -62,3 +62,6 @@ and the text selector ([v2RectangularImageSelector RectangularImageSelector]):
 }}} 
 
 === Adding Procenance ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0011%20Highlight%20of%20image%20fragment%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: highlight of Amyloid beta peptides identified, in a larger image, through a [v2RectangularImageSelector RectangularImageSelector] - with provenance _
