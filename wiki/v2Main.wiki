@@ -35,7 +35,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2Ex0013ExTagImage Tagging an image fragment] (ex0013 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]) 
        * [v2Ex0014NoteOnTextFragment Note on text fragment] (ex0014 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]) 
        * [v2Ex0015NoteOnImageFragment Note on image fragment] (ex0015 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]) 
-       * [v2Ex0016CommentOnImageFragment Comment on image fragment] (ex0016 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
+       * [v2Ex0016CommentOnImageFragment Comment on image fragment] (ex0016 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]) 
 
     * [v2TheSimplestAnnotation Simple annotations on document fragments] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExTagOnFragment Simple Tag on text fragment] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
