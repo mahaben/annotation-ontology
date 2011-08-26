@@ -1,6 +1,19 @@
 #summary Highlight on text fragment
 
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+ex0010: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
 == Highlight on text fragment ==
+
+Highlighting a text fragment is another common operation that can be addressed by AO as follows:
 
 === The Example ===
 
