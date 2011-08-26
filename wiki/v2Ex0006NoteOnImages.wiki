@@ -18,7 +18,7 @@ Annotation Ontology (AO) allows you to annotate multiple resources at the same t
 
 === Example ===
 
-In the following example the Note is targeting two images. It is obviously possible to target how many images is needed.
+In the following example the Note is targeting two images. It is obviously possible to target more then two images simply adding additional relationships ao:annotatesResources. 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0006%20Note%20on%20images%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: an example (free text) Note targeting two images._
