@@ -13,7 +13,7 @@ ex0009: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Recording the reading progress location ==
 
-When reading a document we might want to be able to record the last position of our 'reading cursor' so we can resume the reading from the right location. This is pretty simple to obtain with AO and it consists in creating a very simple Annotation with a Selector
+When reading a document we might want to be able to record the last position of our 'reading cursor' so we can resume the reading from the right location. This is pretty simple to obtain with AO and it consists in creating a very simple Annotation with a [v2Selectors Selector]
 
 === The example ===
 
