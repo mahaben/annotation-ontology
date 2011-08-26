@@ -1,4 +1,4 @@
-#summary Highlight on text fragment
+#summary Highlight of text fragments
 
 <table width="100%">
 <tr>
