@@ -64,4 +64,4 @@ and the text selector ([v2RectangularImageSelector RectangularImageSelector]):
 === Adding Procenance ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0011%20Highlight%20of%20image%20fragment%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: highlight of Amyloid beta peptides identified, in a larger image, through a [v2RectangularImageSelector RectangularImageSelector] - with provenance _
+_Figure 3: highlight of Amyloid beta peptides identified, in a larger image, through a [v2RectangularImageSelector RectangularImageSelector] - with provenance _
