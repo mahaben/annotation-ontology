@@ -11,7 +11,7 @@ ex0010: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 </tr>
 </table>
 
-== Highlight on text fragment ==
+== Highlight of text fragments ==
 
 Highlighting a text fragment is another common operation that can be addressed by AO as follows:
 
