@@ -7,7 +7,7 @@
 [v2Main << Back to Main] 
 </td>
 <td align="right">
-[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png] this page is up to date
+ex0006: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
 </td>
 </tr>
 </table>
