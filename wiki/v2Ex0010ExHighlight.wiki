@@ -17,11 +17,13 @@ Highlighting a text fragment is another common operation that can be addressed b
 
 === The Example ===
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0010%20Highlight%20on%20text%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: highlight of a text fragment_
 
 === Representation with AO ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: example of highlight on a text fragment identified through the [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]_
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0010%20Highlight%20on%20text%20prefixsuffix%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: example of text fragment highlight identified through the [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]_
 
 The RDF of the example in picture 1 would look like the following: 
 
@@ -57,8 +59,8 @@ and the text selector ([v2PrefixSuffixTextSelector OffsetRangeTextSelector]):
 
 The same annotation could be expressed using any another type of text selector, for instance the [v2OffsetRangeTextSelector OffsetRangeTextSelector]:
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20with%20offset%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 3: example of highlight on a text fragment identified through the [v2OffsetRangeTextSelector OffsetRangeTextSelector]_
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0010%20Highlight%20on%20text%20offsetrange%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: example of text fragment highlight identified through the [v2OffsetRangeTextSelector OffsetRangeTextSelector]_
 
 And the text selector ([v2OffsetRangeTextSelector OffsetRangeTextSelector]): 
 
@@ -77,3 +79,6 @@ And the text selector ([v2OffsetRangeTextSelector OffsetRangeTextSelector]):
 }}}
 
 === Adding Provenance ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0010%20Highlight%20on%20text%20prefixsuffix%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 4: example of text fragment highlight identified through the [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]_
