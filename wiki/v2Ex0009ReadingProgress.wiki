@@ -28,7 +28,7 @@ _Figure 2: a visual representation of the AO way of defining the 'reading cursor
 The RDF of the example in figure 2 would look like the following: 
 
 {{{ 
-<rdf:Description rdf:about="http://my.example.org/ann/21300"> 
+<rdf:Description rdf:about="http://my.example.org/ann/0009"> 
    <rdf:type rdf:resource="&aot;Cursor"/> 
    <!-- 
    The following can be added for querying with SPARQL 
@@ -43,7 +43,7 @@ The RDF of the example in figure 2 would look like the following:
 and the text selector ([v2PrefixSuffixTextSelector PrefixSuffixTextSelector]): 
 
 {{{ 
-<rdf:Description rdf:about="http://my.example.org/sel/10400"> 
+<rdf:Description rdf:about="http://my.example.org/sel/0009a"> 
    <rdf:type rdf:resource="&aos;PrefixSuffixTextSelector"/>
    <!--
    <rdf:type rdf:resource="&ao;TextSelector"/> 
@@ -65,7 +65,7 @@ _Figure 3: a visual representation of the AO way of defining the 'reading cursor
 And the alternative text selector ([v2OffsetRangeTextSelector OffsetRangeTextSelector]): 
 
 {{{ 
-<rdf:Description rdf:about="http://my.example.org/sel/10401"> 
+<rdf:Description rdf:about="http://my.example.org/sel/0009b"> 
    <rdf:type rdf:resource="&ao;OffsetRangeTextSelector"/>
    <!--
    <rdf:type rdf:resource="&ao;TextSelector"/> 
@@ -83,7 +83,7 @@ And the alternative text selector ([v2OffsetRangeTextSelector OffsetRangeTextSel
 _Figure 4: 'reading cursor' through a [v2PrefixSuffixTextSelector PrefixSuffixTextSelector] with provenance_
 
 {{{ 
-<rdf:Description rdf:about="http://my.example.org/ann/21300"> 
+<rdf:Description rdf:about="http://my.example.org/ann/0009"> 
    <rdf:type rdf:resource="&aot;Cursor"/> 
    <!-- 
    The following can be added for querying with SPARQL 
@@ -92,7 +92,7 @@ _Figure 4: 'reading cursor' through a [v2PrefixSuffixTextSelector PrefixSuffixTe
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/>     
    <ao:context rdf:resource="http://my.example.org/sel/10400"/> 
-   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdOn>2011-08-22</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}} 
