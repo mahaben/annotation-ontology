@@ -32,7 +32,6 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2Ex0010ExHighlight Highlight on text fragment] (ex0010 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])  
  
     * [v2TheSimplestAnnotation Simple annotations on document fragments] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
-       * [v2ExReadingProgress Reading Progress] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExHighlight Highlight on text fragment] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExHighlightImage Highlight on image fragment] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExTagOnFragment Simple Tag on text fragment] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
