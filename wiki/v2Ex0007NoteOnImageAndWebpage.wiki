@@ -18,6 +18,8 @@ Annotation Ontology (AO) allows you to annotate multiple resources at the same t
 
 === Example ===
 
+This example show how to target resources of different kind. It is obviously possible to target any resource that is identified by a URI simply adding additional relationships ao:annotatesResources.
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0007%20Note%20on%20image%20and%20webpage%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: an example (free text) Note targeting an image and a webpage._
 
