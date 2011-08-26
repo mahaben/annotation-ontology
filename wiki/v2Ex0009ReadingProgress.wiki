@@ -17,9 +17,12 @@ When reading a document we might want to be able to record the last position of 
 
 === The example ===
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0009%20Progress%20on%20text%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: defining the 'reading cursor'_
+
 === Representation with AO ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0009%20Progress%20on%20text%20prefixpostfix%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: a visual representation of the AO way of defining the 'reading cursor' through a [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]_
 
 The RDF of the example in figure 2 would look like the following: 
@@ -56,7 +59,7 @@ and the text selector ([v2PrefixSuffixTextSelector PrefixSuffixTextSelector]):
 
 The same annotation could be expressed using any another type of text selector, for instance the [v2OffsetRangeTextSelector OffsetRangeTextSelector]:
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20with%20Offset%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0009%20Progress%20on%20text%20offsetrange%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: a visual representation of the AO way of defining the 'reading cursor' through a [v2OffsetRangeTextSelector OffsetRangeTextSelector]_
 
 And the alternative text selector ([v2OffsetRangeTextSelector OffsetRangeTextSelector]): 
@@ -75,6 +78,9 @@ And the alternative text selector ([v2OffsetRangeTextSelector OffsetRangeTextSel
 }}}
 
 === Adding provenance ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0009%20Progress%20on%20text%20prefixpostfix%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 4: 'reading cursor' through a [v2PrefixSuffixTextSelector PrefixSuffixTextSelector] with provenance_
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/21300"> 
