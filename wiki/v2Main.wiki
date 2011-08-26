@@ -28,10 +28,6 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2Ex0007NoteOnImageAndWebpage Note on an image and a webpage] (ex0007 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])  
        * [v2Ex0008CommentOnImages Comment on multiple images] (ex0008 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])   
  
-    * [v2AnnotatingMultipleResources Simple annotations on multiple documents] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
-       * [v2ExNoteOnMultipleResources Simple Note on multiple resources of the same kind] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
-       * [v2ExNoteOnMultipleResourcesDifferentKind Simple Note on multiple resources of different kind] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
-       * [v2ExCommentOnMultipleResources Simple Comment on multiple resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
     * [v2TheSimplestAnnotation Simple annotations on document fragments] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExReadingProgress Reading Progress] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
        * [v2ExHighlight Highlight on text fragment] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
