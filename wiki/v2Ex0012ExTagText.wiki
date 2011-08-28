@@ -4,9 +4,12 @@
 
 === The Example ===
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0012%20Tag%20on%20text%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: annotation of a text fragment with a free text label or tag._ 
+
 === Representation in AO ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0012Tag%20on%20text%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0012%20Tag%20on%20text%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: annotation of a text fragment with a free text label or tag. The nature of the annotation - Tag - is specified through the annotation type ao:Tag. The text fragment is identified through the [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]_
 
 The RDF of the example in picture 1 would look like the following: 
@@ -43,3 +46,6 @@ and the text selector ([v2PrefixSuffixTextSelector PrefixSuffixTextSelector]):
 }}}  
 
 === Adding Provenance ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0012%20Tag%20on%20text%20fragment%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: annotation of a text fragment with a free text label or tag - with provenance._
