@@ -1,5 +1,16 @@
 #summary Simple Annotation (textual or hypertextual annotation)
 
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
 == Simple Annotation (textual or hypertextual annotation) ==
 
 The simplest kind of annotation that you can perform with Annotation Ontology (AO) is the textual or hypertextual annotation where some text or some hypertext is attached to a resource. Popular examples are: free text tags, comments and notes.
