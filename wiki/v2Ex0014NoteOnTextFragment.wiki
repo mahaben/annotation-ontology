@@ -4,9 +4,12 @@
 
 === The Example ===
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0014%20Note%20on%20text%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: note attached to a text fragment_
+
 === Representation in AO ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0014%20Note%20on%20text%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: note attached to a text fragment identified through a [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]. The annotation type ao:Note defines the nature of the annotation._
 
 The RDF of the example in figure 2 would look like the following: 
@@ -42,7 +45,7 @@ And the text selector (PrefixSuffixTextSelector):
 
 === Adding Provenance ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0014%20Note%20on%20text%20fragment%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: note attached to a text fragment identified through a [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]. The annotation type ao:Note defines the nature of the annotation._
 
 The RDF of the example in figure 3 would look like the following: 
@@ -57,7 +60,7 @@ The RDF of the example in figure 3 would look like the following:
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
    <ao:context rdf:resource="http://my.example.org/sel/10402"/>
    <ao:body>Tagging is only performed through free text.</ao:body> 
-   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdOn>2011-08-22</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}} 
