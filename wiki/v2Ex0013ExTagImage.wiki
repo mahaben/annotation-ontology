@@ -4,9 +4,13 @@
 
 === The Example ===
 
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0012%20Tag%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: annotation of an image fragment with a free text label or tag_
+
 === Representation with AO ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20image%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0012%20Tag%20on%20image%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: annotation of an image fragment with a free text label or tag. The nature of the annotation - Tag - is specified through the annotation type ao:Tag. The image fragment is identified through the [v2RectangularImageSelector RectangularImageSelector]_
 
 The RDF of the example in picture 2 would look like the following: 
@@ -43,6 +47,8 @@ and the text selector ([v2RectangularImageSelector RectangularImageSelector]):
 
 === Adding Provenance ===
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0012%20Tag%20on%20image%20fragment%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: annotation of an image fragment with a free text label or tag - with provenance._
 
 The RDF of the example in picture 3 would look like the following: 
 
