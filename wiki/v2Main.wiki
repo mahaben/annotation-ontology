@@ -13,7 +13,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
   * *[v2UnderstandingAO Understanding Annotation Ontology v.2]*
     * [v2SimpleOverview A Simple Overview]
     * [v2Namespaces Architecture and Namespaces]
-    * [v2Selectors Resource Selectors]
+    * [v2Selectors Target Resources and Resource Selectors]
     * [v2AnnotationCore Annotation Core]
     * [v2AnnotationTypes Annotation Types]
   * *[v2ByExamples Learn Annotation Ontology (v.2) basics by examples]*
