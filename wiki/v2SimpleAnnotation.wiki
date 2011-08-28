@@ -20,4 +20,4 @@ The textual or hypertextual annotation structure can be summarized in figure 1, 
 
 _*Figure 1*: _
 
-The property ao:body does not have a specific range but it is usually used to manage textual or hypertextual content. 
+The property ao:body does not have a specific range but it is usually used to manage textual or hypertextual content. Examples are:
