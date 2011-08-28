@@ -73,7 +73,7 @@ The RDF of the example in picture 3 would look like the following:
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
    <ao:context rdf:resource="http://my.example.org/sel/10405"/> 
-   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdOn>2011-08-22</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}} 
