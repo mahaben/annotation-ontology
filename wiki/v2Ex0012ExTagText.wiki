@@ -6,7 +6,7 @@
 [v2Main << Back to Main] 
 </td>
 <td align="right">
-ex0013: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+ex0012: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
 </td>
 </tr>
 </table>
