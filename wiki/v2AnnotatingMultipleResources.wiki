@@ -14,7 +14,7 @@
 
 === Targeting multiple documents ===
 
-Annotation Ontology (AO) allows you to annotate multiple resources at the same time. This is possible defining multiple relationships ao:annotatesResources. Here are some examples:
+Annotation Ontology (AO) allows you to annotate multiple document (or resources) at the same time. This is possible defining multiple relationships ao:annotatesResources. Here are some examples:
 
 === Note on multiple images ===
 
