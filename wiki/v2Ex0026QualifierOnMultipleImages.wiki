@@ -13,6 +13,8 @@ ex0026: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Qualifier on multiple images ==
 
+A Qualifier is an annotation that attaches a URI with a semantic meaning to a resource. It is different than the annotation of the previous example where the relationship ao:hasTopic was pointing to a URI that could have been, for instance, a webpage with no precise semantics.
+
 === The Example ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0026%20Qualifier%20on%20images%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
