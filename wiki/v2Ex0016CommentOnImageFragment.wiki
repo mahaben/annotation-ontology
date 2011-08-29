@@ -15,14 +15,14 @@ ex0016: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 === The Example ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0016%20Comment%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: example of comment attached to an image fragment_
 
 === Representation with AO ===
 
 Attaching a comment to an image fragment requires to identify a particular region of the image. The fragment selection can be performed with an appropriate Selector. In the following example we are using the [v2RectangularImageSelector RectangularImageSelector] which is simply identifying a rectangular region of the referenced image. More elaborate Selectors can be defined for more specific use cases. 
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20image%20fragment%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0016%20Comment%20on%20image%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: A free text Comment attached to a fragment of an image through a [v2RectangularImageSelector RectangularImageSelector] able to identify a rectangular fragment of the resource. The interpretation of the free text as a comment is determined by the annotation type Comment._
 
 The RDF of the example in picture 2 would look like the following: 
@@ -37,8 +37,6 @@ The RDF of the example in picture 2 would look like the following:
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
    <ao:context rdf:resource="http://my.example.org/sel/10405"/>
    <ao:body>It would be nice if the reflections of all the boats were all sharp as this one </ao:body> 
-   <pav:createdOn>2011-08-17</pav:createdOn> 
-   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}} 
 
@@ -61,7 +59,7 @@ and the text selector ([v2RectangularImageSelector RectangularImageSelector]):
 
 === Adding Provenance ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20image%20fragment%20provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0016%20Comment%20on%20image%20fragment%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: the same example with provenance_
 
 
