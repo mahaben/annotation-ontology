@@ -13,6 +13,8 @@ ex0027: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Annotating an image simultaneously with a URL and a Note ==
 
+If you need to attach to an image a URL and a Note you can do it with two separate annotations. However, sometimes it is necessary to declare explicitly the connection of the two annotations (for example URL and Note). For doing this we attach one or more bodies and one or more topics to the annotation instance.
+
 === The Example ===
 
 In AO it is possible to provide one or mote topics for each basic Annotation Type. Therefore, if we create an annotation of type Note, we can provide one or more URIs as topic(s).
