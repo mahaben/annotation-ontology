@@ -57,7 +57,6 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
 
    * Annotation with topics (or linked annotation)
     * [v2AnnotatingResourcesWithTopics Simple linked annotations targeting entire single documents] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
-       * [v2LinkedAnnotationNote Linked Note] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
     * [v2AnnotatingMultipleResourcesWithTopics Simple linked annotations targeting multiple documents]
        * [v2LinkedAnnotationsOnMultipleResource Linked Annotations on multiple resources] 
        * [v2LinkedAnnotationsOnMultipleResource Linked Annotations relating a paper and a workflow] 
