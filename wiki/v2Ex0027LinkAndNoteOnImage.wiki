@@ -19,12 +19,12 @@ If you need to attach to an image a URL and a Note you can do it with two separa
 
 In AO it is possible to provide one or mote topics for each basic Annotation Type. Therefore, if we create an annotation of type Note, we can provide one or more URIs as topic(s).
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20Note%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0027%20URL%20and%20Note%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: example where the user annotates an image with a textual description and a topic defined through a URI ._
 
 === Representation in AO ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20Note%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0027%20URL%20and%20Note%20on%20image%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: AO representation of a user annotating an image with a textual description and a topic defined through a URI._
 
 The RDF of the example in figure 2 would look like the following: 
@@ -43,7 +43,7 @@ The RDF of the example in figure 2 would look like the following:
 
 === Adding Provenance ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Linked%20Note%20Provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0027%20URL%20and%20Note%20on%20image%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: AO representation - with Provenance - of a user annotating an image with a textual description and a topic defined through a URI._
 
 The RDF of the example in figure 3, which includes provenance data, would look like the following: 
