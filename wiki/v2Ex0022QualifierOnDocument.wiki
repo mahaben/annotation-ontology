@@ -21,12 +21,12 @@ While creating notes with free text is common practice, creating annotation poin
 
 With AO we can attach topics expressed through URIs, for instance, to documents as in the following example where a term from the [http://pir.georgetown.edu/pro/ PRotein Ontology (PRO)] is linked to a document.
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20document%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0022%20Qualifier%20on%20document%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: a semantic tag or Qualifier. A term from PRO 'beta-secretase 1' identified by a URI 'PRO:000004615' is attached, as annotation, to an entire document._
 
 === Representation in AO ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20document%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0022%20Qualifier%20on%20document%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: representation of a Qualifier in AO_
 
 
@@ -46,7 +46,7 @@ The RDF of the example in figure 2 would look like the following:
 
 === Adding Provenance ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20document%20Provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0022%20Qualifier%20on%20document%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: representation of a Qualifier in AO including provenance data_
 
 
