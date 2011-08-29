@@ -41,7 +41,7 @@ The RDF of the example in figure 2 would look like the following:
 
 === Adding provenance: human annotation ===
 
-[v2Ex0021%20URI%20on%20image%20provenance%20human%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0021%20URI%20on%20image%20provenance%20human%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: the same example displaying also provenance data._
 
 The RDF of the example in picture 3 - which include provenance data - would look like the following: 
@@ -61,7 +61,7 @@ The RDF of the example in picture 3 - which include provenance data - would look
 
 === Adding provenance: machine annotation ===
 
-[v2Ex0021%20URI%20on%20image%20provenance%20machine%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0021%20URI%20on%20image%20provenance%20machine%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 4: the same example displaying also provenance data. In this case the link to Wikipedia has been crated by a Software._
 
 The RDF of the example in picture 4 - which include provenance data - would look like the following: 
