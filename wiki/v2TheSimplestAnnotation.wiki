@@ -16,21 +16,20 @@
 When reading a document we might want to be able to record the last position of our 'reading cursor' so we can resume the reading from the right location. This is pretty simple to obtain with AO and it consists in creating a very simple Annotation with a [v2Selectors Selector].
 
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Reading%20Progress%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0009%20Progress%20on%20text%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: recording the reading process location is a common operation while reading digital documents_
 
 *[v2ExReadingProgress How to record the reading progress with AO]*
 
 === Highlighting of a document section ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0010%20Highlight%20on%20text%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: highlighting a text span is another common operation readers perform on digital and traditional documents_
 
 *[v2ExHighlight How to encode a text highlight with AO]*
 
 === Highlighting of an image section ===
-
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Highlight%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0011%20Highlight%20of%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: highlighting an image fragment is another common operation readers perform on digital and traditional images_
 
 *[v2ExHighlightImage  How to encode an image highlight with AO]*
@@ -38,35 +37,35 @@ _Figure 3: highlighting an image fragment is another common operation readers pe
 
 === Tagging a text fragment ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0012%20Tag%20on%20text%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 4: Tagging a text fragment_
 
 *[v2ExTagOnFragment  How to tag a section of text with AO]*
 
 === Tagging of an image section ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Tag%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0013%20Tag%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 5: tagging an image fragment is another common operation readers perform on digital images_
 
 *[v2ExTagImage  How to tag an image section with AO]*
 
 === Annotating a document section with a free text note ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0014%20Note%20on%20text%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 6: The simple process of attaching a free text note to a section of a document_
 
 *[v2ExTextNoteOnFragment How to encode a free text note on a text fragment with AO]*
 
 === Annotating an image section with a free text note ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Note%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0015%20Note%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 7: The simple process of attaching a free text note to a section of an image_
 
 *[v2ExTextNoteOnImageFragment How to encode a free text note on an image fragment with AO]*
 
 === Simple Comment on image fragment ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Comment%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0016%20Comment%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 8: example of comment attached to an image fragment_
 
 *[v2ExCommentOnImageFragment How to encode a free text comment on an image fragment with AO]*
