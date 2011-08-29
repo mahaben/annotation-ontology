@@ -45,8 +45,9 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
    * [v2StructuredAnnotation Simple Structured (Linked) annotation] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2StructuredAnnotationSingleResource Simple annotations on single target resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2Ex0021LinkOnImage URL link on image] (ex0021 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
-       * [v2Ex0022QualifierOnDocument Semantic tags or qualifiers on document] (ex0022 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
-       * [v2Ex0023QualifierOnImage Semantic tags or qualifiers on image] (ex0023 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
+       * [v2Ex0022QualifierOnDocument Semantic tag or qualifier on document] (ex0022 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
+       * [v2Ex0023QualifierOnImage Semantic tag or qualifier on image] (ex0023 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
+       * [v2Ex0024QualifierOnDocument Semantic tag or qualifier on document fragment] (ex0024 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
     * [v2StructuredAnnotationMultipleResources Structured annotation on multiple target resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
    * [v2MixedAnnotation Mixed annotation (Structured and textual)] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
 
