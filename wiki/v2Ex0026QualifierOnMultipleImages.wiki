@@ -15,12 +15,12 @@ ex0026: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 === The Example ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20multiple%20images%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0026%20Qualifier%20on%20images%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: example of annotating two images with a Qualifier or semantic tag._
 
 === Representation in AO ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20multiple%20images%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0026%20Qualifier%20on%20images%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: how to annotate with AO two images with a Qualifier or semantic tag._
 
 The RDF of the example in figure 2 would look like the following: 
@@ -39,7 +39,7 @@ The RDF of the example in figure 2 would look like the following:
 
 === Adding Provenance ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20multiple%20images%20provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0026%20Qualifier%20on%20images%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: how to annotate - including provenance - with AO two images with a Qualifier or semantic tag._
 
 The RDF of the example in figure 3 would look like the following: 
