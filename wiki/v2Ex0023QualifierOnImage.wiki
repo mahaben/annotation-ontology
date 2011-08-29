@@ -15,12 +15,12 @@ ex0023: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 === The Example ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0023%20Qualifier%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: a semantic tag or Qualifier. A term from PRO [http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=PR:000004168 'amyloid beta a4 protein' identified by a URI 'PRO:000004168'] is attached, as annotation, to an entire document._
 
 === Representation in AO ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20image%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0023%20Qualifier%20on%20image%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: representation of a Qualifier in AO_
 
 The RDF of the example in picture 2 would look like the following: 
@@ -39,7 +39,7 @@ The RDF of the example in picture 2 would look like the following:
 
 === Adding Provenance ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Qualifier%20on%20image%20Provenance%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0023%20Qualifier%20on%20image%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: representation of a Qualifier and provenance in AO_
 
 The RDF of the example in picture 3 would look like the following: 
