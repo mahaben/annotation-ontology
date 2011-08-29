@@ -77,7 +77,7 @@ The RDF of the example in figure 3 would look like the following:
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
    <ao:context rdf:resource="http://my.example.org/sel/10405"/>
    <ao:body>It would be nice if the reflections of all the boats were all sharp as this one </ao:body> 
-   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdOn>2010-03-21</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}} 
