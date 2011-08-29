@@ -1,6 +1,17 @@
-#summary Annotating an image with a URL and a Note
+#summary Annotating an image simultaneously with a URL and a Note
 
-== Annotating an image with a URL and a Note ==
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+ex0027: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
+== Annotating an image simultaneously with a URL and a Note ==
 
 === The Example ===
 
