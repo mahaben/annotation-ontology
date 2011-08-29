@@ -51,7 +51,6 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
     * [v2StructuredAnnotationMultipleResources Structured annotation on multiple target resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2Ex0025LinkedAnnotationsOnMultipleImages Linked Annotations on multiple images] (ex0025 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0026QualifierOnMultipleImages Qualifier on multiple images] (ex0026 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
-   * [v2MixedAnnotation Mixed annotation (Structured and textual)] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
 
    * Annotation with topics (or linked annotation)
     * [v2AnnotatingResourcesWithTopics Simple linked annotations targeting entire single documents] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png]
