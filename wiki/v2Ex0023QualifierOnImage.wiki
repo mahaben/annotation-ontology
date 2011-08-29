@@ -53,7 +53,7 @@ The RDF of the example in picture 3 would look like the following:
    --> 
    <ao:annotatesResource rdf:resource="http://www.neuronlab.org/images/1228067928.jpg"/> 
    <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004168"/>
-   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdOn>2010-03-21</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}}
