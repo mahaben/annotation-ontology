@@ -1,5 +1,16 @@
 #summary Qualifier on multiple images
 
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+ex0026: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
 == Qualifier on multiple images ==
 
 === The Example ===
