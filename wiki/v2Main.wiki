@@ -42,6 +42,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2Ex0018CommentOnAnOntologicalTerms Comment on multiple terms of ontologies or controlled vocabularies] (ex0018 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0019CommentOnAVideoFragment Comment on a video fragment] (ex0019 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0020CommentOnADatabaseRecord Comment on a database record] (ex0020 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
+       * [v2Ex0021CommentOnWebService Comment on a Web Service] (ex0020 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
    * [v2StructuredAnnotation Structured (Linked) annotation]
 
    * Annotation with topics (or linked annotation)
