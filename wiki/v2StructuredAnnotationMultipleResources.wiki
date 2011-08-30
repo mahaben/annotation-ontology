@@ -1,0 +1,4 @@
+#summary Structured annotation on multiple target resources
+
+== Structured annotation on multiple target resources ==
+
