@@ -48,12 +48,12 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2Ex0022QualifierOnDocument Semantic tag or qualifier on document] (ex0022 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0023QualifierOnImage Semantic tag or qualifier on image] (ex0023 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0024QualifierOnDocument Semantic tag or qualifier on document fragment] (ex0024 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
-       * [v2Ex0027OntologyTermMapping Exact Qualifier on ontological terms (or Ontology Mapping option #1)] (ex0027 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
     * [v2StructuredAnnotationMultipleResources Structured annotation on multiple target resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2Ex0025LinkedAnnotationsOnMultipleImages Linked Annotations on multiple images] (ex0025 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0026QualifierOnMultipleImages Qualifier on multiple images] (ex0026 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
   * *[v2ByExamples Learn advanced Annotation Ontology (v.2) by examples]*
-
+    * [v2StructuredAnnotationQualifiers Advanced use of Qualifiers] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
+       * [v2Ex0027OntologyTermMapping Exact Qualifier on ontological terms (or Ontology Mapping option #1)] (ex0027 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
 
        * [v2LinkedAnnotationsOnMultipleResource Linked Annotations relating a paper and a workflow] 
        * [v2Ex0020CommentOnADatabaseRecord Comment on a database record] (ex0020 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
