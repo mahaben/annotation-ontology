@@ -1,4 +1,4 @@
-#summary Note on multiple images
+#summary Note (text and hypertext) on multiple images
 
 
 <table width="100%">
@@ -12,7 +12,7 @@ ex0006: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 </tr>
 </table>
 
-== Note on multiple images ==
+== Note (text and hypertext) on multiple images ==
 
 Annotation Ontology (AO) allows you to annotate multiple resources at the same time. This is possible defining multiple relationships ao:annotatesResources.
 
