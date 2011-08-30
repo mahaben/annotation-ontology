@@ -1,4 +1,4 @@
-#summary Note targeting a document as a whole
+#summary Note (text and hypertext) targeting a document as a whole
 
 
 <table width="100%">
@@ -12,7 +12,7 @@ ex0004: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 </tr>
 </table>
 
-== Note targeting a document as a whole ==
+== Note (text and hypertext) targeting a document as a whole ==
 
 _A *note* is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. When using the term 'Note' we here refer only to free text notes._
 
