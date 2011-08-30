@@ -36,7 +36,8 @@ The RDF of the example in picture 2 would look like the following:
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
-   <ao:body>This article explains the rationale behind the architectural design of the Annotation Ontology </ao:body> 
+   <ao:body>This article explains the rationale behind the architectural
+     design of the Annotation Ontology </ao:body> 
 </rdf:Description> 
 }}}
 
@@ -55,13 +56,16 @@ The RDF of the example in picture 3 would look like the following:
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
-   <ao:body>This article explains the rationale behind the architectural design of the Annotation Ontology </ao:body> 
+   <ao:body>This article explains the rationale behind the architectural
+     design of the Annotation Ontology </ao:body> 
    <pav:createdOn>2011-08-17</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}}
 
 === Including Hypertext ===
+
+The content of the ao:body property can be either plain text or hypertext.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0004%20Note%20on%20document%20hypertext%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 4: a hypertext note attached to a digital document identified by a URI._
@@ -74,7 +78,8 @@ _Figure 4: a hypertext note attached to a digital document identified by a URI._
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
-   <ao:body>This article explains the rationale behind the architectural design of the Annotation Ontology </ao:body> 
+   <ao:body>This article explains the rationale behind the architectural
+     design of the Annotation Ontology </ao:body> 
    <pav:createdOn>2011-08-17</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
