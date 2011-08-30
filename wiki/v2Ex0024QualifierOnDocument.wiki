@@ -65,7 +65,7 @@ and the text selector ([v2PrefixSuffixTextSelector OffsetRangeTextSelector]):
 _Figure 3: representation of a Qualifier in AO including provenance data_
 
 
-The RDF of the example in picture 3 - which includes provenance data - would look like the following: 
+The RDF of the example in figure 3 - which includes provenance data - would look like the following: 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/21315"> 
