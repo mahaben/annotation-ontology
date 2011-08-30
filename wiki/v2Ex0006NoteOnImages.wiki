@@ -66,3 +66,25 @@ The RDF of the example in figure 3 would look like the following:
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}}
+
+=== Including Hypertext ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0006%20Note%20on%20images%20hypertext%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 4: a hypertext Note targeting two images._
+
+The RDF of the example in figure 4 would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/21314"> 
+   <rdf:type rdf:resource="&ao;Note"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3uu5z25"/>
+   <ao:body>Pictures taken the same day in Ogunquit, Maine</ao:body> 
+   <pav:createdOn>2010-03-21</pav:createdOn> 
+   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
+</rdf:Description> 
+}}}
