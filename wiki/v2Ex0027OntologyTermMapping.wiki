@@ -57,7 +57,7 @@ The RDF of the example in figure 3 - which include provenance data - would look 
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/> 
    <ao:hasTopic rdf:resource="http://en.wikipedia.org/wiki/Ogunquit"/>
-   <pav:createdOn>2011-08-22</pav:createdOn> 
+   <pav:createdOn>2011-08-30</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}}
