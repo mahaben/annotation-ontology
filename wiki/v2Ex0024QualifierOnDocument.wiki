@@ -13,6 +13,10 @@ ex0024: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Semantic tag or qualifier on document fragment ==
 
+While creating notes with free text is common practice, creating annotation pointing to terms or entities coming from controlled vocabularies, ontologies and knowledge bases can be more powerful and easier to understand by machines. In Annotation Ontology (AO) we can create annotation pointing to a 'semantic' entity - identified by a URI - through the relationship _ao:hasTopic_ and through appropriate Annotation Types. 
+
+=== Example ===
+
 With AO we can attach topics expressed through URIs, for instance, to documents as in the following example where a term from the [http://pir.georgetown.edu/pro/ PRotein Ontology (PRO)] is linked to a document.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0024%20Qualifier%20on%20document%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
