@@ -1,0 +1,38 @@
+#summary Structured annotation on single target resources.
+
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
+=== Structured annotation on single target resources ===
+
+While creating notes with free text is common practice, creating annotation pointing to URIs can be more powerful and easier to understand by machines. In Annotation Ontology (AO) we can create annotation pointing to URIs through the relationship _ao:hasTopic_.
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0021%20URI%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: in this example the Wikipedia link to the town of Ogunquit, Maine is attached to an image as annotation._
+
+*[v2Ex0021LinkOnImage Annotating a resource with a URL]*
+
+With AO we can attach topics expressed through URIs, for instance, to documents as in the following example where a term from the [http://pir.georgetown.edu/pro/ PRotein Ontology (PRO)] is linked to a document.
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0022%20Qualifier%20on%20document%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: a semantic tag or Qualifier. A term from PRO 'beta-secretase 1' identified by a URI 'PRO:000004615' is attached, as annotation, to an entire document._
+
+*[v2Ex0022QualifierOnDocument How to represent a linked Note with AO]*
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0023%20Qualifier%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: a semantic tag or Qualifier. A term from PRO [http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=PR:000004168 'amyloid beta a4 protein' identified by a URI 'PRO:000004168'] is attached, as annotation, to an entire document._
+
+*[v2Ex0023QualifierOnImage How to represent a Qualifier (or semantic tag) on an image with AO]*
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0024%20Qualifier%20on%20document%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 4: a semantic tag or Qualifier. A term from PRO 'beta-secretase 1' identified by a URI 'PRO:000004615' is attached, as annotation, to a document fragment._
+
+*[v2Ex0024QualifierOnDocument How to represent a Semantic tag or Qualifier on document fragment with AO]*
