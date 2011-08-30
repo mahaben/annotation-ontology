@@ -14,7 +14,7 @@
 
 == Free text tags, notes and comments ==
 
-In the implementation of the following examples you will notice that the nature of the free text (or hypertext) expressed in the bubble is determined in Annotation Ontology by the [v2AnnotationTypes Annotation Type]. This is the simplest way to create annotations in AO and it is implemented to the relationship ao:body.
+In the implementation of the following examples you will notice that the nature of the free text (or hypertext) expressed in the bubble is determined in Annotation Ontology by the [v2AnnotationTypes Annotation Type]. This is the simplest way to create annotations in AO and it is implemented to the relationship _ao:body_.
 
 _With AO it is also possible to adopt an alternative approach that can make better use of already existing ontological frameworks without overloading the annotation types._
 
