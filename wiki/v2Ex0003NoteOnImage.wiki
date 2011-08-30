@@ -26,7 +26,7 @@ _Figure 1: a (free text) note attached to an image identified by a URL_
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0003%20Note%20on%20image%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: a (free text )note attached to a digital image identified by a URI. The nature of the annotation is defined through the type ao:Note._
 
-The RDF of the example in picture 2 would look like the following: 
+The RDF of the example in figure 2 would look like the following: 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/0003"> 
@@ -45,7 +45,7 @@ The RDF of the example in picture 2 would look like the following:
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0003%20Note%20on%20image%20with%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: a free text note attached to a digital image identified by a URI. The nature of the annotation is defined through the type ao:Note._
 
-The RDF of the example in picture 3 would look like the following: 
+The RDF of the example in figure 3 would look like the following: 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/0003"> 
@@ -66,9 +66,9 @@ The RDF of the example in picture 3 would look like the following:
 The content of the ao:body property can be either plain text or hypertext.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0003%20Note%20on%20image%20hypertext%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 3: a free text note attached to a digital image identified by a URI. The nature of the annotation is defined through the type ao:Note._
+_Figure 4: a hypertext note attached to a digital image identified by a URI_
 
-The RDF of the example in picture 3 would look like the following: 
+The RDF of the example in figure 4 would look like the following: 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/0003"> 
