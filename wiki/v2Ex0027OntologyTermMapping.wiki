@@ -49,7 +49,7 @@ The RDF of the example in figure 3 - which include provenance data - would look 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/21315"> 
-   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ao;ExactQualifier"/> 
    <!-- The following can be added for querying with SPARQL 
    <rdf:type rdf:resource="&ao;Qualifier"/>
    <rdf:type rdf:resource="&ao;Annotation"/>
