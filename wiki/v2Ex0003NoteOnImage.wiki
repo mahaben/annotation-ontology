@@ -56,10 +56,34 @@ The RDF of the example in picture 3 would look like the following:
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
    <ao:body>Perkin's Cove, Ogunquit, Maine</ao:body> 
-   <pav:createdOn>2011-08-17</pav:createdOn> 
+   <pav:createdOn>2010-03-21</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}}
+
+=== Including Hypertext ===
+
+The content of the ao:body property can be either plain text or hypertext.
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0003%20Note%20on%20image%20hypertext%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: a free text note attached to a digital image identified by a URI. The nature of the annotation is defined through the type ao:Note._
+
+The RDF of the example in picture 3 would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/0003"> 
+   <rdf:type rdf:resource="&ao;Note"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
+   <ao:body>Perkin's Cove, Ogunquit, Maine</ao:body> 
+   <pav:createdOn>2010-03-21</pav:createdOn> 
+   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
+</rdf:Description> 
+}}}
+
 
 === Related Examples ===
 You might be interested in checking out the following examples:
