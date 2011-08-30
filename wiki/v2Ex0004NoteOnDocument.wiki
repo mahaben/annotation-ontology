@@ -61,6 +61,10 @@ The RDF of the example in picture 3 would look like the following:
 </rdf:Description> 
 }}}
 
+=== Including Hypertext ===
+
+
+
 === Related Examples ===
 You might be interested in checking out the following examples:
  * [v2Ex0003NoteOnImage Note on image]
