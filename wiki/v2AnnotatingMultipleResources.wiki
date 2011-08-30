@@ -21,6 +21,9 @@ Annotation Ontology (AO) allows you to annotate multiple document (or resources)
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0006%20Note%20on%20images%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: an example (free text) Note targeting two images._
 
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0006%20Note%20on%20images%20-%20Example%20hypertext%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: an example (hypertext) Note targeting two images._
+
 *[v2Ex0006NoteOnImages How to create notes targeting multiple resources of the same kind with AO]*
 
 === Note on an image and a webpage ===
@@ -33,7 +36,7 @@ _Figure 2: an example (free text) Note targeting an image and a webpage._
 === Comment on multiple images ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0008%20Comment%20on%20images%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 3: an example (free text) Comment targeting two images._
+_Figure 4: an example (free text) Comment targeting two images._
 
 *[v2Ex0008CommentOnImages How to create Comments targeting multiple resources with AO]*
 
