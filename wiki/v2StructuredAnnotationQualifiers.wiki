@@ -25,7 +25,7 @@ The Qualifier is one of the key annotation types in AO as it allows defining a p
 
 ==== Exact and Broad Qualifiers ====
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0027%20Exact%20Broad%20Qualifiers%20on%20document%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0027%20Exact%20Broad%20Qualifiers%20on%20document%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: example with an ExactQualifier and a BroadQualifier on a text fragment._
 
 [v2Ex0027ExactBroadQualifiers How to represent an Exact and Broad Qualifier on text fragment in AO]
