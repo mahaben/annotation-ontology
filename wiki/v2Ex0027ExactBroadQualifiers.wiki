@@ -24,9 +24,10 @@ The RDF of the example would look like the following:
 {{{
 <rdf:Description rdf:about="http://my.example.org/ann/21332">
     <rdf:type rdf:resource="&aot;ExactQualifier"/>
-    <rdf:type rdf:resource="&aot;Qualifier"/>
+    <!-- The following can be added for querying with SPARQL 
+    <rdf:type rdf:resource="&ao;Qualifier"/>
     <rdf:type rdf:resource="&ao;Annotation"/>
-    <rdf:type rdf:resource="&ann;Annotation"/>
+    -->
     <ao:context rdf:resource="http://my.example.org/sel/10300"/>
     <ao:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/>
     <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
@@ -39,9 +40,11 @@ the text selector:
 
 {{{
 <rdf:Description rdf:about="http://my.example.org/sel/10300">
+    <!-- The following can be added for querying with SPARQL 
+    <rdf:type rdf:resource="&ao;PrefixSuffixTextSelector"/>
+    <rdf:type rdf:resource="&ao;TextSelector"/>
     <rdf:type rdf:resource="&ao;Selector"/>
-    <rdf:type rdf:resource="&aos;TextSelector"/>
-    <rdf:type rdf:resource="&aos;PrefixPostfixSelector"/>
+    -->
     <ao:exact>BACE1</ao:exact>
     <ao:prefix>Cognitive and behavioral deficits related to</ao:prefix>
     <ao:postfix>inhibition may be magnified in humans who</ao:postfix>
