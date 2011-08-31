@@ -55,7 +55,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
     * [v2StructuredAnnotationQualifiers Advanced use of Qualifiers] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2Ex0027ExactBroadQualifiers Exact and Broad Qualifier on text fragment] (ex0027 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0028BroadQualifiers Broad Qualifier with note on image fragment] (ex0028 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
-       * [v2Ex0027OntologyTermMapping Exact Qualifier on ontological terms (or Ontology Mapping option #1)] (ex0027 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
+       * [v2Ex0027OntologyTermMapping Exact Qualifier on ontological terms (Ontology Mapping option #1)] (ex0027 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
 
        * [v2LinkedAnnotationsOnMultipleResource Linked Annotations relating a paper and a workflow] 
        * [v2Ex0020CommentOnADatabaseRecord Comment on a database record] (ex0020 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
