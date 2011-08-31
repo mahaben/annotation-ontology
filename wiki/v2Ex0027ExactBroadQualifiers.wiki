@@ -19,3 +19,32 @@ _Figure 1: example with an ExactQualifier and a BroadQualifier on a text fragmen
 In figure 1, we depict two annotations for the same text fragment. The first one is of type ExactQualifier? and qualify the text fragment as exactly "Beta Secretase 1" of the PRO ontology. The second one is of type BroadQualifier? and states that BIRNLex Protein is a broader concept than the one represented by the text fragment.
 
 Given the two annotations we could infer that PRO:000004615 is a narrower match (skos:narrowMatch) than BIRNLex:birnlex_23. Therefore, annotations provided by the same of different users could help, for instance, in mapping concepts belonging to different ontologies. 
+
+The RDF of the example would look like the following:
+{{{
+<rdf:Description rdf:about="http://my.example.org/ann/21332">
+    <rdf:type rdf:resource="&aot;ExactQualifier"/>
+    <rdf:type rdf:resource="&aot;Qualifier"/>
+    <rdf:type rdf:resource="&ao;Annotation"/>
+    <rdf:type rdf:resource="&ann;Annotation"/>
+    <ao:context rdf:resource="http://my.example.org/sel/10300"/>
+    <ao:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/>
+    <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+    <pav:createdOn>2010-03-21</pav:createdOn>
+    <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+</rdf:Description> 
+}}}
+
+the text selector:
+
+{{{
+<rdf:Description rdf:about="http://my.example.org/sel/10300">
+    <rdf:type rdf:resource="&ao;Selector"/>
+    <rdf:type rdf:resource="&aos;TextSelector"/>
+    <rdf:type rdf:resource="&aos;PrefixPostfixSelector"/>
+    <ao:exact>BACE1</ao:exact>
+    <ao:prefix>Cognitive and behavioral deficits related to</ao:prefix>
+    <ao:postfix>inhibition may be magnified in humans who</ao:postfix>
+    <ao:onResource rdf:resource="http://tinyurl.com/ykjn87p"/>
+</rdf:Description>
+}}}
