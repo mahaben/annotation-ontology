@@ -14,7 +14,7 @@ ex0028: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 == Broad Qualifier with note on image fragment ==
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0028%20Broad%20Qualifier%20on%20image%20fragment%20provenance%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: example with a BroadQualifier with a note on an image fragment._
+_Figure 1: example with a BroadQualifier represented by a term from a controlled vocabulary on an image fragment. The free text Note attempt to give a precise definition of the image section_
 
 === Representation in AO ===
 
