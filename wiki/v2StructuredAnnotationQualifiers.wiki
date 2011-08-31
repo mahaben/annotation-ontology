@@ -25,11 +25,14 @@ The Qualifier is one of the key annotation types in AO as it allows defining a p
 
 === Examples ===
 
+==== Exact and Broad Qualifiers ====
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0027%20Exact%20Broad%20Qualifiers%20on%20document%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: example with an ExactQualifier and a BroadQualifier on a text fragment._
 
 [v2Ex0027ExactBroadQualifiers How to represent an Exact and Broad Qualifier on text fragment in AO]
 
+==== Broad Qualifier with note ====
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0028%20Broad%20Qualifier%20on%20image%20fragment%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: example with a BroadQualifier with a note on an image fragment. The entity 'Skull Fracture' is a more generic concept representing the portion of the image which is tagged as a 'Linear Skull Fracture' as can be read in the ann:body._
