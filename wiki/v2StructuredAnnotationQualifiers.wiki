@@ -35,6 +35,6 @@ _Figure 1: example with an ExactQualifier and a BroadQualifier on a text fragmen
 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0028%20Broad%20Qualifier%20on%20image%20fragment%20provenance%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: example with a BroadQualifier represented by a term from a controlled vocabulary on an image fragment. The free text Note attempts to give a more precise definition of the image fragment_
+_Figure 2: example with a BroadQualifier represented by a term from a controlled vocabulary on an image fragment. The free text Note attempts to give a more precise definition of the image fragment._
 
 [v2Ex0028BroadQualifiers How to represent a Broad Qualifier with note on image fragment in AO]
