@@ -23,14 +23,14 @@ The Qualifier is one of the key annotation types in AO as it allows defining a p
 || BroadQualifier || skos:broadMatch || Used when the object of the relationship ao:hasTopic is representing broadly the portion of the annotated document. ||
 || NarrowQualifier || skos:narrowMatch || Used when the object of the relationship ao:hasTopic is representing a more specific entity than the portion of the annotated document. || 
 
-==== Exact and Broad Qualifiers ====
+=== Exact and Broad Qualifiers ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0027%20Exact%20Broad%20Qualifiers%20on%20document%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: example with an ExactQualifier and a BroadQualifier on a text fragment._
 
 [v2Ex0027ExactBroadQualifiers How to represent an Exact and Broad Qualifier on text fragment in AO]
 
-==== Broad Qualifier with note ====
+=== Broad Qualifier with note ===
 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0028%20Broad%20Qualifier%20on%20image%20fragment%20provenance%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
