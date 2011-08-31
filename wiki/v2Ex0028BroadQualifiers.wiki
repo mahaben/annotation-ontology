@@ -31,7 +31,7 @@ The RDF of the example would look like the following:
    <ao:annotatesResource rdf:resource="http://my.ex.org/img102"/>
    <ao:hasTopic rdf:resource="&ontoexample;46560"/>
    <pav:createdOn>2010-03-21</pav:createdOn>
-   <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+   <pav:createdBy rdf:resource="http://www.paolociccarese.info/#me"/>
 </rdf:Description> 
 }}}
 
