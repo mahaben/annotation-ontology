@@ -13,8 +13,13 @@ ex0027: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Exact and Broad Qualifier on text fragment ==
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0027%20Exact%20Broad%20Qualifiers%20on%20document%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0027%20Exact%20Broad%20Qualifiers%20on%20document%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: example with an ExactQualifier and a BroadQualifier on a text fragment._
+
+=== Representation in AO ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0027%20Exact%20Broad%20Qualifiers%20on%20document%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: example with an ExactQualifier and a BroadQualifier on a text fragment._
 
 In figure 1, we depict two annotations for the same text fragment. The first one is of type ExactQualifier? and qualify the text fragment as exactly "Beta Secretase 1" of the PRO ontology. The second one is of type BroadQualifier? and states that BIRNLex Protein is a broader concept than the one represented by the text fragment.
 
