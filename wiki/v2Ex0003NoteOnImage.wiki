@@ -78,7 +78,7 @@ The RDF of the example in figure 4 would look like the following:
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
-   <ao:body>Perkin's Cove, Ogunquit, Maine</ao:body> 
+   <ao:body>&lt;a href=&quot;http://en.wikipedia.org/wiki/Ogunquit,_Maine&quot;&gt;Perkin's Cove, Ogunquit, Maine&lt;/a&gt;</ao:body> 
    <pav:createdOn>2010-03-21</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
