@@ -15,4 +15,38 @@ ex0028: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0028%20Broad%20Qualifier%20on%20image%20fragment%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: example with a BroadQualifier with a note on an image fragment._
+_Figure 1: example with a BroadQualifier with a note on an image fragment. The entity 'Skull Fracture' is a more generic concept representing the portion of the image which is tagged as a 'Linear Skull Fracture' as can be read in the ann:body._
+
+The RDF of the example would look like the following:
+{{{
+<rdf:Description rdf:about="http://my.example.org/ann/21332">
+   <rdf:type rdf:resource="&ao;BroadQualifier"/>
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Qualifier"/>
+   <rdf:type rdf:resource="&ao;Annotation"/>
+   <rdf:type rdf:resource="&ann;Annotation"/>
+   --> 
+   <ao:body>This is the Linear Skull Fracture</ao:body>
+   <ao:context rdf:resource="http://my.example.org/sel/10301"/>
+   <ao:annotatesResource rdf:resource="http://my.ex.org/img102"/>
+   <ao:hasTopic rdf:resource="&ontoexample;46560"/>
+   <pav:createdOn>2010-03-21</pav:createdOn>
+   <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+</rdf:Description> 
+}}}
+
+The image selector:
+
+{{{
+<rdf:Description rdf:about="http://my.example.org/sel/10301">
+    <rdf:type rdf:resource="&ao;RectangularImageSelector"/>
+    <!-- The following can be added for querying with SPARQL 
+    <rdf:type rdf:resource="&ao;ImageSelector"/>
+    <rdf:type rdf:resource="&ao;Selector"/>
+    --> 
+    <ao:onResource rdf:resource="http://my.ex.org/img102"/>
+    <ao:init>(304,507)</ao:init>
+    <ao:end>(380,618)</ao:end>
+    <ao:unit>px</ao:unit>
+</rdf:Description>
+}}}
