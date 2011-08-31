@@ -1,0 +1,18 @@
+#summary Broad Qualifier with note on image fragment.
+
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+ex0028: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
+== Broad Qualifier with note on image fragment ==
+
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0028%20Broad%20Qualifier%20on%20image%20fragment%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: example with a BroadQualifier with a note on an image fragment._
