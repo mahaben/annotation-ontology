@@ -32,7 +32,8 @@ _Figure 1: example with an ExactQualifier and a BroadQualifier on a text fragmen
 
 ==== Broad Qualifier with note ====
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0028%20Broad%20Qualifier%20on%20image%20fragment%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: example with a BroadQualifier with a note on an image fragment. The entity 'Skull Fracture' is a more generic concept representing the portion of the image which is tagged as a 'Linear Skull Fracture' as can be read in the ann:body._
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0028%20Broad%20Qualifier%20on%20image%20fragment%20provenance%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: example with a BroadQualifier represented by a term from a controlled vocabulary on an image fragment. The free text Note attempt to give a precise definition of the image section_
 
 [v2Ex0028BroadQualifiers How to represent a Broad Qualifier with note on image fragment in AO]
