@@ -60,6 +60,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
      * [v2IntegratingSwanOntology Integrating the SWAN Ontology] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2Ex0030SwanClaim SWAN Claim] (ex0030 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
      * [v2IntegratingSiocOntology Integrating the SIOC Ontology] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
+       * [v2Ex0031SiocClaim SIOC Comment] (ex0031 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
 
        * [v2LinkedAnnotationsOnMultipleResource Linked Annotations relating a paper and a workflow] 
        * [v2Ex0020CommentOnADatabaseRecord Comment on a database record] (ex0020 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
