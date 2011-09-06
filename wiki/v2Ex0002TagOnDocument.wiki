@@ -64,4 +64,4 @@ The RDF of the example in figure 3 would look like the following:
 
 === Related Examples ===
 You might be interested in checking out the following examples:
- * [v2Ex0001TagOnImaget Tag on Image]
+ * [v2Ex0001TagOnImage Tag on Image]
