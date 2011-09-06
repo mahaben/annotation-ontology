@@ -14,7 +14,9 @@ ex0008: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Comment on multiple images ==
 
-Annotation Ontology (AO) allows you to annotate multiple resources at the same time. This is possible defining multiple relationships ao:annotatesResources.
+|| _A *Comment* is a remark expressing an opinion or reaction. When using the term 'Comment' we here refer only to free text comments._ ||
+
+Annotation Ontology (AO) allows to annotate multiple resources at the same time through defining multiple relationships ao:annotatesResources.
 
 === Example ===
 
