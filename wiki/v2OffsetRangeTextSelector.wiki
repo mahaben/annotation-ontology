@@ -1,6 +1,6 @@
 #summary Offset Range Text Selector
 
-[v2Main << Back to Main] [v2Selectors << Selectors]
+[v2Main << Main] :: [v2Selectors << Selectors]
 
 === Offset Range Text Selector ===
 
