@@ -65,3 +65,5 @@ The RDF of the example in figure 3 would look like the following:
 === See also ===
 
  * [v2Ex0001TagOnImage Tag on Image]
+ * [v2Ex0013ExTagImage Tag on image fragment]
+ * [v2Ex0012ExTagText Tag on document fragment]
