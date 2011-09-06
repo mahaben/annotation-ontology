@@ -13,7 +13,9 @@ ex0016: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Comment on image fragment ==
 
-=== The Example ===
+|| _A *Comment* is a remark expressing an opinion or reaction. When using the term 'Comment' we here refer only to free text comments._ ||
+
+=== Example ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0016%20Comment%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: example of comment attached to an image fragment_
@@ -79,3 +81,9 @@ The RDF of the example in figure 3 would look like the following:
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}} 
+
+
+=== See also ===
+
+ * [v2Ex0005CommentOnImage Comment on image]
+ * [v2Ex0008CommentOnImages Comment on multiple images]
