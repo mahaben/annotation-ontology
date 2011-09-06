@@ -14,7 +14,9 @@ ex0015: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Note on image fragment ==
 
-=== The Example ===
+|| _A *note* is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. When using the term 'Note' we here refer only to free text notes._ ||
+
+=== Example ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0015%20Note%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: A free text note attached to a fragment of an image.
