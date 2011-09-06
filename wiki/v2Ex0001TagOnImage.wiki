@@ -84,6 +84,6 @@ The RDF of the example in figure 3 would look like the following:
 </rdf:Description> 
 }}} 
 
-=== Related Examples ===
-You might be interested in checking out the following examples:
+=== See also ===
+
  * [v2Ex0002TagOnDocument Tag on document]
