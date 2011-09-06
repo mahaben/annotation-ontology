@@ -9,6 +9,6 @@ The [v2PrefixSuffixTextSelector PrefixSuffixTextSelector] allows to identify a r
 || Parameter || Description ||
 || ao:exact  || The exact match. ||
 || ao:prefix  || A 'reasonable' amount of characters before the match. ||
-|| ao:suffix  || A reasonable amount of characters after the match. ||
+|| ao:suffix  || A 'reasonable' amount of characters after the match. ||
 
 *How to deal with redundant content*
