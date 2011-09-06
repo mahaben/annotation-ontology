@@ -17,7 +17,7 @@ _*Tagging* means 'attaching a label'. When using the word 'Tag' we here refer on
 
 In this example an image has been tagged with two (free text) labels or tags. This is corresponding to the tagging process of entire resources very popular in communities such as Flickr. 
 
-=== The example ===
+=== Example ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0001%20Tag%20on%20image%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: a couple of (free text) tags have been attached to an image identified by a URL_
