@@ -14,7 +14,7 @@ ex0005: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Comment targeting an image as a whole ==
 
-_A *Comment* is a remark expressing an opinion or reaction. When using the term 'Comment' we here refer only to free text comments._
+|| _A *Comment* is a remark expressing an opinion or reaction. When using the term 'Comment' we here refer only to free text comments._ ||
 
 === Example ===
 
@@ -60,3 +60,8 @@ The RDF of the example in picture 3 would look like the following:
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}}
+
+=== See also ===
+
+ * [v2Ex0008CommentOnImages Comment on multiple images]
+ * [v2Ex0016CommentOnImageFragment Comment on image fragment]
