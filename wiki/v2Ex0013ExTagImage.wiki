@@ -14,7 +14,9 @@ ex0013: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Tagging the fragment of an image ==
 
-=== The Example ===
+|| _*Tagging* means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._ ||
+
+=== Example ===
 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0013%20Tag%20on%20image%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
