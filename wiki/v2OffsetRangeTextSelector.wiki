@@ -6,4 +6,10 @@
 
 Identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset. 
 
+|| *Parameter* || *Description* || *Constraints* ||
+|| ao:offset ||  || Mandatory ||
+|| ao:range  ||  || Mandatory ||
+|| ao:exact  || The exact match. || Optional ||
+|| ao:encoding  || || Optional||
+
 *How to make this selector more robust*
