@@ -53,7 +53,7 @@ The RDF of the example in figure 2 would look like the following:
 
 === Adding provenance ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0001%20Tag%20on%20image%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0001%20Tag%20on%20image%20with%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 3: two (free text) tags attached to a digital image identified by a URI. The nature of the annotation is specified through the Annotation Type ao:Tag._
 
 The RDF of the example in figure 3 would look like the following: 
