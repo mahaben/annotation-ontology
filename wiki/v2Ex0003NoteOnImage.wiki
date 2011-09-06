@@ -14,7 +14,7 @@ ex0003: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Note (text and hypertext) targeting an image as a whole ==
 
-_A *note* is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. When using the term 'Note' we here refer only to free text notes._
+|| _A *note* is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. When using the term 'Note' we here refer only to free text notes._ ||
 
 === Example ===
 
@@ -24,7 +24,7 @@ _Figure 1: a (free text) note attached to an image identified by a URL_
 === Representation with AO ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0003%20Note%20on%20image%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: a (free text )note attached to a digital image identified by a URI. The nature of the annotation is defined through the type ao:Note._
+_Figure 2: a (free text) note attached to a digital image identified by a URI. The nature of the annotation is defined through the type ao:Note._
 
 The RDF of the example in figure 2 would look like the following: 
 
@@ -86,6 +86,6 @@ The RDF of the example in figure 4 would look like the following:
 }}}
 
 
-=== Related Examples ===
-You might be interested in checking out the following examples:
+=== See also ===
+
  * [v2Ex0004NoteOnDocument Note on document]
