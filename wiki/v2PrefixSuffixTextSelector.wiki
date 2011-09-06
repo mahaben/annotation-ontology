@@ -1,6 +1,6 @@
 #summary Prefix Suffix Text Selector
 
-[v2Main << Back to Main] [v2Selectors << Selectors]
+[v2Main << Main] :: [v2Selectors << Selectors]
 
 === Prefix Suffix Text Selector ===
 
