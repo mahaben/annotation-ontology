@@ -14,7 +14,7 @@ ex0004: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Note (text and hypertext) targeting a document as a whole ==
 
-_A *note* is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. When using the term 'Note' we here refer only to free text notes._
+|| _A *note* is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. When using the term 'Note' we here refer only to free text notes._ ||
 
 === Example ===
 
@@ -86,6 +86,10 @@ _Figure 4: a hypertext note attached to a digital document identified by a URI._
 }}}
 
 
-=== Related Examples ===
-You might be interested in checking out the following examples:
+=== See also ===
+
  * [v2Ex0003NoteOnImage Note on image]
+ * [v2Ex0015NoteOnImageFragment Note on image fragment]
+ * [v2Ex0014NoteOnTextFragment Note on text fragment]
+ * [v2Ex0006NoteOnImages Note on multiple images]
+ * [v2Ex0007NoteOnImageAndWebpage Note on an image and a webpage]
