@@ -64,3 +64,11 @@ The RDF of the example in figure 3 would look like the following:
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}}
+
+=== See also ===
+
+ * [v2Ex0004NoteOnDocument Note on document]
+ * [v2Ex0003NoteOnImage Note on image]
+ * [v2Ex0015NoteOnImageFragment Note on image fragment]
+ * [v2Ex0014NoteOnTextFragment Note on text fragment]
+ * [v2Ex0006NoteOnImages Note on multiple images]
