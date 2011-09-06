@@ -41,7 +41,7 @@ The RDF of the example would look like the following:
 </rdf:Description> 
 }}}
 
-the text selector:
+the text selector ([v2PrefixSuffixTextSelector PrefixSuffixTextSelector]):
 
 {{{
 <rdf:Description rdf:about="http://my.example.org/sel/10300">
