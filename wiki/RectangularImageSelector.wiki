@@ -1,0 +1,6 @@
+#summary Rectangular Image Selector
+
+[v2Main << Main] :: [v2Selectors << Selectors]
+
+== Rectangular Image Selector ==
+
