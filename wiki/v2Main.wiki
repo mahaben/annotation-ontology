@@ -44,7 +44,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2Ex0020NoteOnWebService Note on a Web Service] (ex0020 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
    * [v2StructuredAnnotation Simple Structured (Linked) annotation] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2StructuredAnnotationSingleResource Structured annotation on single target resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
-       * [v2Ex0021LinkOnImage Annotating an image with a URL] (ex0021 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
+       * [v2Ex0021LinkOnImage Annotating an image with a URL (Linked Annotation)] (ex0021 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0022QualifierOnDocument Qualifier (Semantic Tag)  on document] (ex0022 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0023QualifierOnImage Qualifier (Semantic Tag)  on image] (ex0023 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0024QualifierOnDocument Qualifier (Semantic Tag) on document fragment] (ex0024 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
