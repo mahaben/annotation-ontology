@@ -15,7 +15,9 @@ ex0002: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 _*Tagging* means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._
 
-In this example a document has been tagged with a (free text) label (or tag). _The mechanism here illustrated works for any URI no matter what the resource identified by the URI is_.
+In this example a document has been tagged with a (free text) label (or tag). 
+
+_Note: the mechanism here illustrated works for any URI no matter what the resource identified by the URI is_.
 
 === The example ===
 
