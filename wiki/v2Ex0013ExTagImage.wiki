@@ -79,3 +79,9 @@ The RDF of the example in picture 3 would look like the following:
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
 }}} 
+
+=== See also ===
+
+ * [v2Ex0002TagOnDocument Tag on Document]
+ * [v2Ex0001TagOnImage Tag on Image]
+ * [v2Ex0012ExTagText Tag on document fragment]
