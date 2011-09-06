@@ -89,3 +89,7 @@ The RDF of the example in figure 4 would look like the following:
 === See also ===
 
  * [v2Ex0004NoteOnDocument Note on document]
+ * [v2Ex0015NoteOnImageFragment Note on image fragment]
+ * [v2Ex0014NoteOnTextFragment Note on text fragment]
+ * [v2Ex0006NoteOnImages Note on multiple images]
+ * [v2Ex0007NoteOnImageAndWebpage Note on an image and a webpage]
