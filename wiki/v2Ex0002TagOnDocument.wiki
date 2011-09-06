@@ -25,7 +25,7 @@ _Figure 1: a (free text) tag attached to a document identified by a URL_
 === Representation with AO ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0002%20Tag%20on%20document%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: a (free text) tag attached to a digital document identified by a URI. The nature of the annotation is specified through the Annotation Type ao:Tag._
+_Figure 2: a (free text) tag attached to a digital document identified by a URL. The nature of the annotation is specified through the Annotation Type ao:Tag._
 
 The RDF of the example in figure 2 would look like the following: 
 
