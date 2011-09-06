@@ -13,7 +13,7 @@ ex0002: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Tagging a document as a whole ==
 
-_*Tagging* means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._
+|| _*Tagging* means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._ ||
 
 In this example a document has been tagged with a (free text) label (or tag). 
 
