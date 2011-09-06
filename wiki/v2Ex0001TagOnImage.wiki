@@ -13,9 +13,11 @@ ex0001: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Tagging an image as a whole ==
 
-_*Tagging* means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._
+|| _*Tagging* means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._ ||
 
 In this example an image has been tagged with two (free text) labels or tags. This is corresponding to the tagging process of entire resources very popular in communities such as Flickr. 
+
+_Note: the mechanism here illustrated works for any URI no matter what the resource identified by the URI is_.
 
 === Example ===
 
