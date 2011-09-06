@@ -45,12 +45,12 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
    * [v2StructuredAnnotation Simple Structured (Linked) annotation] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2StructuredAnnotationSingleResource Structured annotation on single target resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2Ex0021LinkOnImage Annotating an image with a URL] (ex0021 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
-       * [v2Ex0022QualifierOnDocument Semantic tag or qualifier on document] (ex0022 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
-       * [v2Ex0023QualifierOnImage Semantic tag or qualifier on image] (ex0023 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
-       * [v2Ex0024QualifierOnDocument Semantic tag or qualifier on document fragment] (ex0024 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
+       * [v2Ex0022QualifierOnDocument Qualifier (Semantic Tag)  on document] (ex0022 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
+       * [v2Ex0023QualifierOnImage Qualifier (Semantic Tag)  on image] (ex0023 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
+       * [v2Ex0024QualifierOnDocument Qualifier (Semantic Tag) on document fragment] (ex0024 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
     * [v2StructuredAnnotationMultipleResources Structured annotation on multiple target resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2Ex0025LinkedAnnotationsOnMultipleImages Linked Annotations on multiple images] (ex0025 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
-       * [v2Ex0026QualifierOnMultipleImages Qualifier on multiple images] (ex0026 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
+       * [v2Ex0026QualifierOnMultipleImages Qualifier (Semantic Tag) on multiple images] (ex0026 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
   * *[v2ByExamples Learn advanced Annotation Ontology (v.2) by examples]*
     * [v2StructuredAnnotationQualifiers Advanced use of Qualifiers] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2Ex0027ExactBroadQualifiers Exact and Broad Qualifier on text fragment] (ex0027 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
