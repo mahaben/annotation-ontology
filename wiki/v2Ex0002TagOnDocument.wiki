@@ -17,7 +17,7 @@ ex0002: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 In this example a document has been tagged with a (free text) label (or tag). 
 
-_Note: the mechanism here illustrated works for any URI no matter what the resource identified by the URI is_.
+_Note: the mechanism here illustrated works for any URI no matter what the resource identified by the URI is. This is corresponding to the tagging process of entire resources very popular in communities such as Flickr_ .
 
 === The example ===
 
