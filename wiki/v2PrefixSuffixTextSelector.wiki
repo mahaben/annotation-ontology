@@ -12,6 +12,7 @@ _ *Note*: This selector assumes the content of the prefix, exact match and suffi
 || ao:exact  || The exact match. ||  ||
 || ao:prefix  || A 'reasonable' amount of characters before the match. || ||
 || ao:suffix  || A 'reasonable' amount of characters after the match. || ||
-|| ao:encoding  || || ||
+|| cnt:characterEncoding || || ||
+|| dc:format || || ||
 
 *How to deal with redundant content*
