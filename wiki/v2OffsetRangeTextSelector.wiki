@@ -10,6 +10,7 @@ Identifies a chunk of text specifying the offset from the beginning of the docum
 || ao:offset ||  || Mandatory ||
 || ao:range  ||  || Mandatory ||
 || ao:exact  || The exact match. || Optional ||
-|| ao:encoding  || || Optional||
+|| cnt:characterEncoding || || ||
+|| dc:format || || ||
 
 *How to make this selector more robust*
