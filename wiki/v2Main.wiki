@@ -28,7 +28,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2Ex0006NoteOnImages Note (text and hypertext) on multiple images] (ex0006 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0007NoteOnImageAndWebpage Note on an image and a webpage] (ex0007 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])  
        * [v2Ex0008CommentOnImages Comment on multiple images] (ex0008 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])  
-    * [v2TheSimplestAnnotation Simple annotations on document fragments] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] 
+    * [v2TheSimplestAnnotation Simple annotations on resource fragments] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] 
        * [v2Ex0009ReadingProgress Reading Progress] (ex0009 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])  
        * [v2Ex0010ExHighlight Highlight of text fragment] (ex0010 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0011ExHighlightImage Highlight of image fragment] (ex0011 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]) 
