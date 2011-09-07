@@ -9,10 +9,10 @@ The [v2PrefixSuffixTextSelector PrefixSuffixTextSelector] allows to identify a r
 _ *Note*: This selector assumes the content of the prefix, exact match and suffix to be plain text where the HTML has been removed._
 
 || *Parameter* || *Description* || *Constraints* ||
-|| ao:exact  || The exact match. ||  ||
-|| ao:prefix  || A 'reasonable' amount of characters before the match. || ||
-|| ao:suffix  || A 'reasonable' amount of characters after the match. || ||
-|| cnt:characterEncoding || || ||
-|| dc:format || || ||
+|| ao:exact  || The exact match. ||  Mandatory ||
+|| ao:prefix  || A 'reasonable' amount of characters before the match. || Mandatory ||
+|| ao:suffix  || A 'reasonable' amount of characters after the match. || Mandatory ||
+|| cnt:characterEncoding || The encoding of the exact match, prefix and suffix || Optional (default utf-8) ||
+|| dc:format || The format of the exact match, prefix and suffix  || Optional (default text/plain) ||
 
 *How to deal with redundant content*
