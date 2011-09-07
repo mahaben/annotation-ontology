@@ -20,7 +20,7 @@ Selectors currently *in use* in existing applications:
 :: _Text Selectors_:
  * _[v2OffsetRangeTextSelector Offset and Range Selector]_: identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset.
  * _[v2PrefixSuffixTextSelector Prefix and Suffix Selector]_: identifies a chunk of text specifying a reasonable amount of characters before it (prefix) and a reasonable amount of characters after it (suffix). _This selector assumes the content of the prefix, exact match and suffix to be plain text where the HTML has been removed._
-:: _Image Video Selectors_ 
+:: _Image/Video Selectors_ 
  * _[RectangularImageSelector Rectangular Image Selector]_: identifies a rectangular region of an image through the definition of the top left and bottom right corners
  * _[SvgSelector SVG Selector]_: identifies a section of an image or video fragment through [http://www.w3.org/TR/SVG/shapes.html SVG Basic Shapes]_
 
