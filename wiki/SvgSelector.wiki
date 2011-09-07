@@ -1,0 +1,5 @@
+#summary SVG Selector
+
+[v2Main << Main] :: [v2Selectors << Selectors]
+
+== SVG Selector ==
