@@ -22,6 +22,8 @@ Selectors currently *in use* in existing applications:
  * _[v2PrefixSuffixTextSelector Prefix and Suffix Selector]_: identifies a chunk of text specifying a reasonable amount of characters before it (prefix) and a reasonable amount of characters after it (suffix). _This selector assumes the content of the prefix, exact match and suffix to be plain text where the HTML has been removed._
 :: _Image Selectors_: 
  * _[RectangularImageSelector Rectangular Image Selector]_: identifies a rectangular region of an image through the definition of the top left and bottom right corners
+:: _Image Video Selectors_
+ * _[SvgSelector SVG Selector]_: identifies a section of an image or video fragment through [http://www.w3.org/TR/SVG/shapes.html SVG Basic Shapes]_
 
 === Create new Selectors === 
 *New Selectors can be created according to specific needs*. However, before doing this, we suggest to check the list of the already available _Selectors_. There might be already a _Selector_ that can cover your use case as it is, or after a small modification that you can discuss with the current _Selector_ contact person. If what you need is not covered, you can proceed in creating your new _Selector_. It would be great if you could contribute the new _Selector_ back to the community so that we can avoid redundancies and foster integration between applications. *You will get credited for it and, if you wish, you can become the contact person for it*.
