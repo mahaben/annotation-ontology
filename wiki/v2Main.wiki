@@ -1,8 +1,8 @@
 #summary Annotation ontology v.2 (Draft)
 
 == Documentation of Annotation Ontology (AO) v. 2.0 ==
-*Author: Paolo Ciccarese, PhD*<br/>
-paolo.ciccarese -at- gmail.com
+|| *Author*: || Paolo Ciccarese, PhD ||
+|| *Contact*:|| paolo.ciccarese -at- gmail.com ||
 
 The development of *Annotation Ontology v. 2* has been planned to overcome the limitations emerged while implementing the previous version of AO in semantic web applications. Most importantly, I have tried to simplify the model and to improve the documentation. The process has been opened up to collect feedback by several groups and organizations.  
 
