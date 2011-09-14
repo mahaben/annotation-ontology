@@ -1,5 +1,8 @@
 #summary Annotation Core.
 
+
+=== Core of the Annotation ===
+
 The annotation core has been strongly inspired by the model proposed by the [http://www.w3.org/2001/Annotea/ Annotea Project]. In both cases, annotations live outside the annotated resource. In particular, the following entities/properties have been extended/reused:
 
  * [http://www.w3.org/2000/10/annotation-ns#Annotation ao:Annotation (class)]: A super class describing the common features of annotations. The AO class Annotation is sub-classing the Annotea Annotation class and imposing AO related constraints.
