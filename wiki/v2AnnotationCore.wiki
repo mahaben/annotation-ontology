@@ -4,6 +4,19 @@
 
 === The core of Annotation Ontology ===
 
+Annotation Ontology works around a handful of classes and properties:
+
+ * ao:Annotation
+ * ao:annotatesResource
+ * ao:body
+ * ao:topic
+
+If we want to be more precise, we can identify a fragment of the annotated resource through the use of selectors:
+
+ * ao:Selector
+ * ao:context
+ * ao:onResource
+
 === Annotation of an entire document ===
 
 === Annotea and Annotation Ontology ===
