@@ -1,0 +1,9 @@
+#summary Use of ao:body property.
+
+[v2Main << Back to Main]
+
+== ao:body ==
+
+|| _*ao:body*_ || The _ao:body_ property identifies the textual or hypertextual body of the annotation. It can be simple text/hypertext or a persistent resource identified by a URI such as an HTML document available online. || 
+
+In the first case the body content is local to the specific annotation. In the latter the annotation body content is resolvable as an entity of its own and can be therefore addressed by other annotations (with or without selectors).
