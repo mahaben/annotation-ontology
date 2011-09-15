@@ -1,8 +1,8 @@
-#summary Start and end text selector
+#summary Start End text selector
 
 [v2Main << Main] :: [v2Selectors << Selectors]
 
-=== Offset Range Text Selector ===
+=== Start End Text Selector ===
 
 Identifies a fragment of text specifying the position of the start and end characters of the exact match - counting from the beginning of the document. 
 
