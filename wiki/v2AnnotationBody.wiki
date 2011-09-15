@@ -36,7 +36,7 @@ The RDF of the example in picture 2 would look like the following:
 }}}
 
 
-As no URI is defined for it, it will not be easy - still possible though - to target such body with another annotation. 
+*Note*: As no URI is defined for it, it will not be easy - still possible though - to target such body with another annotation. 
 
 === Body as resources (Identified by URI) ===
 
