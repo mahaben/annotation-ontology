@@ -12,7 +12,7 @@ The simpler case of body is when it is modeled as a text (or hypertext, or XML) 
 
 _*Note*: As no URI is defined for it, it will not be easy - still possible though - to target such body with another annotation._
 
-==  Text Note on document ==
+==  Textual note targeting a document ==
 
 See [v2Ex0004NoteOnDocument (ex0004)] for the complete example.
 
