@@ -18,7 +18,7 @@ _*Note*: the annotation in figure 1 is connected to the annotated resource twice
 Selectors currently *in use* in existing applications:
 
 :: _Text Selectors_:
- * _[v2StartEndTextSelector Start End Selector]_: identifies a chunk of text specifying the location of the first and last characters of the text fragment.
+ * _[v2StartEndTextSelector Start End Selector]_: identifies a fragment of text specifying the location of its first and last characters.
  * _[v2PrefixSuffixTextSelector Prefix and Suffix Selector]_: identifies a chunk of text specifying a reasonable amount of characters before it (prefix) and a reasonable amount of characters after it (suffix). _This selector assumes the content of the prefix, exact match and suffix to be plain text where the HTML has been removed._
  * _[v2OffsetRangeTextSelector Offset and Range Selector]_: identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset.
 :: _Image and Temporal Media Selectors_ 
