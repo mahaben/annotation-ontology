@@ -4,7 +4,7 @@
 
 === Offset Range Text Selector ===
 
-Identifies a fragment of text specifying the positions of the start and end characters of the exact match - counting from the beginning of the document. 
+Identifies a fragment of text specifying the position of the start and end characters of the exact match - counting from the beginning of the document. 
 
 || *Parameter* || *Description* || *Constraints* ||
 || ao:exact  || The exact match. || Optional ||
