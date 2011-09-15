@@ -6,13 +6,13 @@
 
 || _*ao:body*_ || The _ao:body_ property identifies the textual or hypertextual body of the annotation. It can be simple text/hypertext or a persistent resource identified by a URI such as an HTML document available online. || 
 
-=== Body as text/hypertext (Literal) ===
+== Body as text/hypertext (Literal) ==
 
 The simpler case of body is when it is modeled as a text (or hypertext, or XML) into a property. No URI is defined for it.
 
 _*Note*: As no URI is defined for it, it will not be easy - still possible though - to target such body with another annotation._
 
-==  Textual note targeting a document ==
+===  Textual note targeting a document ===
 
 See [v2Ex0004NoteOnDocument (ex0004)] for the complete example.
 
