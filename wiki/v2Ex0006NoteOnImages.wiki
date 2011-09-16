@@ -85,7 +85,10 @@ The RDF of the example in figure 4 would look like the following:
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3uu5z25"/>
-   <ao:body>Pictures taken the same day in Ogunquit, Maine</ao:body> 
+   <ao:body>
+      Pictures taken the same day in 
+      &lt;a href="http://en.wikipedia.org/wiki/Ogunquit,_Maine"&gt;Ogunquit, Maine&lt;/a&gt;
+   </ao:body> 
    <pav:createdOn>2010-03-21</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
