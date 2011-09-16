@@ -78,8 +78,10 @@ _Figure 4: a hypertext note attached to a digital document identified by a URI._
    <rdf:type rdf:resource="&ann;Annotation"/> 
    --> 
    <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
-   <ao:body>This article explains the rationale behind the architectural
-     design of the Annotation Ontology </ao:body> 
+   <ao:body>
+      This article explains the rationale behind the architectural design of the  
+      &lt;a href="http://code.google.com/p/annotation-ontology/"&gt; Annotation Ontology&lt;/a&gt;
+   </ao:body> 
    <pav:createdOn>2011-08-17</pav:createdOn> 
    <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
 </rdf:Description> 
