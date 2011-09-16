@@ -69,4 +69,4 @@ The RDF of the example in figure 2 would look like the following:
 
 === Body as resource (Identified by URI) ===
 
-The body can also be modeled as a resolvable entity of its own identified by a URI. Such body can be therefore addressed by other annotations (with or without the need of selectors).
+The body can also be modeled as a resolvable entity of its own identified by a URI. Such body can be better detailed - with properties such as character encoding and format- and, because of the URI, targeted by other annotations (with or without the need of selectors).
