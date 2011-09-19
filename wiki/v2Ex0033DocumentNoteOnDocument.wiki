@@ -35,3 +35,6 @@ _Figure 3: a document (identified by a URL) note attached to a digital document 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0033%20Annotation%20on%20Document%20Note%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 4: an annotation Note targeting the annotation body of another annotation Note. Similarly it is possible to annotate a fragment of the annotation body through an appropriate text selector._
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0033%20Annotation%20on%20fragment%20Document%20Note%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 5: an annotation Note targeting a fragment of the annotation body of another annotation Note._
