@@ -3,6 +3,7 @@
  * [Homepage]
  * [News]
  * [Requirements Requirements]
+ * [v2Main Documentation of AO v. 2.0 (draft)]
  * [UnderstandingAO Understanding AO v. 1.0]
    * [Background Starting from Annotea]
    * [Namespaces Architecture and Namespaces]
