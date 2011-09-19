@@ -36,7 +36,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
        * [v2Ex0009ReadingProgress Reading Progress] (ex0009 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])  
        * [v2Ex0010ExHighlight Highlight of text fragment] (ex0010 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0011ExHighlightImage Highlight of image fragment] (ex0011 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]) 
-       * [v2Ex0035ExHighlightVideoSection Shaped highlight of video fragment] (ex0035 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]) 
+       * [v2Ex0035ExHighlightVideoSection Shaped highlight of a video fragment] (ex0035 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]) 
        * [v2Ex0012ExTagText Tagging a text fragment] (ex0012 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]) 
        * [v2Ex0013ExTagImage Tagging an image fragment] (ex0013 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]) 
        * [v2Ex0019TaggingVideoFragment Tagging a video fragment] (ex0019 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
