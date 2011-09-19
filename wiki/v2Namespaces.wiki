@@ -5,12 +5,12 @@
 While the v.1 of Annotation Ontology (AO) was composed by several modules (and relative files), in v.2 the number of namespaces has been reduced to three, one core module and two integrations module:
 
 || *Prefix* || *Name and Description*|| *Namespace*||
-|| ao || *Annotation Ontology Core*. It defines the core functionalities of AO including the tools for <br/> organizing annotation items in sets and sets in perspectives. It includes all the officially <br/> available Selectors and Annotation Types. ||  http://purl.org/ao/core/||
+|| ao || *Annotation Ontology Core*. It defines the core functionalities of AO including the tools for organizing annotation items in sets and sets in perspectives. It includes all the officially available Selectors and Annotation Types. ||  http://purl.org/ao/core/||
 
 *Integration modules*
 
-|| aof || *Annotation Ontology Integration with FOAF*. This module is recommended unless <br/>documents and agents are addressed by another ontology. || http://purl.org/ao/foaf/ ||
-|| aoa || *Annotation Ontology Integration with Annotea*. This module is optional and enables <br/>back compatibility with Annotea content. || http://purl.org/ao/annotea/ ||
+|| aof || *Annotation Ontology Integration with FOAF*. This module is recommended unless documents and agents are addressed by another ontology. || http://purl.org/ao/foaf/ ||
+|| aoa || *Annotation Ontology Integration with Annotea*. This module is optional and enables back compatibility with Annotea content. || http://purl.org/ao/annotea/ ||
 
 The three modules can be imported singularly or altogether as follow:
 
