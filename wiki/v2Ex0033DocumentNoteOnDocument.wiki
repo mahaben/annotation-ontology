@@ -1,4 +1,4 @@
-#summary Document Note on document
+#summary Note on another annotation body
 
 <table width="100%">
 <tr>
