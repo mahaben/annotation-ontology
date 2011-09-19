@@ -13,4 +13,4 @@ ex0032: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Highlight of video fragment ==
 
-For annotating temporal media - such as videos and audios - fragments, we suggest to implement the recommendations collected in the [http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/ W3C Media Fragment specification] document. This will allow the identification of a specific fragment of the target by defining a URI that usually embeds a specific time interval.
+For annotating temporal media - such as videos and audios - fragments, we suggest to implement the recommendations collected in the [http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/ W3C Media Fragment specification] document. This allows the identification of a specific fragment of the target by defining a URI that usually embeds a specific time interval. For selections of section of the image in that time frame, we rely on appropriate Selectors.
