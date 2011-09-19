@@ -9,7 +9,7 @@ While the v.1 of Annotation Ontology (AO) was composed by several modules (and r
 
 *Integration modules*
 
-|| aof || *Annotation Ontology Integration with FOAF*. This module is recommended unless documents and agents are addressed by another ontology. || http://purl.org/ao/foaf/ ||
+|| aof || *Annotation Ontology Integration with FOAF*. This module is optional and offers specific properties and mappings to FOAF. || http://purl.org/ao/foaf/ ||
 || aoa || *Annotation Ontology Integration with Annotea*. This module is optional and enables back compatibility with Annotea content. || http://purl.org/ao/annotea/ ||
 
 The three modules can be imported singularly or altogether as follow:
