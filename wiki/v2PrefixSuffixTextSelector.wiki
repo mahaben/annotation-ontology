@@ -2,7 +2,7 @@
 
 [v2Main << Main] :: [v2Selectors << Selectors]
 
-=== Prefix Suffix Text Selector ===
+== Prefix Suffix Text Selector ==
 
 The [v2PrefixSuffixTextSelector PrefixSuffixTextSelector] allows to identify a region of text in a document by specifying the its *prefix* (a reasonable amount of characters before the match), the *exact match* and its *suffix* (a reasonable amount of characters after the match). This selector is particularly important when the annotated content is not immutable. Paragraphs can shift and the approach with offset and range can easily fail.
 
@@ -16,3 +16,5 @@ _ *Note*: This selector assumes the content of the prefix, exact match and suffi
 || dc:format || The format (MIME type) of the exact match, prefix and suffix  || Optional (default text/plain) ||
 
 *How to deal with redundant content*
+
+=== Examples ===
