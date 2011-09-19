@@ -17,4 +17,6 @@ _ *Note*: This selector assumes the content of the prefix, exact match and suffi
 
 *How to deal with redundant content*
 
+The Prefix Suffix Text Selector behaves well when the annotated document is not immutable. However, it requires additional work for redundant documents. In fact, if the same span of text prefix+exact+suffix is present multiple times, the detection might not be accurate (according to the implementation it might be that only the first occurrence of the text span is detected).
+
 === Examples ===
