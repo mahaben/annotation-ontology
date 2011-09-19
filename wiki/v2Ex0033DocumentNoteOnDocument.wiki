@@ -1,0 +1,22 @@
+#summary Document Note on document
+
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+ex0033: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
+== Document Note on document ==
+
+The body of an annotation can also be modeled as a resolvable entity of its own identified by a URI. Such body can be better detailed - with properties such as character encoding and format - and, because of the URI, targeted by other annotations (with or without the need of selectors). 
+
+=== Example ===
+
+=== Representation in AO ===
+
+=== Adding Provenance ===
