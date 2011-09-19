@@ -4,3 +4,4 @@
 
 == Rectangular Image Selector ==
 
+This Selector has been introduced in order to have a simple mechanism for detecting a portion of an image. For more complex shapes you should take a look at the [SvgSelector SvgSelector Image/Video Selector].
