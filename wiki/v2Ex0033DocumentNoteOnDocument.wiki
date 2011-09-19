@@ -1,4 +1,4 @@
-#summary Note on existing annotation body
+#summary Document Note on document
 
 <table width="100%">
 <tr>
@@ -11,7 +11,7 @@ ex0033: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 </tr>
 </table>
 
-== Note on existing document annotation body ==
+== Document Note on document ==
 
 The body of an annotation can also be modeled as a resolvable entity of its own identified by a URI. Such body can be a full fledged hypertextual document with text and media of various type. Also, because of the URI, such body can be targeted by other annotations (with or without the need of selectors). 
 
