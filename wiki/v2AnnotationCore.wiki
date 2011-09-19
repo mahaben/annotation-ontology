@@ -11,7 +11,7 @@ Annotation Ontology works around a handful of classes and properties:
  * ao:body
  * ao:topic
 
-If we want to be more precise, we can identify a fragment of the annotated resource through the use of selectors:
+If we want to be more accurate, we can identify a fragment of the annotated resource through the use of selectors:
 
  * ao:Selector
  * ao:context
