@@ -24,7 +24,7 @@ _Figure 1: a (free text) note attached to a document identified by a URL_
 === Representation with AO ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0004%20Note%20on%20document%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: a (free text )note attached to a digital document identified by a URI. The nature of the annotation is defined through the type ao:Note._
+_Figure 2: a (free text) note attached to a digital document identified by a URI. The nature of the annotation is defined through the type ao:Note._
 
 The RDF of the example in picture 2 would look like the following: 
 
