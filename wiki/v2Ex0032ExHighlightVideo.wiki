@@ -13,12 +13,13 @@ ex0032: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Note of a video fragment ==
 
-For annotating temporal media - such as videos and audios - fragments, we suggest to implement the recommendations collected in the [http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/ W3C Media Fragment specification] document. This allows the identification of a specific fragment of the target by defining a URI that usually embeds a specific time interval. 
+For annotating temporal media - such as videos and audios - fragments, we suggest to implement the recommendations collected in the [http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/ W3C Media Fragment specification] document. This allows the identification of a specific fragment of the target by defining a URI that usually embeds a specific time interval (read more [http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/ here]). 
 
 === Example ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0032%20Note%20on%20video%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: annotation of a video fragment_
+_Figure 1: annotation of a video fragment. You might notice the label 'video URI fragment'. The URI, in the case of the fragment from second 10 to second 20, would look something like this: http://www.example.com/video.ogv#t=10,20_
+
 
 === Representation with AO ===
 
