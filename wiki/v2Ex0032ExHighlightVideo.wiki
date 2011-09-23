@@ -18,7 +18,7 @@ For annotating temporal media - such as videos and audios - fragments, we sugges
 === Example ===
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0032%20Note%20on%20video%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: annotation of a video fragment. You might notice the label 'video URI fragment'. The URI, in the case of the fragment from second 10 to second 20, would look something like this: http://www.example.com/video.ogv#t=10,20_
+_Figure 1: annotation of a video fragment. You might notice the label 'video URI fragment'. The URI, in the case of the fragment from second 10 to second 20, would look something like this http://www.example.com/video.ogv#t=10,20 or this http://www.example.com/video.ogv#t=0:02:00,121.5 _
 
 
 === Representation with AO ===
