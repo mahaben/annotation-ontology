@@ -26,3 +26,19 @@ _Figure 1: annotation of a video fragment. You might notice the label 'video URI
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0032%20Note%20on%20video%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: annotation of type Note of a video fragment._
+
+The RDF of the example in picture 2 would look like the following: 
+
+{{{ 
+<rdf:Description rdf:about="http://my.example.org/ann/0032"> 
+   <rdf:type rdf:resource="&ao;Note"/> 
+   <!-- The following can be added for querying with SPARQL 
+   <rdf:type rdf:resource="&ao;Annotation"/> 
+   <rdf:type rdf:resource="&ann;Annotation"/> 
+   --> 
+   <ao:annotatesResource rdf:resource="http://www.example.com/video.ogv#t=0:02:00,121.5"/> 
+   <ao:body>Ogunquit, Maine</ao:body> 
+   <pav:createdOn>2011-08-22</pav:createdOn> 
+   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
+</rdf:Description> 
+}}}
