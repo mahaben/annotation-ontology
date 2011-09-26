@@ -27,7 +27,7 @@ _Figure 1: annotation of a video fragment. You might notice the label 'video URI
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0032%20Note%20on%20video%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: annotation of type Note of a video fragment._
 
-The RDF of the example in picture 2 would look like the following: 
+The RDF of the example in figure 2 would look like the following: 
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/0032"> 
