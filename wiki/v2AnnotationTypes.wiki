@@ -2,9 +2,9 @@
 
 == Annotation Types ==
 
-|| Cursor || || ||
+|| Cursor || It records the last location of the reading process. || ||
 || Highlight || || ||
-|| Tag || || ||
-|| Note || || ||
+|| Tag || _*Tagging* means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._ || ||
+|| Note || A *note* is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. When using the term 'Note' we here refer only to free text notes. || ||
 || Qualifier || It expresses a relationship between the object of the annotation and a well-defined semantic or structured entity consisting of a term in a controlled vocabulary or ontology.  || [v2StructuredAnnotationQualifiers More on Qualifiers] ||
 || ... || || ||
