@@ -1,15 +1,10 @@
-#summary One-sentence summary of this page.
+#summary Annotation Types
 
-= Introduction =
+== Annotation Types ==
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
-Cursor, Highlight, Tag, Note, Comment
+|| Cursor || || ||
+|| Highlight || || ||
+|| Tag || || ||
+|| Note || || ||
+|| Qualifier || It expresses a relationship between the object of the annotation and a well-defined semantic entity. || [v2StructuredAnnotationQualifiers More on Qualifiers] ||
+|| ... || || ||
