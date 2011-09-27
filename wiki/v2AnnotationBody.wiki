@@ -17,7 +17,7 @@
 
 == Body as resource (Identified by URI) ==
 
-The body can also be modeled as a resolvable entity of its own identified by a URI. Such body can be better detailed with properties such as character encoding and format.
+The body can be modeled as a resolvable entity of its own identified by a URI. Such body can be better detailed with metadata such as properties specifying authors, character encoding and format.
 
 === Note Body as a Document ===
 
