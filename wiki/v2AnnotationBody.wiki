@@ -15,11 +15,11 @@
 
 || _*ao:body*_ || The _ao:body_ property identifies the textual or hypertextual body of the annotation. It can be simple text/hypertext or a persistent resource identified by a URI such as an HTML document available online. || 
 
-_*Note*: because of the body is identified by a URI, it can be targeted by other annotations._
-
 == Body as resource (Identified by URI) ==
 
 The body can be modeled as a resolvable entity of its own identified by a URI. Such body can be better detailed with metadata such as properties specifying authors, character encoding and format.
+
+_*Note*: because of the body is identified by a URI, it can be targeted by other annotations._
 
 === Note Body as a Document ===
 
