@@ -2,6 +2,8 @@
 
 == Annotation Types ==
 
+The following _Annotation Types_ are included in the core of AO. Additional annotation types can be created extended the class _ao:Annotation_ or its sub-classes.
+
 || Cursor || It records the last location of the reading process. || ||
 || Highlight || || ||
 || Tag || _*Tagging* means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._ || ||
