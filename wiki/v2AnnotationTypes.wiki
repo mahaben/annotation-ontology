@@ -1,5 +1,16 @@
 #summary Annotation Types
 
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
 == Annotation Types ==
 
 The following _Annotation Types_ are included in the core of AO. Additional annotation types can be created extended the class _ao:Annotation_ or its subclasses.
