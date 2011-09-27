@@ -6,5 +6,5 @@
 || Highlight || || ||
 || Tag || || ||
 || Note || || ||
-|| Qualifier || It expresses a relationship between the object of the annotation and a well-defined semantic entity. || [v2StructuredAnnotationQualifiers More on Qualifiers] ||
+|| Qualifier || It expresses a relationship between the object of the annotation and a well-defined semantic or structured entity. || [v2StructuredAnnotationQualifiers More on Qualifiers] ||
 || ... || || ||
