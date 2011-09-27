@@ -8,6 +8,7 @@ While the v.1 of Annotation Ontology (AO) was composed by several modules (and r
 || ao || *Annotation Ontology Core*. It defines the core functionalities of AO including the tools for organizing annotation items in sets and sets in perspectives. It includes all the officially available Selectors and Annotation Types. ||  http://purl.org/ao/core/||
 
 *Integration modules*
+These are additional modules that integrate AO with FOAF and Annotea. Annotation Ontology v2 does not require these modules to operate.
 
 || aof || *Annotation Ontology Integration with FOAF*. This module is optional and offers specific properties and mappings to FOAF. || http://purl.org/ao/foaf/ ||
 || aoa || *Annotation Ontology Integration with Annotea*. This module is optional and enables back compatibility with Annotea content. || http://purl.org/ao/annotea/ ||
