@@ -2,7 +2,7 @@
 
 == Annotation Types ==
 
-The following _Annotation Types_ are included in the core of AO. Additional annotation types can be created extended the class _ao:Annotation_ or its sub-classes.
+The following _Annotation Types_ are included in the core of AO. Additional annotation types can be created extended the class _ao:Annotation_ or its subclasses.
 
 || Cursor || It records the last location of the reading process. || ||
 || Highlight || || ||
