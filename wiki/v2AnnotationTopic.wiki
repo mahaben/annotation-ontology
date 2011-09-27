@@ -13,4 +13,4 @@
 
 == ao:body ==
 
-|| _*ao:hasTopic*_ || The _ao:hasTopic_ property links a URI as topic of the annotation. || 
+|| _*ao:hasTopic*_ || The _ao:hasTopic_ property links a URI as topic of the annotation. While ao:body is linking a textual/hypertextual or semi-structured document, ao:hasTopic is linking structured or semantically specified resources.|| 
