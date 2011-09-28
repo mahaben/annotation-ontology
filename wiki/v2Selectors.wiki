@@ -23,7 +23,7 @@ Selectors currently *in use* in existing applications:
  * _[v2OffsetRangeTextSelector Offset and Range Selector]_: identifies a chunk of text specifying the offset from the beginning of the document and the range - number of characters from the offset.
 :: _Image and Temporal Media Selectors_ 
  * _[RectangularImageSelector Rectangular Image Selector]_: identifies a rectangular region of an image through the definition of the top left and bottom right corners.
- * _[SvgSelector SVG Image/Video Selector]_: identifies a section of an image or video fragment through [http://www.w3.org/TR/SVG/shapes.html SVG Basic Shapes].
+ * _[v2SvgSelector SVG Image/Video Selector]_: identifies a section of an image or video fragment through [http://www.w3.org/TR/SVG/shapes.html SVG Basic Shapes].
 
 === Create new Selectors === 
 *New Selectors can be created according to specific needs*. However, before doing this, we suggest to check the list of the already available _Selectors_. There might be already a _Selector_ that can cover your use case as it is, or after a small modification that you can discuss with the current _Selector_ contact person. If what you need is not covered, you can proceed in creating your new _Selector_. It would be great if you could contribute the new _Selector_ back to the community so that we can avoid redundancies and foster integration between applications. *You will get credited for it*.
