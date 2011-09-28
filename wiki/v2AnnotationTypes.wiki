@@ -15,9 +15,9 @@
 
 The following _Annotation Types_ are included in the core of AO. Additional annotation types can be created extended the class _ao:Annotation_ or its subclasses.
 
-|| Cursor || It records the last location of the reading process. || ||
-|| Highlight || || ||
-|| Tag || _*Tagging* means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels._ || ||
+|| Cursor || A *cursor* records the last location of the reading process. || ||
+|| Highlight || A *highlight* is the process of marking a fragment of a resource with some - usually visual - mechanism.|| ||
+|| Tag || *Tagging* means 'attaching a label'. When using the word 'Tag' we here refer only to free text labels. || ||
 || Note || A *note* is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. When using the term 'Note' we here refer only to free text notes. || ||
 || Qualifier || A *qualifier* expresses a relationship between the target of the annotation and a well-defined semantic or structured entity consisting of a term in a controlled vocabulary or ontology.  || [v2StructuredAnnotationQualifiers More on Qualifiers] ||
 || ... || || ||
