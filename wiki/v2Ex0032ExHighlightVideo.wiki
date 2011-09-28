@@ -13,6 +13,8 @@ ex0032: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 == Note of a video fragment ==
 
+|| _A *note* is defined as a brief record of facts, topics, or thoughts, written down as an aid to memory. When using the term 'Note' we here refer only to free text notes._ ||
+
 For annotating temporal media - such as videos and audios - fragments, we suggest to implement the recommendations collected in the [http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/ W3C Media Fragment specification] document. This allows the identification of a specific fragment of the target by defining a URI that usually embeds a specific time interval (read more [http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/ here]). 
 
 === Example ===
