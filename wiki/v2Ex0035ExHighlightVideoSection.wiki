@@ -1,0 +1,20 @@
+#summary Shaped highlight of a video fragment.
+
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+ex0035: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
+== Highlight of a portion of a video fragment ==
+
+For annotating temporal media - such as videos and audios - fragments, we suggest to implement the recommendations collected in the [http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/ W3C Media Fragment specification] document. This allows the identification of a specific fragment of the target by defining a URI that usually embeds a specific time interval (read more [http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/ here]). 
+
+For detecting sections of the video fragment we suggest to use the [http://www.w3.org/TR/SVG/shapes.html basic shapes] of [http://www.w3.org/Graphics/SVG/ Scalable Vector Graphics (SVG)]. This is possible through the [v2SvgSelector SVG Selector].
+
+=== Example ===
