@@ -18,3 +18,5 @@ For annotating temporal media - such as videos and audios - fragments, we sugges
 For detecting sections of the video fragment we suggest to use the [http://www.w3.org/TR/SVG/shapes.html basic shapes] of [http://www.w3.org/Graphics/SVG/ Scalable Vector Graphics (SVG)]. This is possible through the [v2SvgSelector SVG Selector].
 
 === Example ===
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0035%20Note%20on%20Shaped%20highlight%20video%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]
