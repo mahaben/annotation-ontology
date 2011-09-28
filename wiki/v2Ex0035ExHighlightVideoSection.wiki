@@ -15,12 +15,14 @@ ex0035: [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_prog
 
 For annotating temporal media - such as videos and audios - fragments, we suggest to implement the recommendations collected in the [http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/ W3C Media Fragment specification] document. This allows the identification of a specific fragment of the target by defining a URI that usually embeds a specific time interval (read more [http://www.w3.org/2008/WebVideo/Fragments/WD-media-fragments-spec/ here]). 
 
-For detecting sections of the video fragment we suggest to use the [http://www.w3.org/TR/SVG/shapes.html basic shapes] of [http://www.w3.org/Graphics/SVG/ Scalable Vector Graphics (SVG)]. This is possible through the [v2SvgSelector SVG Selector].
+For detecting sections the video fragment we suggest to use the [http://www.w3.org/TR/SVG/shapes.html basic shapes] of [http://www.w3.org/Graphics/SVG/ Scalable Vector Graphics (SVG)]. This is possible through the [v2SvgSelector SVG Selector].
 
 === Example ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0035%20Note%20on%20Shaped%20highlight%20video%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0035%20Note%20on%20Shaped%20highlight%20video%20fragment%20-%20Example%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 1: this use case consists in highlighting, with a red rectangle, a section of a video fragment. For this example we assume the rectangle is in the same location for the entire video fragment._
 
 === Representation in AO ===
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0035%20Note%20on%20Shaped%20highlight%20video%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0035%20Note%20on%20Shaped%20highlight%20video%20fragment%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 2: It depicts annotation of a section of a video fragment. You might notice the label 'video URI fragment'. The URI, in the case of the fragment from second 10 to second 20, would look something like this http://www.example.com/video.ogv#t=10,20 or from second 120 to 121.5 something like  http://www.example.com/video.ogv#t=0:02:00,121.5 . The section is identified through a SVG rectangle._
