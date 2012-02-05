@@ -11,7 +11,6 @@
     <!ENTITY dct  "http://dublincore.org/documents/dcmi-terms/" >
     <!ENTITY ans  "http://www.w3.org/2000/10/annotation-ns#" >
     <!ENTITY bkm  "http://www.w3.org/2002/01/bookmark#" >
-    <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
     <!ENTITY pav  "http://purl.org/pav/">
     
     <!-- Main namespace -->
@@ -27,7 +26,6 @@
     xmlns:rdf="&rdf;"
     xmlns:xsd="&xsd;"
     xmlns:dct="&dct;"
-    xmlns:foaf="&foaf;"
     xmlns:ans="&ans;"
     xmlns:bkm="&bkm;">
     
@@ -221,7 +219,7 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
-        <!-- 
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation Ontology Properties
@@ -259,4 +257,370 @@
     	<rdfs:range rdf:resource="Selector" />
     </owl:ObjectProperty>
 
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // XPointer Selectors
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <owl:Class rdf:about="XPointerSelector" rdfs:label="(ao-sel) XPointer Selector">
+    	<rdfs:subClassOf rdf:resource="Selector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            The XPointer Selector allows to identify any part of an XML document by using the XPointer technology 
+        </rdfs:comment>
+        <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="xpointer"/>
+	            <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>	
+    </owl:Class>
+    
+    <owl:DatatypeProperty rdf:about="xpointer">
+    </owl:DatatypeProperty>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Text Selectors
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <owl:Class rdf:about="TextSelector" rdfs:label="(ao-sel) Text Selector">
+    	<rdfs:subClassOf rdf:resource="Selector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            A Text Selector identifies a string in a document. 
+        </rdfs:comment>
+        
+        <!-- exact match -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exact"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="exact"/>
+                <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
+    
+    <owl:DatatypeProperty rdf:about="exact">
+     	<rdfs:comment rdf:datatype="&xsd;string">
+            The exact string - a linear sequence of characters - subject of the annotation.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+    <owl:Class rdf:about="OffsetRangeTextSelector" rdfs:label="(ao-sel) Offset/Range Text Selector">
+    	<rdfs:subClassOf rdf:resource="TextSelector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            A Offset Range Text Selector identifies a string in a document through an offset 
+            -  an integer indicating the distance (displacement) from the beginning of the document up until a 
+            given element or point, within the same document - and a range - an integer indicating the number 
+            of characters, starting from the offset, identified by the selector.
+        </rdfs:comment>
+        
+        <!-- offset and range -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="offset"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="offset"/>
+                <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="range"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="range"/>
+                <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
+    
+    <owl:DatatypeProperty rdf:about="offset">
+    	<rdfs:comment rdf:datatype="&xsd;string">
+            An integer indicating the distance (displacement) from the beginning of the document up until a 
+            given element or point, within the same document.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="range">
+      	<rdfs:comment rdf:datatype="&xsd;string">
+            An integer indicating the number of characters - starting from the offset - identified by the selector.
+        </rdfs:comment>  	
+    </owl:DatatypeProperty>
+    
+    <owl:Class rdf:about="PrefixPostfixTextSelector" rdfs:label="(ao-sel) Prefix/Postfix Text Selector">
+    	<rdfs:subClassOf rdf:resource="TextSelector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            A Prefix Postfix Text Selector identifies a string in a document through the prefix - a number of contiguos characters 
+            before the exact match - and a postfix - a number of contiguos characters after the exact match.
+        </rdfs:comment>
+        
+        <!-- offset and range -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="prefix"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="prefix"/>
+                <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="postfix"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+         <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="postfix"/>
+                <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+    <owl:DatatypeProperty rdf:about="prefix">
+    	<rdfs:comment rdf:datatype="&xsd;string">
+            A number of contiguos characters - string - before the exact match.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="postfix">
+    	<rdfs:comment rdf:datatype="&xsd;string">
+            A number of contiguos characters - string - after the exact match.
+        </rdfs:comment>
+    </owl:DatatypeProperty>    
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Image Selectors
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <owl:Class rdf:about="ImageSelector" rdfs:label="(ao-sel) Image Selector">
+    	<rdfs:subClassOf rdf:resource="Selector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            An Image Selector identifies a portion of an image.
+        </rdfs:comment>
+    </owl:Class>
+    
+    <owl:Class rdf:about="InitEndCornerSelector" rdfs:label="(ao-sel) Image Init End Corner Selector">
+    	<rdfs:subClassOf rdf:resource="ImageSelector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            An Image Selector where the portion of an image is identified by a rectangle that is specified
+            through the left upper corner and the bottom right corner.
+        </rdfs:comment>
+        
+        <!-- init and end -->
+	    <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="init"/>
+	            <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>	
+	    <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="init"/>
+	            <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>
+	    <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="end"/>
+	            <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>
+	    <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="end"/>
+	            <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>
+    </owl:Class>
+    
+    <owl:DatatypeProperty rdf:about="init">
+    </owl:DatatypeProperty>
+    
+    <owl:DatatypeProperty rdf:about="end">
+    </owl:DatatypeProperty> 
+        
+        
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Audio Selectors
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->        
+    <owl:Class rdf:about="AudioSelector" rdfs:label="(ao-sel) Audio Selector">
+    	<rdfs:subClassOf rdf:resource="Selector"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            An Audio Selector identifies a portion of an audio file.
+        </rdfs:comment>
+        
+        <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="init"/>
+	            <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>	
+	    <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="init"/>
+	            <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>
+	    <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="end"/>
+	            <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>
+	    <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="end"/>
+	            <owl:maxCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:maxCardinality>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>
+    </owl:Class>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation Type Qualifiers
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <owl:Class rdf:about="Qualifier" rdfs:label="(ao-type) Qualifier">
+    	<rdfs:subClassOf rdf:resource="Annotation"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+    </owl:Class> 
+    
+    <owl:Class rdf:about="ExactQualifier" rdfs:label="(ao-type) Exact Qualifier">
+    	<rdfs:subClassOf rdf:resource="Qualifier"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+    </owl:Class> 
+   
+    <owl:Class rdf:about="CloseQualifier" rdfs:label="(ao-type) Close Qualifier">
+    	<rdfs:subClassOf rdf:resource="Qualifier"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+    </owl:Class> 
+    
+    <owl:Class rdf:about="NarrowQualifier" rdfs:label="(ao-type) Narrow Qualifier">
+    	<rdfs:subClassOf rdf:resource="Qualifier"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+    </owl:Class> 
+    
+    <owl:Class rdf:about="BroadQualifier" rdfs:label="(ao-type) Broad Qualifier">
+    	<rdfs:subClassOf rdf:resource="Qualifier"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+    </owl:Class> 
+     
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation Type Comment
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <owl:Class rdf:about="Comment" rdfs:label="(ao-type) Comment">
+    	<rdfs:subClassOf rdf:resource="Annotation"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+        
+        <!-- body -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="body"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation Type Note
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <owl:Class rdf:about="Note" rdfs:label="(ao-type) Note">
+    	<rdfs:subClassOf rdf:resource="Annotation"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+        
+        <!-- body -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="body"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation Type Definition
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <owl:Class rdf:about="Definition" rdfs:label="(ao-type) Definition">
+    	<rdfs:subClassOf rdf:resource="Annotation"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>	
+        
+         <!-- body -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="body"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation Type Example
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <owl:Class rdf:about="Example" rdfs:label="(ao-type) Example">
+    	<rdfs:subClassOf rdf:resource="Annotation"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+        
+         <!-- body -->
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="body"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
+    </owl:Class>
 </rdf:RDF>
