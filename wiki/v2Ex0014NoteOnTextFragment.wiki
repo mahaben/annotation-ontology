@@ -44,7 +44,7 @@ And the text selector (PrefixSuffixTextSelector):
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/sel/10402"> 
-   <rdf:type rdf:resource="&aos;PrefixSuffixTextSelector"/> 
+   <rdf:type rdf:resource="&ao;PrefixSuffixTextSelector"/> 
    <!-- 
    <rdf:type rdf:resource="&ao;TextSelector"/> 
    <rdf:type rdf:resource="&ao;Selector"/> 
