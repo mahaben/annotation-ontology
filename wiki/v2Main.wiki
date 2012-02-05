@@ -49,6 +49,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
     * [v2AnnotatingOtherResources Simple annotations of resources other than documents] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2Ex0017CommentOnAnOntologicalTerm Comment on a term of an ontology or controlled vocabulary] (ex0017 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0018CommentOnAnOntologicalTerms Comment on multiple terms of ontologies or controlled vocabularies] (ex0018 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
+       * [v2Ex0036RelateTwoOntologicalTerms Relate two ontological terms] (ex0036 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
        * [v2Ex0020NoteOnWebService Note on a Web Service] (ex0020 [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif])
    * [v2StructuredAnnotation Simple Structured (Linked) annotation] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2StructuredAnnotationSingleResource Structured annotation on single target resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
