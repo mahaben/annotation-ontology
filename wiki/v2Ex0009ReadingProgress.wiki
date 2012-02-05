@@ -29,7 +29,7 @@ The RDF of the example in figure 2 would look like the following:
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/0009"> 
-   <rdf:type rdf:resource="&aot;Cursor"/> 
+   <rdf:type rdf:resource="&ao;Cursor"/> 
    <!-- 
    The following can be added for querying with SPARQL 
    <rdf:type rdf:resource="&ao;Annotation"/> 
@@ -44,7 +44,7 @@ and the text selector ([v2PrefixSuffixTextSelector PrefixSuffixTextSelector]):
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/sel/0009a"> 
-   <rdf:type rdf:resource="&aos;PrefixSuffixTextSelector"/>
+   <rdf:type rdf:resource="&ao;PrefixSuffixTextSelector"/>
    <!--
    <rdf:type rdf:resource="&ao;TextSelector"/> 
    <rdf:type rdf:resource="&ao;Selector"/> 
@@ -84,7 +84,7 @@ _Figure 4: Keeping track of the 'reading cursor' through a [v2PrefixSuffixTextSe
 
 {{{ 
 <rdf:Description rdf:about="http://my.example.org/ann/0009"> 
-   <rdf:type rdf:resource="&aot;Cursor"/> 
+   <rdf:type rdf:resource="&ao;Cursor"/> 
    <!-- 
    The following can be added for querying with SPARQL 
    <rdf:type rdf:resource="&ao;Annotation"/> 
