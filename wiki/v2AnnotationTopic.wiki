@@ -37,6 +37,7 @@ If the goal consists in linking a resource for *machine consumption* the above c
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
-with *content intended to be consumed by a machine*. Typically a semantically specified resource.
+The above set of statements is linking a machine understandable resource. Typically these are RDF resources.
+
 
 Examples of entities targeted by the _ao:hasTopic_ relationship are: URIs of terms from controlled vocabularies and ontologies, URIs of entities specified in structured knowledge bases.
