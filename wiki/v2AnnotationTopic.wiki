@@ -39,9 +39,9 @@ The interpretation of the above statements is that the targeted image has the UR
 If the goal consists in linking a resource for *machine consumption* the above code would become something like:
 
 {{{ 
-  Example 2
+ Example 2
 
-  <http://www.example.org/annotation/10023> a ao:Qualifier ;
+ <http://www.example.org/annotation/10023> a ao:Qualifier ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:hasTopic <http://www.paolociccarese.info/foaf.rdf#me>  ;
     pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
