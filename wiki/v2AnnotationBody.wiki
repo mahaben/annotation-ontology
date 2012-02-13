@@ -22,6 +22,8 @@ The simpler case of _ao:body_ is when it is modeled as a [http://www.w3.org/TR/r
 Here is a very simple example in n3 format:
 
 {{{ 
+ # Example 1
+
  <http://www.example.org/annotation/10022> a ao:Annotation ;
     ao:annotatesResource <http://annotationframework.org> ;
     ao:body "Domeo Annotation Toolkit homepage"@en ;
@@ -42,6 +44,8 @@ In alternative to [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], th
 Here is a very simple example in n3 format:
 
 {{{ 
+ # Example 2
+
  <http://www.example.org/annotation/10022> a ao:Annotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:body <http://www.paolociccarese.info/> ;
@@ -60,6 +64,7 @@ The interpretation of the above set of triples is simple: the URI linked by the 
 When the annotation content is intended for machines and is described by a set of triples about a resource, it is recommended to collect them in a [http://www.w3.org/2004/03/trix/ Named Graph] and to refers to them. This is the case of the following example in [http://www4.wiwiss.fu-berlin.de/bizer/trig/ TriG format]:
 
 {{{ 
+ # Example 3
 
 {
  <http://www.example.org/annotation/10022> a ao:GraphAnnotation ;
@@ -80,6 +85,7 @@ When the annotation content is intended for machines and is described by a set o
 The above annotation states that the graph _:graphExample_ is about the target image. The graph is intended for machine consumption and it is possible to be more specific by stating, in the graph, a more specific relationship of the _foaf:Person_ with the image as follows:
 
 {{{
+ # Graph alternative for Example 3 
 
 :graphExample {
     <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> a foaf:Image .
