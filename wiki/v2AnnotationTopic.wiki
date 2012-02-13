@@ -15,7 +15,7 @@
 
 || _*ao:hasTopic*_ || The _ao:hasTopic_ property refers to a URI that identifies the he subject matter of the targeted resource. ||
 
-*Note:*
+*Note 1:*
 Every annotation is a point of view. Different agents can specify different subject matters while referring to the same resource. Some subject matters can be semantically compatible, some others might be not. This is a desired behavior as long as it is accompanied with proper provenance information. 
 
 === Annotation topics for human consumption ===
@@ -50,7 +50,7 @@ If the goal consists in linking a resource for *machine consumption* the above c
 
 By changing the type of the annotation from _ao:Annotation_ to _ao:Qualifier_ the above set of statements is stating that the linked image has a topic identified by {{{http://www.paolociccarese.info/foaf.rdf#me}}} and that can be interpreted by a machine - typically a RDF resource. When the machine reads the URI, it can potentially retrieve additional statements about it (see [http://linkeddata.org/ Linked Open Data]).
 
-*Note 1:*
+*Note 2:*
 The above set of statements (Example 2) could be expressed in a less concise way with the construct _ao:GraphAnnotation_ and _ao:body_ and a graph such as:
 
 {{{
@@ -78,7 +78,7 @@ The above set of statements (Example 2) could be expressed in a less concise way
 
 This approach is more powerful and flexible but less concise and usually more complicated for applications to take care of. The construct _ao:Qualifier_ and _ao:hasTopic_ can be considered a short-cut.
 
-*Note 2:*
+*Note 3:*
 Changing the annotation type of Example 2 back to _ao:Annotation_ will have the result of referring to an RDF file that has to be intended for human consumption: 
 
 {{{ 
