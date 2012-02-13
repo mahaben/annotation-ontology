@@ -11,10 +11,6 @@ To import Annotation Ontology Core:
 {{{
    <owl:imports rdf:resource="http://purl.org/ao/"/>
 }}} 
-and to import the Annotation Ontology Extensions:
-{{{
-   <owl:imports rdf:resource="http://purl.org/ao/v2x/"/>
-}}} 
 
 *Integration modules*
 These are additional modules that integrate AO with FOAF and Annotea. Annotation Ontology v2 does not require these modules to operate but they can be used for integration purposes.
