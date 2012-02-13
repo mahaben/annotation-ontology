@@ -2,7 +2,7 @@
 
 = Body as Literals =
 
-The simpler case of _ao:body_ is when it is modeled as a literal (or hypertext, or XML). As such, no URI is defined for it.
+The simpler case of _ao:body_ is when it is modeled as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal]. As such, no URI is defined for it.
 
 *Note*: This solution is certainly very simple to implement, however, as no URI is defined for the body content, it will not be possible to directly refer to it or target it with another annotation. 
 
