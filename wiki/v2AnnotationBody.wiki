@@ -13,7 +13,7 @@
 
 == ao:body ==
 
-|| _*ao:body*_ || The _ao:body_ property identifies the human understandable body of the annotation. It can be simple text/hypertext or a persistent resource identified by a URI such as an HTML document available online. The body is somehow about the annotated resource.|| 
+|| _*ao:body*_ || The _ao:body_ property identifies *the human understandable content of the annotation*. It can be simple text/hypertext or a persistent resource identified by a URI such as an HTML document available online. The body is somehow about the annotated resource.|| 
 
 == Body as resource (Identified by URI) ==
 
