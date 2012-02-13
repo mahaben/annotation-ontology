@@ -20,6 +20,7 @@ and to import the Annotation Ontology Extensions:
 *Integration modules*
 These are additional modules that integrate AO with FOAF and Annotea. Annotation Ontology v2 does not require these modules to operate but they can be used for integration purposes.
 
+|| *Prefix* || *Name and Description*|| *Namespace* ||
 || aof || *Annotation Ontology Integration with FOAF*. This module is optional and offers specific properties and mappings to FOAF. || http://purl.org/ao/foaf/ ||
 || aoa || *Annotation Ontology Integration with Annotea*. This module is optional and enables back compatibility with Annotea content. || http://purl.org/ao/annotea/ ||
 
