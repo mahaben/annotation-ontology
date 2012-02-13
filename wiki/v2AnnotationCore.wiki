@@ -9,7 +9,7 @@ Annotation Ontology works around a handful of classes and properties:
  * ao:Annotation
  * ao:annotatesResource
  * ao:body
- * ao:topic
+ * ao:hasTopic
 
 If we want to be more accurate, we can identify a fragment of the annotated resource through the use of selectors:
 
