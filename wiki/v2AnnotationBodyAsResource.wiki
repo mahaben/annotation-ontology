@@ -4,11 +4,47 @@
 
 In alternative to [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], the _ao:body_ can be modeled as a resolvable entity of its own identified by a URI. Such body can be better detailed with metadata such as properties specifying authors, character encoding and format. 
 
+Here is a very simple example in n3 format:
+
+{{{ 
+ <http://www.example.org/annotation/10022> a ao:Annotation ;
+    ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
+    ao:body <http://www.paolociccarese.info/> ;
+    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+}}}
+
+The interpretation of the above set of triples is simple: the URI linked by the _ao:body_ is somehow about the resource identified by the URI {{{http://www.hcklab.org/images/people/paolo_ciccarese.jpg}}}
+
 *Note*: because of the body is identified by a URI, it can be targeted by other annotations.
 
-= Details =
+=== Note Body as a Document ===
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Excerpt from [v2Ex0033DocumentNoteOnDocument (ex0033)].
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0033%20Document%20Note%20on%20document%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 3: a document (identified by a URL) note attached to a digital document identified by a URI. The nature of the annotation is defined through the type ao:Note._
+
+See [v2Ex0033DocumentNoteOnDocument (ex0033)] for the complete example.
+
+Because of the body is identified by a URI, it can be targeted by other annotations. 
+
+=== Annotation of Body Document ===
+
+Excerpt from [v2Ex0034DocumentNoteOnDocument (ex0034)]
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0034%20Annotation%20on%20Document%20Note%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 4: an annotation Note targeting the annotation body of another annotation Note._
+
+See [v2Ex0034DocumentNoteOnDocument (ex0034)] for the complete example.
+
+=== Annotation of Body Document Fragment ===
+
+Similarly, it is possible to annotate a fragment of the annotation body through an appropriate text selector.  
+
+Excerpt from [v2Ex0034DocumentNoteOnDocument (ex0034)]
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0034%20Annotation%20on%20fragment%20Document%20Note%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
+_Figure 5: an annotation Note targeting a fragment of the annotation body of another annotation Note._
+
+See [v2Ex0034DocumentNoteOnDocument (ex0034)] for the complete example.
