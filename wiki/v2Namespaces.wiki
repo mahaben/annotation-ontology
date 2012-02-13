@@ -12,7 +12,7 @@ To import Annotation Ontology Core:
    <owl:imports rdf:resource="http://purl.org/ao/"/>
 }}} 
 
-*Integration modules*
+=== Integration modules ===
 These are additional modules that integrate AO with FOAF and Annotea. Annotation Ontology v2 does not require these modules to operate but they can be used for integration purposes.
 
 || *Prefix* || *Name and Description*|| *Namespace* ||
