@@ -17,7 +17,7 @@
 
 === Body content as Literals ===
 
-The simpler case of _ao:body_ is when it is modeled as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal] ([http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-plain-literal plain] or [http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-typed-literal typed]). As we are talking about a Literal, no URI is defined for it.
+The simpler case of _ao:body_ is when it is modeled as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal] ([http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-plain-literal plain] or [http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-typed-literal typed]). The body content is intended to be consumed by humans - this does not exclude that machines could attempt an interpretation of the free text. As we are talking about a Literal, no URI is defined for it.
 
 Here is a very simple example in n3 format:
 
