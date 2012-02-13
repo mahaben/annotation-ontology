@@ -1,5 +1,16 @@
 #summary Body as Literals.
 
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
 = Body as Literals =
 
 The simpler case of _ao:body_ is when it is modeled as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal] ([http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-plain-literal plain] or [http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-typed-literal typed]). As such, no URI is defined for it.
