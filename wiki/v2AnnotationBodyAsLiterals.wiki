@@ -29,6 +29,8 @@ The interpretation of the above set of triples is simple: the textual body "Dome
 
 *Note*: This solution is very simple to implement, however, as no URI is defined for the body content, it will not be possible to directly refer to it or target it with another annotation.
 
+*Note*: It is not recommended to serialize RDF content into a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], for this use case we recommend another apporach. 
+
 
 ===  Textual note targeting a document ===
 
