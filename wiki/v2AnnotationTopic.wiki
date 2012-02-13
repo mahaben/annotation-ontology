@@ -15,6 +15,8 @@
 
 || _*ao:hasTopic*_ || The _ao:hasTopic_ property refers to a URI that describe the nature of the targeted resource.||
 
+=== For human consumption ===
+
 The simplest example consists in linking a resource for *human consumption*:
 
 {{{ 
@@ -26,6 +28,8 @@ The simplest example consists in linking a resource for *human consumption*:
 }}}
 
 The interpretation of the above statements is that the targeted image has the URI {{{http://www.paolociccarese.info/}}} - which would be possible to infer being a foaf:Person - as its topic. As you can easily verify, the URI {{{http://www.paolociccarese.info/}}} points to an HTML document, which has been created for human consumption.
+
+=== For machine consumption ===
 
 If the goal consists in linking a resource for *machine consumption* the above code would become something like:
 
@@ -39,7 +43,7 @@ If the goal consists in linking a resource for *machine consumption* the above c
 
 By changing the type of the annotation from _ao:Annotation_ to _ao:Qualifier_ the above set of statements is stating that the linked image has a topic that can be interpreted by a machine - typically a RDF resource.
 
-*Note*
+===Note===
 Changing the annotation type of the second set of statements back to _ao:Annotation_ will have the result of referring to an RDF file that has to be intended for human consumption:
 
 {{{ 
