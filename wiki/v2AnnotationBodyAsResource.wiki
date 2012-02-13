@@ -1,0 +1,14 @@
+#summary Annotation Body As Resource
+
+= Annotation Body As Resource Identified by a URI =
+
+In alternative to [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], the _ao:body_ can be modeled as a resolvable entity of its own identified by a URI. Such body can be better detailed with metadata such as properties specifying authors, character encoding and format. 
+
+*Note*: because of the body is identified by a URI, it can be targeted by other annotations.
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
