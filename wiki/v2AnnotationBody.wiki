@@ -57,7 +57,7 @@ The interpretation of the above set of triples is simple: the URI linked by the 
 
 == Body as a Named Graph ==
 
-When the annotation content about a resource is described by a set of triples, it is recommended to collect them in a Named Graph and to refers to them in TriG format as follows:
+When the annotation content about a resource is described by a set of triples, it is recommended to collect them in a Named Graph and to refers to them. This is the case of the following example in TriG format:
 
 {{{ 
 
