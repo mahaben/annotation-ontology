@@ -4,8 +4,6 @@
 
 The simpler case of _ao:body_ is when it is modeled as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal] ([http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-plain-literal plain] or [http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-typed-literal typed]). As such, no URI is defined for it.
 
-*Note*: This solution is certainly very simple to implement, however, as no URI is defined for the body content, it will not be possible to directly refer to it or target it with another annotation. 
-
 Here is a very simple example in n3 format:
 
 {{{ 
@@ -15,6 +13,8 @@ Here is a very simple example in n3 format:
     pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
+
+*Note*: This solution is certainly very simple to implement, however, as no URI is defined for the body content, it will not be possible to directly refer to it or target it with another annotation.
 
 
 ===  Textual note targeting a document ===
