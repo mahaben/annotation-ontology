@@ -4,7 +4,7 @@
 
 The simpler case of _ao:body_ is when it is modeled as a literal (or hypertext, or XML). As such, no URI is defined for it.
 
-As no URI is defined for it, it will not be possible to directly target such body with another annotation. 
+*Note*: This solution is certainly very simple to implement, however, as no URI is defined for the body content, it will not be possible to directly refer to it or target it with another annotation. 
 
 ===  Textual note targeting a document ===
 
