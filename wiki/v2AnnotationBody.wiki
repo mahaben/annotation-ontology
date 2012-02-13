@@ -17,7 +17,7 @@
 
 The _ao:body_ content can be: 
  * [v2AnnotationBodyAsLiterals simple text/hypertext] ([http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal])
- * [v2AnnotationBodyAsResource a persistent resource identified by a URI such as an HTML document available online]. 
+ * [v2AnnotationBodyAsResource a resource identified by a URI] (such as an HTML document available online). 
 
 == Body as resource (Identified by URI) ==
 
