@@ -15,7 +15,7 @@
 
 || _*ao:hasTopic*_ || The _ao:hasTopic_ property refers to a URI that describe the nature of the targeted resource.||
 
-The simplest example making use of the _ao:hasTopic_ property is the following:
+The simplest example consists in linking a resource for human consumption:
 
 {{{ 
  <http://www.example.org/annotation/10023> a ao:Annotation ;
