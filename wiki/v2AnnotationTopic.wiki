@@ -18,7 +18,7 @@
 *Note*
 Every annotation is a point of view. Different agents can specify different subject matters while referring to the same resource. Some subject matters can be semantically compatible, some others might be not. This is a desired behavior as long as it is accompanied with proper provenance information. 
 
-=== Annotation topic for human consumption ===
+=== Annotation topics for human consumption ===
 
 The simplest example consists in linking a resource for *human consumption*:
 
@@ -32,7 +32,7 @@ The simplest example consists in linking a resource for *human consumption*:
 
 The interpretation of the above statements is that the targeted image has the URI {{{http://www.paolociccarese.info/}}} - which would be possible to infer being a foaf:Person - as its topic. As you can easily verify, the URI {{{http://www.paolociccarese.info/}}} points to an HTML document, which has been created for human consumption.
 
-=== Annotation topic for machine consumption ===
+=== Annotation topics for machine consumption ===
 
 If the goal consists in linking a resource for *machine consumption* the above code would become something like:
 
