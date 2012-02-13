@@ -57,7 +57,7 @@ The interpretation of the above set of triples is simple: the URI linked by the 
 
 == Body as a Named Graph ==
 
-When the annotation content about a resource is described by a set of triples, it is recommended to collect them in a Named Graph and to refers to them. This is the case of the following example in [http://www4.wiwiss.fu-berlin.de/bizer/trig/ TriG format]:
+When the annotation content is intended for machines and is described by a set of triples about a resource, it is recommended to collect them in a Named Graph and to refers to them. This is the case of the following example in [http://www4.wiwiss.fu-berlin.de/bizer/trig/ TriG format]:
 
 {{{ 
 
@@ -77,7 +77,7 @@ When the annotation content about a resource is described by a set of triples, i
 
 }}}
 
-The above annotation states that the graph _:graphExample_ is about the target image. The graph is intended for machine consumption. It is possible to be more specific by stating, in the graph, a more specific relationship of the _foaf:Person_ with the image as follows:
+The above annotation states that the graph _:graphExample_ is about the target image. The graph is intended for machine consumption and it is possible to be more specific by stating, in the graph, a more specific relationship of the _foaf:Person_ with the image as follows:
 
 {{{
 
