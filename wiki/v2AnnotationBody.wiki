@@ -82,7 +82,8 @@ The above annotation states that the graph _:graphExample_ is about the target i
 {{{
 
 :graphExample {
-    <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> foaf:mainTopic <http://www.paolociccarese.info/foaf.rdf#me>.
+    <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> foaf:mainTopic 
+        <http://www.paolociccarese.info/foaf.rdf#me>.
 
     <http://www.paolociccarese.info/foaf.rdf#me> a foaf:Person ;
         foaf:name "Paolo Ciccarese" ;
