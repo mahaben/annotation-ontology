@@ -13,8 +13,8 @@ Annotation Ontology works around a handful of classes and properties:
 
 If we want to be more accurate, we can identify a fragment of the annotated resource through the use of selectors:
 
- * ao:Selector
- * ao:context
+ * [v2Selectors ao:Selector] identifies a portion of a resource, and may work differently for different types of documents and content types. 
+ * ao:context links the annotation with a [v2Selectors ao:Selector], if any.
  * ao:onResource
 
 === Annotation of an entire document ===
