@@ -23,7 +23,7 @@ Every annotation is a point of view. Different agents can specify different subj
 The simplest example consists in linking a resource for *human consumption*:
 
 {{{ 
- Example 1
+ # Example 1
 
  <http://www.example.org/annotation/10023> a ao:Annotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
@@ -39,7 +39,7 @@ The interpretation of the above statements is that the targeted image has the UR
 If the goal consists in linking a resource for *machine consumption* the above code would become something like:
 
 {{{ 
- Example 2
+ # Example 2
 
  <http://www.example.org/annotation/10023> a ao:Qualifier ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
