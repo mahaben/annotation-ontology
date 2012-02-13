@@ -27,7 +27,9 @@ Here is a very simple example in n3 format:
 
 The interpretation of the above set of triples is simple: the URI linked by the _ao:body_ is somehow about the resource identified by the URI {{{http://www.hcklab.org/images/people/paolo_ciccarese.jpg}}}
 
-*Note*: because of the body content is identified by a URI, it can be targeted by other annotations.
+*Notes*: 
+ * the body content, as it is identified by a URI, can be targeted by other annotations.
+ * it is not recommended for _ao:body_ to link a URI that identifies a RDF file unless such file is intended for human consumption only.
 
 === Note Body as a Document ===
 
