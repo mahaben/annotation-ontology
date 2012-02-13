@@ -96,66 +96,12 @@ The above annotation states that the graph _:graphExample_ is about the target i
 
 In the graphs it is possible to use any ontology of interest exactly as it would work without using Annotation Ontology.
 
-=== Note Body as a Document ===
+=== Other examples ===
 
-Excerpt from [v2Ex0033DocumentNoteOnDocument (ex0033)].
+ * Hypertextual note targeting an image [v2Ex0003NoteOnImage (ex0003)]
+ * Textual note targeting a document [v2Ex0004NoteOnDocument (ex0004)]
+ * Note Body as a Document [v2Ex0033DocumentNoteOnDocument (ex0033)]
+ * Annotation of Body Document [v2Ex0034DocumentNoteOnDocument (ex0034)]
+ * Annotation of Body Document Fragment [v2Ex0034DocumentNoteOnDocument (ex0034)]
 
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0033%20Document%20Note%20on%20document%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 3: a document (identified by a URL) note attached to a digital document identified by a URI. The nature of the annotation is defined through the type ao:Note._
 
-See [v2Ex0033DocumentNoteOnDocument (ex0033)] for the complete example.
-
-Because of the body is identified by a URI, it can be targeted by other annotations. 
-
-=== Annotation of Body Document ===
-
-Excerpt from [v2Ex0034DocumentNoteOnDocument (ex0034)]
-
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0034%20Annotation%20on%20Document%20Note%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 4: an annotation Note targeting the annotation body of another annotation Note._
-
-See [v2Ex0034DocumentNoteOnDocument (ex0034)] for the complete example.
-
-=== Annotation of Body Document Fragment ===
-
-Similarly, it is possible to annotate a fragment of the annotation body through an appropriate text selector.  
-
-Excerpt from [v2Ex0034DocumentNoteOnDocument (ex0034)]
-
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0034%20Annotation%20on%20fragment%20Document%20Note%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 5: an annotation Note targeting a fragment of the annotation body of another annotation Note._
-
-See [v2Ex0034DocumentNoteOnDocument (ex0034)] for the complete example.
-
-== Body as text/hypertext (Literal) ==
-
-The simpler case of body is when it is modeled as a text (or hypertext, or XML) into a property. No URI is defined for it.
-
-_*Note*: As no URI is defined for it, it will not be easy - still possible though - to target such body with another annotation._
-
-=== More Examples ===
-Textual note targeting a document [v2Ex0004NoteOnDocument (ex0004)].
-
-Hypertextual note targeting an image [v2Ex0003NoteOnImage (ex0003)].
-
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0003%20Note%20on%20image%20hypertext%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 2: a hypertext note attached to a digital image identified by a URI_
-
-The RDF of the example in figure 2 would look like the following: 
-
-{{{ 
-<rdf:Description rdf:about="http://my.example.org/ann/0003"> 
-   <rdf:type rdf:resource="&ao;Note"/> 
-   <!-- The following can be added for querying with SPARQL 
-   <rdf:type rdf:resource="&ao;Annotation"/> 
-   <rdf:type rdf:resource="&ann;Annotation"/> 
-   --> 
-   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
-   <ao:body>&lt;a href=&quot;http://en.wikipedia.org/wiki/Ogunquit,_Maine&quot;&gt;
-       Perkin's Cove, Ogunquit, Maine&lt;/a&gt;</ao:body> 
-   <pav:createdOn>2010-03-21</pav:createdOn> 
-   <pav:createdBy rdf:resource="http://www.paolociccarese.info#me"/> 
-</rdf:Description> 
-}}}
-
-See [v2Ex0003NoteOnImage (ex0003)] for the complete example.
