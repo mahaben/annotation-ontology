@@ -54,7 +54,7 @@ By changing the type of the annotation from _ao:Annotation_ to _ao:Qualifier_ th
 The above set of statements (Example 2) could be expressed in a less concise way with the construct _ao:GraphAnnotation_ and _ao:body_ and a graph such as:
 
 {{{
- # Alternative to Example 2
+ # Alternative to Example 2 (using ao:GraphAnnotation and ao:body)
 
  {
  <http://www.example.org/annotation/10023> a ao:GraphAnnotation ;
