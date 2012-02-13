@@ -16,7 +16,7 @@
 || _*ao:hasTopic*_ || The _ao:hasTopic_ property refers to a URI that identifies the he subject matter of the targeted resource.||
 
 *Note*
-Every annotation is a point of view. Different agents can specify different subject matters while referring to the same resource. This is a desired behavior as long as it is accompanied with proper provenance information. 
+Every annotation is a point of view. Different agents can specify different subject matters while referring to the same resource. Some subject matters can be semantically compatible, some others might be not. This is a desired behavior as long as it is accompanied with proper provenance information. 
 
 === Annotation topic for human consumption ===
 
