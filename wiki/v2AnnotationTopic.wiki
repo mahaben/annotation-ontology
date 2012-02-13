@@ -50,6 +50,8 @@ If the goal consists in linking a resource for *machine consumption* the above c
 
 By changing the type of the annotation from _ao:Annotation_ to _ao:Qualifier_ the above set of statements is stating that the linked image has a topic identified by {{{http://www.paolociccarese.info/foaf.rdf#me}}} and that can be interpreted by a machine - typically a RDF resource. When the machine reads the URI, it can potentially retrieve additional statements about it (see [http://linkeddata.org/ Linked Open Data]).
 
+[v2StructuredAnnotationQualifiers Additional resources on the advanced use of Qualifiers are here]
+
 *Note 2:*
 The above set of statements (Example 2) could be expressed in a less concise way with the construct _ao:GraphAnnotation_ and [v2AnnotationBody ao:body] and a graph such as:
 
