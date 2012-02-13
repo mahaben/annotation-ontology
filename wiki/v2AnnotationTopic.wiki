@@ -13,6 +13,6 @@
 
 == ao:body ==
 
-|| _*ao:hasTopic*_ || The _ao:hasTopic_ property links a URI as topic of the annotation. While ao:body is linking a textual/hypertextual or semi-structured document, ao:hasTopic is linking structured or semantically specified resources.||
+|| _*ao:hasTopic*_ || The _ao:hasTopic_ property refers to a URI with *content intended to be consumed by a machine*. Typically a semantically specified resource.||
 
 Examples of entities targeted by the _ao:hasTopic_ relationship are: URIs of terms from controlled vocabularies and ontologies, URIs of entities specified in structured knowledge bases.
