@@ -44,7 +44,7 @@ If the goal consists in linking a resource for *machine consumption* the above c
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
-By changing the type of the annotation from _ao:Annotation_ to _ao:Qualifier_ the above set of statements is stating that the linked image has a topic that can be interpreted by a machine - typically a RDF resource.
+By changing the type of the annotation from _ao:Annotation_ to _ao:Qualifier_ the above set of statements is stating that the linked image has a topic that can be interpreted by a machine - typically a RDF resource such as a term belonging to an ontology.
 
 *Note*
 Changing the annotation type of the previous set of statements back to _ao:Annotation_ will have the result of referring to an RDF file that has to be intended for human consumption:
@@ -56,5 +56,3 @@ Changing the annotation type of the previous set of statements back to _ao:Annot
     pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
-
-Examples of entities targeted by the _ao:hasTopic_ relationship are: URIs of terms from controlled vocabularies and ontologies, URIs of entities specified in structured knowledge bases.
