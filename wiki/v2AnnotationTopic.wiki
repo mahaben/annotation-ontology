@@ -62,9 +62,7 @@ The above set of statements could be expressed in a less concise way with the co
 }
 }}}
 
-This approach is more powerful and flexible but less concise and usually more complicated for applications to take care of. 
-
-
+This approach is more powerful and flexible but less concise and usually more complicated for applications to take care of. The construct _ao:Qualifier_ and _ao:hasTopic_ can be considered a short-cut.
 
 *Note:*
 Changing the annotation type of the previous set of statements back to _ao:Annotation_ will have the result of referring to an RDF file that has to be intended for human consumption: 
