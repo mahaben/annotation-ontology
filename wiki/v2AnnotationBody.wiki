@@ -17,7 +17,7 @@
 
 === Body content as Literals ===
 
-The simpler case of _ao:body_ is when it is modeled as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal] ([http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-plain-literal plain] or [http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-typed-literal typed]). As such, no URI is defined for it.
+The simpler case of _ao:body_ is when it is modeled as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal] ([http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-plain-literal plain] or [http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-typed-literal typed]). As we are talking about a Literal, no URI is defined for it.
 
 Here is a very simple example in n3 format:
 
@@ -103,5 +103,3 @@ In the graphs it is possible to use any ontology of interest exactly as it would
  * Note Body as a Document [v2Ex0033DocumentNoteOnDocument (ex0033)]
  * Annotation of Body Document [v2Ex0034DocumentNoteOnDocument (ex0034)]
  * Annotation of Body Document Fragment [v2Ex0034DocumentNoteOnDocument (ex0034)]
-
-
