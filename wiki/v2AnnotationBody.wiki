@@ -30,6 +30,7 @@ Here is a very simple example in n3 format:
     pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/Annotation%20using%20body%20with%20literals%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 
 The interpretation of the above set of triples is simple: the textual body "Domeo Annotation Toolkit homepage" is somehow about the resource identified by the URI http://annotationframework.org.
 
