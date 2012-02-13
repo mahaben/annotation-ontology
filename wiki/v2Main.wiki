@@ -19,6 +19,8 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
     * [v2Selectors Target Resources and Resource Selectors] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2AnnotationCore Annotation Core] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
       * [v2AnnotationBody Annotation Body (ao:body)] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
+         *[v2AnnotationBodyAsLiterals Body as Literals] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
+         *[v2AnnotationBodyAsResource Body as Resource identified by a URI] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
       * [v2AnnotationTopic Annotation Topic (ao:hasTopic)] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2AnnotationTypes Annotation Types] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
   * *[v2ByExamples Learn Annotation Ontology (v.2) basics by examples]*
