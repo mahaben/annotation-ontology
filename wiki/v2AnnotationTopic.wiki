@@ -57,4 +57,4 @@ Changing the annotation type of the previous set of statements back to _ao:Annot
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
-Using the _ao:Annotation_ with _ao:hasTopic_ is equivalent to define a topic in a less formal way as the interpretation of the annotation is left to humans.
+Using the _ao:Annotation_ with _ao:hasTopic_ is equivalent to define a topic in a less formal way as the interpretation of the annotation is left to the human agent.
