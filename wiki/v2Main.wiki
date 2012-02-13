@@ -11,8 +11,6 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
   * *[v2Introduction Introduction]*
     * [v2DesignPrinciples Design Principles]
     * [v2ContentImprovement Support for Content Improvement]
-    * [v2Ecosystem Ecosystem]
-    * [v2HowToContribute How To Contribute]
   * *[v2UnderstandingAO Understanding Annotation Ontology v.2]*
     * [v2SimpleOverview A Simple Overview] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2Namespaces Architecture and Namespaces] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
