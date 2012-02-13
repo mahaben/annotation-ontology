@@ -7,7 +7,7 @@
 Annotation Ontology works around a handful of classes and properties:
 
  * ao:Annotation is the superclass of every annotation class.
- * ao:annotatesResource identifies the target of the annotation.
+ * ao:annotatesResource identifies the target of the annotation
  * [v2AnnotationBody ao:body] identifies some content that is somehow about the annotated resource. 
  * [v2AnnotationTopic ao:hasTopic] refers to a URI that identifies the he subject matter of the targeted resource. 
 
