@@ -57,7 +57,7 @@ The interpretation of the above set of triples is simple: the URI linked by the 
 
 == Body as a Named Graph ==
 
-When the annotation content about a resource is described by a set of triples, it is recommended to collect them in a Named Graph and to refers to them. This is the case of the following example in TriG format:
+When the annotation content about a resource is described by a set of triples, it is recommended to collect them in a Named Graph and to refers to them. This is the case of the following example in [http://www4.wiwiss.fu-berlin.de/bizer/trig/ TriG format]:
 
 {{{ 
 
@@ -68,6 +68,18 @@ When the annotation content about a resource is described by a set of triples, i
     pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }
+
+:graphExample {
+    <http://www.paolociccarese.info/foaf.rdf#me> a foaf:Person ;
+        foaf:name "Paolo Ciccarese" ;
+        foaf:homepage "http://www.paolociccarese.info/" .
+}
+
+}}}
+
+The above annotation states that the graph _:graphExample_ is about the target image. The graph is intended for machine consumption. It is possible to be more specific by stating, in the graph, a more specific relationship of the _foaf:Person_ with the image as follows:
+
+{{{
 
 :graphExample {
     <http://www.paolociccarese.info/foaf.rdf#me> a foaf:Person ;
