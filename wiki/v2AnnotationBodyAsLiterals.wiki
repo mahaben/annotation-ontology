@@ -27,9 +27,10 @@ Here is a very simple example in n3 format:
 
 The interpretation of the above set of triples is simple: the textual body "Domeo Annotation Toolkit homepage" is somehow about the resource identified by the URI http://annotationframework.org.
 
-*Note*: This solution is very simple to implement, however, as no URI is defined for the body content, it will not be possible to directly refer to it or target it with another annotation.
+*Notes*:
+ * This solution is very simple to implement, however, as no URI is defined for the body content, it will not be possible to directly refer to it or target it with another annotation.
 
-*Note*: It is not recommended to serialize RDF content as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], a more appropriate representation is available for this specific use case.
+ * It is not recommended to serialize RDF content as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], a more appropriate representation is available for this specific use case.
 
 
 ===  Textual note targeting a document ===
