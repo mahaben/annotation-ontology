@@ -14,6 +14,8 @@ Here is a very simple example in n3 format:
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
+The interpretation of the above set of triples is simple: the textual body "Domeo Annotation Toolkit homepage" is somehow about the resource identified by the URI http://annotationframework.org.
+
 *Note*: This solution is certainly very simple to implement, however, as no URI is defined for the body content, it will not be possible to directly refer to it or target it with another annotation.
 
 
