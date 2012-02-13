@@ -54,7 +54,17 @@ By changing the type of the annotation from _ao:Annotation_ to _ao:Qualifier_ th
 The above set of statements (Example 2) could be expressed in a less concise way with the construct _ao:GraphAnnotation_ and _ao:body_ and a graph such as:
 
 {{{
-:graphExample {
+ # Alternative to Example 2
+
+ {
+ <http://www.example.org/annotation/10023> a ao:GraphAnnotation ;
+    ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
+    ao:body :graphExample  ;
+    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+ }
+
+ :graphExample {
     <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> a foaf:Image .
 
     <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> foaf:depicts 
@@ -63,7 +73,7 @@ The above set of statements (Example 2) could be expressed in a less concise way
     <http://www.paolociccarese.info/foaf.rdf#me> a foaf:Person ;
         foaf:name "Paolo Ciccarese" ;
         foaf:homepage "http://www.paolociccarese.info/" .
-}
+ }
 }}}
 
 This approach is more powerful and flexible but less concise and usually more complicated for applications to take care of. The construct _ao:Qualifier_ and _ao:hasTopic_ can be considered a short-cut.
