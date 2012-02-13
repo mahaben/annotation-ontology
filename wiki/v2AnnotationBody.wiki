@@ -55,12 +55,6 @@ The interpretation of the above set of triples is simple: the URI linked by the 
  * the body content, as it is identified by a URI, can be targeted by other annotations.
  * it is not recommended for _ao:body_ to link a URI that identifies a RDF file or a Named Graph unless such file is intended for human consumption only.
 
-== Body as resource (Identified by URI) ==
-
-The body can be modeled as a resolvable entity of its own identified by a URI. Such body can be better detailed with metadata such as properties specifying authors, character encoding and format.
-
-_*Note*: because of the body is identified by a URI, it can be targeted by other annotations._
-
 == Body as a Named Graph ==
 
 When the annotation content about a resource is described by a set of triples, it is recommended to collect them in a Named Graph and to refers to them in TriG format as follows:
