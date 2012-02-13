@@ -15,9 +15,45 @@
 
 || _*ao:body*_ || The _ao:body_ property identifies some content that is somehow about the annotated resource. || 
 
-The _ao:body_ content can be: 
- * [v2AnnotationBodyAsLiterals simple text/hypertext] ([http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal])
- * [v2AnnotationBodyAsResource a resource identified by a URI] (such as an HTML document available online). 
+=== Body content as Literals ===
+
+The simpler case of _ao:body_ is when it is modeled as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal] ([http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-plain-literal plain] or [http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-typed-literal typed]). As such, no URI is defined for it.
+
+Here is a very simple example in n3 format:
+
+{{{ 
+ <http://www.example.org/annotation/10022> a ao:Annotation ;
+    ao:annotatesResource <http://annotationframework.org> ;
+    ao:body "Domeo Annotation Toolkit homepage"@en ;
+    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+}}}
+
+The interpretation of the above set of triples is simple: the textual body "Domeo Annotation Toolkit homepage" is somehow about the resource identified by the URI http://annotationframework.org.
+
+*Notes*:
+ * This solution is very simple to implement, however, as no URI is defined for the body content, it will not be possible to directly refer to it or target it with another annotation.
+ * It is not recommended to serialize RDF content as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], a more appropriate representation is available for this specific use case.
+
+=== Body as resource identified by URI ===
+
+In alternative to [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], the _ao:body_ can be modeled as a resolvable entity of its own identified by a URI. Such body can be better detailed with metadata such as properties specifying authors, character encoding and format. 
+
+Here is a very simple example in n3 format:
+
+{{{ 
+ <http://www.example.org/annotation/10022> a ao:Annotation ;
+    ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
+    ao:body <http://www.paolociccarese.info/> ;
+    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+}}}
+
+The interpretation of the above set of triples is simple: the URI linked by the _ao:body_ is somehow about the resource identified by the URI {{{http://www.hcklab.org/images/people/paolo_ciccarese.jpg}}}
+
+*Notes*: 
+ * the body content, as it is identified by a URI, can be targeted by other annotations.
+ * it is not recommended for _ao:body_ to link a URI that identifies a RDF file or a Named Graph unless such file is intended for human consumption only.
 
 == Body as resource (Identified by URI) ==
 
