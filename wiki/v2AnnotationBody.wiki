@@ -13,7 +13,7 @@
 
 == ao:body ==
 
-|| _*ao:body*_ || The _ao:body_ property identifies the *human understandable content* of the annotation. The body is somehow about the annotated resource. || 
+|| _*ao:body*_ || The _ao:body_ property identifies *annotation content intended for a human audience*. The body is somehow about the annotated resource. || 
 
 The _ao:body_ content can be: 
  * [v2AnnotationBodyAsLiterals simple text/hypertext] ([http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal])
