@@ -82,6 +82,8 @@ This approach is more powerful and flexible but less concise and usually more co
 Changing the annotation type of Example 2 back to _ao:Annotation_ will have the result of referring to an RDF file that has to be intended for human consumption: 
 
 {{{ 
+ # Alternative to Example 2 (ao:Annotation instead of ao:Qualifier)
+
  <http://www.example.org/annotation/10023> a ao:Annotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:hasTopic <http://www.paolociccarese.info/foaf.rdf#me>  ;
