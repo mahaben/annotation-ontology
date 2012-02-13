@@ -47,7 +47,7 @@ Here is a very simple example in n3 format:
 {{{ 
  # Example 2
 
- <http://www.example.org/annotation/10022> a ao:Annotation ;
+ <http://www.example.org/annotation/10023> a ao:Annotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:body <http://www.paolociccarese.info/> ;
     pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
@@ -68,7 +68,7 @@ When the annotation content is intended for machines and is described by a set o
  # Example 3
 
 {
- <http://www.example.org/annotation/10022> a ao:GraphAnnotation ;
+ <http://www.example.org/annotation/10024> a ao:GraphAnnotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:body :graphExample ;
     pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
