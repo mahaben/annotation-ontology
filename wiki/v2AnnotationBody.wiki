@@ -94,7 +94,7 @@ The above annotation states that the graph _:graphExample_ is about the target i
 
 }}}
 
-
+In the graphs it is possible to use any ontology of interest exactly as it would work without using Annotation Ontology.
 
 === Note Body as a Document ===
 
