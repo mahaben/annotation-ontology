@@ -11,8 +11,32 @@
 </tr>
 </table>
 
-== ao:body ==
+== ao:hasTopic ==
 
-|| _*ao:hasTopic*_ || The _ao:hasTopic_ property refers to a URI with *content intended to be consumed by a machine*. Typically a semantically specified resource.||
+|| _*ao:hasTopic*_ || The _ao:hasTopic_ property refers to a URI that describe the nature of the targeted resource.||
+
+The simplest example making use of the _ao:hasTopic_ property is the following:
+
+{{{ 
+ <http://www.example.org/annotation/10023> a ao:Annotation ;
+    ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
+    ao:hasTopic <http://www.paolociccarese.info/>  ;
+    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+}}}
+
+The interpretation of the above statements is that the targeted image has the URI {{{http://www.paolociccarese.info/}}} - which would be possible to infer being a foaf:Person - as its topic. As you can easily verify, the URI {{{http://www.paolociccarese.info/}}} points to an HTML document, which has been created for human consumption.
+
+If the goal consists in linking a resource for machine consumption the above code would become something like:
+
+{{{ 
+ <http://www.example.org/annotation/10023> a ao:Qualifier ;
+    ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
+    ao:hasTopic <http://www.paolociccarese.info/foaf.rdf#me>  ;
+    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+}}}
+
+with *content intended to be consumed by a machine*. Typically a semantically specified resource.
 
 Examples of entities targeted by the _ao:hasTopic_ relationship are: URIs of terms from controlled vocabularies and ontologies, URIs of entities specified in structured knowledge bases.
