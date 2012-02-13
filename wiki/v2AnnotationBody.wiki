@@ -98,33 +98,10 @@ The simpler case of body is when it is modeled as a text (or hypertext, or XML) 
 
 _*Note*: As no URI is defined for it, it will not be easy - still possible though - to target such body with another annotation._
 
-===  Textual note targeting a document ===
+=== More Examples ===
+Textual note targeting a document [v2Ex0004NoteOnDocument (ex0004)].
 
-Excerpt from [v2Ex0004NoteOnDocument (ex0004)].
-
-[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0004%20Note%20on%20document%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
-_Figure 1: a (free text) note attached to a digital document identified by a URI. The nature of the annotation is defined through the type ao:Note._
-
-The RDF of the example in figure 1 would look like the following: 
-
-{{{ 
-<rdf:Description rdf:about="http://my.example.org/ann/0004"> 
-   <rdf:type rdf:resource="&ao;Note"/> 
-   <!-- The following can be added for querying with SPARQL 
-   <rdf:type rdf:resource="&ao;Annotation"/> 
-   <rdf:type rdf:resource="&ann;Annotation"/> 
-   --> 
-   <ao:annotatesResource rdf:resource="http://tinyurl.com/3ecvhzu"/> 
-   <ao:body>This article explains the rationale behind the architectural
-     design of the Annotation Ontology </ao:body> 
-</rdf:Description> 
-}}}
-
-See [v2Ex0004NoteOnDocument (ex0004)] for the complete example.
-
-===  Hypertextual note targeting an image ===
-
-Excerpt from [v2Ex0003NoteOnImage (ex0003)].
+Hypertextual note targeting an image [v2Ex0003NoteOnImage (ex0003)].
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0003%20Note%20on%20image%20hypertext%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 2: a hypertext note attached to a digital image identified by a URI_
