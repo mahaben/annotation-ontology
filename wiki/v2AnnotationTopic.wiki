@@ -18,7 +18,7 @@
 *Note 1:*
 Every annotation is a point of view. Different agents can specify different subject matters while referring to the same resource. Some subject matters can be semantically compatible, some others might be not. This is a desired behavior as long as it is accompanied with proper provenance information. 
 
-=== Annotation topics for human consumption ===
+=== General annotation topics ===
 
 The simplest example consists in linking a resource as follow:
 
@@ -34,7 +34,7 @@ The simplest example consists in linking a resource as follow:
 
 The interpretation of the above statements is that the targeted image has a topic defined by the URI {{{http://www.paolociccarese.info/}}}. As you can easily verify, the URI {{{http://www.paolociccarese.info/}}} points to an HTML document, in general, when using the combination _ao:Annotation_ and _ao:hasTopic_, there is no expectation on the nature of the content.
 
-=== Annotation topics for machine consumption ===
+=== Machine readable annotation topics ===
 
 By using the annotation type _ao:Qualifier_ and the relationship _ao:hasTopic_ linking a URI, the expectation is to be able, through such URI, to retrieve information that can be read automatically by machines. This URIs can refer to terms belonging to ontologies or to structured data published according to the [http://linkeddata.org/ Linked Open Data] method. 
 
