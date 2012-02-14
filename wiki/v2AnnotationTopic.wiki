@@ -36,7 +36,7 @@ The interpretation of the above statements is that the targeted image has the UR
 
 === Annotation topics for machine consumption ===
 
-If the goal consists in linking a resource that has a clear semantic connotation - can lead to retrieval of triples - we can use the annotation type _ao:Qualifier_:
+By using the annotation type _ao:Qualifier_ and the relationship _ao:hasTopic_, the expectation is to link a URI allowing to retrieve information that can be read automatically by machines. This URIs can refer to terms belonging to ontologies or to structured data published according to the [http://linkeddata.org/ Linked Open Data] method. 
 
 {{{ 
  # Example 2
