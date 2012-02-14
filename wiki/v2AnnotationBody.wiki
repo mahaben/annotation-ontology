@@ -38,7 +38,7 @@ The interpretation of the above set of triples is simple: the textual body "Dome
  * This solution is very simple to implement, however, as no URI is defined for the body content, it will not be possible to directly refer to it or target it with another annotation.
  * It is not recommended to serialize RDF content as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], a more appropriate representation is available for this specific use case and makes use of Named Graphs with the annotation type _ao:GraphAnnotation_.
 
-== Body textual content expressed in RDF ===
+== Body as resource identified by URNs (inline content) ===
 
 In order to be able to specify textual content taking into account formats and encoding, it is possible to refer to the [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0] W3C Working Draft. The previous example will become:
 
