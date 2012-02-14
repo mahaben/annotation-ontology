@@ -19,7 +19,7 @@
 
 The simplest case of _ao:body_ is when it is modeled as a [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal] ([http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-plain-literal plain] or [http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#dfn-typed-literal typed]). As we are talking about a Literal, no URI is defined for it.
 
-Here is a very simple example in n3 format:
+Here is a very simple example in [http://www.w3.org/TeamSubmission/n3/ Notation3 (N3)]:
 
 {{{ 
  # Example 1
