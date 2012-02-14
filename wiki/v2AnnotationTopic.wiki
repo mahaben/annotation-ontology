@@ -36,7 +36,7 @@ The interpretation of the above statements is that the targeted image has a topi
 
 === Annotation topics for machine consumption ===
 
-By using the annotation type _ao:Qualifier_ and the relationship _ao:hasTopic_, the expectation is to link a URI allowing to retrieve information that can be read automatically by machines. This URIs can refer to terms belonging to ontologies or to structured data published according to the [http://linkeddata.org/ Linked Open Data] method. 
+By using the annotation type _ao:Qualifier_ and the relationship _ao:hasTopic_ linking a URI, the expectation is to be able, through such URI, to retrieve information that can be read automatically by machines. This URIs can refer to terms belonging to ontologies or to structured data published according to the [http://linkeddata.org/ Linked Open Data] method. 
 
 {{{ 
  # Example 2
