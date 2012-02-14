@@ -59,7 +59,7 @@ URNs can be used to identify the body. A URN only defines a name, it provides no
     
 }}}
 
-Here is a another simple example in n3 format where the URN has been replaced by a resolvable URI:
+Here is a another simple example in n3 format where the URN has been replaced by a dereferenceable URI (a resource retrieval mechanism that uses any of the internet protocols (e.g. HTTP) to obtain a copy or representation of the resource it identifies):
 
 {{{ 
  # Example 2
