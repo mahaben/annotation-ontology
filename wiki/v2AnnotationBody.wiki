@@ -59,9 +59,7 @@ URNs can be used to identify the body. A URN only defines a name, it provides no
     
 }}}
 
- Such body can be better detailed with metadata such as properties specifying authors, character encoding and format. 
-
-Here is a very simple example in n3 format:
+Here is a another simple example in n3 format where the URN has been replaced by a resolvable URI:
 
 {{{ 
  # Example 2
@@ -76,7 +74,7 @@ Here is a very simple example in n3 format:
 The interpretation of the above set of triples is simple: the URI linked by the _ao:body_ is somehow about the resource identified by the URI {{{http://www.hcklab.org/images/people/paolo_ciccarese.jpg}}}
 
 *Notes*: 
- * the body content, as it is identified by a URI, can be targeted by other annotations.
+ * the body content, as it is identified by a resolvable URI, it can be published and can be easily targeted by other annotations.
  * it is not recommended using _ao:Annotation_ with _ao:body_ linking a URI that identifies a RDF file or a Named Graph unless such file is intended for human consumption only.
 
 == Body as a Named Graph ==
