@@ -42,10 +42,10 @@ The interpretation of the above set of triples is simple: the textual body "Dome
 
 In alternative to [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], the _ao:body_ can be modeled as an entity of its own identified by a URI. This would allow to specify the content along with formats and encoding, for instance through the W3C Working Draft [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0]. 
 
-Here is a another simple example in n3 format where the URN has been replaced by a dereferenceable URI (a resource retrieval mechanism that uses any of the internet protocols (e.g. HTTP) to obtain a copy or representation of the resource it identifies):
+Here is a simple example in n3 format where the the body is identified by a dereferenceable URI (a resource retrieval mechanism that uses any of the internet protocols - e.g. HTTP -  to obtain a copy or representation of the resource it identifies):
 
 {{{ 
- # Example 1
+ # Example 1: body identified by dereferenceable URI
 
  <http://www.example.org/annotation/10023> a ao:Annotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
