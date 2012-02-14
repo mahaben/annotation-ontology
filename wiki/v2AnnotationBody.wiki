@@ -40,7 +40,25 @@ The interpretation of the above set of triples is simple: the textual body "Dome
 
 == Body textual content expressed in RDF ===
 
-In order to be able to specify textual content taking into account formats and encoding, it is possible to refer to the [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0] W3C Working Draft.
+In order to be able to specify textual content taking into account formats and encoding, it is possible to refer to the [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0] W3C Working Draft. The previous example will become:
+
+{{{ 
+ # Example 2
+
+ <http://www.example.org/annotation/10022> a ao:Annotation ;
+    ao:annotatesResource <http://annotationframework.org> ;
+    ao:body ex:uuid ;
+    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+
+ ex:uuid a cnt:ContentAsText ;
+    cnt:characterEncoding "utf-8" ;
+    cnt:char "Domeo Annotation Toolkit homepage" .
+    
+}}}
+
+With this approach is possible to use not resolvable URNs as identifiers.
+
 
 == Body as resource identified by URI ==
 
