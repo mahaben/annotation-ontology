@@ -57,7 +57,7 @@ In order to be able to specify textual content taking into account formats and e
     
 }}}
 
-In alternative, resolvable URIs can be used as well.
+In alternative, resolvable URIs can be used (see following section).
 
 
 
