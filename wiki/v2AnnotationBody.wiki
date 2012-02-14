@@ -64,7 +64,7 @@ The interpretation of the above set of triples is simple: the URI linked by the 
 
 === Body identified by URNs ===
 
-URNs can also be used to identify the body. This would allow to specify the content along with formats and encoding, for instance through the W3C Working Draft [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0]. A URN only defines a name, it provides no details about how to get the resource over a network. For locating the resource it is necessary to resort to a resolver.
+URNs can also be used to identify the body. This would allow to specify the content along with formats and encoding, for instance through the W3C Working Draft [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0]. 
 
 {{{ 
  # Example 2: URN as body content identifier
@@ -82,6 +82,7 @@ URNs can also be used to identify the body. This would allow to specify the cont
 }}}
 
 *Notes*: 
+ * a URN only defines a name, it provides no details about how to get the resource over a network. For locating the resource it is necessary to resort to a resolver.
  * it is not recommended to serialize RDF with this mechanism as it would make it opaque to SPARQL queries. For embedding RDF in the body, see the next section.
 
 == Body as a Named Graph ==
