@@ -57,9 +57,7 @@ In order to be able to specify inline textual content taking into account format
     
 }}}
 
-In alternative, resolvable URIs can be used (see following section).
-
-
+A URN only defines a name, it provides no details about how to get the resource over a network. In alternative, resolvable URIs can be used (see following section).
 
 == Body as resource identified by URI ==
 
