@@ -47,16 +47,17 @@ In order to be able to specify textual content taking into account formats and e
 
  <http://www.example.org/annotation/10022> a ao:Annotation ;
     ao:annotatesResource <http://annotationframework.org> ;
-    ao:body ex:uuid ;
+    ao:body <urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66> ;
     pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 
- ex:uuid a cnt:ContentAsText ;
+ <urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66> a cnt:ContentAsText ;
     cnt:characterEncoding "utf-8" ;
     cnt:char "Domeo Annotation Toolkit homepage" .
     
 }}}
 
+In alternative, resolvable URIs can be used as well.
 
 
 
