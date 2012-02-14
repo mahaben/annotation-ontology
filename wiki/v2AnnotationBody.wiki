@@ -40,11 +40,11 @@ The interpretation of the above set of triples is simple: the textual body "Dome
 
 == Body as resource identified by URI ==
 
-In alternative to [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], the _ao:body_ can be modeled as an entity of its own identified by a URI. This would allow to specify the content along with formats and encoding, for instance through the W3C Working Draft [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0]. 
+In alternative to [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], the _ao:body_ can be modeled as an entity of its own identified by a URI. 
 
 === Body identified by dereferenceable URIs ===
 
-Here is a simple example in n3 format where the the body is identified by a dereferenceable URI (a resource retrieval mechanism that uses any of the internet protocols - e.g. HTTP -  to obtain a copy or representation of the resource it identifies):
+Here is a simple example in n3 format where the the body is identified by a dereferenceable URI, a resource retrieval mechanism that uses any of the internet protocols - e.g. HTTP -  to obtain a copy or representation of the resource it identifies:
 
 {{{ 
  # Example 1: body identified by dereferenceable URI
@@ -64,7 +64,7 @@ The interpretation of the above set of triples is simple: the URI linked by the 
 
 === Body identified by URNs ===
 
-URNs can also be used to identify the body. A URN only defines a name, it provides no details about how to get the resource over a network. For locating the resource it is necessary to resort to a resolver.
+URNs can also be used to identify the body. This would allow to specify the content along with formats and encoding, for instance through the W3C Working Draft [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0]. A URN only defines a name, it provides no details about how to get the resource over a network. For locating the resource it is necessary to resort to a resolver.
 
 {{{ 
  # Example 2: URN as body content identifier
