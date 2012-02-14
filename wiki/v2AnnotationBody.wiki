@@ -42,7 +42,7 @@ The interpretation of the above set of triples is simple: the textual body "Dome
 
 In alternative to [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], the _ao:body_ can be modeled as an entity of its own identified by a URI. This would allow to specify the content along with formats and encoding, for instance through the W3C Working Draft [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0]. 
 
-URNs can be used to identify the body. A URN only defines a name, it provides no details about how to get the resource over a network. For locating the resource a resolver is necessary.
+URNs can be used to identify the body. A URN only defines a name, it provides no details about how to get the resource over a network. For locating the resource it is necessary to resort to a resolver.
 
 {{{ 
  # Example 2: URN as body content identifier
@@ -71,10 +71,10 @@ Here is a another simple example in n3 format where the URN has been replaced by
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
-The interpretation of the above set of triples is simple: the URI linked by the _ao:body_ is a document about the resource identified by the URI {{{http://www.hcklab.org/images/people/paolo_ciccarese.jpg}}}
+The interpretation of the above set of triples is simple: the URI linked by the _ao:body_ is a representation about the resource identified by the URI {{{http://www.hcklab.org/images/people/paolo_ciccarese.jpg}}}
 
 *Notes*: 
- * the body content, as it is identified by a resolvable URI, can be published and can be easily targeted by external annotations.
+ * the body content, as it is identified by a resolvable URI, can be published and can be target for external annotations.
  * it is not recommended using _ao:Annotation_ with _ao:body_ linking a URI that identifies a RDF file or a Named Graph unless such file is intended for human consumption only.
 
 == Body as a Named Graph ==
