@@ -111,7 +111,7 @@ When the annotation content is intended for machines and is described by a set o
 The above annotation states that the graph _:graphExample_ is about the target image. The graph is usually intended for machine consumption and it is possible to be more specific by stating, in the graph, a more specific relationship of the _foaf:Person_ with the image as follows:
 
 {{{
- # Graph alternative for Example 3 
+ # Graph alternative for Example 4 
 
 :graphExample {
     <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> a foaf:Image .
