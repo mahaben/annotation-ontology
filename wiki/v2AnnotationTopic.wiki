@@ -20,7 +20,7 @@ Every annotation is a point of view. Different agents can specify different subj
 
 === Annotation topics for human consumption ===
 
-The simplest example consists in linking a resource for *human consumption*:
+The simplest example consists in linking a resource as follow:
 
 {{{ 
  # Example 1
@@ -32,11 +32,11 @@ The simplest example consists in linking a resource for *human consumption*:
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
-The interpretation of the above statements is that the targeted image has the URI {{{http://www.paolociccarese.info/}}} - which would be possible to infer being a foaf:Person - as its topic. As you can easily verify, the URI {{{http://www.paolociccarese.info/}}} points to an HTML document, which has been created for human consumption.
+The interpretation of the above statements is that the targeted image has the URI {{{http://www.paolociccarese.info/}}} - which would be possible to infer being a foaf:Person - as its topic. As you can easily verify, the URI {{{http://www.paolociccarese.info/}}} points to an HTML document, which is usually - not always - conceived for human consumption.
 
 === Annotation topics for machine consumption ===
 
-If the goal consists in linking a resource for *machine consumption* the above code would become something like:
+If the goal consists in linking a resource that has a clear semantic connotation - can lead to retrieval of triples - we can use the annotation type _ao:Qualifier_:
 
 {{{ 
  # Example 2
@@ -78,7 +78,7 @@ The above set of statements (Example 2) could be expressed in a less concise way
  }
 }}}
 
-This approach is more powerful and flexible but less concise and usually more complicated for applications to take care of. The construct _ao:Qualifier_ and _ao:hasTopic_ can be considered a short-cut.
+This approach is more powerful and flexible. In fact, it is possible to use any domain ontology for defining the relationships - in the above example _foaf:depicts_ - instead of the standard _ao:hasTopic_. However, this method less concise and usually more complicated for applications to take care of. The construct _ao:Qualifier_ and _ao:hasTopic_ can be considered a short-cut.
 
 *Note 3:*
 Changing the annotation type of Example 2 back to _ao:Annotation_ is equivalent to referring, for the topic of the target, to an RDF file that has to be intended for human consumption (for a machine it is equivalent to set the topic to an HTML page): 
