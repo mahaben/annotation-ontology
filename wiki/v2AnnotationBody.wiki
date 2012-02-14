@@ -42,7 +42,7 @@ The interpretation of the above set of triples is simple: the textual body "Dome
 
 In alternative to [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], the _ao:body_ can be modeled as an entity of its own identified by a URI. This would allow to specify the content along with formats and encoding, for instance through the W3C Working Draft [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0]. 
 
-=== Dereferenceable URI ===
+=== Body identified by dereferenceable URIs ===
 
 Here is a simple example in n3 format where the the body is identified by a dereferenceable URI (a resource retrieval mechanism that uses any of the internet protocols - e.g. HTTP -  to obtain a copy or representation of the resource it identifies):
 
@@ -62,7 +62,7 @@ The interpretation of the above set of triples is simple: the URI linked by the 
  * as it is identified by a resolvable URI, the body content can be published on the web and can be target for external annotations.
  * by using _ao:Annotation_ and _ao:body_ no particular assumption has been made in regards to the nature of the underlying represenation.
 
-=== URNs ===
+=== Body identified by URNs ===
 
 URNs can also be used to identify the body. A URN only defines a name, it provides no details about how to get the resource over a network. For locating the resource it is necessary to resort to a resolver.
 
