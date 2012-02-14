@@ -42,13 +42,13 @@ By using the annotation type _ao:Qualifier_ and the relationship _ao:hasTopic_ l
  # Example 2
 
  <http://www.example.org/annotation/10023> a ao:Qualifier ;
-    ao:annotatesResource <http://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Paris_Night.jpg/800px-Paris_Night.jpg> ;
+    ao:annotatesResource <http://alturl.com/t9yo7> ;
     ao:hasTopic <http://dbpedia.org/page/Paris>  ;
     pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
-By changing the type of the annotation from _ao:Annotation_ to _ao:Qualifier_ the above set of statements is stating that the linked image has a topic identified by the DBpedia entry {{{http://dbpedia.org/page/Paris}}} that can be also consumed by a machine. When the machine reads the URI, it can potentially retrieve additional statements about it (see [http://linkeddata.org/ Linked Open Data]).
+By changing the type of the annotation from _ao:Annotation_ to _ao:Qualifier_ the above set of statements is stating that the linked image has a topic identified by the DBpedia entry {{{http://dbpedia.org/page/Paris}}} that can be consumed by a machine. When the machine reads the URI, it can potentially retrieve additional statements about it (see [http://linkeddata.org/ Linked Open Data]).
 
 See also [v2StructuredAnnotationQualifiers Additional resources on the advanced use of Qualifiers]
 
