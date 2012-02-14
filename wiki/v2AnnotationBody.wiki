@@ -22,7 +22,7 @@ The simplest case of _ao:body_ is when it is modeled as a [http://www.w3.org/TR/
 Here is a very simple example in [http://www.w3.org/TeamSubmission/n3/ Notation3 (N3)]:
 
 {{{ 
- # Example 1
+ # Example 1: body as literals
 
  <http://www.example.org/annotation/10022> a ao:Annotation ;
     ao:annotatesResource <http://annotationframework.org> ;
@@ -47,7 +47,7 @@ In alternative to [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], th
 Here is a simple example in [http://www.w3.org/TeamSubmission/n3/ Notation3 (N3)] where the the body is identified by a dereferenceable URI, a resource retrieval mechanism that uses any of the internet protocols - e.g. HTTP -  to obtain a copy or representation of the resource it identifies:
 
 {{{ 
- # Example 1: body identified by dereferenceable URI
+ # Example 2: body identified by dereferenceable URI
 
  <http://www.example.org/annotation/10023> a ao:Annotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
@@ -67,7 +67,7 @@ The interpretation of the above set of triples is simple: the URI linked by the 
 URNs can also be used to identify the body. This would allow to specify inline content along with formats and encoding, for instance through the W3C Working Draft [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0]. 
 
 {{{ 
- # Example 2: URN as body content identifier
+ # Example 3: URN as body content identifier
 
  <http://www.example.org/annotation/10022> a ao:Annotation ;
     ao:annotatesResource <http://annotationframework.org> ;
@@ -90,7 +90,7 @@ URNs can also be used to identify the body. This would allow to specify inline c
 When the annotation content is intended for machines and is described by a set of triples about a resource, it is recommended to collect them in a [http://www.w3.org/2004/03/trix/ Named Graph] and to refers to them. This is the case of the following example in [http://www4.wiwiss.fu-berlin.de/bizer/trig/ TriG format]:
 
 {{{ 
- # Example 3
+ # Example 4
 
 {
  <http://www.example.org/annotation/10024> a ao:GraphAnnotation ;
