@@ -1,6 +1,15 @@
 #summary Identifying resource fragments through Selectors
 
-[v2Main << Back to Main]
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
 
 === What is a Selector ===
 A *Selector* identifies a portion of a resource, and may work differently for different types of documents and content types. Also, for a specific content type, multiple kind of selector can be defined to cover specific needs. The _Selector_ instance for a specific _Annotation_ instance is specified through the property _ao:context_. 
