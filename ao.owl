@@ -12,6 +12,7 @@
     <!ENTITY ans  "http://www.w3.org/2000/10/annotation-ns#" >
     <!ENTITY bkm  "http://www.w3.org/2002/01/bookmark#" >
     <!ENTITY pav  "http://purl.org/pav/">
+    <!ENTITY rdfg "http://www.w3.org/2004/03/trix/rdfg-1/">
     
     <!-- Main namespace -->
     <!ENTITY annotation "http://purl.org/ao/" >
@@ -20,6 +21,7 @@
 <rdf:RDF
     xml:base="&annotation;"
     xmlns="&annotation;"
+    xmlns:rdfg="&rdfg;"
     xmlns:pav="&pav;"
     xmlns:rdfs="&rdfs;"
     xmlns:owl="&owl;"
@@ -99,7 +101,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&pav;createdBy"/>
-                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
 		
@@ -107,7 +109,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&pav;createdOn"/>
-                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
         
@@ -174,7 +176,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&pav;createdBy"/>
-                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>	
 		
@@ -182,7 +184,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&pav;createdOn"/>
-                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
 
@@ -502,7 +504,7 @@
 	        </owl:Restriction>
 	    </rdfs:subClassOf>
     </owl:Class>
-    
+ 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -539,6 +541,28 @@
         <rdfs:comment rdf:datatype="&xsd;string">
         </rdfs:comment>
     </owl:Class> 
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation Type Graph
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->    
+    <owl:Class rdf:about="GraphAnnotation" rdfs:label="(ao-type) Graph Annotation">
+    	<rdfs:subClassOf rdf:resource="Annotation"/>
+        <rdfs:comment rdf:datatype="&xsd;string">
+        </rdfs:comment>
+        
+        <rdfs:subClassOf>
+	        <owl:Restriction>
+	            <owl:onProperty rdf:resource="body"/>
+	            <owl:allValuesFrom rdf:resource="&rdfg;Graph"/>
+	        </owl:Restriction>
+	    </rdfs:subClassOf>
+    </owl:Class>
+    
+    <owl:Class rdf:about="&rdfg;Graph" rdfs:label="Graph"/>
      
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
