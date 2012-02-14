@@ -32,7 +32,7 @@ The simplest example consists in linking a resource as follow:
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
-The interpretation of the above statements is that the targeted image has the URI {{{http://www.paolociccarese.info/}}} - which would be possible to infer being a foaf:Person - as its topic. As you can easily verify, the URI {{{http://www.paolociccarese.info/}}} points to an HTML document, which is usually - not always - conceived for human consumption.
+The interpretation of the above statements is that the targeted image has a topic defined by the URI {{{http://www.paolociccarese.info/}}}. As you can easily verify, the URI {{{http://www.paolociccarese.info/}}} points to an HTML document.
 
 === Annotation topics for machine consumption ===
 
