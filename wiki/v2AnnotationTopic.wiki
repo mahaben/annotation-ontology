@@ -32,7 +32,7 @@ The simplest example consists in linking a resource as follow:
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
-The interpretation of the above statements is that the targeted image has a topic defined by the URI {{{http://www.paolociccarese.info/}}}. As you can easily verify, the URI {{{http://www.paolociccarese.info/}}} points to an HTML document.
+The interpretation of the above statements is that the targeted image has a topic defined by the URI {{{http://www.paolociccarese.info/}}}. As you can easily verify, the URI {{{http://www.paolociccarese.info/}}} points to an HTML document, in general, when using the combination _ao:Annotation_ and _ao:hasTopic_, there is no expectation on the nature of the content.
 
 === Annotation topics for machine consumption ===
 
