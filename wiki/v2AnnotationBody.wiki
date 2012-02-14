@@ -66,12 +66,12 @@ Here is a another simple example in n3 format where the URN has been replaced by
 
  <http://www.example.org/annotation/10023> a ao:Annotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
-    ao:body <http://www.paolociccarese.info/> ;
+    ao:body <http://www.example.org/body/1002.html> ;
     pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
-The interpretation of the above set of triples is simple: the URI linked by the _ao:body_ is somehow about the resource identified by the URI {{{http://www.hcklab.org/images/people/paolo_ciccarese.jpg}}}
+The interpretation of the above set of triples is simple: the URI linked by the _ao:body_ is a document about the resource identified by the URI {{{http://www.hcklab.org/images/people/paolo_ciccarese.jpg}}}
 
 *Notes*: 
  * the body content, as it is identified by a resolvable URI, it can be published and can be easily targeted by other annotations.
