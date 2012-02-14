@@ -40,7 +40,7 @@ The interpretation of the above set of triples is simple: the textual body "Dome
 
 == Body expressed as inline content ===
 
-In order to be able to specify inline textual content taking into account formats and encoding, it is possible to refer to the [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0] W3C Working Draft. URNs can be used to identify the body. A URN only defines a name, it provides no details about how to get the resource over a network. 
+In order to be able to specify inline textual content taking into account formats and encoding, it is possible to refer to the [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0] W3C Working Draft. URNs can be used to identify the body. A URN only defines a name, it provides no details about how to get the resource over a network. For locating the resource a resolver is necessary.
 
 {{{ 
  # Example 2
