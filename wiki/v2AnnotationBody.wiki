@@ -40,7 +40,7 @@ The interpretation of the above set of triples is simple: the textual body "Dome
 
 == Body as resource identified by URNs (inline content) ===
 
-In order to be able to specify textual content taking into account formats and encoding, it is possible to refer to the [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0] W3C Working Draft. The previous example will become:
+In order to be able to specify textual content taking into account formats and encoding, it is possible to refer to the [http://www.w3.org/TR/Content-in-RDF10/ Representing Content in RDF 1.0] W3C Working Draft. Non resolvable URNs can be used to identify the body. 
 
 {{{ 
  # Example 2
@@ -57,7 +57,7 @@ In order to be able to specify textual content taking into account formats and e
     
 }}}
 
-With this approach is possible to use not resolvable URNs as identifiers.
+
 
 
 == Body as resource identified by URI ==
