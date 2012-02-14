@@ -44,7 +44,7 @@ In alternative to [http://www.w3.org/TR/rdf-schema/#ch_literal rdfs:Literal], th
 
 === Body identified by dereferenceable URIs ===
 
-Here is a simple example in n3 format where the the body is identified by a dereferenceable URI, a resource retrieval mechanism that uses any of the internet protocols - e.g. HTTP -  to obtain a copy or representation of the resource it identifies:
+Here is a simple example in [http://www.w3.org/TeamSubmission/n3/ Notation3 (N3)] where the the body is identified by a dereferenceable URI, a resource retrieval mechanism that uses any of the internet protocols - e.g. HTTP -  to obtain a copy or representation of the resource it identifies:
 
 {{{ 
  # Example 1: body identified by dereferenceable URI
