@@ -15,7 +15,7 @@ When using _ao:Annotation_ with _ao:hasTopic_ it is also possible to add a _ao:b
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
-A similar approach can be used to combine the URI of the topic with a Graph related to it. With this approach, if the topic URI is not dereferenceable, the graph carries information about it.
+A similar approach can be used to combine the URI of the topic with a Graph related to it. With this approach, if the topic URI is not dereferenceable, the graph carries information about it. In [http://www4.wiwiss.fu-berlin.de/bizer/trig/ TriG format]:
 
 {{{ 
  # Example 2: combining ao:body and ao:hasTopic
