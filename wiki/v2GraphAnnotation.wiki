@@ -58,10 +58,11 @@ Obviously, the annotation process can be enriched with all the necessary provena
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 
  :location a loc:Point ;
+    loc:linkToGoogleMaps <http://alturl.com/25ydw> ;
     loc:longitude "2.2938" ;
     loc:latitude "48.85836" ;
-    loc:altitude "60m" ;
-    loc:linkToGoogleMaps <http://alturl.com/25ydw>.
+    loc:altitude "60m".
+    .
 }
 
 :graphExample {
