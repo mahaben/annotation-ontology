@@ -87,7 +87,7 @@ URNs can also be used to identify the body. This would allow to specify inline c
 
 == Body as a Named Graph ==
 
-When the annotation content is intended for machines and is described by a set of triples about a resource, it is recommended to collect them in a [http://www.w3.org/2004/03/trix/ Named Graph] and to refers to them. This is the case of the following example in [http://www4.wiwiss.fu-berlin.de/bizer/trig/ TriG format]:
+When the annotation content is intended for machines and is described by a set of triples about a resource, it is recommended to collect them in a [http://www.w3.org/2004/03/trix/ Named Graph] and to refer to them. This is the case of the following example in [http://www4.wiwiss.fu-berlin.de/bizer/trig/ TriG format]:
 
 {{{ 
  # Example 4
