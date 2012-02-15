@@ -101,7 +101,7 @@ When the annotation content is intended for machines and is described by a set o
 }
 
 :graphExample {
-    <http://www.paolociccarese.info/foaf.rdf#me> a foaf:Person ;
+    <http://www.hcklab.org/foaf.rdf#me> a foaf:Person ;
         foaf:name "Paolo Ciccarese" ;
         foaf:homepage "http://www.paolociccarese.info/" .
 }
