@@ -1,0 +1,16 @@
+#summary One-sentence summary of this page.
+
+= Combination of Topic (ao:hasTopic) and Body (ao:body) =
+
+When using _ao:Annotation_ with _ao:hasTopic_ it is also possible to add a _ao:body_ property which is usually intended as a description of the object of the _ao:hasTopic_ predicate. Such description can be used when, for any reason, the URI is not dereferenceable.
+
+{{{ 
+ # Example 1: combining ao:body and ao:hasTopic
+
+ <http://www.example.org/annotation/10023> a ao:Qualifier ;
+    ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
+    ao:hasTopic <http://www.paolociccarese.info/foaf.rdf#me>  ;
+    ao:body "The image topic is Paolo Ciccarese"@en
+    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+}}}
