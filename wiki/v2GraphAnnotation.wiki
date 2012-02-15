@@ -12,3 +12,5 @@
 </table>
 
 = Graph Annotation =
+
+When the annotation content is intended for machines and is described by a set of triples about a resource, it is recommended to collect them in a Named Graph and to refer to them. This is the case of the following example in TriG format: 
