@@ -21,7 +21,7 @@ A similar approach can be used to combine the URI of the topic with a Graph rela
  # Example 2: combining ao:body and ao:hasTopic
 
 {
- <http://www.example.org/annotation/10024> a ao:GraphAnnotation ;
+ <http://www.example.org/annotation/10024> a ao:Qualifier ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:hasTopic <http://www.paolociccarese.info/foaf.rdf#me>
     ao:body :graphPaoloCiccarese ;
