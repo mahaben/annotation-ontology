@@ -7,7 +7,7 @@ When using _ao:Annotation_ with _ao:hasTopic_ it is also possible to add a _ao:b
 {{{ 
  # Example 1: combining ao:body and ao:hasTopic
 
- <http://www.example.org/annotation/10023> a ao:Qualifier ;
+ <http://www.example.org/annotation/10023> a ao:Qualifier, ao:GraphAnnotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:hasTopic <http://www.paolociccarese.info/foaf.rdf#me>  ;
     ao:body "The image topic is Paolo Ciccarese"@en
