@@ -41,5 +41,33 @@ A similar approach can be used to combine the URI of the topic with a Graph rela
 }
 }}}
 
-
 In the previous example (Example 2), the annotation is of types ao:Qualifier and ao:GraphAnnotation. Because of the first type, the expectation is for the topic URI to be machine processable. Because of the second type, the object of the body is expected to be a graph.
+
+*Note*: The example #2 is a short cut for something like the following:
+{{{ 
+ # Example 3: alternative to example 2
+
+{
+ <http://www.example.org/annotation/10024> a ao:GraphAnnotation ;
+    ao:annotatesResource <http://alturl.com/gq3bh> ;
+    ao:body :graphDescription ;
+    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+}
+
+:graphDescription {
+    <http://alturl.com/gq3bh> a foaf:Image ;
+       foaf:depicts <http://purl.obolibrary.org/obo/PRO_000004168>
+
+    <http://purl.obolibrary.org/obo/PRO_000004168> a <http://purl.obolibrary.org/obo/PR_000000001> ;
+       rdfs:label "amyloid beta A4 protein" ;        
+       dct:description "A protein that is a translation product of the APP gene or a 1:1 ortholog thereof." .
+
+    <http://purl.obolibrary.org/obo/PR_000000001>
+       rdfs:label "Protein" ;
+       dct:description "An amino acid chain that is produced de novo by
+            ribosome-mediated translation of a genetically-encoded mRNA." .       
+}
+}}}
+
+As you can notice in this last case, it is possible to arbitrarily pick the relationship relating the image and the protein is.
