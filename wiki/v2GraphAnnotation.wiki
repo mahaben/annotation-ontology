@@ -28,6 +28,7 @@ With annotation of the type ao:GraphAnnotation it is possible to attach a set of
  <http://www.example.org/annotation/10024> a ao:GraphAnnotation ;
     ao:annotatesResource <http://alturl.com/xxbxn> ;
     ao:body :graphExample ;
+    pav:createdWith <http://annotationframework.org/> ;
     pav:createdBy <http://www.hcklab.org/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }
