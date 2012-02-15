@@ -27,7 +27,7 @@ Here is a very simple example in [http://www.w3.org/TeamSubmission/n3/ Notation3
  <http://www.example.org/annotation/10022> a ao:Annotation ;
     ao:annotatesResource <http://annotationframework.org> ;
     ao:body "Domeo Annotation Toolkit homepage"@en ;
-    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdBy <http://www.hcklab.org/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Body%20Annotation%20using%20literals%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
@@ -52,7 +52,7 @@ Here is a simple example in [http://www.w3.org/TeamSubmission/n3/ Notation3 (N3)
  <http://www.example.org/annotation/10023> a ao:Annotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:body <http://www.example.org/body/1002.html> ;
-    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdBy <http://www.hcklab.org/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
@@ -72,7 +72,7 @@ URNs can also be used to identify the body. This would allow to specify inline c
  <http://www.example.org/annotation/10022> a ao:Annotation ;
     ao:annotatesResource <http://annotationframework.org> ;
     ao:body <urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66> ;
-    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdBy <http://www.hcklab.org/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 
  <urn:uuid:6e8bc430-9c3a-11d9-9669-0800200c9a66> a cnt:ContentAsText ;
@@ -96,7 +96,7 @@ When the annotation content is intended for machines and is described by a set o
  <http://www.example.org/annotation/10024> a ao:GraphAnnotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:body :graphExample ;
-    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdBy <http://www.hcklab.org/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }
 
@@ -117,9 +117,9 @@ The above annotation states that the graph _:graphExample_ is about the target i
     <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> a foaf:Image .
 
     <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> foaf:depicts 
-        <http://www.paolociccarese.info/foaf.rdf#me> .
+        <http://www.hcklab.org/foaf.rdf#me> .
 
-    <http://www.paolociccarese.info/foaf.rdf#me> a foaf:Person ;
+    <http://www.hcklab.org/foaf.rdf#me> a foaf:Person ;
         foaf:name "Paolo Ciccarese" ;
         foaf:homepage "http://www.paolociccarese.info/" .
 }
