@@ -244,6 +244,9 @@
     <owl:ObjectProperty rdf:about="body">
     </owl:ObjectProperty>
     
+    <owl:DatatypeProperty rdf:about="body">
+    </owl:DatatypeProperty>
+    
     <owl:ObjectProperty rdf:about="item">
     </owl:ObjectProperty>
     
