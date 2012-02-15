@@ -60,7 +60,8 @@ Obviously, the annotation process can be enriched with all the necessary provena
  :location a loc:Point ;
     loc:longitude "2.2938" ;
     loc:latitude "48.85836" ;
-    loc:altitude "60m" .
+    loc:altitude "60m" ;
+    loc:linkToMap <http://alturl.com/25ydw>.
 }
 
 :graphExample {
