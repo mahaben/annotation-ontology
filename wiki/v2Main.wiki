@@ -18,6 +18,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
     * [v2AnnotationCore Annotation Core] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
       * [v2AnnotationBody Annotation Body (ao:body)] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
       * [v2AnnotationTopic Annotation Topic (ao:hasTopic)] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
+      * [v2AnnotationBodyAndTopic Combination of Topic (ao:hasTopic) and Body (ao:body)] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2AnnotationTypes Annotation Types] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
   * *[v2ByExamples Learn Annotation Ontology (v.2) basics by examples]*
    * [v2SimpleAnnotation Simple annotation (textual or hypertextual annotation)] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
