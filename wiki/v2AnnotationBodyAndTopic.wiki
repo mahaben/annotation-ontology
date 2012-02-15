@@ -37,4 +37,4 @@ A similar approach can be used to combine the URI of the topic with a Graph rela
 }
 }}}
 
-In the previous example, the annotation is of types ao:Qualifier and ao:GraphAnnotation. Because of the first type, the expectation is for the topic URI to be machine processable. Because of the second type, the object of the body is expected to be a graph.
+In the previous example (Example 2), the annotation is of types ao:Qualifier and ao:GraphAnnotation. Because of the first type, the expectation is for the topic URI to be machine processable. Because of the second type, the object of the body is expected to be a graph.
