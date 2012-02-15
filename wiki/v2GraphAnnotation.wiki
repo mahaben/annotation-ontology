@@ -70,6 +70,8 @@ Obviously, the annotation process can be enriched with all the necessary provena
 }
 }}}
 
+The example #2 could be depicted as follows:
+
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2%20Graph%20Annotation%20with%20geolocation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 
  
