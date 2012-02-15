@@ -13,4 +13,8 @@
 
 = Graph Annotation =
 
-When the annotation content is intended for machines and is described by a set of triples about a resource, it is recommended to collect them in a graph and to refer to them. This is the case of the following example in [http://www4.wiwiss.fu-berlin.de/bizer/trig/ TriG format]: 
+When the annotation content is intended for machines and is described by a set of triples about a resource, it is recommended to collect them in a graph and to refer to them. 
+
+=== Named Graph ===
+
+This is the case of the following example in [http://www4.wiwiss.fu-berlin.de/bizer/trig/ TriG format]: 
