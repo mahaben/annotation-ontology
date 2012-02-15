@@ -61,7 +61,7 @@ Obviously, the annotation process can be enriched with all the necessary provena
     loc:linkToGoogleMaps <http://alturl.com/25ydw> ;
     loc:longitude "2.2938" ;
     loc:latitude "48.85836" ;
-    loc:altitude "60m".
+    loc:altitude "35m".
 }
 
 :graphExample {
