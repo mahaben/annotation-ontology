@@ -43,6 +43,29 @@ The example #1 could be depicted as follows:
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2%20Graph%20Annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 
+{{{
+ # Example #2: adding location
+
+{
+ <http://www.example.org/annotation/10024> a ao:GraphAnnotation ;
+    ao:annotatesResource <http://alturl.com/xxbxn> ;
+    ao:body :graphExample ;
+    pav:createdWith <http://annotaitonframework.org/foaf.rdf#me> ;
+    pav:createdBy <http://www.hcklab.org/foaf.rdf#me> ;
+    pav:createdAt :location .
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+
+ :location a loc:Point ;
+    loc:longitude "2.2938" ;
+    loc:latitude "48.85836" ;
+    loc:altitude "60m" .
+}
+
+:graphExample {
+    <http://alturl.com/xxbxn> a foaf:Image ;
+        foaf:depicts <http://dbpedia.org/page/Eiffel_Tower> .
+}
+}}}
 
 
  
