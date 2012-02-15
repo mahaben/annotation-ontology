@@ -35,7 +35,8 @@ A similar approach can be used to combine the URI of the topic with a Graph rela
        dct:description "A protein that is a translation product of the APP gene or a 1:1 ortholog thereof." .
 
     <http://purl.obolibrary.org/obo/PR_000000001>
-       rdfs:label "Protein" .       
+       rdfs:label "Protein" ;
+       dct:description "An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA." .       
 }
 }}}
 
