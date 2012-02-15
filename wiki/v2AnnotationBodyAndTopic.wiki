@@ -70,4 +70,4 @@ In the previous example (Example 2), the annotation is of types ao:Qualifier and
 }
 }}}
 
-As you can notice in this last case, it is possible to arbitrarily pick the relationship relating the image and the protein is.
+As you can notice, using the graph gives total flexibility. In fact, it is possible to arbitrarily pick the relationship relating the image and the protein.
