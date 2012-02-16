@@ -33,7 +33,7 @@
     
     <owl:Ontology rdf:about="&annotation;">
         <rdf:type rdf:resource="&owl;Ontology"/>
-        <rdfs:label rdf:datatype="&xsd;string">Annotation Ontology v. 2.0b</rdfs:label>
+        <rdfs:label xml:lang="en">Annotation Ontology v. 2.0b2</rdfs:label>
         
         <owl:imports rdf:resource="http://purl.org/pav/2.0/"/>
 
@@ -42,8 +42,9 @@
     	<dct:creator rdf:resource="http://www.paolociccarese.info"/>
     	<dct:publisher rdf:resource="http://www.mindinformatics.org"/>
     	<dct:contributor rdf:datatype="&xsd;string">Paolo Ciccarese</dct:contributor>
-        <dct:created rdf:datatype="&xsd;string">February 5, 2012</dct:created>
-        <dct:date rdf:datatype="&xsd;string">February 5, 2012</dct:date>
+    	<dct:contributor rdf:datatype="&xsd;string">Stian Soiland-Reyes</dct:contributor>
+        <dct:created rdf:datatype="&xsd;dateTime">2012-02-05</dct:created>
+        <dct:date rdf:datatype="&xsd;dateTime">2012-02-05</dct:date>
         <dct:format rdf:datatype="&xsd;string">rdf/xml</dct:format>    
     </owl:Ontology> 
   
@@ -55,31 +56,216 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
      
-    <rdf:Description rdf:about="&dct;title">
-        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&dct;created">
-        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&dct;date">
-        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&dct;creator">
-        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&dct;format">
-        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&dct;language">
-        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&dct;publisher">
-        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="&dct;contributor">
-        <rdf:type rdf:resource="&owl;AnnotationProperty"/>
-    </rdf:Description>          
+    <owl:AnnotationProperty rdf:about="&dct;format"/>
+    <owl:AnnotationProperty rdf:about="&dct;date"/>
+    <owl:AnnotationProperty rdf:about="&dct;publisher"/>
+    <owl:AnnotationProperty rdf:about="&dct;created"/>
+    <owl:AnnotationProperty rdf:about="&dct;title"/>
+    <owl:AnnotationProperty rdf:about="&dct;contributor"/>
+    <owl:AnnotationProperty rdf:about="&dct;creator"/>
+    <owl:AnnotationProperty rdf:about="&dct;language"/>         
     
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation Ontology Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+     
+    <!-- http://purl.org/ao/annotatesResource -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ao/annotatesResource">
+        <rdfs:label xml:lang="en">annotates resource</rdfs:label>
+        <rdfs:comment xml:lang="en">The annotation annotates one or more given resources or targets</rdfs:comment>
+    </owl:ObjectProperty>
+    
+     <!-- http://purl.org/ao/body -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ao/body">
+        <rdfs:label xml:lang="en">body</rdfs:label>
+        <rdfs:comment xml:lang="en">The body is somehow about the annotated resource(s). 
+            Note that there is also an datatype property ao:body which can be used when the annotation body is a plain literal.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+     <!-- http://purl.org/ao/context -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ao/context">
+        <rdfs:label xml:lang="en">context</rdfs:label>
+        <rdfs:comment xml:lang="en">Identifies a Selector of a portion of the annotated resource(s). 
+
+Specifying the context means that the annotation applies to the portion of the annotated resource rather than the annotated resource as a whole.
+
+
+Subclasses of ao:Selector specify how the selection is to be made.
+
+For instance:
+
+:ann1 a ao:Annotation, ao:Comment;
+  ao:annotatesResource &lt;http://www.example.com/document.txt&gt; ;
+  ao:context [
+     a ao:TextSelector;
+     ao:start 15;
+     ao:end 46
+  ] ;
+  ao:body &quot;That&apos;s the joke&quot; .
+
+This annotation describes a comment on the text from character 15 till 46 of document.txt. </rdfs:comment>
+        <rdfs:domain rdf:resource="http://purl.org/ao/Annotation"/>
+        <rdfs:range rdf:resource="http://purl.org/ao/Selector"/>
+    </owl:ObjectProperty>
+    
+    <!-- http://purl.org/ao/hasTopic -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ao/hasTopic">
+        <rdfs:label xml:lang="en">has topic</rdfs:label>
+        <rdfs:comment xml:lang="en">Indicates that the annotated resource somehow is the indicated topic. 
+
+Example:
+&lt;http://www.example.org/annotation/10023&gt; a ao:Annotation ;
+    ao:annotatesResource &lt;http://www.hcklab.org/images/people/paolo_ciccarese.jpg&gt; ;
+    ao:hasTopic &lt;http://www.paolociccarese.info/&gt;  ;
+    pav:createdBy &lt;http://www.paolociccarese.info/foaf.rdf#me&gt; ;
+    pav:createdOn &quot;2012-02-12T15:02:14Z&quot;^^xsd:dateTime .
+
+
+If the annotation is an ao:Qualifier (or subclasses), then the annotation indicates that the annotated resource somehow can be identified as indicated topic, and that the topic is a semantic identifier. 
+
+
+Example:
+
+&lt;http://www.example.org/annotation/10023&gt; a ao:Qualifier ;
+    ao:annotatesResource &lt;http://alturl.com/t9yo7&gt; ;
+    ao:hasTopic &lt;http://dbpedia.org/page/Paris&gt;  ;
+    pav:createdBy &lt;http://www.paolociccarese.info/foaf.rdf#me&gt; ;
+    pav:createdOn &quot;2012-02-12T15:02:14Z&quot;^^xsd:dateTime .
+</rdfs:comment>
+    </owl:ObjectProperty>
+    
+     <!-- http://purl.org/ao/item -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ao/item">
+        <rdfs:label xml:lang="en">item</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ao/onResource -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ao/onResource">
+        <rdfs:label xml:lang="en">on resource</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/ao/onSourceDocument -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/ao/onSourceDocument">
+        <rdfs:label xml:lang="en">on source document</rdfs:label>
+        <rdfs:range rdf:resource="&pav;SourceDocument"/>
+    </owl:ObjectProperty>
+    
+    <owl:ObjectProperty rdf:about="&pav;curates">
+        <owl:inverseOf rdf:resource="&pav;curatedBy" />
+    </owl:ObjectProperty>
+    
+    <owl:DatatypeProperty rdf:about="status"/>
+    
+     <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- http://purl.org/ao/body -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ao/body">
+        <rdfs:label xml:lang="en">body</rdfs:label>
+        <rdfs:comment xml:lang="en">The body is somehow about the annotated resource(s).
+            Note that there is also an datatype property ao:body which can be used when the annotation body is a plain literal.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+    
+     <!-- http://purl.org/ao/exact -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ao/exact">
+        <rdfs:label xml:lang="en">exact</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            The exact string - a linear sequence of characters - subject of the annotation.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://purl.org/ao/init -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ao/init">
+        <rdfs:label xml:lang="en">init</rdfs:label>
+    </owl:DatatypeProperty>
+    
+     <!-- http://purl.org/ao/end -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ao/end">
+        <rdfs:label xml:lang="en">end</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://purl.org/ao/offset -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ao/offset">
+        <rdfs:label xml:lang="en">offset</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            An integer indicating the distance (displacement) from the beginning of the document up until a 
+            given element or point, within the same document.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+    <!-- http://purl.org/ao/postfix -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ao/postfix">
+        <rdfs:label xml:lang="en">postfix</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            A number of contiguos characters - string - after the exact match.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+    <!-- http://purl.org/ao/prefix -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ao/prefix">
+        <rdfs:label xml:lang="en">prefix</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            A number of contiguos characters - string - before the exact match.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+    <!-- http://purl.org/ao/range -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ao/range">
+        <rdfs:label xml:lang="en">range</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">
+            An integer indicating the number of characters - starting from the offset - identified by the selector.
+        </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+    <!-- http://purl.org/ao/status -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ao/status">
+        <rdfs:label xml:lang="en">status</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://purl.org/ao/xpointer -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/ao/xpointer">
+        <rdfs:label xml:lang="en">xpointer</rdfs:label>
+    </owl:DatatypeProperty>
+
       <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -88,12 +274,32 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
   	
-    <owl:Class rdf:about="Annotation" rdfs:label="(ao) Annotation">
+  	<!-- http://purl.org/ao/Annotation -->
+  	
+    <owl:Class rdf:about="Annotation" rdfs:label="Annotation">
+    	<rdfs:comment xml:lang="en">An annotation of one or more resources linked using ao:annotatesResource.
+
+A simple annotation uses ao:body as a datatype property:
+
+:ann1 a ao:Annotation ;
+  ao:annotatesResource &lt;http://www.example.com/fred.jpeg&gt; ;
+  ao:body &quot;A picture of Fred&quot; .
+
+But ao:body can also be used as a object property:
+
+:ann1 a ao:Annotation ;
+  ao:annotatesResource &lt;http://www.example.com/fred.jpeg&gt; ;
+  ao:body &lt;http://www.example.com/fred/&gt;
+
+Subclasses like ao:Qualifier, ao:Note and ao:GraphAnnotation specialise the meaning of an ao:Annotation.
+
+Instead of annotating the resource it is possible to annotate a selection of the resource, by associating the annotation with an ao:Seleector using ao:context.</rdfs:comment>
+    
     	<rdfs:subClassOf rdf:resource="&owl;Thing"/>
         <owl:disjointWith rdf:resource="Selector"/>
         <owl:disjointWith rdf:resource="AnnotationSet"/>
     	
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
             Generic annotation class.
         </rdfs:comment>
         
@@ -154,22 +360,46 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
-    <owl:Class rdf:about="Selector" rdfs:label="(ao) Selector">
+    <owl:Class rdf:about="Selector" rdfs:label="Selector">
+    	
+    	<rdfs:comment xml:lang="en">Selectors identify document fragments.
+ 
+
+Specifying the ao:context of an ao:Annotation to be an ao:Selector means that the annotation applies to the portion of the annotated resource rather than the annotated resource as a whole.
+
+
+Subclasses of ao:Selector specify how the selection is to be made.
+
+For instance:
+
+:ann1 a ao:Annotation, ao:Comment;
+  ao:annotatesResource &lt;http://www.example.com/document.txt&gt; ;
+  ao:context [
+     a ao:TextSelector;
+     ao:start 15;
+     ao:end 46
+  ] ;
+  ao:body &quot;That&apos;s the joke&quot; .
+
+This annotation describes a comment on the text from character 15 till 46 of document.txt. </rdfs:comment>
+    
         <rdfs:subClassOf rdf:resource="&owl;Thing"/>
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="AnnotationSet"/>
     	
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
             Selectors identify document fragments.
         </rdfs:comment>
     </owl:Class>
     
-    <owl:Class rdf:about="AnnotationSet" rdfs:label="(ao) Annotation Set">
+    <!-- http://purl.org/ao/AnnotationSet -->
+    
+    <owl:Class rdf:about="AnnotationSet" rdfs:label="Annotation Set">
         <rdfs:subClassOf rdf:resource="&owl;Thing"/>
         <owl:disjointWith rdf:resource="Annotation"/>
         <owl:disjointWith rdf:resource="Selector"/>   
     
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
         </rdfs:comment>
   		
         <!-- created by -->
@@ -224,54 +454,13 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Annotation Ontology Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-    <owl:ObjectProperty rdf:about="onResource">
-    </owl:ObjectProperty> 
-    
-    <owl:ObjectProperty rdf:about="annotatesResource">
-    </owl:ObjectProperty> 
-    
-    <owl:ObjectProperty rdf:about="onSourceDocument">
-    	<rdfs:range rdf:resource="&pav;SourceDocument" />
-    </owl:ObjectProperty>
-    
-    <owl:ObjectProperty rdf:about="hasTopic">
-    </owl:ObjectProperty>
-    
-    <owl:ObjectProperty rdf:about="body">
-    </owl:ObjectProperty>
-    
-    <owl:DatatypeProperty rdf:about="body">
-    </owl:DatatypeProperty>
-    
-    <owl:ObjectProperty rdf:about="item">
-    </owl:ObjectProperty>
-    
-    <owl:ObjectProperty rdf:about="&pav;curates">
-        <owl:inverseOf rdf:resource="&pav;curatedBy" />
-    </owl:ObjectProperty>
-    
-    <owl:DatatypeProperty rdf:about="status">
-    </owl:DatatypeProperty>
-    
-    <owl:ObjectProperty rdf:about="context">
-    	<rdfs:domain rdf:resource="Annotation" />
-    	<rdfs:range rdf:resource="Selector" />
-    </owl:ObjectProperty>
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // XPointer Selectors
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <owl:Class rdf:about="XPointerSelector" rdfs:label="(ao-sel) XPointer Selector">
+    <owl:Class rdf:about="XPointerSelector" rdfs:label="XPointer Selector">
     	<rdfs:subClassOf rdf:resource="Selector"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
             The XPointer Selector allows to identify any part of an XML document by using the XPointer technology 
         </rdfs:comment>
         <rdfs:subClassOf>
@@ -282,9 +471,6 @@
 	    </rdfs:subClassOf>	
     </owl:Class>
     
-    <owl:DatatypeProperty rdf:about="xpointer">
-    </owl:DatatypeProperty>
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -292,9 +478,9 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <owl:Class rdf:about="TextSelector" rdfs:label="(ao-sel) Text Selector">
+    <owl:Class rdf:about="TextSelector" rdfs:label="Text Selector">
     	<rdfs:subClassOf rdf:resource="Selector"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
             A Text Selector identifies a string in a document. 
         </rdfs:comment>
         
@@ -313,15 +499,12 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
-    <owl:DatatypeProperty rdf:about="exact">
-     	<rdfs:comment rdf:datatype="&xsd;string">
-            The exact string - a linear sequence of characters - subject of the annotation.
-        </rdfs:comment>
-    </owl:DatatypeProperty>
     
-    <owl:Class rdf:about="OffsetRangeTextSelector" rdfs:label="(ao-sel) Offset/Range Text Selector">
+    <!-- http://purl.org/ao/OffsetRangeTextSelector -->
+    
+    <owl:Class rdf:about="OffsetRangeTextSelector" rdfs:label="Offset/Range Text Selector">
     	<rdfs:subClassOf rdf:resource="TextSelector"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
             A Offset Range Text Selector identifies a string in a document through an offset 
             -  an integer indicating the distance (displacement) from the beginning of the document up until a 
             given element or point, within the same document - and a range - an integer indicating the number 
@@ -355,22 +538,9 @@
         </rdfs:subClassOf>	
     </owl:Class>
     
-    <owl:DatatypeProperty rdf:about="offset">
-    	<rdfs:comment rdf:datatype="&xsd;string">
-            An integer indicating the distance (displacement) from the beginning of the document up until a 
-            given element or point, within the same document.
-        </rdfs:comment>
-    </owl:DatatypeProperty>
-    
-    <owl:DatatypeProperty rdf:about="range">
-      	<rdfs:comment rdf:datatype="&xsd;string">
-            An integer indicating the number of characters - starting from the offset - identified by the selector.
-        </rdfs:comment>  	
-    </owl:DatatypeProperty>
-    
-    <owl:Class rdf:about="PrefixPostfixTextSelector" rdfs:label="(ao-sel) Prefix/Postfix Text Selector">
+    <owl:Class rdf:about="PrefixPostfixTextSelector" rdfs:label="Prefix/Postfix Text Selector">
     	<rdfs:subClassOf rdf:resource="TextSelector"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
             A Prefix Postfix Text Selector identifies a string in a document through the prefix - a number of contiguos characters 
             before the exact match - and a postfix - a number of contiguos characters after the exact match.
         </rdfs:comment>
@@ -401,19 +571,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
-    <owl:DatatypeProperty rdf:about="prefix">
-    	<rdfs:comment rdf:datatype="&xsd;string">
-            A number of contiguos characters - string - before the exact match.
-        </rdfs:comment>
-    </owl:DatatypeProperty>
-    
-    <owl:DatatypeProperty rdf:about="postfix">
-    	<rdfs:comment rdf:datatype="&xsd;string">
-            A number of contiguos characters - string - after the exact match.
-        </rdfs:comment>
-    </owl:DatatypeProperty>    
-    
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -421,16 +579,19 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <owl:Class rdf:about="ImageSelector" rdfs:label="(ao-sel) Image Selector">
+    <owl:Class rdf:about="ImageSelector" rdfs:label="Image Selector">
     	<rdfs:subClassOf rdf:resource="Selector"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
             An Image Selector identifies a portion of an image.
         </rdfs:comment>
     </owl:Class>
     
-    <owl:Class rdf:about="InitEndCornerSelector" rdfs:label="(ao-sel) Image Init End Corner Selector">
+    
+    <!-- http://purl.org/ao/InitEndCornerSelector -->
+    
+    <owl:Class rdf:about="InitEndCornerSelector" rdfs:label="Image Init End Corner Selector">
     	<rdfs:subClassOf rdf:resource="ImageSelector"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
             An Image Selector where the portion of an image is identified by a rectangle that is specified
             through the left upper corner and the bottom right corner.
         </rdfs:comment>
@@ -461,13 +622,6 @@
 	        </owl:Restriction>
 	    </rdfs:subClassOf>
     </owl:Class>
-    
-    <owl:DatatypeProperty rdf:about="init">
-    </owl:DatatypeProperty>
-    
-    <owl:DatatypeProperty rdf:about="end">
-    </owl:DatatypeProperty> 
-        
         
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -476,9 +630,12 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->        
-    <owl:Class rdf:about="AudioSelector" rdfs:label="(ao-sel) Audio Selector">
+    
+    <!-- http://purl.org/ao/AudioSelector --> 
+     
+    <owl:Class rdf:about="AudioSelector" rdfs:label="Audio Selector">
     	<rdfs:subClassOf rdf:resource="Selector"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
             An Audio Selector identifies a portion of an audio file.
         </rdfs:comment>
         
@@ -515,33 +672,40 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <owl:Class rdf:about="Qualifier" rdfs:label="(ao-type) Qualifier">
+    <owl:Class rdf:about="Qualifier" rdfs:label="Qualifier">
     	<rdfs:subClassOf rdf:resource="Annotation"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
         </rdfs:comment>
+        
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="hasTopic"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>	
     </owl:Class> 
     
-    <owl:Class rdf:about="ExactQualifier" rdfs:label="(ao-type) Exact Qualifier">
+    <owl:Class rdf:about="ExactQualifier" rdfs:label="Exact Qualifier">
     	<rdfs:subClassOf rdf:resource="Qualifier"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
         </rdfs:comment>
     </owl:Class> 
    
-    <owl:Class rdf:about="CloseQualifier" rdfs:label="(ao-type) Close Qualifier">
+    <owl:Class rdf:about="CloseQualifier" rdfs:label="Close Qualifier">
     	<rdfs:subClassOf rdf:resource="Qualifier"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
         </rdfs:comment>
     </owl:Class> 
     
-    <owl:Class rdf:about="NarrowQualifier" rdfs:label="(ao-type) Narrow Qualifier">
+    <owl:Class rdf:about="NarrowQualifier" rdfs:label="Narrow Qualifier">
     	<rdfs:subClassOf rdf:resource="Qualifier"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
         </rdfs:comment>
     </owl:Class> 
     
-    <owl:Class rdf:about="BroadQualifier" rdfs:label="(ao-type) Broad Qualifier">
+    <owl:Class rdf:about="BroadQualifier" rdfs:label="Broad Qualifier">
     	<rdfs:subClassOf rdf:resource="Qualifier"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
         </rdfs:comment>
     </owl:Class> 
 
@@ -552,10 +716,14 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->    
-    <owl:Class rdf:about="GraphAnnotation" rdfs:label="(ao-type) Graph Annotation">
+    
+    <!-- http://purl.org/ao/GraphAnnotation --> 
+     
+    <owl:Class rdf:about="GraphAnnotation" rdfs:label="Graph Annotation">
     	<rdfs:subClassOf rdf:resource="Annotation"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
-        </rdfs:comment>
+         <rdfs:comment xml:lang="en">An annotation which ao:body can be read as an RDF graph. 
+
+The ao:body property can point to a resource which can be dereferenced as an RDF graph (for instance as RDF/XML or Turtle), or to a named graph which exists within the same store as the current graph.</rdfs:comment>
         
         <rdfs:subClassOf>
 	        <owl:Restriction>
@@ -574,9 +742,9 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <owl:Class rdf:about="Comment" rdfs:label="(ao-type) Comment">
+    <owl:Class rdf:about="Comment" rdfs:label="Comment">
     	<rdfs:subClassOf rdf:resource="Annotation"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
         </rdfs:comment>
         
         <!-- body -->
@@ -595,9 +763,9 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <owl:Class rdf:about="Note" rdfs:label="(ao-type) Note">
+    <owl:Class rdf:about="Note" rdfs:label="Note">
     	<rdfs:subClassOf rdf:resource="Annotation"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
         </rdfs:comment>
         
         <!-- body -->
@@ -616,9 +784,9 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <owl:Class rdf:about="Definition" rdfs:label="(ao-type) Definition">
+    <owl:Class rdf:about="Definition" rdfs:label="Definition">
     	<rdfs:subClassOf rdf:resource="Annotation"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
         </rdfs:comment>	
         
          <!-- body -->
@@ -637,9 +805,9 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
-    <owl:Class rdf:about="Example" rdfs:label="(ao-type) Example">
+    <owl:Class rdf:about="Example" rdfs:label="Example">
     	<rdfs:subClassOf rdf:resource="Annotation"/>
-        <rdfs:comment rdf:datatype="&xsd;string">
+        <rdfs:comment xml:lang="en">
         </rdfs:comment>
         
          <!-- body -->
