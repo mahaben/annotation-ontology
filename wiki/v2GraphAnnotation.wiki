@@ -76,3 +76,24 @@ The example #2 could be depicted as follows:
 
 === Graphs as inline content ===
  
+Graphs can be used also to incorporate some additional information about topics. For example, an annotation of type ao:Qualifier is expected to point to a dereferenceable URI through the property ao:hasTopic. However, it is possible to include in the annotation some useful information about the topic so that, if the URI is not dereferenceable for any reason, the annotation can still be informative.
+
+
+{{{
+# Example 2: using graph to describe the topic inline
+
+ {
+ <http://www.example.org/annotation/10023> a ao:GraphAnnotation ;
+    ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
+    ao:hasTopic <http://www.hcklab.org/foaf.rdf#me> ;
+    ao:body :graphDescription  ;
+    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+ }
+
+ :graphDescription {
+    <http://www.paolociccarese.info/foaf.rdf#me> a foaf:Person ;
+        foaf:name "Paolo Ciccarese" ;
+        foaf:homepage "http://www.paolociccarese.info/" .
+ }
+}}}
