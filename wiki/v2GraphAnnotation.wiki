@@ -102,3 +102,5 @@ Both types _ao:Qualifier_ and [v2GraphAnnotation ao:GraphAnnotation] have been u
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2%20Graph%20Annotation%20with%20inline%20topic%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 
 === Graphs for relating multiple target entities ===
+
+Another possible use of _ao:GraphAnnotation_ is for relating multiple targets such as two terms from two different ontologies.
