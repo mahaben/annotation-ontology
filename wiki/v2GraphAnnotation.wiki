@@ -100,3 +100,5 @@ Graphs can be used also to incorporate some additional information about topics.
 Both types _ao:Qualifier_ and [v2GraphAnnotation ao:GraphAnnotation] have been used. The expectation is that the topic URI is dereferenceable to machine readable content and that the body points to a graph.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2%20Graph%20Annotation%20with%20inline%20topic%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
+
+=== Graphs for relating multiple target entities ===
