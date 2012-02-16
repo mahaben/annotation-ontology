@@ -80,7 +80,7 @@ Graphs can be used also to incorporate some additional information about topics.
 
 
 {{{
-# Example 2: using graph to describe the topic inline
+# Example 3: using graph to describe the topic inline
 
  {
  <http://www.example.org/annotation/10023> a ao:Qualifier, ao:GraphAnnotation ;
