@@ -76,8 +76,7 @@ The example #2 could be depicted as follows:
 
 === Graphs as inline content ===
  
-Graphs can be used also to incorporate some additional information about topics. For example, an annotation of type ao:Qualifier is expected to point to a dereferenceable URI through the property ao:hasTopic. However, it is possible to include in the annotation some useful information about the topic so that, if the URI is not dereferenceable for any reason, the annotation can still be informative.
-
+Graphs can be used also to incorporate some additional information about topics. For example, an annotation of type ao:Qualifier is expected to point to a dereferenceable URI through the property ao:hasTopic. However, it is possible to include in the annotation some useful information about the topic so that, if the URI is not dereferenceable for any reason, the annotation can still be informative. In [http://www4.wiwiss.fu-berlin.de/bizer/trig/ TriG format]:
 
 {{{
 # Example 3: using graph to describe the topic inline
@@ -97,5 +96,7 @@ Graphs can be used also to incorporate some additional information about topics.
         foaf:homepage "http://www.paolociccarese.info/" .
  }
 }}}
+
+Both types _ao:Qualifier_ and _ao:GraphAnnotation_ have been used. The expectation is that the topic URI is dereferenceable to machine readable content and that the body points to a graph.
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2%20Graph%20Annotation%20with%20inline%20topic%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
