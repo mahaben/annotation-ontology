@@ -87,7 +87,7 @@ Graphs can be used also to incorporate some additional information about topics.
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:hasTopic <http://www.hcklab.org/foaf.rdf#me> ;
     ao:body :graphDescription  ;
-    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdBy <http://www.hcklab.org/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
  }
 
