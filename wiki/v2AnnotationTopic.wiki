@@ -53,7 +53,7 @@ Using type _ao:Qualifier_ and the relationship _ao:hasTopic_, the topic identifi
 See also [v2StructuredAnnotationQualifiers Additional resources on the advanced use of Qualifiers]
 
 *Note 2:*
-The above set of statements (Example 2) could be expressed in a less concise way with the construct [v2GraphAnnotation _ao:GraphAnnotation_] and [v2AnnotationBody ao:body] and a graph such as:
+The above set of statements (Example 2) could be expressed in a less concise way with the construct [v2GraphAnnotation ao:GraphAnnotation] and [v2AnnotationBody ao:body] and a graph such as:
 
 {{{
  # Alternative to Example 2 (using ao:GraphAnnotation and ao:body)
