@@ -13,5 +13,7 @@
 
 = Qualifiers =
 
-A Qualifier expresses a relationship between the object of the annotation and a well-defined semantic entity. It allows also a free text body. If only the latter is present this is equivalent to a classic tag. 
+A _ao:Qualifier_ expresses the idea that a target can somehow be identified by a well-defined semantic entity or topic. Qualifiers also allow a free text body. If only the latter is present this is equivalent to a classic tag. 
+
+== Strict Qualifier ==
 
