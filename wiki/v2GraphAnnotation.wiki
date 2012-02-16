@@ -104,3 +104,5 @@ Both types _ao:Qualifier_ and [v2GraphAnnotation ao:GraphAnnotation] have been u
 === Graphs for relating multiple targets ===
 
 Another possible use of _ao:GraphAnnotation_ is for relating multiple targets. For example it is possible to state that two annotation instances are not consistent.
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2%20Graph%20Annotation%20of%20annotation%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
