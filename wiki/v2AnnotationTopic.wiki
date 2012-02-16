@@ -28,7 +28,7 @@ The simplest example consists in linking a resource as follow:
  <http://www.example.org/annotation/10023> a ao:Annotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:hasTopic <http://www.paolociccarese.info/>  ;
-    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdBy <http://www.hcklab.org/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
@@ -44,7 +44,7 @@ By using the annotation type _ao:Qualifier_ and the relationship _ao:hasTopic_ l
  <http://www.example.org/annotation/10023> a ao:Qualifier ;
     ao:annotatesResource <http://alturl.com/t9yo7> ;
     ao:hasTopic <http://dbpedia.org/page/Paris>  ;
-    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdBy <http://www.hcklab.org/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
 
@@ -62,7 +62,7 @@ The above set of statements (Example 2) could be expressed in a less concise way
  <http://www.example.org/annotation/10023> a ao:GraphAnnotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:body :graphExample  ;
-    pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
+    pav:createdBy <http://www.hcklab.org/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
  }
 
@@ -70,9 +70,9 @@ The above set of statements (Example 2) could be expressed in a less concise way
     <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> a foaf:Image .
 
     <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> foaf:depicts 
-        <http://www.paolociccarese.info/foaf.rdf#me> .
+        <http://www.hcklab.org/foaf.rdf#me> .
 
-    <http://www.paolociccarese.info/foaf.rdf#me> a foaf:Person ;
+    <http://www.hcklab.org/foaf.rdf#me> a foaf:Person ;
         foaf:name "Paolo Ciccarese" ;
         foaf:homepage "http://www.paolociccarese.info/" .
  }
@@ -88,7 +88,7 @@ Changing the annotation type of Example 2 back to _ao:Annotation_ is equivalent 
 
  <http://www.example.org/annotation/10023> a ao:Annotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
-    ao:hasTopic <http://www.paolociccarese.info/foaf.rdf#me>  ;
+    ao:hasTopic <http://www.hcklab.org/foaf.rdf#me>  ;
     pav:createdBy <http://www.paolociccarese.info/foaf.rdf#me> ;
     pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
 }}}
