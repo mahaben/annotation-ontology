@@ -25,7 +25,7 @@ With annotation of the type ao:GraphAnnotation it is possible to attach a set of
  # Example #1
 
 {
- <http://www.example.org/annotation/10024> a ao:GraphAnnotation ;
+ <http://www.example.org/annotation/10030> a ao:GraphAnnotation ;
     ao:annotatesResource <http://alturl.com/xxbxn> ;
     ao:body :graphExample ;
     pav:createdWith <http://annotaitonframework.org/foaf.rdf#me> ;
@@ -49,7 +49,7 @@ Obviously, the annotation process can be enriched with all the necessary provena
  # Example #2: adding location
 
 {
- <http://www.example.org/annotation/10024> a ao:GraphAnnotation ;
+ <http://www.example.org/annotation/10031> a ao:GraphAnnotation ;
     ao:annotatesResource <http://alturl.com/xxbxn> ;
     ao:body :graphExample ;
     pav:createdWith <http://annotaitonframework.org/foaf.rdf#me> ;
@@ -82,7 +82,7 @@ Graphs can be used also to incorporate some additional information about topics.
 # Example 3: using graph to describe the topic inline
 
  {
- <http://www.example.org/annotation/10023> a ao:Qualifier, ao:GraphAnnotation ;
+ <http://www.example.org/annotation/10032> a ao:Qualifier, ao:GraphAnnotation ;
     ao:annotatesResource <http://www.hcklab.org/images/people/paolo_ciccarese.jpg> ;
     ao:hasTopic <http://www.hcklab.org/foaf.rdf#me> ;
     ao:body :graphDescription  ;
@@ -104,5 +104,43 @@ Both types _ao:Qualifier_ and [v2GraphAnnotation ao:GraphAnnotation] have been u
 === Graphs for relating multiple targets ===
 
 Another possible use of _ao:GraphAnnotation_ is for relating multiple targets. For example it is possible to state that two annotation instances are not consistent.
+
+For example, two different subject can annotate the same image to be two different things that are not compatible with each other. In the following snippet, the picture of the Eiffel Tower has been related to two entries in Wikipedia that don't seem compatible:
+
+{{{
+# Example 4: graph for relating existing annotations
+
+{
+ <http://www.example.org/annotation/10033> a ao:Annotation ;
+    ao:annotatesResource <http://alturl.com/xxbxn> ;
+    ao:hasTopic <http://en.wikipedia.org/wiki/Eiffel_Tower> ;
+    pav:createdBy <http://www.hcklab.org/foaf.rdf#me> ;
+    pav:createdOn "2012-02-12T15:02:14Z"^^xsd:dateTime .
+}
+
+{
+ <http://www.example.org/annotation/10034> a ao:Annotation ;
+    ao:annotatesResource <http://alturl.com/xxbxn> ;
+    ao:hasTopic <http://en.wikipedia.org/wiki/Tower_bridge> ;
+    pav:createdBy <http://www.example.com/person/1> ;
+    pav:createdOn "2012-01-12T15:02:14Z"^^xsd:dateTime .
+}
+
+
+{
+ <http://www.example.org/annotation/10035> a ao:GraphAnnotation ;
+    ao:annotatesResource <http://www.example.org/annotation/10033> ;
+    ao:annotatesResource <http://www.example.org/annotation/10034> ;
+    ao:body :graphAnnotatingAnnotations ;
+    pav:createdBy <http://www.example.com/person/2> ;
+    pav:createdOn "2012-01-12T15:02:14Z"^^xsd:dateTime .
+}
+
+
+:graphAnnotatingAnnotations {
+    <http://www.example.org/annotation/10033>
+        swanrel:inconsistentWith <http://www.example.org/annotation/10034> .
+}
+}}}
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2%20Graph%20Annotation%20of%20annotations%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
