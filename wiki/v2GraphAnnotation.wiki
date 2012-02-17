@@ -147,4 +147,4 @@ The example #4 could be depicted as follows - provenance has been omitted to kee
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2%20Graph%20Annotation%20of%20annotations%20-%20AO%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 
-In this specific case, recording the geolocation of the person performing the annotation - and her nationality -, would be one of the ways to automatically guess which of the two annotations seems the correct one.
+In this specific case, recording the geolocation of the person performing the annotation - and her nationality -, would be one way to automatically guess which of the two annotations seems the correct one.
