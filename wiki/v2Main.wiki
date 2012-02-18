@@ -24,6 +24,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
       * [v2AnnotationQualifier Qualifiers] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2AnnotationProvenence Annotation Provenence] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
       * [v2AnnotationGeoLocation Geo Location] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
+    * [v2AnnotationProvenence Annotation Versioning] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
   * *[v2ByExamples Learn Annotation Ontology (v.2) basics by examples]*
    * [v2SimpleAnnotation Simple annotation (textual or hypertextual annotation)] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2AnnotatingResources Simple annotations on single target resources] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
