@@ -10,7 +10,7 @@ The idea of Annotation Ontology (AO) is very simple yet powerful, AO allows you 
  * Specifying (or not) an: 
    * *ANNOTATION TYPE* expressed through one of the already available  types (errata, highlight, qualifiers...) or the ones you will define (*1*)
  * With (or without) a: 
-   * *TOPIC* expressed by URIs that can refers to RDF entities
+   * *TOPIC* refers to a URI that identifies the subject matter of the targeted resource
  * With (or without) an: 
    * *EXPECTATION* expressed by free text or better by terms from a controlled vocabulary or an ontology
  * While tracking:
