@@ -24,6 +24,7 @@ The development of *Annotation Ontology v. 2* has been planned to overcome the l
     * [v2Selectors Resource Selectors, targeting fragments] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
        * [v2AnnotationGraphAndSelector Graphs and Selectors] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2AnnotationProvenence Annotation Provenence] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
+    * [v2AnnotationSets Annotation Sets] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
       * [v2AnnotationGeoLocation Geo Location] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
     * [v2AnnotationVersioning Annotation Versioning] [http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif]
   * *[v2ByExamples Learn Annotation Ontology (v.2) basics by examples]*
