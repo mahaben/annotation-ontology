@@ -12,3 +12,6 @@
 </table>
 
 = Tag (classic tag) =
+
+
+|| ao:Tag || Annotation type for classic free text tags. For semantic tags see _[v2AnnotationQualifier ao:Qualifier]_. ||
