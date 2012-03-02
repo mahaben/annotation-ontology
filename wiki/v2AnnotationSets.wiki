@@ -21,6 +21,39 @@ This can be particularly useful for defining access restriction rules on a set o
 
 The _AnnotationSet_ is characterized by an identity and by the collection of all the _Annotation_ items that it contains.
 
-
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2%20Annotation%20Set%2001%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 <b>Figure 1: simple example of Annotation Set with a single Annotation item consisting in a semantic tag with the protein BACE1 as topic</b>
+
+The annotation:
+
+{{{
+    <rdf:Description rdf:about="http://my.example.org/ann/21332">
+        <rdf:type rdf:resource="&ao;Qualifier"/>
+        <aof:annotatesResource rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:hasTopic rdf:resource="http://purl.obolibrary.org/obo/PRO_000004615"/>
+        <pav:createdOn>2010-03-21</pav:createdOn>
+        <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+    </rdf:Description> 
+}}}
+
+the software:
+
+{{{
+    <rdf:Description rdf:about="http://www.hcklab.org/foaf.rdf#me">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <foaf:name>Paolo Ciccarese</foaf:name>
+    </rdf:Description> 
+}}}
+
+the annotation set:
+
+{{{
+    <rdf:Description rdf:about="http://my.example.org/set/21332">
+        <rdf:type rdf:resource="&ao;AnnotationSet"/>
+        <aof:onDocument rdf:resource="http://tinyurl.com/ykjn87p"/>
+        <ao:item rdf:resource="http://my.example.org/ann/21332"/>
+        <pav:createdOn>2010-03-21</pav:createdOn>
+        <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
+        <pav:lastUpdatedOn>2010-03-21</pav:createdOn>
+    </rdf:Description> 
+}}}
