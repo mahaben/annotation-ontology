@@ -4,6 +4,7 @@
 |||||||| *Author and Contact*: ||
 || Paolo Ciccarese, PhD || Massachusetts General Hospital, Harvard Medical School || paolo.ciccarese -at- gmail.com ||
 |||||||| *Contributors*: ||
+||||||Stian Soiland-Reyes (University of Manchester, UK) ||
 ||||||Phil Desenne (Interactive Design and Development, Harvard ATG) ||
 
 The development of *Annotation Ontology v. 2* has been planned to overcome the limitations emerged while implementing the previous version of AO in semantic web applications. Most importantly, I have tried to simplify the model and to improve the documentation. The process has been opened up to collect feedback by several groups and organizations.  
