@@ -13,7 +13,7 @@
 
 = Graph Annotation =
 
-When the annotation content is intended for machines and is described by a set of triples about a resource, it is recommended to collect them in a graph and to refer to them. 
+When the annotation content is intended for machines and is described by a set of triples about a resource, it is recommended to collect them in a graph and to refer to them through an _Annotation_ of type _ao:GraphAnnotation_. 
 
 === Named Graph ===
 
