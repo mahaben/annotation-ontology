@@ -29,3 +29,4 @@ The following namespaces will be used in explanations and examples.
 || sioc || SIOC Ontology || http://rdfs.org/sioc/ns# ||
 ||sioct|| SIOC Ontology Types || http://rdfs.org/sioc/types# ||
 || cnt || W3C Content Vocabulary || http://www.w3.org/2008/content# ||
+|| ore || Object Reuse and Exchange || http://www.openarchives.org/ore/terms/ || 
