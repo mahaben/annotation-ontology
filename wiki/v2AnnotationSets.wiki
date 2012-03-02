@@ -36,7 +36,7 @@ The annotation:
     </rdf:Description> 
 }}}
 
-the software:
+the creator (person):
 
 {{{
     <rdf:Description rdf:about="http://www.hcklab.org/foaf.rdf#me">
