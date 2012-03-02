@@ -1,0 +1,18 @@
+#summary Annotation Sets
+
+<table width="100%">
+<tr>
+<td>
+[v2Main << Back to Main] 
+</td>
+<td align="right">
+[http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif] in progress
+</td>
+</tr>
+</table>
+
+= Annotation Sets =
+
+|| *Annotation Set(s)* are container of Annotation items. They are used to organize collection of items and refer to them as a whole.  ||
+
+This can be particularly useful for defining access restriction rules on a set of Annotation items and/or for grouping Annotation items with similar topic. For instance, in figure 1 the declared topic is PRO:00000001 (Protein).
