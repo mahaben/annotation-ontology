@@ -54,6 +54,5 @@ the annotation set:
         <ao:item rdf:resource="http://my.example.org/ann/21332"/>
         <pav:createdOn>2010-03-21</pav:createdOn>
         <pav:createdBy rdf:resource="http://www.hcklab.org/foaf.rdf#me"/>
-        <pav:lastUpdatedOn>2010-03-21</pav:createdOn>
     </rdf:Description> 
 }}}
