@@ -13,7 +13,9 @@
 
 = Cursor Annotation =
 
-The _Annotation_ of type _ao:Cursor_ is used to record the last position of the 'reading process' so we can resume the reading properly. The location is identified through a proper [v2Selectors Selector].
+|| ao:Cursor || Annotation type for recording a location in a resource. Normally used for textual documents, it can be extended to other media as well. ||
+
+The _Annotation_ of type _ao:Cursor_ can be used to record the last position of the 'reading process' in a textual document. The location is identified through a proper [v2Selectors Selector]. 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2Ex0009%20Progress%20on%20text%20prefixpostfix%20provenance%20-%20Annotation%20Ontology%20AO%20-%20by%20Paolo%20Ciccarese.png]<br/>
 _Figure 1: Keeping track of the 'reading cursor' through a [v2PrefixSuffixTextSelector PrefixSuffixTextSelector]_
