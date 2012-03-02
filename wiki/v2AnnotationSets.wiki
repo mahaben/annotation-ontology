@@ -13,8 +13,15 @@
 
 = Annotation Sets =
 
-|| *Annotation Set(s)* are container of _Annotation_ items. They are used to organize collection of items and refer to them as a whole.  ||
+|| *Annotation Set(s)* are container of _Annotation_ items. They are used to organize collection of items and refer to them as a whole. ||
 
 This can be particularly useful for defining access restriction rules on a set of _Annotation_ items and/or for grouping _Annotation_ items with similar topic, goal or expectation. 
+
+== Simple Example ==
+
+The _AnnotationSet_ is characterized by an identity and by the collection of all the _Annotation_ items that it contains.
+
+
+[http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2%20Annotation%20Set%2001%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
 
 For instance, in figure 1 the declared topic is PRO:00000001 (Protein).
