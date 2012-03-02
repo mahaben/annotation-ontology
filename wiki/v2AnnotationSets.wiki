@@ -23,5 +23,4 @@ The _AnnotationSet_ is characterized by an identity and by the collection of all
 
 
 [http://annotation-ontology.googlecode.com/svn/trunk/images/v2/v2%20Annotation%20Set%2001%20-%20Annotation%20Ontology%20-%20by%20Paolo%20Ciccarese.png]<br/>
-
-For instance, in figure 1 the declared topic is PRO:00000001 (Protein).
+<b>Figure 1: simple example of Annotation Set with a single Annotation item consisting in a semantic tag with the protein BACE1 as topic</b>
