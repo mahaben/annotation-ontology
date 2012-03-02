@@ -13,7 +13,7 @@
 
 = Annotation Sets =
 
-|| *Annotation Set(s)* are container of _Annotation_ items. They are used to organize collection of items and refer to them as a whole. ||
+|| *Annotation Set(s)* are container of _Annotation_ items. They are used to organize collection of different items and refer to them as a whole. ||
 
 This can be particularly useful for defining access restriction rules on a set of _Annotation_ items and/or for grouping _Annotation_ items with similar topic, goal or expectation. 
 
