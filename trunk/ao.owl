@@ -15,7 +15,7 @@
     <!ENTITY rdfg "http://www.w3.org/2004/03/trix/rdfg-1/">
     
     <!-- Main namespace -->
-    <!ENTITY annotation "http://purl.org/ao/" >
+    <!ENTITY annotation "http://purl.org/ao/v2/" >
 ]>
 
 <rdf:RDF
