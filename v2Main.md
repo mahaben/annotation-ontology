@@ -1,0 +1,92 @@
+## Documentation of Annotation Ontology (AO) v. 2.0 (Draft) ##
+| **Author and Contact**: | | | |
+|:------------------------|:|:|:|
+| Paolo Ciccarese, PhD    | Massachusetts General Hospital, Harvard Medical School | paolo.ciccarese -at- gmail.com |
+| **Contributors**:       | | | |
+|Stian Soiland-Reyes (University of Manchester, UK) | | |
+|Leyla Jael García Castro (E-Business & Web Science Research Group, Universität der Bundeswehr) | | |
+|Phil Desenne (Interactive Design and Development, Harvard ATG) | | |
+
+The development of **Annotation Ontology v. 2** has been planned to overcome the limitations emerged while implementing the previous version of AO in Semantic Web applications. Most importantly, I have tried to simplify the model and to improve the documentation. The process kept into account the feedback by several groups and organizations.
+
+  * **[Introduction](v2Introduction.md)**
+    * [Design Principles](v2DesignPrinciples.md)
+    * [Support for Content Improvement](v2ContentImprovement.md)
+  * **[Understanding Annotation Ontology v.2](v2UnderstandingAO.md)**
+    * [A Simple Overview](v2SimpleOverview.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+    * [Architecture and Namespaces](v2Namespaces.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png)
+    * [Annotation Core](v2AnnotationCore.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Annotation Body (ao:body)](v2AnnotationBody.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Annotation Topic (ao:hasTopic)](v2AnnotationTopic.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Combination of Topic (ao:hasTopic) and Body (ao:body)](v2AnnotationBodyAndTopic.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+    * [Annotation Types](v2AnnotationTypes.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Cursor](v2CursorAnnotation.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Highlight](v2HighlightAnnotation.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Graph](v2GraphAnnotation.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Tag (classic tag)](v2AnnotationTag.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Qualifier (semantic tag)](v2AnnotationQualifier.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Note](v2AnnotationNote.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Erratum](v2AnnotationErratum.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+    * [Resource Selectors, targeting fragments](v2Selectors.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Graphs and Selectors](v2AnnotationGraphAndSelector.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+    * [Annotation Provenence](v2AnnotationProvenence.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Geo Location](v2AnnotationGeoLocation.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+    * [Annotation Sets](v2AnnotationSets.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+    * [Annotation Versioning](v2AnnotationVersioning.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+  * **[Learn Annotation Ontology (v.2) basics by examples](v2ByExamples.md)**
+    * [Simple annotation (textual or hypertextual annotation)](v2SimpleAnnotation.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Simple annotations on single target resources](v2AnnotatingResources.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+        * [Tag on image](v2Ex0001TagOnImage.md) (ex0001 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Tag on document](v2Ex0002TagOnDocument.md) (ex0002 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Note (text and hypertext) on image](v2Ex0003NoteOnImage.md) (ex0003 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Note (text and hypertext) on document](v2Ex0004NoteOnDocument.md) (ex0004 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Document Note on document](v2Ex0033DocumentNoteOnDocument.md) (ex0033 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Comment on image](v2Ex0005CommentOnImage.md) (ex0005 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+      * [Simple annotations on multiple target resources](v2AnnotatingMultipleResources.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+        * [Note (text and hypertext) on multiple images](v2Ex0006NoteOnImages.md) (ex0006 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Note on an image and a webpage](v2Ex0007NoteOnImageAndWebpage.md) (ex0007 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Comment on multiple images](v2Ex0008CommentOnImages.md) (ex0008 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+      * [Simple annotations on resource fragments](v2TheSimplestAnnotation.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+        * [Reading Progress](v2Ex0009ReadingProgress.md) (ex0009 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Highlight of text fragment](v2Ex0010ExHighlight.md) (ex0010 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Highlight of image fragment](v2Ex0011ExHighlightImage.md) (ex0011 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Shaped highlight of a video fragment](v2Ex0035ExHighlightVideoSection.md) (ex0035 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Tagging a text fragment](v2Ex0012ExTagText.md) (ex0012 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Tagging an image fragment](v2Ex0013ExTagImage.md) (ex0013 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Tagging a video fragment](v2Ex0019TaggingVideoFragment.md) (ex0019 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Note on text fragment](v2Ex0014NoteOnTextFragment.md) (ex0014 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Note on image fragment](v2Ex0015NoteOnImageFragment.md) (ex0015 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Note on a video fragment](v2Ex0032ExHighlightVideo.md) (ex0032 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Comment on image fragment](v2Ex0016CommentOnImageFragment.md) (ex0016 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+      * [Simple annotations of resources other than documents](v2AnnotatingOtherResources.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+        * [Comment on a term of an ontology or controlled vocabulary](v2Ex0017CommentOnAnOntologicalTerm.md) (ex0017 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Comment on multiple terms of ontologies or controlled vocabularies](v2Ex0018CommentOnAnOntologicalTerms.md) (ex0018 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Relate two ontological terms](v2Ex0036RelateTwoOntologicalTerms.md) (ex0036 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Note on a Web Service](v2Ex0020NoteOnWebService.md) (ex0020 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+    * [Simple Structured (Linked) annotation](v2StructuredAnnotation.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Structured annotation on single target resources](v2StructuredAnnotationSingleResource.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+        * [Annotating an image with a URL (Linked Annotation)](v2Ex0021LinkOnImage.md) (ex0021 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Qualifier (Semantic Tag)  on document](v2Ex0022QualifierOnDocument.md) (ex0022 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Qualifier (Semantic Tag)  on image](v2Ex0023QualifierOnImage.md) (ex0023 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Qualifier (Semantic Tag) on document fragment](v2Ex0024QualifierOnDocument.md) (ex0024 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+      * [Structured annotation on multiple target resources](v2StructuredAnnotationMultipleResources.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+        * [Linked Annotations on multiple images](v2Ex0025LinkedAnnotationsOnMultipleImages.md) (ex0025 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+        * [Qualifier (Semantic Tag) on multiple images](v2Ex0026QualifierOnMultipleImages.md) (ex0026 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+  * **[Learn advanced Annotation Ontology (v.2) by examples](v2ByExamples.md)**
+    * [Advanced use of Qualifiers](v2StructuredAnnotationQualifiers.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Exact and Broad Qualifier on text fragment](v2Ex0027ExactBroadQualifiers.md) (ex0027 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+      * [Broad Qualifier with note on image fragment](v2Ex0028BroadQualifiers.md) (ex0028 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+      * [Exact Qualifier on ontological terms (Ontology Mapping method #1)](v2Ex0029OntologyTermMapping.md) (ex0029 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+    * [Using External Ontological Frameworks](v2ExternalOntologicalFrameworks.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Integrating the SWAN Ontology](v2IntegratingSwanOntology.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+        * [SWAN Claim](v2Ex0030SwanClaim.md) (ex0030 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+      * [Integrating the SIOC Ontology](v2IntegratingSiocOntology.md) ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+        * [SIOC Comment](v2Ex0031SiocClaim.md) (ex0031 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+    * Annotation of annotations ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif)
+      * [Note on existing document annotation body](v2Ex0034DocumentNoteOnDocument.md) (ex0034 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+      * Curation of text mining results
+
+  * [Linked Annotations relating a paper and a workflow](v2LinkedAnnotationsOnMultipleResource.md)
+  * [Comment on a database record](v2Ex0020CommentOnADatabaseRecord.md) (ex0020 ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif))
+
+**Legend**:<br /> ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/up-to-date.png) Complete - ![http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif](http://annotation-ontology.googlecode.com/svn/trunk/images/misc/in_progress.gif) In progress

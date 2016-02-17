@@ -1,0 +1,9 @@
+Several users have been asking how it is possible to have as object of a _hasTopic_ property something more complex than a URI: a statement or collection of statements.
+
+In order to explain what can be done with AO I am going to use an example: let's say in a document we have a line saying: **GeneG encodes ProteinP**. What we can do with AO is annotating the single item of the sentence and also encode the sentence itself as a triple (or set of triples).
+
+![http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Ontology%20-%20Annotation%20with%20Graphs%20by%20Paolo%20Ciccarese.png](http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Ontology%20-%20Annotation%20with%20Graphs%20by%20Paolo%20Ciccarese.png)<br />
+**Figure 1 - Example of annotation of a span of text with something more complex than a URI. A Named Graph has been used to identify the statement of interest. Obviously the graph could include multiple statements when necessary.**
+
+![http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Ontology%20-%20Annotation%20with%20Graphs%202%20by%20Paolo%20Ciccarese.png](http://annotation-ontology.googlecode.com/svn/trunk/images/Annotation%20Ontology%20-%20Annotation%20with%20Graphs%202%20by%20Paolo%20Ciccarese.png)<br />
+**Figure 2 - Example of annotation of a span of text with something more complex than a URI. A Named Graph has been used to identify the statement of interest. Provenance shows the annotation has been created by a software and with certainty value. The certainty is declared through the _tm:certainty_ where tm stands for Text Mining, a namespace we are working on with text miners to better accommodate text mining results with AO**
